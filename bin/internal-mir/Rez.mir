@@ -1,0 +1,2172 @@
+[ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 1; @symbol_importdef<0> = [Toybox,1,7,13]; @symbol_importdef<1> = [Lang,1,14,18]; ]
+import Toybox.Lang;
+[ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 2; @symbol_usingdef<0> = [Toybox,2,6,12]; @symbol_usingdef<1> = [WatchUi,2,13,20]; ]
+using Toybox.WatchUi;
+[ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 3; @symbol_usingdef<0> = [Toybox,3,6,12]; @symbol_usingdef<1> = [WatchUi,3,13,20]; @symbol_usingAlias = [Ui,3,24,26]; ]
+using Toybox.WatchUi as :Ui;
+[ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 4; @symbol_usingdef<0> = [Toybox,4,6,12]; @symbol_usingdef<1> = [Graphics,4,13,21]; ]
+using Toybox.Graphics;
+[ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 5; @symbol_usingdef<0> = [Toybox,5,6,12]; @symbol_usingdef<1> = [Graphics,5,13,21]; @symbol_usingAlias = [Gfx,5,25,28]; ]
+using Toybox.Graphics as :Gfx;
+[ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 7; @symbol_moduledef = [Rez,7,7,10]; ]
+module Rez {
+    [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 7; ]
+    <init> {
+    }
+    [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 8; @symbol_moduledef = [Drawables,8,11,20]; ]
+    module Drawables {
+        [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 8; ]
+        <init> {
+        }
+        [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 9; @position = 27; initialized = true; @symbol_vardef = [AppLogo,9,27,34]; @symbol_type<0> = [ResourceId,9,38,48]; ]
+        var AppLogo as ResourceId;
+        [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 10; @position = 27; initialized = true; @symbol_vardef = [LauncherIcon,10,27,39]; @symbol_type<0> = [ResourceId,10,43,53]; ]
+        var LauncherIcon as ResourceId;
+    }
+    [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 13; @symbol_moduledef = [Layouts,13,11,18]; ]
+    module Layouts {
+        [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 13; ]
+        <init> {
+        }
+        [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 14; @symbol_functiondef = [MainLayout,14,17,27]; @symbol_param<0> = [dc,14,28,30]; @symbol_param<0>_type<0> = [Graphics,14,34,42]; @symbol_param<0>_type<1> = [Dc,14,43,45]; @symbol_return<0> = [Array,14,50,55]; @symbol_return<1> = [WatchUi,14,56,63]; @symbol_return<2> = [Drawable,14,64,72]; ]
+        function MainLayout(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
+c__Documentos_runeasy_garmim_runeasy_garmim_bin_gen_006_B4375_00_source_Rez_mcgen_14_74_26_8_start:
+[ "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen" 15 12 ]
+            [ "c__Documentos_runeasy_garmim_runeasy_garmim_bin_gen_006_B4375_00_source_Rez_mcgen_14_74_26_8_start" "c__Documentos_runeasy_garmim_runeasy_garmim_bin_gen_006_B4375_00_source_Rez_mcgen_14_74_26_8_stop" ]
+            %rez_cmp_local_var_dc_getHeight.1 = local;
+            symbol [ rez_cmp_local_var_dc_getHeight %rez_cmp_local_var_dc_getHeight.1 15 16 46 ];
+            %tmp.1 = lgetv %dc;
+            symbol [ dc %tmp.1 15 49 51 ];
+            symbol [ getHeight %tmp.2 15 52 61 ];
+            %tmp.2 = getv function %tmp.1 :getHeight;
+            %tmp.3 = invoke %tmp.1 %tmp.2();
+            lputv %rez_cmp_local_var_dc_getHeight.1 %tmp.3;
+            symbol [ rez_cmp_local_var_dc_getHeight %rez_cmp_local_var_dc_getHeight.1 15 16 46 ];
+[ "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen" 17 12 ]
+            [ "c__Documentos_runeasy_garmim_runeasy_garmim_bin_gen_006_B4375_00_source_Rez_mcgen_14_74_26_8_start" "c__Documentos_runeasy_garmim_runeasy_garmim_bin_gen_006_B4375_00_source_Rez_mcgen_14_74_26_8_stop" ]
+            %rez_cmp_local_var_dc_getWidth.2 = local;
+            symbol [ rez_cmp_local_var_dc_getWidth %rez_cmp_local_var_dc_getWidth.2 17 16 45 ];
+            %tmp.4 = lgetv %dc;
+            symbol [ dc %tmp.4 17 48 50 ];
+            symbol [ getWidth %tmp.5 17 51 59 ];
+            %tmp.5 = getv function %tmp.4 :getWidth;
+            %tmp.6 = invoke %tmp.4 %tmp.5();
+            lputv %rez_cmp_local_var_dc_getWidth.2 %tmp.6;
+            symbol [ rez_cmp_local_var_dc_getWidth %rez_cmp_local_var_dc_getWidth.2 17 16 45 ];
+[ "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen" 19 12 ]
+            [ "c__Documentos_runeasy_garmim_runeasy_garmim_bin_gen_006_B4375_00_source_Rez_mcgen_14_74_26_8_start" "c__Documentos_runeasy_garmim_runeasy_garmim_bin_gen_006_B4375_00_source_Rez_mcgen_14_74_26_8_stop" ]
+            %rez_cmp_local_custom_drawable_11939594661139614796.3 = local;
+            symbol [ rez_cmp_local_custom_drawable_11939594661139614796 %rez_cmp_local_custom_drawable_11939594661139614796.3 19 16 66 ];
+            symbol [ Background %tmp.10 19 73 83 ];
+            %tmp.10 = getv ? :Background;
+            %tmp.7 = newc %tmp.10 ();
+            lputv %rez_cmp_local_custom_drawable_11939594661139614796.3 %tmp.7;
+            symbol [ rez_cmp_local_custom_drawable_11939594661139614796 %rez_cmp_local_custom_drawable_11939594661139614796.3 19 16 66 ];
+[ "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen" 21 12 ]
+            [ "c__Documentos_runeasy_garmim_runeasy_garmim_bin_gen_006_B4375_00_source_Rez_mcgen_14_74_26_8_start" "c__Documentos_runeasy_garmim_runeasy_garmim_bin_gen_006_B4375_00_source_Rez_mcgen_14_74_26_8_stop" ]
+            %rez_cmp_local_text_label.4 = local;
+            symbol [ rez_cmp_local_text_label %rez_cmp_local_text_label.4 21 16 40 ];
+            symbol [ WatchUi %tmp.13 21 47 54 ];
+            %tmp.13 = getm $.Toybox.WatchUi;
+            symbol [ Text %tmp.14 21 55 59 ];
+            %tmp.14 = getv function ? %tmp.13 :Text;
+            %tmp.15 = newd 6;
+            %tmp.17 = const :identifier;
+            symbol [ identifier %tmp.17 21 62 72 const ];
+            %tmp.18 = "label";
+            %tmp.19 = dup %tmp.15;
+            %tmp.20 = aputv %tmp.19 %tmp.17 %tmp.18;
+            %tmp.22 = const :color;
+            symbol [ color %tmp.22 21 84 89 const ];
+            symbol [ Graphics %tmp.23 21 91 99 ];
+            %tmp.23 = getm $.Toybox.Graphics;
+            symbol [ COLOR_LT_GRAY %tmp.24 21 100 113 ];
+            %tmp.24 = getv %tmp.23 :COLOR_LT_GRAY;
+            %tmp.25 = dup %tmp.20;
+            %tmp.26 = aputv %tmp.25 %tmp.22 %tmp.24;
+            %tmp.28 = const :locX;
+            symbol [ locX %tmp.28 21 116 120 const ];
+            %tmp.29 = lgetv %rez_cmp_local_var_dc_getWidth.2;
+            symbol [ rez_cmp_local_var_dc_getWidth %tmp.29 21 123 152 ];
+            %tmp.30 = 0.5;
+            %tmp.31 = mul %tmp.29 %tmp.30;
+            %tmp.32 = dup %tmp.26;
+            %tmp.33 = aputv %tmp.32 %tmp.28 %tmp.31;
+            %tmp.35 = const :locY;
+            symbol [ locY %tmp.35 21 162 166 const ];
+            %tmp.36 = lgetv %rez_cmp_local_var_dc_getHeight.1;
+            symbol [ rez_cmp_local_var_dc_getHeight %tmp.36 21 170 200 ];
+            %tmp.37 = lgetv %dc;
+            symbol [ dc %tmp.37 21 203 205 ];
+            symbol [ getFontHeight %tmp.38 21 206 219 ];
+            %tmp.38 = getv function %tmp.37 :getFontHeight;
+            symbol [ Graphics %tmp.39 21 220 228 ];
+            %tmp.39 = getm $.Toybox.Graphics;
+            symbol [ FONT_TINY %tmp.40 21 229 238 ];
+            %tmp.40 = getv %tmp.39 :FONT_TINY;
+            %tmp.41 = invoke %tmp.37 %tmp.38(%tmp.40);
+            %tmp.42 = sub %tmp.36 %tmp.41;
+            %tmp.43 = 0.5;
+            %tmp.44 = mul %tmp.42 %tmp.43;
+            %tmp.45 = dup %tmp.33;
+            %tmp.46 = aputv %tmp.45 %tmp.35 %tmp.44;
+            %tmp.48 = const :justification;
+            symbol [ justification %tmp.48 21 250 263 const ];
+            symbol [ Graphics %tmp.49 21 265 273 ];
+            %tmp.49 = getm $.Toybox.Graphics;
+            symbol [ TEXT_JUSTIFY_CENTER %tmp.50 21 274 293 ];
+            %tmp.50 = getv %tmp.49 :TEXT_JUSTIFY_CENTER;
+            %tmp.51 = dup %tmp.46;
+            %tmp.52 = aputv %tmp.51 %tmp.48 %tmp.50;
+            %tmp.54 = const :font;
+            symbol [ font %tmp.54 21 296 300 const ];
+            symbol [ Graphics %tmp.55 21 302 310 ];
+            %tmp.55 = getm $.Toybox.Graphics;
+            symbol [ FONT_TINY %tmp.56 21 311 320 ];
+            %tmp.56 = getv %tmp.55 :FONT_TINY;
+            %tmp.57 = dup %tmp.52;
+            %tmp.58 = aputv %tmp.57 %tmp.54 %tmp.56;
+            %tmp.11 = newc %tmp.14 (%tmp.58);
+            lputv %rez_cmp_local_text_label.4 %tmp.11;
+            symbol [ rez_cmp_local_text_label %rez_cmp_local_text_label.4 21 16 40 ];
+[ "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen" 23 12 ]
+            [ "c__Documentos_runeasy_garmim_runeasy_garmim_bin_gen_006_B4375_00_source_Rez_mcgen_14_74_26_8_start" "c__Documentos_runeasy_garmim_runeasy_garmim_bin_gen_006_B4375_00_source_Rez_mcgen_14_74_26_8_stop" ]
+            %rez_cmp_local_text_value.5 = local;
+            symbol [ rez_cmp_local_text_value %rez_cmp_local_text_value.5 23 16 40 ];
+            symbol [ WatchUi %tmp.61 23 47 54 ];
+            %tmp.61 = getm $.Toybox.WatchUi;
+            symbol [ Text %tmp.62 23 55 59 ];
+            %tmp.62 = getv function ? %tmp.61 :Text;
+            %tmp.63 = newd 6;
+            %tmp.65 = const :identifier;
+            symbol [ identifier %tmp.65 23 62 72 const ];
+            %tmp.66 = "value";
+            %tmp.67 = dup %tmp.63;
+            %tmp.68 = aputv %tmp.67 %tmp.65 %tmp.66;
+            %tmp.70 = const :color;
+            symbol [ color %tmp.70 23 84 89 const ];
+            symbol [ Graphics %tmp.71 23 91 99 ];
+            %tmp.71 = getm $.Toybox.Graphics;
+            symbol [ COLOR_WHITE %tmp.72 23 100 111 ];
+            %tmp.72 = getv %tmp.71 :COLOR_WHITE;
+            %tmp.73 = dup %tmp.68;
+            %tmp.74 = aputv %tmp.73 %tmp.70 %tmp.72;
+            %tmp.76 = const :locX;
+            symbol [ locX %tmp.76 23 114 118 const ];
+            %tmp.77 = lgetv %rez_cmp_local_var_dc_getWidth.2;
+            symbol [ rez_cmp_local_var_dc_getWidth %tmp.77 23 121 150 ];
+            %tmp.78 = 0.5;
+            %tmp.79 = mul %tmp.77 %tmp.78;
+            %tmp.80 = dup %tmp.74;
+            %tmp.81 = aputv %tmp.80 %tmp.76 %tmp.79;
+            %tmp.83 = const :locY;
+            symbol [ locY %tmp.83 23 160 164 const ];
+            %tmp.84 = lgetv %rez_cmp_local_var_dc_getHeight.1;
+            symbol [ rez_cmp_local_var_dc_getHeight %tmp.84 23 168 198 ];
+            %tmp.85 = lgetv %dc;
+            symbol [ dc %tmp.85 23 201 203 ];
+            symbol [ getFontHeight %tmp.86 23 204 217 ];
+            %tmp.86 = getv function %tmp.85 :getFontHeight;
+            symbol [ Graphics %tmp.87 23 218 226 ];
+            %tmp.87 = getm $.Toybox.Graphics;
+            symbol [ FONT_LARGE %tmp.88 23 227 237 ];
+            %tmp.88 = getv %tmp.87 :FONT_LARGE;
+            %tmp.89 = invoke %tmp.85 %tmp.86(%tmp.88);
+            %tmp.90 = sub %tmp.84 %tmp.89;
+            %tmp.91 = 0.5;
+            %tmp.92 = mul %tmp.90 %tmp.91;
+            %tmp.93 = dup %tmp.81;
+            %tmp.94 = aputv %tmp.93 %tmp.83 %tmp.92;
+            %tmp.96 = const :justification;
+            symbol [ justification %tmp.96 23 249 262 const ];
+            symbol [ Graphics %tmp.97 23 264 272 ];
+            %tmp.97 = getm $.Toybox.Graphics;
+            symbol [ TEXT_JUSTIFY_CENTER %tmp.98 23 273 292 ];
+            %tmp.98 = getv %tmp.97 :TEXT_JUSTIFY_CENTER;
+            %tmp.99 = dup %tmp.94;
+            %tmp.100 = aputv %tmp.99 %tmp.96 %tmp.98;
+            %tmp.102 = const :font;
+            symbol [ font %tmp.102 23 295 299 const ];
+            symbol [ Graphics %tmp.103 23 301 309 ];
+            %tmp.103 = getm $.Toybox.Graphics;
+            symbol [ FONT_LARGE %tmp.104 23 310 320 ];
+            %tmp.104 = getv %tmp.103 :FONT_LARGE;
+            %tmp.105 = dup %tmp.100;
+            %tmp.106 = aputv %tmp.105 %tmp.102 %tmp.104;
+            %tmp.59 = newc %tmp.62 (%tmp.106);
+            lputv %rez_cmp_local_text_value.5 %tmp.59;
+            symbol [ rez_cmp_local_text_value %rez_cmp_local_text_value.5 23 16 40 ];
+[ "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen" 25 12 ]
+            %tmp.107 = newa 3 Array<WatchUi.Drawable>;
+            symbol [ Array %tmp.107 25 127 132 ];
+            symbol [ WatchUi %tmp.107 25 133 140 ];
+            symbol [ Drawable %tmp.107 25 141 149 ];
+            %tmp.108 = lgetv %rez_cmp_local_custom_drawable_11939594661139614796.3;
+            symbol [ rez_cmp_local_custom_drawable_11939594661139614796 %tmp.108 25 20 70 ];
+            %tmp.109 = dup %tmp.107;
+            %tmp.110 = aputv %tmp.109 0 %tmp.108;
+            %tmp.111 = lgetv %rez_cmp_local_text_label.4;
+            symbol [ rez_cmp_local_text_label %tmp.111 25 72 96 ];
+            %tmp.112 = dup %tmp.110;
+            %tmp.113 = aputv %tmp.112 1 %tmp.111;
+            %tmp.114 = lgetv %rez_cmp_local_text_value.5;
+            symbol [ rez_cmp_local_text_value %tmp.114 25 98 122 ];
+            %tmp.115 = dup %tmp.113;
+            %tmp.116 = aputv %tmp.115 2 %tmp.114;
+            ret %tmp.116;
+c__Documentos_runeasy_garmim_runeasy_garmim_bin_gen_006_B4375_00_source_Rez_mcgen_14_74_26_8_stop:
+        }
+        [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 28; @symbol_functiondef = [TopLeftLayout,28,17,30]; @symbol_param<0> = [dc,28,31,33]; @symbol_param<0>_type<0> = [Graphics,28,37,45]; @symbol_param<0>_type<1> = [Dc,28,46,48]; @symbol_return<0> = [Array,28,53,58]; @symbol_return<1> = [WatchUi,28,59,66]; @symbol_return<2> = [Drawable,28,67,75]; ]
+        function TopLeftLayout(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
+c__Documentos_runeasy_garmim_runeasy_garmim_bin_gen_006_B4375_00_source_Rez_mcgen_28_77_36_8_start:
+[ "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen" 29 12 ]
+            [ "c__Documentos_runeasy_garmim_runeasy_garmim_bin_gen_006_B4375_00_source_Rez_mcgen_28_77_36_8_start" "c__Documentos_runeasy_garmim_runeasy_garmim_bin_gen_006_B4375_00_source_Rez_mcgen_28_77_36_8_stop" ]
+            %rez_cmp_local_custom_drawable_83741574912206153191.1 = local;
+            symbol [ rez_cmp_local_custom_drawable_83741574912206153191 %rez_cmp_local_custom_drawable_83741574912206153191.1 29 16 66 ];
+            symbol [ Background %tmp.4 29 73 83 ];
+            %tmp.4 = getv ? :Background;
+            %tmp.1 = newc %tmp.4 ();
+            lputv %rez_cmp_local_custom_drawable_83741574912206153191.1 %tmp.1;
+            symbol [ rez_cmp_local_custom_drawable_83741574912206153191 %rez_cmp_local_custom_drawable_83741574912206153191.1 29 16 66 ];
+[ "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen" 31 12 ]
+            [ "c__Documentos_runeasy_garmim_runeasy_garmim_bin_gen_006_B4375_00_source_Rez_mcgen_28_77_36_8_start" "c__Documentos_runeasy_garmim_runeasy_garmim_bin_gen_006_B4375_00_source_Rez_mcgen_28_77_36_8_stop" ]
+            %rez_cmp_local_text_label.2 = local;
+            symbol [ rez_cmp_local_text_label %rez_cmp_local_text_label.2 31 16 40 ];
+            symbol [ WatchUi %tmp.7 31 47 54 ];
+            %tmp.7 = getm $.Toybox.WatchUi;
+            symbol [ Text %tmp.8 31 55 59 ];
+            %tmp.8 = getv function ? %tmp.7 :Text;
+            %tmp.9 = newd 6;
+            %tmp.11 = const :identifier;
+            symbol [ identifier %tmp.11 31 62 72 const ];
+            %tmp.12 = "label";
+            %tmp.13 = dup %tmp.9;
+            %tmp.14 = aputv %tmp.13 %tmp.11 %tmp.12;
+            %tmp.16 = const :color;
+            symbol [ color %tmp.16 31 84 89 const ];
+            symbol [ Graphics %tmp.17 31 91 99 ];
+            %tmp.17 = getm $.Toybox.Graphics;
+            symbol [ COLOR_LT_GRAY %tmp.18 31 100 113 ];
+            %tmp.18 = getv %tmp.17 :COLOR_LT_GRAY;
+            %tmp.19 = dup %tmp.14;
+            %tmp.20 = aputv %tmp.19 %tmp.16 %tmp.18;
+            %tmp.22 = const :locX;
+            symbol [ locX %tmp.22 31 116 120 const ];
+            %tmp.23 = 95;
+            %tmp.24 = dup %tmp.20;
+            %tmp.25 = aputv %tmp.24 %tmp.22 %tmp.23;
+            %tmp.27 = const :locY;
+            symbol [ locY %tmp.27 31 127 131 const ];
+            %tmp.28 = 75;
+            %tmp.29 = dup %tmp.25;
+            %tmp.30 = aputv %tmp.29 %tmp.27 %tmp.28;
+            %tmp.32 = const :justification;
+            symbol [ justification %tmp.32 31 138 151 const ];
+            symbol [ Graphics %tmp.33 31 153 161 ];
+            %tmp.33 = getm $.Toybox.Graphics;
+            symbol [ TEXT_JUSTIFY_RIGHT %tmp.34 31 162 180 ];
+            %tmp.34 = getv %tmp.33 :TEXT_JUSTIFY_RIGHT;
+            %tmp.35 = dup %tmp.30;
+            %tmp.36 = aputv %tmp.35 %tmp.32 %tmp.34;
+            %tmp.38 = const :font;
+            symbol [ font %tmp.38 31 183 187 const ];
+            symbol [ Graphics %tmp.39 31 189 197 ];
+            %tmp.39 = getm $.Toybox.Graphics;
+            symbol [ FONT_TINY %tmp.40 31 198 207 ];
+            %tmp.40 = getv %tmp.39 :FONT_TINY;
+            %tmp.41 = dup %tmp.36;
+            %tmp.42 = aputv %tmp.41 %tmp.38 %tmp.40;
+            %tmp.5 = newc %tmp.8 (%tmp.42);
+            lputv %rez_cmp_local_text_label.2 %tmp.5;
+            symbol [ rez_cmp_local_text_label %rez_cmp_local_text_label.2 31 16 40 ];
+[ "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen" 33 12 ]
+            [ "c__Documentos_runeasy_garmim_runeasy_garmim_bin_gen_006_B4375_00_source_Rez_mcgen_28_77_36_8_start" "c__Documentos_runeasy_garmim_runeasy_garmim_bin_gen_006_B4375_00_source_Rez_mcgen_28_77_36_8_stop" ]
+            %rez_cmp_local_text_value.3 = local;
+            symbol [ rez_cmp_local_text_value %rez_cmp_local_text_value.3 33 16 40 ];
+            symbol [ WatchUi %tmp.45 33 47 54 ];
+            %tmp.45 = getm $.Toybox.WatchUi;
+            symbol [ Text %tmp.46 33 55 59 ];
+            %tmp.46 = getv function ? %tmp.45 :Text;
+            %tmp.47 = newd 6;
+            %tmp.49 = const :identifier;
+            symbol [ identifier %tmp.49 33 62 72 const ];
+            %tmp.50 = "value";
+            %tmp.51 = dup %tmp.47;
+            %tmp.52 = aputv %tmp.51 %tmp.49 %tmp.50;
+            %tmp.54 = const :color;
+            symbol [ color %tmp.54 33 84 89 const ];
+            symbol [ Graphics %tmp.55 33 91 99 ];
+            %tmp.55 = getm $.Toybox.Graphics;
+            symbol [ COLOR_WHITE %tmp.56 33 100 111 ];
+            %tmp.56 = getv %tmp.55 :COLOR_WHITE;
+            %tmp.57 = dup %tmp.52;
+            %tmp.58 = aputv %tmp.57 %tmp.54 %tmp.56;
+            %tmp.60 = const :locX;
+            symbol [ locX %tmp.60 33 114 118 const ];
+            %tmp.61 = 95;
+            %tmp.62 = dup %tmp.58;
+            %tmp.63 = aputv %tmp.62 %tmp.60 %tmp.61;
+            %tmp.65 = const :locY;
+            symbol [ locY %tmp.65 33 125 129 const ];
+            %tmp.66 = 42;
+            %tmp.67 = dup %tmp.63;
+            %tmp.68 = aputv %tmp.67 %tmp.65 %tmp.66;
+            %tmp.70 = const :justification;
+            symbol [ justification %tmp.70 33 136 149 const ];
+            symbol [ Graphics %tmp.71 33 151 159 ];
+            %tmp.71 = getm $.Toybox.Graphics;
+            symbol [ TEXT_JUSTIFY_RIGHT %tmp.72 33 160 178 ];
+            %tmp.72 = getv %tmp.71 :TEXT_JUSTIFY_RIGHT;
+            %tmp.73 = dup %tmp.68;
+            %tmp.74 = aputv %tmp.73 %tmp.70 %tmp.72;
+            %tmp.76 = const :font;
+            symbol [ font %tmp.76 33 181 185 const ];
+            symbol [ Graphics %tmp.77 33 187 195 ];
+            %tmp.77 = getm $.Toybox.Graphics;
+            symbol [ FONT_LARGE %tmp.78 33 196 206 ];
+            %tmp.78 = getv %tmp.77 :FONT_LARGE;
+            %tmp.79 = dup %tmp.74;
+            %tmp.80 = aputv %tmp.79 %tmp.76 %tmp.78;
+            %tmp.43 = newc %tmp.46 (%tmp.80);
+            lputv %rez_cmp_local_text_value.3 %tmp.43;
+            symbol [ rez_cmp_local_text_value %rez_cmp_local_text_value.3 33 16 40 ];
+[ "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen" 35 12 ]
+            %tmp.81 = newa 3 Array<WatchUi.Drawable>;
+            symbol [ Array %tmp.81 35 127 132 ];
+            symbol [ WatchUi %tmp.81 35 133 140 ];
+            symbol [ Drawable %tmp.81 35 141 149 ];
+            %tmp.82 = lgetv %rez_cmp_local_custom_drawable_83741574912206153191.1;
+            symbol [ rez_cmp_local_custom_drawable_83741574912206153191 %tmp.82 35 20 70 ];
+            %tmp.83 = dup %tmp.81;
+            %tmp.84 = aputv %tmp.83 0 %tmp.82;
+            %tmp.85 = lgetv %rez_cmp_local_text_label.2;
+            symbol [ rez_cmp_local_text_label %tmp.85 35 72 96 ];
+            %tmp.86 = dup %tmp.84;
+            %tmp.87 = aputv %tmp.86 1 %tmp.85;
+            %tmp.88 = lgetv %rez_cmp_local_text_value.3;
+            symbol [ rez_cmp_local_text_value %tmp.88 35 98 122 ];
+            %tmp.89 = dup %tmp.87;
+            %tmp.90 = aputv %tmp.89 2 %tmp.88;
+            ret %tmp.90;
+c__Documentos_runeasy_garmim_runeasy_garmim_bin_gen_006_B4375_00_source_Rez_mcgen_28_77_36_8_stop:
+        }
+        [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 38; @symbol_functiondef = [TopRightLayout,38,17,31]; @symbol_param<0> = [dc,38,32,34]; @symbol_param<0>_type<0> = [Graphics,38,38,46]; @symbol_param<0>_type<1> = [Dc,38,47,49]; @symbol_return<0> = [Array,38,54,59]; @symbol_return<1> = [WatchUi,38,60,67]; @symbol_return<2> = [Drawable,38,68,76]; ]
+        function TopRightLayout(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
+c__Documentos_runeasy_garmim_runeasy_garmim_bin_gen_006_B4375_00_source_Rez_mcgen_38_78_46_8_start:
+[ "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen" 39 12 ]
+            [ "c__Documentos_runeasy_garmim_runeasy_garmim_bin_gen_006_B4375_00_source_Rez_mcgen_38_78_46_8_start" "c__Documentos_runeasy_garmim_runeasy_garmim_bin_gen_006_B4375_00_source_Rez_mcgen_38_78_46_8_stop" ]
+            %rez_cmp_local_custom_drawable_11824933295158922413.1 = local;
+            symbol [ rez_cmp_local_custom_drawable_11824933295158922413 %rez_cmp_local_custom_drawable_11824933295158922413.1 39 16 66 ];
+            symbol [ Background %tmp.4 39 73 83 ];
+            %tmp.4 = getv ? :Background;
+            %tmp.1 = newc %tmp.4 ();
+            lputv %rez_cmp_local_custom_drawable_11824933295158922413.1 %tmp.1;
+            symbol [ rez_cmp_local_custom_drawable_11824933295158922413 %rez_cmp_local_custom_drawable_11824933295158922413.1 39 16 66 ];
+[ "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen" 41 12 ]
+            [ "c__Documentos_runeasy_garmim_runeasy_garmim_bin_gen_006_B4375_00_source_Rez_mcgen_38_78_46_8_start" "c__Documentos_runeasy_garmim_runeasy_garmim_bin_gen_006_B4375_00_source_Rez_mcgen_38_78_46_8_stop" ]
+            %rez_cmp_local_text_label.2 = local;
+            symbol [ rez_cmp_local_text_label %rez_cmp_local_text_label.2 41 16 40 ];
+            symbol [ WatchUi %tmp.7 41 47 54 ];
+            %tmp.7 = getm $.Toybox.WatchUi;
+            symbol [ Text %tmp.8 41 55 59 ];
+            %tmp.8 = getv function ? %tmp.7 :Text;
+            %tmp.9 = newd 6;
+            %tmp.11 = const :identifier;
+            symbol [ identifier %tmp.11 41 62 72 const ];
+            %tmp.12 = "label";
+            %tmp.13 = dup %tmp.9;
+            %tmp.14 = aputv %tmp.13 %tmp.11 %tmp.12;
+            %tmp.16 = const :color;
+            symbol [ color %tmp.16 41 84 89 const ];
+            symbol [ Graphics %tmp.17 41 91 99 ];
+            %tmp.17 = getm $.Toybox.Graphics;
+            symbol [ COLOR_LT_GRAY %tmp.18 41 100 113 ];
+            %tmp.18 = getv %tmp.17 :COLOR_LT_GRAY;
+            %tmp.19 = dup %tmp.14;
+            %tmp.20 = aputv %tmp.19 %tmp.16 %tmp.18;
+            %tmp.22 = const :locX;
+            symbol [ locX %tmp.22 41 116 120 const ];
+            %tmp.23 = 14;
+            %tmp.24 = dup %tmp.20;
+            %tmp.25 = aputv %tmp.24 %tmp.22 %tmp.23;
+            %tmp.27 = const :locY;
+            symbol [ locY %tmp.27 41 127 131 const ];
+            %tmp.28 = 75;
+            %tmp.29 = dup %tmp.25;
+            %tmp.30 = aputv %tmp.29 %tmp.27 %tmp.28;
+            %tmp.32 = const :justification;
+            symbol [ justification %tmp.32 41 138 151 const ];
+            symbol [ Graphics %tmp.33 41 153 161 ];
+            %tmp.33 = getm $.Toybox.Graphics;
+            symbol [ TEXT_JUSTIFY_LEFT %tmp.34 41 162 179 ];
+            %tmp.34 = getv %tmp.33 :TEXT_JUSTIFY_LEFT;
+            %tmp.35 = dup %tmp.30;
+            %tmp.36 = aputv %tmp.35 %tmp.32 %tmp.34;
+            %tmp.38 = const :font;
+            symbol [ font %tmp.38 41 182 186 const ];
+            symbol [ Graphics %tmp.39 41 188 196 ];
+            %tmp.39 = getm $.Toybox.Graphics;
+            symbol [ FONT_TINY %tmp.40 41 197 206 ];
+            %tmp.40 = getv %tmp.39 :FONT_TINY;
+            %tmp.41 = dup %tmp.36;
+            %tmp.42 = aputv %tmp.41 %tmp.38 %tmp.40;
+            %tmp.5 = newc %tmp.8 (%tmp.42);
+            lputv %rez_cmp_local_text_label.2 %tmp.5;
+            symbol [ rez_cmp_local_text_label %rez_cmp_local_text_label.2 41 16 40 ];
+[ "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen" 43 12 ]
+            [ "c__Documentos_runeasy_garmim_runeasy_garmim_bin_gen_006_B4375_00_source_Rez_mcgen_38_78_46_8_start" "c__Documentos_runeasy_garmim_runeasy_garmim_bin_gen_006_B4375_00_source_Rez_mcgen_38_78_46_8_stop" ]
+            %rez_cmp_local_text_value.3 = local;
+            symbol [ rez_cmp_local_text_value %rez_cmp_local_text_value.3 43 16 40 ];
+            symbol [ WatchUi %tmp.45 43 47 54 ];
+            %tmp.45 = getm $.Toybox.WatchUi;
+            symbol [ Text %tmp.46 43 55 59 ];
+            %tmp.46 = getv function ? %tmp.45 :Text;
+            %tmp.47 = newd 6;
+            %tmp.49 = const :identifier;
+            symbol [ identifier %tmp.49 43 62 72 const ];
+            %tmp.50 = "value";
+            %tmp.51 = dup %tmp.47;
+            %tmp.52 = aputv %tmp.51 %tmp.49 %tmp.50;
+            %tmp.54 = const :color;
+            symbol [ color %tmp.54 43 84 89 const ];
+            symbol [ Graphics %tmp.55 43 91 99 ];
+            %tmp.55 = getm $.Toybox.Graphics;
+            symbol [ COLOR_WHITE %tmp.56 43 100 111 ];
+            %tmp.56 = getv %tmp.55 :COLOR_WHITE;
+            %tmp.57 = dup %tmp.52;
+            %tmp.58 = aputv %tmp.57 %tmp.54 %tmp.56;
+            %tmp.60 = const :locX;
+            symbol [ locX %tmp.60 43 114 118 const ];
+            %tmp.61 = 14;
+            %tmp.62 = dup %tmp.58;
+            %tmp.63 = aputv %tmp.62 %tmp.60 %tmp.61;
+            %tmp.65 = const :locY;
+            symbol [ locY %tmp.65 43 125 129 const ];
+            %tmp.66 = 42;
+            %tmp.67 = dup %tmp.63;
+            %tmp.68 = aputv %tmp.67 %tmp.65 %tmp.66;
+            %tmp.70 = const :justification;
+            symbol [ justification %tmp.70 43 136 149 const ];
+            symbol [ Graphics %tmp.71 43 151 159 ];
+            %tmp.71 = getm $.Toybox.Graphics;
+            symbol [ TEXT_JUSTIFY_LEFT %tmp.72 43 160 177 ];
+            %tmp.72 = getv %tmp.71 :TEXT_JUSTIFY_LEFT;
+            %tmp.73 = dup %tmp.68;
+            %tmp.74 = aputv %tmp.73 %tmp.70 %tmp.72;
+            %tmp.76 = const :font;
+            symbol [ font %tmp.76 43 180 184 const ];
+            symbol [ Graphics %tmp.77 43 186 194 ];
+            %tmp.77 = getm $.Toybox.Graphics;
+            symbol [ FONT_LARGE %tmp.78 43 195 205 ];
+            %tmp.78 = getv %tmp.77 :FONT_LARGE;
+            %tmp.79 = dup %tmp.74;
+            %tmp.80 = aputv %tmp.79 %tmp.76 %tmp.78;
+            %tmp.43 = newc %tmp.46 (%tmp.80);
+            lputv %rez_cmp_local_text_value.3 %tmp.43;
+            symbol [ rez_cmp_local_text_value %rez_cmp_local_text_value.3 43 16 40 ];
+[ "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen" 45 12 ]
+            %tmp.81 = newa 3 Array<WatchUi.Drawable>;
+            symbol [ Array %tmp.81 45 127 132 ];
+            symbol [ WatchUi %tmp.81 45 133 140 ];
+            symbol [ Drawable %tmp.81 45 141 149 ];
+            %tmp.82 = lgetv %rez_cmp_local_custom_drawable_11824933295158922413.1;
+            symbol [ rez_cmp_local_custom_drawable_11824933295158922413 %tmp.82 45 20 70 ];
+            %tmp.83 = dup %tmp.81;
+            %tmp.84 = aputv %tmp.83 0 %tmp.82;
+            %tmp.85 = lgetv %rez_cmp_local_text_label.2;
+            symbol [ rez_cmp_local_text_label %tmp.85 45 72 96 ];
+            %tmp.86 = dup %tmp.84;
+            %tmp.87 = aputv %tmp.86 1 %tmp.85;
+            %tmp.88 = lgetv %rez_cmp_local_text_value.3;
+            symbol [ rez_cmp_local_text_value %tmp.88 45 98 122 ];
+            %tmp.89 = dup %tmp.87;
+            %tmp.90 = aputv %tmp.89 2 %tmp.88;
+            ret %tmp.90;
+c__Documentos_runeasy_garmim_runeasy_garmim_bin_gen_006_B4375_00_source_Rez_mcgen_38_78_46_8_stop:
+        }
+        [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 48; @symbol_functiondef = [BottomLeftLayout,48,17,33]; @symbol_param<0> = [dc,48,34,36]; @symbol_param<0>_type<0> = [Graphics,48,40,48]; @symbol_param<0>_type<1> = [Dc,48,49,51]; @symbol_return<0> = [Array,48,56,61]; @symbol_return<1> = [WatchUi,48,62,69]; @symbol_return<2> = [Drawable,48,70,78]; ]
+        function BottomLeftLayout(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
+c__Documentos_runeasy_garmim_runeasy_garmim_bin_gen_006_B4375_00_source_Rez_mcgen_48_80_56_8_start:
+[ "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen" 49 12 ]
+            [ "c__Documentos_runeasy_garmim_runeasy_garmim_bin_gen_006_B4375_00_source_Rez_mcgen_48_80_56_8_start" "c__Documentos_runeasy_garmim_runeasy_garmim_bin_gen_006_B4375_00_source_Rez_mcgen_48_80_56_8_stop" ]
+            %rez_cmp_local_custom_drawable_16380678501279751870.1 = local;
+            symbol [ rez_cmp_local_custom_drawable_16380678501279751870 %rez_cmp_local_custom_drawable_16380678501279751870.1 49 16 66 ];
+            symbol [ Background %tmp.4 49 73 83 ];
+            %tmp.4 = getv ? :Background;
+            %tmp.1 = newc %tmp.4 ();
+            lputv %rez_cmp_local_custom_drawable_16380678501279751870.1 %tmp.1;
+            symbol [ rez_cmp_local_custom_drawable_16380678501279751870 %rez_cmp_local_custom_drawable_16380678501279751870.1 49 16 66 ];
+[ "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen" 51 12 ]
+            [ "c__Documentos_runeasy_garmim_runeasy_garmim_bin_gen_006_B4375_00_source_Rez_mcgen_48_80_56_8_start" "c__Documentos_runeasy_garmim_runeasy_garmim_bin_gen_006_B4375_00_source_Rez_mcgen_48_80_56_8_stop" ]
+            %rez_cmp_local_text_label.2 = local;
+            symbol [ rez_cmp_local_text_label %rez_cmp_local_text_label.2 51 16 40 ];
+            symbol [ WatchUi %tmp.7 51 47 54 ];
+            %tmp.7 = getm $.Toybox.WatchUi;
+            symbol [ Text %tmp.8 51 55 59 ];
+            %tmp.8 = getv function ? %tmp.7 :Text;
+            %tmp.9 = newd 6;
+            %tmp.11 = const :identifier;
+            symbol [ identifier %tmp.11 51 62 72 const ];
+            %tmp.12 = "label";
+            %tmp.13 = dup %tmp.9;
+            %tmp.14 = aputv %tmp.13 %tmp.11 %tmp.12;
+            %tmp.16 = const :color;
+            symbol [ color %tmp.16 51 84 89 const ];
+            symbol [ Graphics %tmp.17 51 91 99 ];
+            %tmp.17 = getm $.Toybox.Graphics;
+            symbol [ COLOR_LT_GRAY %tmp.18 51 100 113 ];
+            %tmp.18 = getv %tmp.17 :COLOR_LT_GRAY;
+            %tmp.19 = dup %tmp.14;
+            %tmp.20 = aputv %tmp.19 %tmp.16 %tmp.18;
+            %tmp.22 = const :locX;
+            symbol [ locX %tmp.22 51 116 120 const ];
+            %tmp.23 = 95;
+            %tmp.24 = dup %tmp.20;
+            %tmp.25 = aputv %tmp.24 %tmp.22 %tmp.23;
+            %tmp.27 = const :locY;
+            symbol [ locY %tmp.27 51 127 131 const ];
+            %tmp.28 = 10;
+            %tmp.29 = dup %tmp.25;
+            %tmp.30 = aputv %tmp.29 %tmp.27 %tmp.28;
+            %tmp.32 = const :justification;
+            symbol [ justification %tmp.32 51 138 151 const ];
+            symbol [ Graphics %tmp.33 51 153 161 ];
+            %tmp.33 = getm $.Toybox.Graphics;
+            symbol [ TEXT_JUSTIFY_RIGHT %tmp.34 51 162 180 ];
+            %tmp.34 = getv %tmp.33 :TEXT_JUSTIFY_RIGHT;
+            %tmp.35 = dup %tmp.30;
+            %tmp.36 = aputv %tmp.35 %tmp.32 %tmp.34;
+            %tmp.38 = const :font;
+            symbol [ font %tmp.38 51 183 187 const ];
+            symbol [ Graphics %tmp.39 51 189 197 ];
+            %tmp.39 = getm $.Toybox.Graphics;
+            symbol [ FONT_TINY %tmp.40 51 198 207 ];
+            %tmp.40 = getv %tmp.39 :FONT_TINY;
+            %tmp.41 = dup %tmp.36;
+            %tmp.42 = aputv %tmp.41 %tmp.38 %tmp.40;
+            %tmp.5 = newc %tmp.8 (%tmp.42);
+            lputv %rez_cmp_local_text_label.2 %tmp.5;
+            symbol [ rez_cmp_local_text_label %rez_cmp_local_text_label.2 51 16 40 ];
+[ "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen" 53 12 ]
+            [ "c__Documentos_runeasy_garmim_runeasy_garmim_bin_gen_006_B4375_00_source_Rez_mcgen_48_80_56_8_start" "c__Documentos_runeasy_garmim_runeasy_garmim_bin_gen_006_B4375_00_source_Rez_mcgen_48_80_56_8_stop" ]
+            %rez_cmp_local_text_value.3 = local;
+            symbol [ rez_cmp_local_text_value %rez_cmp_local_text_value.3 53 16 40 ];
+            symbol [ WatchUi %tmp.45 53 47 54 ];
+            %tmp.45 = getm $.Toybox.WatchUi;
+            symbol [ Text %tmp.46 53 55 59 ];
+            %tmp.46 = getv function ? %tmp.45 :Text;
+            %tmp.47 = newd 6;
+            %tmp.49 = const :identifier;
+            symbol [ identifier %tmp.49 53 62 72 const ];
+            %tmp.50 = "value";
+            %tmp.51 = dup %tmp.47;
+            %tmp.52 = aputv %tmp.51 %tmp.49 %tmp.50;
+            %tmp.54 = const :color;
+            symbol [ color %tmp.54 53 84 89 const ];
+            symbol [ Graphics %tmp.55 53 91 99 ];
+            %tmp.55 = getm $.Toybox.Graphics;
+            symbol [ COLOR_WHITE %tmp.56 53 100 111 ];
+            %tmp.56 = getv %tmp.55 :COLOR_WHITE;
+            %tmp.57 = dup %tmp.52;
+            %tmp.58 = aputv %tmp.57 %tmp.54 %tmp.56;
+            %tmp.60 = const :locX;
+            symbol [ locX %tmp.60 53 114 118 const ];
+            %tmp.61 = 95;
+            %tmp.62 = dup %tmp.58;
+            %tmp.63 = aputv %tmp.62 %tmp.60 %tmp.61;
+            %tmp.65 = const :locY;
+            symbol [ locY %tmp.65 53 125 129 const ];
+            %tmp.66 = 27;
+            %tmp.67 = dup %tmp.63;
+            %tmp.68 = aputv %tmp.67 %tmp.65 %tmp.66;
+            %tmp.70 = const :justification;
+            symbol [ justification %tmp.70 53 136 149 const ];
+            symbol [ Graphics %tmp.71 53 151 159 ];
+            %tmp.71 = getm $.Toybox.Graphics;
+            symbol [ TEXT_JUSTIFY_RIGHT %tmp.72 53 160 178 ];
+            %tmp.72 = getv %tmp.71 :TEXT_JUSTIFY_RIGHT;
+            %tmp.73 = dup %tmp.68;
+            %tmp.74 = aputv %tmp.73 %tmp.70 %tmp.72;
+            %tmp.76 = const :font;
+            symbol [ font %tmp.76 53 181 185 const ];
+            symbol [ Graphics %tmp.77 53 187 195 ];
+            %tmp.77 = getm $.Toybox.Graphics;
+            symbol [ FONT_LARGE %tmp.78 53 196 206 ];
+            %tmp.78 = getv %tmp.77 :FONT_LARGE;
+            %tmp.79 = dup %tmp.74;
+            %tmp.80 = aputv %tmp.79 %tmp.76 %tmp.78;
+            %tmp.43 = newc %tmp.46 (%tmp.80);
+            lputv %rez_cmp_local_text_value.3 %tmp.43;
+            symbol [ rez_cmp_local_text_value %rez_cmp_local_text_value.3 53 16 40 ];
+[ "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen" 55 12 ]
+            %tmp.81 = newa 3 Array<WatchUi.Drawable>;
+            symbol [ Array %tmp.81 55 127 132 ];
+            symbol [ WatchUi %tmp.81 55 133 140 ];
+            symbol [ Drawable %tmp.81 55 141 149 ];
+            %tmp.82 = lgetv %rez_cmp_local_custom_drawable_16380678501279751870.1;
+            symbol [ rez_cmp_local_custom_drawable_16380678501279751870 %tmp.82 55 20 70 ];
+            %tmp.83 = dup %tmp.81;
+            %tmp.84 = aputv %tmp.83 0 %tmp.82;
+            %tmp.85 = lgetv %rez_cmp_local_text_label.2;
+            symbol [ rez_cmp_local_text_label %tmp.85 55 72 96 ];
+            %tmp.86 = dup %tmp.84;
+            %tmp.87 = aputv %tmp.86 1 %tmp.85;
+            %tmp.88 = lgetv %rez_cmp_local_text_value.3;
+            symbol [ rez_cmp_local_text_value %tmp.88 55 98 122 ];
+            %tmp.89 = dup %tmp.87;
+            %tmp.90 = aputv %tmp.89 2 %tmp.88;
+            ret %tmp.90;
+c__Documentos_runeasy_garmim_runeasy_garmim_bin_gen_006_B4375_00_source_Rez_mcgen_48_80_56_8_stop:
+        }
+        [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 58; @symbol_functiondef = [BottomRightLayout,58,17,34]; @symbol_param<0> = [dc,58,35,37]; @symbol_param<0>_type<0> = [Graphics,58,41,49]; @symbol_param<0>_type<1> = [Dc,58,50,52]; @symbol_return<0> = [Array,58,57,62]; @symbol_return<1> = [WatchUi,58,63,70]; @symbol_return<2> = [Drawable,58,71,79]; ]
+        function BottomRightLayout(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
+c__Documentos_runeasy_garmim_runeasy_garmim_bin_gen_006_B4375_00_source_Rez_mcgen_58_81_66_8_start:
+[ "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen" 59 12 ]
+            [ "c__Documentos_runeasy_garmim_runeasy_garmim_bin_gen_006_B4375_00_source_Rez_mcgen_58_81_66_8_start" "c__Documentos_runeasy_garmim_runeasy_garmim_bin_gen_006_B4375_00_source_Rez_mcgen_58_81_66_8_stop" ]
+            %rez_cmp_local_custom_drawable_16187860511068497434.1 = local;
+            symbol [ rez_cmp_local_custom_drawable_16187860511068497434 %rez_cmp_local_custom_drawable_16187860511068497434.1 59 16 66 ];
+            symbol [ Background %tmp.4 59 73 83 ];
+            %tmp.4 = getv ? :Background;
+            %tmp.1 = newc %tmp.4 ();
+            lputv %rez_cmp_local_custom_drawable_16187860511068497434.1 %tmp.1;
+            symbol [ rez_cmp_local_custom_drawable_16187860511068497434 %rez_cmp_local_custom_drawable_16187860511068497434.1 59 16 66 ];
+[ "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen" 61 12 ]
+            [ "c__Documentos_runeasy_garmim_runeasy_garmim_bin_gen_006_B4375_00_source_Rez_mcgen_58_81_66_8_start" "c__Documentos_runeasy_garmim_runeasy_garmim_bin_gen_006_B4375_00_source_Rez_mcgen_58_81_66_8_stop" ]
+            %rez_cmp_local_text_label.2 = local;
+            symbol [ rez_cmp_local_text_label %rez_cmp_local_text_label.2 61 16 40 ];
+            symbol [ WatchUi %tmp.7 61 47 54 ];
+            %tmp.7 = getm $.Toybox.WatchUi;
+            symbol [ Text %tmp.8 61 55 59 ];
+            %tmp.8 = getv function ? %tmp.7 :Text;
+            %tmp.9 = newd 6;
+            %tmp.11 = const :identifier;
+            symbol [ identifier %tmp.11 61 62 72 const ];
+            %tmp.12 = "label";
+            %tmp.13 = dup %tmp.9;
+            %tmp.14 = aputv %tmp.13 %tmp.11 %tmp.12;
+            %tmp.16 = const :color;
+            symbol [ color %tmp.16 61 84 89 const ];
+            symbol [ Graphics %tmp.17 61 91 99 ];
+            %tmp.17 = getm $.Toybox.Graphics;
+            symbol [ COLOR_LT_GRAY %tmp.18 61 100 113 ];
+            %tmp.18 = getv %tmp.17 :COLOR_LT_GRAY;
+            %tmp.19 = dup %tmp.14;
+            %tmp.20 = aputv %tmp.19 %tmp.16 %tmp.18;
+            %tmp.22 = const :locX;
+            symbol [ locX %tmp.22 61 116 120 const ];
+            %tmp.23 = 14;
+            %tmp.24 = dup %tmp.20;
+            %tmp.25 = aputv %tmp.24 %tmp.22 %tmp.23;
+            %tmp.27 = const :locY;
+            symbol [ locY %tmp.27 61 127 131 const ];
+            %tmp.28 = 10;
+            %tmp.29 = dup %tmp.25;
+            %tmp.30 = aputv %tmp.29 %tmp.27 %tmp.28;
+            %tmp.32 = const :justification;
+            symbol [ justification %tmp.32 61 138 151 const ];
+            symbol [ Graphics %tmp.33 61 153 161 ];
+            %tmp.33 = getm $.Toybox.Graphics;
+            symbol [ TEXT_JUSTIFY_LEFT %tmp.34 61 162 179 ];
+            %tmp.34 = getv %tmp.33 :TEXT_JUSTIFY_LEFT;
+            %tmp.35 = dup %tmp.30;
+            %tmp.36 = aputv %tmp.35 %tmp.32 %tmp.34;
+            %tmp.38 = const :font;
+            symbol [ font %tmp.38 61 182 186 const ];
+            symbol [ Graphics %tmp.39 61 188 196 ];
+            %tmp.39 = getm $.Toybox.Graphics;
+            symbol [ FONT_TINY %tmp.40 61 197 206 ];
+            %tmp.40 = getv %tmp.39 :FONT_TINY;
+            %tmp.41 = dup %tmp.36;
+            %tmp.42 = aputv %tmp.41 %tmp.38 %tmp.40;
+            %tmp.5 = newc %tmp.8 (%tmp.42);
+            lputv %rez_cmp_local_text_label.2 %tmp.5;
+            symbol [ rez_cmp_local_text_label %rez_cmp_local_text_label.2 61 16 40 ];
+[ "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen" 63 12 ]
+            [ "c__Documentos_runeasy_garmim_runeasy_garmim_bin_gen_006_B4375_00_source_Rez_mcgen_58_81_66_8_start" "c__Documentos_runeasy_garmim_runeasy_garmim_bin_gen_006_B4375_00_source_Rez_mcgen_58_81_66_8_stop" ]
+            %rez_cmp_local_text_value.3 = local;
+            symbol [ rez_cmp_local_text_value %rez_cmp_local_text_value.3 63 16 40 ];
+            symbol [ WatchUi %tmp.45 63 47 54 ];
+            %tmp.45 = getm $.Toybox.WatchUi;
+            symbol [ Text %tmp.46 63 55 59 ];
+            %tmp.46 = getv function ? %tmp.45 :Text;
+            %tmp.47 = newd 6;
+            %tmp.49 = const :identifier;
+            symbol [ identifier %tmp.49 63 62 72 const ];
+            %tmp.50 = "value";
+            %tmp.51 = dup %tmp.47;
+            %tmp.52 = aputv %tmp.51 %tmp.49 %tmp.50;
+            %tmp.54 = const :color;
+            symbol [ color %tmp.54 63 84 89 const ];
+            symbol [ Graphics %tmp.55 63 91 99 ];
+            %tmp.55 = getm $.Toybox.Graphics;
+            symbol [ COLOR_WHITE %tmp.56 63 100 111 ];
+            %tmp.56 = getv %tmp.55 :COLOR_WHITE;
+            %tmp.57 = dup %tmp.52;
+            %tmp.58 = aputv %tmp.57 %tmp.54 %tmp.56;
+            %tmp.60 = const :locX;
+            symbol [ locX %tmp.60 63 114 118 const ];
+            %tmp.61 = 14;
+            %tmp.62 = dup %tmp.58;
+            %tmp.63 = aputv %tmp.62 %tmp.60 %tmp.61;
+            %tmp.65 = const :locY;
+            symbol [ locY %tmp.65 63 125 129 const ];
+            %tmp.66 = 27;
+            %tmp.67 = dup %tmp.63;
+            %tmp.68 = aputv %tmp.67 %tmp.65 %tmp.66;
+            %tmp.70 = const :justification;
+            symbol [ justification %tmp.70 63 136 149 const ];
+            symbol [ Graphics %tmp.71 63 151 159 ];
+            %tmp.71 = getm $.Toybox.Graphics;
+            symbol [ TEXT_JUSTIFY_LEFT %tmp.72 63 160 177 ];
+            %tmp.72 = getv %tmp.71 :TEXT_JUSTIFY_LEFT;
+            %tmp.73 = dup %tmp.68;
+            %tmp.74 = aputv %tmp.73 %tmp.70 %tmp.72;
+            %tmp.76 = const :font;
+            symbol [ font %tmp.76 63 180 184 const ];
+            symbol [ Graphics %tmp.77 63 186 194 ];
+            %tmp.77 = getm $.Toybox.Graphics;
+            symbol [ FONT_LARGE %tmp.78 63 195 205 ];
+            %tmp.78 = getv %tmp.77 :FONT_LARGE;
+            %tmp.79 = dup %tmp.74;
+            %tmp.80 = aputv %tmp.79 %tmp.76 %tmp.78;
+            %tmp.43 = newc %tmp.46 (%tmp.80);
+            lputv %rez_cmp_local_text_value.3 %tmp.43;
+            symbol [ rez_cmp_local_text_value %rez_cmp_local_text_value.3 63 16 40 ];
+[ "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen" 65 12 ]
+            %tmp.81 = newa 3 Array<WatchUi.Drawable>;
+            symbol [ Array %tmp.81 65 127 132 ];
+            symbol [ WatchUi %tmp.81 65 133 140 ];
+            symbol [ Drawable %tmp.81 65 141 149 ];
+            %tmp.82 = lgetv %rez_cmp_local_custom_drawable_16187860511068497434.1;
+            symbol [ rez_cmp_local_custom_drawable_16187860511068497434 %tmp.82 65 20 70 ];
+            %tmp.83 = dup %tmp.81;
+            %tmp.84 = aputv %tmp.83 0 %tmp.82;
+            %tmp.85 = lgetv %rez_cmp_local_text_label.2;
+            symbol [ rez_cmp_local_text_label %tmp.85 65 72 96 ];
+            %tmp.86 = dup %tmp.84;
+            %tmp.87 = aputv %tmp.86 1 %tmp.85;
+            %tmp.88 = lgetv %rez_cmp_local_text_value.3;
+            symbol [ rez_cmp_local_text_value %tmp.88 65 98 122 ];
+            %tmp.89 = dup %tmp.87;
+            %tmp.90 = aputv %tmp.89 2 %tmp.88;
+            ret %tmp.90;
+c__Documentos_runeasy_garmim_runeasy_garmim_bin_gen_006_B4375_00_source_Rez_mcgen_58_81_66_8_stop:
+        }
+    }
+    [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 69; @symbol_moduledef = [Strings,69,11,18]; ]
+    module Strings {
+        [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 69; ]
+        <init> {
+        }
+        [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 70; @position = 27; initialized = true; @symbol_vardef = [label,70,27,32]; @symbol_type<0> = [ResourceId,70,36,46]; ]
+        var label as ResourceId;
+        [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 71; @position = 27; initialized = true; @symbol_vardef = [AppName,71,27,34]; @symbol_type<0> = [ResourceId,71,38,48]; ]
+        var AppName as ResourceId;
+    }
+    [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 74; @symbol_moduledef = [Styles,74,11,17]; ]
+    module Styles {
+        [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 74; ]
+        <init> {
+        }
+        [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 75; @symbol_moduledef = [prompt_font_enhanced_readability__body_with_title,75,15,64]; ]
+        module prompt_font_enhanced_readability__body_with_title {
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 75; ]
+            <init> {
+            }
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 76; @position = 18; @symbol_constdef = [exclude,76,18,25]; @symbol_type<0> = [Boolean,76,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 79; @symbol_moduledef = [system_size__menu_header,79,15,39]; ]
+        module system_size__menu_header {
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 79; ]
+            <init> {
+            }
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 80; @position = 18; @symbol_constdef = [width,80,18,23]; @symbol_type<0> = [Number,80,27,33]; ]
+            const width as Number = 260;
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 81; @position = 18; @symbol_constdef = [height,81,18,24]; @symbol_type<0> = [Number,81,28,34]; ]
+            const height as Number = 81;
+        }
+        [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 84; @symbol_moduledef = [system_loc__hint_button_left_bottom,84,15,50]; ]
+        module system_loc__hint_button_left_bottom {
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 84; ]
+            <init> {
+            }
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 85; @position = 18; @symbol_constdef = [x,85,18,19]; @symbol_type<0> = [Number,85,23,29]; ]
+            const x as Number = 10;
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 86; @position = 18; @symbol_constdef = [y,86,18,19]; @symbol_type<0> = [Number,86,23,29]; ]
+            const y as Number = 172;
+        }
+        [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 89; @symbol_moduledef = [prompt_font_enhanced_readability__body_no_title,89,15,62]; ]
+        module prompt_font_enhanced_readability__body_no_title {
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 89; ]
+            <init> {
+            }
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 90; @position = 18; @symbol_constdef = [exclude,90,18,25]; @symbol_type<0> = [Boolean,90,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 93; @symbol_moduledef = [prompt_loc__body_no_title,93,15,40]; ]
+        module prompt_loc__body_no_title {
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 93; ]
+            <init> {
+            }
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 94; @position = 18; @symbol_constdef = [x,94,18,19]; @symbol_type<0> = [Number,94,23,29]; ]
+            const x as Number = 26;
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 95; @position = 18; @symbol_constdef = [y,95,18,19]; @symbol_type<0> = [Number,95,23,29]; ]
+            const y as Number = 26;
+        }
+        [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 98; @symbol_moduledef = [system_icon_dark__about,98,15,38]; ]
+        module system_icon_dark__about {
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 98; ]
+            <init> {
+            }
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 99; @position = 18; @symbol_constdef = [filename,99,18,26]; @symbol_type<0> = [String,99,30,36]; ]
+            const filename as String = "C:\\Users\\flavi\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix7pro\\system_icon_dark__about.svg";
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 100; @position = 18; @symbol_constdef = [compress,100,18,26]; @symbol_type<0> = [String,100,30,36]; ]
+            const compress as String = "true";
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 101; @position = 18; @symbol_constdef = [dithering,101,18,27]; @symbol_type<0> = [String,101,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 102; @position = 18; @symbol_constdef = [automaticPalette,102,18,34]; @symbol_type<0> = [String,102,38,44]; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 105; @symbol_moduledef = [system_icon_light__question,105,15,42]; ]
+        module system_icon_light__question {
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 105; ]
+            <init> {
+            }
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 106; @position = 18; @symbol_constdef = [filename,106,18,26]; @symbol_type<0> = [String,106,30,36]; ]
+            const filename as String = "C:\\Users\\flavi\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix7pro\\system_icon_light__question.svg";
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 107; @position = 18; @symbol_constdef = [dithering,107,18,27]; @symbol_type<0> = [String,107,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 110; @symbol_moduledef = [system_loc__hint_button_left_top,110,15,47]; ]
+        module system_loc__hint_button_left_top {
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 110; ]
+            <init> {
+            }
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 111; @position = 18; @symbol_constdef = [exclude,111,18,25]; @symbol_type<0> = [Boolean,111,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 114; @symbol_moduledef = [prompt_font__title,114,15,33]; ]
+        module prompt_font__title {
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 114; ]
+            <init> {
+[ "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen" 115 18 ]
+                symbol [ Graphics %tmp.91 115 34 42 ];
+                %tmp.91 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_CENTER %tmp.92 115 43 62 ];
+                %tmp.92 = getv %tmp.91 :TEXT_JUSTIFY_CENTER;
+                symbol [ Graphics %tmp.93 115 63 71 ];
+                %tmp.93 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_VCENTER %tmp.94 115 72 92 ];
+                %tmp.94 = getv %tmp.93 :TEXT_JUSTIFY_VCENTER;
+                %tmp.95 = bitor %tmp.92 %tmp.94;
+                putv self :justification %tmp.95;
+[ "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen" 116 18 ]
+                symbol [ Graphics %tmp.96 116 25 33 ];
+                %tmp.96 = getm $.Toybox.Graphics;
+                symbol [ FONT_XTINY %tmp.97 116 34 44 ];
+                %tmp.97 = getv %tmp.96 :FONT_XTINY;
+                putv self :font %tmp.97;
+            }
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 115; @position = 18; @symbol_constdef = [justification,115,18,31]; ]
+            const justification;
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 116; @position = 18; @symbol_constdef = [font,116,18,22]; ]
+            const font;
+        }
+        [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 119; @symbol_moduledef = [system_icon_dark__discard,119,15,40]; ]
+        module system_icon_dark__discard {
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 119; ]
+            <init> {
+            }
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 120; @position = 18; @symbol_constdef = [filename,120,18,26]; @symbol_type<0> = [String,120,30,36]; ]
+            const filename as String = "C:\\Users\\flavi\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix7pro\\system_icon_dark__discard.svg";
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 121; @position = 18; @symbol_constdef = [compress,121,18,26]; @symbol_type<0> = [String,121,30,36]; ]
+            const compress as String = "true";
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 122; @position = 18; @symbol_constdef = [dithering,122,18,27]; @symbol_type<0> = [String,122,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 123; @position = 18; @symbol_constdef = [automaticPalette,123,18,34]; @symbol_type<0> = [String,123,38,44]; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 126; @symbol_moduledef = [system_size__menu_item,126,15,37]; ]
+        module system_size__menu_item {
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 126; ]
+            <init> {
+            }
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 127; @position = 18; @symbol_constdef = [width,127,18,23]; @symbol_type<0> = [Number,127,27,33]; ]
+            const width as Number = 260;
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 128; @position = 18; @symbol_constdef = [height,128,18,24]; @symbol_type<0> = [Number,128,28,34]; ]
+            const height as Number = 68;
+        }
+        [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 131; @symbol_moduledef = [system_color_dark__text,131,15,38]; ]
+        module system_color_dark__text {
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 131; ]
+            <init> {
+[ "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen" 133 18 ]
+                symbol [ Graphics %tmp.98 133 31 39 ];
+                %tmp.98 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.99 133 40 57 ];
+                %tmp.99 = getv %tmp.98 :COLOR_TRANSPARENT;
+                putv self :background %tmp.99;
+            }
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 132; @position = 18; @symbol_constdef = [color,132,18,23]; @symbol_type<0> = [Number,132,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 133; @position = 18; @symbol_constdef = [background,133,18,28]; ]
+            const background;
+        }
+        [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 136; @symbol_moduledef = [system_icon_destructive__discard,136,15,47]; ]
+        module system_icon_destructive__discard {
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 136; ]
+            <init> {
+            }
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 137; @position = 18; @symbol_constdef = [filename,137,18,26]; @symbol_type<0> = [String,137,30,36]; ]
+            const filename as String = "C:\\Users\\flavi\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix7pro\\system_icon_destructive__discard.svg";
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 138; @position = 18; @symbol_constdef = [dithering,138,18,27]; @symbol_type<0> = [String,138,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 141; @symbol_moduledef = [system_icon_dark__hint_action_menu,141,15,49]; ]
+        module system_icon_dark__hint_action_menu {
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 141; ]
+            <init> {
+            }
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 142; @position = 18; @symbol_constdef = [filename,142,18,26]; @symbol_type<0> = [String,142,30,36]; ]
+            const filename as String = "C:\\Users\\flavi\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix7pro\\system_icon_dark__hint_button_right_top.svg";
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 143; @position = 18; @symbol_constdef = [dithering,143,18,27]; @symbol_type<0> = [String,143,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 146; @symbol_moduledef = [prompt_size__title,146,15,33]; ]
+        module prompt_size__title {
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 146; ]
+            <init> {
+            }
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 147; @position = 18; @symbol_constdef = [width,147,18,23]; @symbol_type<0> = [Number,147,27,33]; ]
+            const width as Number = 208;
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 148; @position = 18; @symbol_constdef = [height,148,18,24]; @symbol_type<0> = [Number,148,28,34]; ]
+            const height as Number = 39;
+        }
+        [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 151; @symbol_moduledef = [confirmation_font__body,151,15,38]; ]
+        module confirmation_font__body {
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 151; ]
+            <init> {
+[ "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen" 152 18 ]
+                symbol [ Graphics %tmp.100 152 34 42 ];
+                %tmp.100 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_CENTER %tmp.101 152 43 62 ];
+                %tmp.101 = getv %tmp.100 :TEXT_JUSTIFY_CENTER;
+                symbol [ Graphics %tmp.102 152 63 71 ];
+                %tmp.102 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_VCENTER %tmp.103 152 72 92 ];
+                %tmp.103 = getv %tmp.102 :TEXT_JUSTIFY_VCENTER;
+                %tmp.104 = bitor %tmp.101 %tmp.103;
+                putv self :justification %tmp.104;
+[ "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen" 153 18 ]
+                symbol [ Graphics %tmp.105 153 25 33 ];
+                %tmp.105 = getm $.Toybox.Graphics;
+                symbol [ FONT_TINY %tmp.106 153 34 43 ];
+                %tmp.106 = getv %tmp.105 :FONT_TINY;
+                putv self :font %tmp.106;
+            }
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 152; @position = 18; @symbol_constdef = [justification,152,18,31]; ]
+            const justification;
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 153; @position = 18; @symbol_constdef = [font,153,18,22]; ]
+            const font;
+        }
+        [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 156; @symbol_moduledef = [system_color_dark__background,156,15,44]; ]
+        module system_color_dark__background {
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 156; ]
+            <init> {
+            }
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 157; @position = 18; @symbol_constdef = [color,157,18,23]; @symbol_type<0> = [Number,157,27,33]; ]
+            const color as Number = 0x000000;
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 158; @position = 18; @symbol_constdef = [background,158,18,28]; @symbol_type<0> = [Number,158,32,38]; ]
+            const background as Number = 0x000000;
+        }
+        [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 161; @symbol_moduledef = [system_icon_destructive__hint_button_left_top,161,15,60]; ]
+        module system_icon_destructive__hint_button_left_top {
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 161; ]
+            <init> {
+            }
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 162; @position = 18; @symbol_constdef = [filename,162,18,26]; @symbol_type<0> = [String,162,30,36]; ]
+            const filename as String = "C:\\Users\\flavi\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix7pro\\system_icon_destructive__hint_button_left_top.svg";
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 163; @position = 18; @symbol_constdef = [dithering,163,18,27]; @symbol_type<0> = [String,163,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 166; @symbol_moduledef = [system_size__launch_icon,166,15,39]; ]
+        module system_size__launch_icon {
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 166; ]
+            <init> {
+            }
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 167; @position = 18; @symbol_constdef = [scaleX,167,18,24]; @symbol_type<0> = [Number,167,28,34]; ]
+            const scaleX as Number = 40;
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 168; @position = 18; @symbol_constdef = [scaleY,168,18,24]; @symbol_type<0> = [Number,168,28,34]; ]
+            const scaleY as Number = 40;
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 169; @position = 18; @symbol_constdef = [scaleRelativeTo,169,18,33]; @symbol_type<0> = [String,169,37,43]; ]
+            const scaleRelativeTo as String = "screen";
+        }
+        [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 172; @symbol_moduledef = [confirmation_input__confirm,172,15,42]; ]
+        module confirmation_input__confirm {
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 172; ]
+            <init> {
+[ "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen" 173 18 ]
+                symbol [ WatchUi %tmp.107 173 27 34 ];
+                %tmp.107 = getm $.Toybox.WatchUi;
+                symbol [ KEY_ENTER %tmp.108 173 35 44 ];
+                %tmp.108 = getv %tmp.107 :KEY_ENTER;
+                putv self :button %tmp.108;
+            }
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 173; @position = 18; @symbol_constdef = [button,173,18,24]; ]
+            const button;
+        }
+        [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 176; @symbol_moduledef = [prompt_font__body_with_title,176,15,43]; ]
+        module prompt_font__body_with_title {
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 176; ]
+            <init> {
+[ "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen" 177 18 ]
+                symbol [ Graphics %tmp.109 177 34 42 ];
+                %tmp.109 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_CENTER %tmp.110 177 43 62 ];
+                %tmp.110 = getv %tmp.109 :TEXT_JUSTIFY_CENTER;
+                putv self :justification %tmp.110;
+[ "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen" 178 18 ]
+                symbol [ Graphics %tmp.111 178 25 33 ];
+                %tmp.111 = getm $.Toybox.Graphics;
+                symbol [ FONT_TINY %tmp.112 178 34 43 ];
+                %tmp.112 = getv %tmp.111 :FONT_TINY;
+                putv self :font %tmp.112;
+            }
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 177; @position = 18; @symbol_constdef = [justification,177,18,31]; ]
+            const justification;
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 178; @position = 18; @symbol_constdef = [font,178,18,22]; ]
+            const font;
+        }
+        [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 181; @symbol_moduledef = [confirmation_loc__body,181,15,37]; ]
+        module confirmation_loc__body {
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 181; ]
+            <init> {
+            }
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 182; @position = 18; @symbol_constdef = [x,182,18,19]; @symbol_type<0> = [Number,182,23,29]; ]
+            const x as Number = 52;
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 183; @position = 18; @symbol_constdef = [y,183,18,19]; @symbol_type<0> = [Number,183,23,29]; ]
+            const y as Number = 52;
+        }
+        [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 186; @symbol_moduledef = [system_icon_destructive__hint_button_left_bottom,186,15,63]; ]
+        module system_icon_destructive__hint_button_left_bottom {
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 186; ]
+            <init> {
+            }
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 187; @position = 18; @symbol_constdef = [filename,187,18,26]; @symbol_type<0> = [String,187,30,36]; ]
+            const filename as String = "C:\\Users\\flavi\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix7pro\\system_icon_destructive__hint_button_left_bottom.svg";
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 188; @position = 18; @symbol_constdef = [dithering,188,18,27]; @symbol_type<0> = [String,188,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 191; @symbol_moduledef = [prompt_color_dark__background,191,15,44]; ]
+        module prompt_color_dark__background {
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 191; ]
+            <init> {
+            }
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 192; @position = 18; @symbol_constdef = [color,192,18,23]; @symbol_type<0> = [Number,192,27,33]; ]
+            const color as Number = 0x000000;
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 193; @position = 18; @symbol_constdef = [background,193,18,28]; @symbol_type<0> = [Number,193,32,38]; ]
+            const background as Number = 0x000000;
+        }
+        [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 196; @symbol_moduledef = [system_icon_destructive__hint_action_menu,196,15,56]; ]
+        module system_icon_destructive__hint_action_menu {
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 196; ]
+            <init> {
+            }
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 197; @position = 18; @symbol_constdef = [filename,197,18,26]; @symbol_type<0> = [String,197,30,36]; ]
+            const filename as String = "C:\\Users\\flavi\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix7pro\\system_icon_destructive__hint_button_right_top.svg";
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 198; @position = 18; @symbol_constdef = [dithering,198,18,27]; @symbol_type<0> = [String,198,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 201; @symbol_moduledef = [system_loc__hint_action_menu,201,15,43]; ]
+        module system_loc__hint_action_menu {
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 201; ]
+            <init> {
+            }
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 202; @position = 18; @symbol_constdef = [x,202,18,19]; @symbol_type<0> = [Number,202,23,29]; ]
+            const x as Number = 225;
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 203; @position = 18; @symbol_constdef = [y,203,18,19]; @symbol_type<0> = [Number,203,23,29]; ]
+            const y as Number = 48;
+        }
+        [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 206; @symbol_moduledef = [confirmation_icon__hint_confirm,206,15,46]; ]
+        module confirmation_icon__hint_confirm {
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 206; ]
+            <init> {
+            }
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 207; @position = 18; @symbol_constdef = [filename,207,18,26]; @symbol_type<0> = [String,207,30,36]; ]
+            const filename as String = "C:\\Users\\flavi\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix7pro\\confirmation_icon__hint_completion.svg";
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 208; @position = 18; @symbol_constdef = [dithering,208,18,27]; @symbol_type<0> = [String,208,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 211; @symbol_moduledef = [system_loc__hint_button_left_middle,211,15,50]; ]
+        module system_loc__hint_button_left_middle {
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 211; ]
+            <init> {
+            }
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 212; @position = 18; @symbol_constdef = [x,212,18,19]; @symbol_type<0> = [Number,212,23,29]; ]
+            const x as Number = 3;
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 213; @position = 18; @symbol_constdef = [y,213,18,19]; @symbol_type<0> = [Number,213,23,29]; ]
+            const y as Number = 108;
+        }
+        [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 216; @symbol_moduledef = [prompt_size__body_no_title,216,15,41]; ]
+        module prompt_size__body_no_title {
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 216; ]
+            <init> {
+            }
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 217; @position = 18; @symbol_constdef = [width,217,18,23]; @symbol_type<0> = [Number,217,27,33]; ]
+            const width as Number = 208;
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 218; @position = 18; @symbol_constdef = [height,218,18,24]; @symbol_type<0> = [Number,218,28,34]; ]
+            const height as Number = 208;
+        }
+        [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 221; @symbol_moduledef = [system_icon_light__hint_button_left_top,221,15,54]; ]
+        module system_icon_light__hint_button_left_top {
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 221; ]
+            <init> {
+            }
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 222; @position = 18; @symbol_constdef = [filename,222,18,26]; @symbol_type<0> = [String,222,30,36]; ]
+            const filename as String = "C:\\Users\\flavi\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix7pro\\system_icon_light__hint_button_left_top.svg";
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 223; @position = 18; @symbol_constdef = [dithering,223,18,27]; @symbol_type<0> = [String,223,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 226; @symbol_moduledef = [prompt_color_light__background,226,15,45]; ]
+        module prompt_color_light__background {
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 226; ]
+            <init> {
+            }
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 227; @position = 18; @symbol_constdef = [color,227,18,23]; @symbol_type<0> = [Number,227,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 228; @position = 18; @symbol_constdef = [background,228,18,28]; @symbol_type<0> = [Number,228,32,38]; ]
+            const background as Number = 0xFFFFFF;
+        }
+        [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 231; @symbol_moduledef = [confirmation_input__delete,231,15,41]; ]
+        module confirmation_input__delete {
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 231; ]
+            <init> {
+[ "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen" 232 18 ]
+                symbol [ WatchUi %tmp.113 232 27 34 ];
+                %tmp.113 = getm $.Toybox.WatchUi;
+                symbol [ KEY_ENTER %tmp.114 232 35 44 ];
+                %tmp.114 = getv %tmp.113 :KEY_ENTER;
+                putv self :button %tmp.114;
+            }
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 232; @position = 18; @symbol_constdef = [button,232,18,24]; ]
+            const button;
+        }
+        [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 235; @symbol_moduledef = [system_icon_dark__hint_button_left_top,235,15,53]; ]
+        module system_icon_dark__hint_button_left_top {
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 235; ]
+            <init> {
+            }
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 236; @position = 18; @symbol_constdef = [filename,236,18,26]; @symbol_type<0> = [String,236,30,36]; ]
+            const filename as String = "C:\\Users\\flavi\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix7pro\\system_icon_dark__hint_button_left_top.svg";
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 237; @position = 18; @symbol_constdef = [dithering,237,18,27]; @symbol_type<0> = [String,237,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 240; @symbol_moduledef = [system_input__action_menu,240,15,40]; ]
+        module system_input__action_menu {
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 240; ]
+            <init> {
+[ "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen" 241 18 ]
+                symbol [ WatchUi %tmp.115 241 27 34 ];
+                %tmp.115 = getm $.Toybox.WatchUi;
+                symbol [ KEY_ENTER %tmp.116 241 35 44 ];
+                %tmp.116 = getv %tmp.115 :KEY_ENTER;
+                putv self :button %tmp.116;
+            }
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 241; @position = 18; @symbol_constdef = [button,241,18,24]; ]
+            const button;
+        }
+        [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 244; @symbol_moduledef = [system_icon_light__save,244,15,38]; ]
+        module system_icon_light__save {
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 244; ]
+            <init> {
+            }
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 245; @position = 18; @symbol_constdef = [filename,245,18,26]; @symbol_type<0> = [String,245,30,36]; ]
+            const filename as String = "C:\\Users\\flavi\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix7pro\\system_icon_light__save.svg";
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 246; @position = 18; @symbol_constdef = [dithering,246,18,27]; @symbol_type<0> = [String,246,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 249; @symbol_moduledef = [prompt_color_light__body,249,15,39]; ]
+        module prompt_color_light__body {
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 249; ]
+            <init> {
+[ "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen" 251 18 ]
+                symbol [ Graphics %tmp.117 251 31 39 ];
+                %tmp.117 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.118 251 40 57 ];
+                %tmp.118 = getv %tmp.117 :COLOR_TRANSPARENT;
+                putv self :background %tmp.118;
+            }
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 250; @position = 18; @symbol_constdef = [color,250,18,23]; @symbol_type<0> = [Number,250,27,33]; ]
+            const color as Number = 0x000000;
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 251; @position = 18; @symbol_constdef = [background,251,18,28]; ]
+            const background;
+        }
+        [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 254; @symbol_moduledef = [system_loc__subwindow,254,15,36]; ]
+        module system_loc__subwindow {
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 254; ]
+            <init> {
+            }
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 255; @position = 18; @symbol_constdef = [exclude,255,18,25]; @symbol_type<0> = [Boolean,255,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 258; @symbol_moduledef = [system_icon_light__warning,258,15,41]; ]
+        module system_icon_light__warning {
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 258; ]
+            <init> {
+            }
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 259; @position = 18; @symbol_constdef = [filename,259,18,26]; @symbol_type<0> = [String,259,30,36]; ]
+            const filename as String = "C:\\Users\\flavi\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix7pro\\system_icon_light__warning.svg";
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 260; @position = 18; @symbol_constdef = [dithering,260,18,27]; @symbol_type<0> = [String,260,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 263; @symbol_moduledef = [confirmation_color_light__body,263,15,45]; ]
+        module confirmation_color_light__body {
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 263; ]
+            <init> {
+[ "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen" 265 18 ]
+                symbol [ Graphics %tmp.119 265 31 39 ];
+                %tmp.119 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.120 265 40 57 ];
+                %tmp.120 = getv %tmp.119 :COLOR_TRANSPARENT;
+                putv self :background %tmp.120;
+            }
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 264; @position = 18; @symbol_constdef = [color,264,18,23]; @symbol_type<0> = [Number,264,27,33]; ]
+            const color as Number = 0x000000;
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 265; @position = 18; @symbol_constdef = [background,265,18,28]; ]
+            const background;
+        }
+        [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 268; @symbol_moduledef = [confirmation_icon_light__hint_keep,268,15,49]; ]
+        module confirmation_icon_light__hint_keep {
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 268; ]
+            <init> {
+            }
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 269; @position = 18; @symbol_constdef = [filename,269,18,26]; @symbol_type<0> = [String,269,30,36]; ]
+            const filename as String = "C:\\Users\\flavi\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix7pro\\confirmation_icon__hint_keep.svg";
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 270; @position = 18; @symbol_constdef = [dithering,270,18,27]; @symbol_type<0> = [String,270,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 273; @symbol_moduledef = [activity_color_light__background,273,15,47]; ]
+        module activity_color_light__background {
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 273; ]
+            <init> {
+            }
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 274; @position = 18; @symbol_constdef = [color,274,18,23]; @symbol_type<0> = [Number,274,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 275; @position = 18; @symbol_constdef = [background,275,18,28]; @symbol_type<0> = [Number,275,32,38]; ]
+            const background as Number = 0xFFFFFF;
+        }
+        [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 278; @symbol_moduledef = [system_icon_positive__hint_button_right_top,278,15,58]; ]
+        module system_icon_positive__hint_button_right_top {
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 278; ]
+            <init> {
+            }
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 279; @position = 18; @symbol_constdef = [filename,279,18,26]; @symbol_type<0> = [String,279,30,36]; ]
+            const filename as String = "C:\\Users\\flavi\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix7pro\\system_icon_positive__hint_button_right_top.svg";
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 280; @position = 18; @symbol_constdef = [dithering,280,18,27]; @symbol_type<0> = [String,280,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 283; @symbol_moduledef = [system_size__screen,283,15,34]; ]
+        module system_size__screen {
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 283; ]
+            <init> {
+            }
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 284; @position = 18; @symbol_constdef = [width,284,18,23]; @symbol_type<0> = [Number,284,27,33]; ]
+            const width as Number = 260;
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 285; @position = 18; @symbol_constdef = [height,285,18,24]; @symbol_type<0> = [Number,285,28,34]; ]
+            const height as Number = 260;
+        }
+        [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 288; @symbol_moduledef = [system_icon_destructive__hint_button_right_bottom,288,15,64]; ]
+        module system_icon_destructive__hint_button_right_bottom {
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 288; ]
+            <init> {
+            }
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 289; @position = 18; @symbol_constdef = [filename,289,18,26]; @symbol_type<0> = [String,289,30,36]; ]
+            const filename as String = "C:\\Users\\flavi\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix7pro\\system_icon_destructive__hint_button_right_bottom.svg";
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 290; @position = 18; @symbol_constdef = [dithering,290,18,27]; @symbol_type<0> = [String,290,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 293; @symbol_moduledef = [system_color_light__background,293,15,45]; ]
+        module system_color_light__background {
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 293; ]
+            <init> {
+            }
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 294; @position = 18; @symbol_constdef = [color,294,18,23]; @symbol_type<0> = [Number,294,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 295; @position = 18; @symbol_constdef = [background,295,18,28]; @symbol_type<0> = [Number,295,32,38]; ]
+            const background as Number = 0xFFFFFF;
+        }
+        [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 298; @symbol_moduledef = [system_icon_destructive__hint_button_right_top,298,15,61]; ]
+        module system_icon_destructive__hint_button_right_top {
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 298; ]
+            <init> {
+            }
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 299; @position = 18; @symbol_constdef = [filename,299,18,26]; @symbol_type<0> = [String,299,30,36]; ]
+            const filename as String = "C:\\Users\\flavi\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix7pro\\system_icon_destructive__hint_button_right_top.svg";
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 300; @position = 18; @symbol_constdef = [dithering,300,18,27]; @symbol_type<0> = [String,300,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 303; @symbol_moduledef = [confirmation_loc__hint_confirm,303,15,45]; ]
+        module confirmation_loc__hint_confirm {
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 303; ]
+            <init> {
+            }
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 304; @position = 18; @symbol_constdef = [x,304,18,19]; @symbol_type<0> = [Number,304,23,29]; ]
+            const x as Number = 210;
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 305; @position = 18; @symbol_constdef = [y,305,18,19]; @symbol_type<0> = [Number,305,23,29]; ]
+            const y as Number = 48;
+        }
+        [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 308; @symbol_moduledef = [activity_color_dark__text,308,15,40]; ]
+        module activity_color_dark__text {
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 308; ]
+            <init> {
+[ "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen" 310 18 ]
+                symbol [ Graphics %tmp.121 310 31 39 ];
+                %tmp.121 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.122 310 40 57 ];
+                %tmp.122 = getv %tmp.121 :COLOR_TRANSPARENT;
+                putv self :background %tmp.122;
+            }
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 309; @position = 18; @symbol_constdef = [color,309,18,23]; @symbol_type<0> = [Number,309,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 310; @position = 18; @symbol_constdef = [background,310,18,28]; ]
+            const background;
+        }
+        [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 313; @symbol_moduledef = [confirmation_input__keep,313,15,39]; ]
+        module confirmation_input__keep {
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 313; ]
+            <init> {
+[ "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen" 314 18 ]
+                symbol [ WatchUi %tmp.123 314 27 34 ];
+                %tmp.123 = getm $.Toybox.WatchUi;
+                symbol [ KEY_DOWN %tmp.124 314 35 43 ];
+                %tmp.124 = getv %tmp.123 :KEY_DOWN;
+                putv self :button %tmp.124;
+            }
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 314; @position = 18; @symbol_constdef = [button,314,18,24]; ]
+            const button;
+        }
+        [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 317; @symbol_moduledef = [prompt_loc__body_with_title,317,15,42]; ]
+        module prompt_loc__body_with_title {
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 317; ]
+            <init> {
+            }
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 318; @position = 18; @symbol_constdef = [x,318,18,19]; @symbol_type<0> = [Number,318,23,29]; ]
+            const x as Number = 26;
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 319; @position = 18; @symbol_constdef = [y,319,18,19]; @symbol_type<0> = [Number,319,23,29]; ]
+            const y as Number = 78;
+        }
+        [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 322; @symbol_moduledef = [system_icon_dark__search,322,15,39]; ]
+        module system_icon_dark__search {
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 322; ]
+            <init> {
+            }
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 323; @position = 18; @symbol_constdef = [filename,323,18,26]; @symbol_type<0> = [String,323,30,36]; ]
+            const filename as String = "C:\\Users\\flavi\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix7pro\\system_icon_dark__search.svg";
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 324; @position = 18; @symbol_constdef = [compress,324,18,26]; @symbol_type<0> = [String,324,30,36]; ]
+            const compress as String = "true";
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 325; @position = 18; @symbol_constdef = [dithering,325,18,27]; @symbol_type<0> = [String,325,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 326; @position = 18; @symbol_constdef = [automaticPalette,326,18,34]; @symbol_type<0> = [String,326,38,44]; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 329; @symbol_moduledef = [activity_color_light__text,329,15,41]; ]
+        module activity_color_light__text {
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 329; ]
+            <init> {
+[ "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen" 331 18 ]
+                symbol [ Graphics %tmp.125 331 31 39 ];
+                %tmp.125 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.126 331 40 57 ];
+                %tmp.126 = getv %tmp.125 :COLOR_TRANSPARENT;
+                putv self :background %tmp.126;
+            }
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 330; @position = 18; @symbol_constdef = [color,330,18,23]; @symbol_type<0> = [Number,330,27,33]; ]
+            const color as Number = 0x000000;
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 331; @position = 18; @symbol_constdef = [background,331,18,28]; ]
+            const background;
+        }
+        [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 334; @symbol_moduledef = [confirmation_icon__hint_keep,334,15,43]; ]
+        module confirmation_icon__hint_keep {
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 334; ]
+            <init> {
+            }
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 335; @position = 18; @symbol_constdef = [filename,335,18,26]; @symbol_type<0> = [String,335,30,36]; ]
+            const filename as String = "C:\\Users\\flavi\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix7pro\\confirmation_icon__hint_keep.svg";
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 336; @position = 18; @symbol_constdef = [dithering,336,18,27]; @symbol_type<0> = [String,336,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 339; @symbol_moduledef = [system_icon_dark__save,339,15,37]; ]
+        module system_icon_dark__save {
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 339; ]
+            <init> {
+            }
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 340; @position = 18; @symbol_constdef = [filename,340,18,26]; @symbol_type<0> = [String,340,30,36]; ]
+            const filename as String = "C:\\Users\\flavi\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix7pro\\system_icon_dark__save.svg";
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 341; @position = 18; @symbol_constdef = [compress,341,18,26]; @symbol_type<0> = [String,341,30,36]; ]
+            const compress as String = "true";
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 342; @position = 18; @symbol_constdef = [dithering,342,18,27]; @symbol_type<0> = [String,342,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 343; @position = 18; @symbol_constdef = [automaticPalette,343,18,34]; @symbol_type<0> = [String,343,38,44]; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 346; @symbol_moduledef = [system_icon_destructive__hint_button_left_middle,346,15,63]; ]
+        module system_icon_destructive__hint_button_left_middle {
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 346; ]
+            <init> {
+            }
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 347; @position = 18; @symbol_constdef = [filename,347,18,26]; @symbol_type<0> = [String,347,30,36]; ]
+            const filename as String = "C:\\Users\\flavi\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix7pro\\system_icon_destructive__hint_button_left_middle.svg";
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 348; @position = 18; @symbol_constdef = [dithering,348,18,27]; @symbol_type<0> = [String,348,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 351; @symbol_moduledef = [system_icon_light__search,351,15,40]; ]
+        module system_icon_light__search {
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 351; ]
+            <init> {
+            }
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 352; @position = 18; @symbol_constdef = [filename,352,18,26]; @symbol_type<0> = [String,352,30,36]; ]
+            const filename as String = "C:\\Users\\flavi\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix7pro\\system_icon_light__search.svg";
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 353; @position = 18; @symbol_constdef = [dithering,353,18,27]; @symbol_type<0> = [String,353,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 356; @symbol_moduledef = [system_icon_dark__hint_button_left_bottom,356,15,56]; ]
+        module system_icon_dark__hint_button_left_bottom {
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 356; ]
+            <init> {
+            }
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 357; @position = 18; @symbol_constdef = [filename,357,18,26]; @symbol_type<0> = [String,357,30,36]; ]
+            const filename as String = "C:\\Users\\flavi\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix7pro\\system_icon_dark__hint_button_left_bottom.svg";
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 358; @position = 18; @symbol_constdef = [dithering,358,18,27]; @symbol_type<0> = [String,358,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 361; @symbol_moduledef = [system_icon_positive__hint_button_left_top,361,15,57]; ]
+        module system_icon_positive__hint_button_left_top {
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 361; ]
+            <init> {
+            }
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 362; @position = 18; @symbol_constdef = [filename,362,18,26]; @symbol_type<0> = [String,362,30,36]; ]
+            const filename as String = "C:\\Users\\flavi\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix7pro\\system_icon_positive__hint_button_left_top.svg";
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 363; @position = 18; @symbol_constdef = [dithering,363,18,27]; @symbol_type<0> = [String,363,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 366; @symbol_moduledef = [system_loc__hint_button_right_bottom,366,15,51]; ]
+        module system_loc__hint_button_right_bottom {
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 366; ]
+            <init> {
+            }
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 367; @position = 18; @symbol_constdef = [x,367,18,19]; @symbol_type<0> = [Number,367,23,29]; ]
+            const x as Number = 225;
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 368; @position = 18; @symbol_constdef = [y,368,18,19]; @symbol_type<0> = [Number,368,23,29]; ]
+            const y as Number = 172;
+        }
+        [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 371; @symbol_moduledef = [confirmation_icon_dark__hint_reject,371,15,50]; ]
+        module confirmation_icon_dark__hint_reject {
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 371; ]
+            <init> {
+            }
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 372; @position = 18; @symbol_constdef = [filename,372,18,26]; @symbol_type<0> = [String,372,30,36]; ]
+            const filename as String = "C:\\Users\\flavi\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix7pro\\confirmation_icon__hint_reject.svg";
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 373; @position = 18; @symbol_constdef = [dithering,373,18,27]; @symbol_type<0> = [String,373,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 376; @symbol_moduledef = [confirmation_color_dark__body,376,15,44]; ]
+        module confirmation_color_dark__body {
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 376; ]
+            <init> {
+[ "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen" 378 18 ]
+                symbol [ Graphics %tmp.127 378 31 39 ];
+                %tmp.127 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.128 378 40 57 ];
+                %tmp.128 = getv %tmp.127 :COLOR_TRANSPARENT;
+                putv self :background %tmp.128;
+            }
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 377; @position = 18; @symbol_constdef = [color,377,18,23]; @symbol_type<0> = [Number,377,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 378; @position = 18; @symbol_constdef = [background,378,18,28]; ]
+            const background;
+        }
+        [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 381; @symbol_moduledef = [confirmation_icon_light__hint_confirm,381,15,52]; ]
+        module confirmation_icon_light__hint_confirm {
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 381; ]
+            <init> {
+            }
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 382; @position = 18; @symbol_constdef = [filename,382,18,26]; @symbol_type<0> = [String,382,30,36]; ]
+            const filename as String = "C:\\Users\\flavi\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix7pro\\confirmation_icon__hint_completion.svg";
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 383; @position = 18; @symbol_constdef = [dithering,383,18,27]; @symbol_type<0> = [String,383,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 386; @symbol_moduledef = [prompt_color_dark__title,386,15,39]; ]
+        module prompt_color_dark__title {
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 386; ]
+            <init> {
+[ "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen" 388 18 ]
+                symbol [ Graphics %tmp.129 388 31 39 ];
+                %tmp.129 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.130 388 40 57 ];
+                %tmp.130 = getv %tmp.129 :COLOR_TRANSPARENT;
+                putv self :background %tmp.130;
+            }
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 387; @position = 18; @symbol_constdef = [color,387,18,23]; @symbol_type<0> = [Number,387,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 388; @position = 18; @symbol_constdef = [background,388,18,28]; ]
+            const background;
+        }
+        [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 391; @symbol_moduledef = [system_icon_destructive__cancel,391,15,46]; ]
+        module system_icon_destructive__cancel {
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 391; ]
+            <init> {
+            }
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 392; @position = 18; @symbol_constdef = [filename,392,18,26]; @symbol_type<0> = [String,392,30,36]; ]
+            const filename as String = "C:\\Users\\flavi\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix7pro\\system_icon_destructive__cancel.svg";
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 393; @position = 18; @symbol_constdef = [dithering,393,18,27]; @symbol_type<0> = [String,393,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 396; @symbol_moduledef = [system_icon_light__hint_button_right_bottom,396,15,58]; ]
+        module system_icon_light__hint_button_right_bottom {
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 396; ]
+            <init> {
+            }
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 397; @position = 18; @symbol_constdef = [filename,397,18,26]; @symbol_type<0> = [String,397,30,36]; ]
+            const filename as String = "C:\\Users\\flavi\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix7pro\\system_icon_light__hint_button_right_bottom.svg";
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 398; @position = 18; @symbol_constdef = [dithering,398,18,27]; @symbol_type<0> = [String,398,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 401; @symbol_moduledef = [prompt_loc__title,401,15,32]; ]
+        module prompt_loc__title {
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 401; ]
+            <init> {
+            }
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 402; @position = 18; @symbol_constdef = [x,402,18,19]; @symbol_type<0> = [Number,402,23,29]; ]
+            const x as Number = 26;
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 403; @position = 18; @symbol_constdef = [y,403,18,19]; @symbol_type<0> = [Number,403,23,29]; ]
+            const y as Number = 19;
+        }
+        [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 406; @symbol_moduledef = [confirmation_font_enhanced_readability__body,406,15,59]; ]
+        module confirmation_font_enhanced_readability__body {
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 406; ]
+            <init> {
+            }
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 407; @position = 18; @symbol_constdef = [exclude,407,18,25]; @symbol_type<0> = [Boolean,407,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 410; @symbol_moduledef = [prompt_color_light__title,410,15,40]; ]
+        module prompt_color_light__title {
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 410; ]
+            <init> {
+[ "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen" 412 18 ]
+                symbol [ Graphics %tmp.131 412 31 39 ];
+                %tmp.131 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.132 412 40 57 ];
+                %tmp.132 = getv %tmp.131 :COLOR_TRANSPARENT;
+                putv self :background %tmp.132;
+            }
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 411; @position = 18; @symbol_constdef = [color,411,18,23]; @symbol_type<0> = [Number,411,27,33]; ]
+            const color as Number = 0x000000;
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 412; @position = 18; @symbol_constdef = [background,412,18,28]; ]
+            const background;
+        }
+        [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 415; @symbol_moduledef = [system_icon_dark__hint_button_right_top,415,15,54]; ]
+        module system_icon_dark__hint_button_right_top {
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 415; ]
+            <init> {
+            }
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 416; @position = 18; @symbol_constdef = [filename,416,18,26]; @symbol_type<0> = [String,416,30,36]; ]
+            const filename as String = "C:\\Users\\flavi\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix7pro\\system_icon_dark__hint_button_right_top.svg";
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 417; @position = 18; @symbol_constdef = [dithering,417,18,27]; @symbol_type<0> = [String,417,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 420; @symbol_moduledef = [system_icon_dark__hint_button_left_middle,420,15,56]; ]
+        module system_icon_dark__hint_button_left_middle {
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 420; ]
+            <init> {
+            }
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 421; @position = 18; @symbol_constdef = [filename,421,18,26]; @symbol_type<0> = [String,421,30,36]; ]
+            const filename as String = "C:\\Users\\flavi\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix7pro\\system_icon_dark__hint_button_left_middle.svg";
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 422; @position = 18; @symbol_constdef = [dithering,422,18,27]; @symbol_type<0> = [String,422,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 425; @symbol_moduledef = [confirmation_icon_dark__hint_keep,425,15,48]; ]
+        module confirmation_icon_dark__hint_keep {
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 425; ]
+            <init> {
+            }
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 426; @position = 18; @symbol_constdef = [filename,426,18,26]; @symbol_type<0> = [String,426,30,36]; ]
+            const filename as String = "C:\\Users\\flavi\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix7pro\\confirmation_icon__hint_keep.svg";
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 427; @position = 18; @symbol_constdef = [dithering,427,18,27]; @symbol_type<0> = [String,427,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 430; @symbol_moduledef = [system_icon_light__cancel,430,15,40]; ]
+        module system_icon_light__cancel {
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 430; ]
+            <init> {
+            }
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 431; @position = 18; @symbol_constdef = [filename,431,18,26]; @symbol_type<0> = [String,431,30,36]; ]
+            const filename as String = "C:\\Users\\flavi\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix7pro\\system_icon_light__cancel.svg";
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 432; @position = 18; @symbol_constdef = [dithering,432,18,27]; @symbol_type<0> = [String,432,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 435; @symbol_moduledef = [confirmation_icon_light__hint_reject,435,15,51]; ]
+        module confirmation_icon_light__hint_reject {
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 435; ]
+            <init> {
+            }
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 436; @position = 18; @symbol_constdef = [filename,436,18,26]; @symbol_type<0> = [String,436,30,36]; ]
+            const filename as String = "C:\\Users\\flavi\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix7pro\\confirmation_icon__hint_reject.svg";
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 437; @position = 18; @symbol_constdef = [dithering,437,18,27]; @symbol_type<0> = [String,437,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 440; @symbol_moduledef = [system_icon_light__about,440,15,39]; ]
+        module system_icon_light__about {
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 440; ]
+            <init> {
+            }
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 441; @position = 18; @symbol_constdef = [filename,441,18,26]; @symbol_type<0> = [String,441,30,36]; ]
+            const filename as String = "C:\\Users\\flavi\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix7pro\\system_icon_light__about.svg";
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 442; @position = 18; @symbol_constdef = [dithering,442,18,27]; @symbol_type<0> = [String,442,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 445; @symbol_moduledef = [system_size__toast_icon,445,15,38]; ]
+        module system_size__toast_icon {
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 445; ]
+            <init> {
+            }
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 446; @position = 18; @symbol_constdef = [scaleX,446,18,24]; @symbol_type<0> = [Number,446,28,34]; ]
+            const scaleX as Number = 40;
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 447; @position = 18; @symbol_constdef = [scaleY,447,18,24]; @symbol_type<0> = [Number,447,28,34]; ]
+            const scaleY as Number = 40;
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 448; @position = 18; @symbol_constdef = [scaleRelativeTo,448,18,33]; @symbol_type<0> = [String,448,37,43]; ]
+            const scaleRelativeTo as String = "screen";
+        }
+        [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 451; @symbol_moduledef = [system_icon_dark__hint_button_right_middle,451,15,57]; ]
+        module system_icon_dark__hint_button_right_middle {
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 451; ]
+            <init> {
+            }
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 452; @position = 18; @symbol_constdef = [exclude,452,18,25]; @symbol_type<0> = [Boolean,452,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 455; @symbol_moduledef = [confirmation_icon__hint_reject,455,15,45]; ]
+        module confirmation_icon__hint_reject {
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 455; ]
+            <init> {
+            }
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 456; @position = 18; @symbol_constdef = [filename,456,18,26]; @symbol_type<0> = [String,456,30,36]; ]
+            const filename as String = "C:\\Users\\flavi\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix7pro\\confirmation_icon__hint_reject.svg";
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 457; @position = 18; @symbol_constdef = [dithering,457,18,27]; @symbol_type<0> = [String,457,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 460; @symbol_moduledef = [system_icon_light__hint_action_menu,460,15,50]; ]
+        module system_icon_light__hint_action_menu {
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 460; ]
+            <init> {
+            }
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 461; @position = 18; @symbol_constdef = [filename,461,18,26]; @symbol_type<0> = [String,461,30,36]; ]
+            const filename as String = "C:\\Users\\flavi\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix7pro\\system_icon_light__hint_button_right_top.svg";
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 462; @position = 18; @symbol_constdef = [dithering,462,18,27]; @symbol_type<0> = [String,462,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 465; @symbol_moduledef = [system_icon_light__hint_button_right_middle,465,15,58]; ]
+        module system_icon_light__hint_button_right_middle {
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 465; ]
+            <init> {
+            }
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 466; @position = 18; @symbol_constdef = [exclude,466,18,25]; @symbol_type<0> = [Boolean,466,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 469; @symbol_moduledef = [system_icon_destructive__hint_button_right_middle,469,15,64]; ]
+        module system_icon_destructive__hint_button_right_middle {
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 469; ]
+            <init> {
+            }
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 470; @position = 18; @symbol_constdef = [exclude,470,18,25]; @symbol_type<0> = [Boolean,470,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 473; @symbol_moduledef = [confirmation_loc__hint_reject,473,15,44]; ]
+        module confirmation_loc__hint_reject {
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 473; ]
+            <init> {
+            }
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 474; @position = 18; @symbol_constdef = [x,474,18,19]; @symbol_type<0> = [Number,474,23,29]; ]
+            const x as Number = 10;
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 475; @position = 18; @symbol_constdef = [y,475,18,19]; @symbol_type<0> = [Number,475,23,29]; ]
+            const y as Number = 172;
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 476; @position = 18; @symbol_constdef = [horizontalJustification,476,18,41]; @symbol_type<0> = [String,476,45,51]; ]
+            const horizontalJustification as String = "left";
+        }
+        [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 479; @symbol_moduledef = [confirmation_icon_dark__hint_delete,479,15,50]; ]
+        module confirmation_icon_dark__hint_delete {
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 479; ]
+            <init> {
+            }
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 480; @position = 18; @symbol_constdef = [filename,480,18,26]; @symbol_type<0> = [String,480,30,36]; ]
+            const filename as String = "C:\\Users\\flavi\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix7pro\\confirmation_icon__hint_delete.svg";
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 481; @position = 18; @symbol_constdef = [dithering,481,18,27]; @symbol_type<0> = [String,481,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 484; @symbol_moduledef = [activity_color_dark__background,484,15,46]; ]
+        module activity_color_dark__background {
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 484; ]
+            <init> {
+            }
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 485; @position = 18; @symbol_constdef = [color,485,18,23]; @symbol_type<0> = [Number,485,27,33]; ]
+            const color as Number = 0x000000;
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 486; @position = 18; @symbol_constdef = [background,486,18,28]; @symbol_type<0> = [Number,486,32,38]; ]
+            const background as Number = 0x000000;
+        }
+        [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 489; @symbol_moduledef = [system_icon_light__hint_button_left_bottom,489,15,57]; ]
+        module system_icon_light__hint_button_left_bottom {
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 489; ]
+            <init> {
+            }
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 490; @position = 18; @symbol_constdef = [filename,490,18,26]; @symbol_type<0> = [String,490,30,36]; ]
+            const filename as String = "C:\\Users\\flavi\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix7pro\\system_icon_light__hint_button_left_bottom.svg";
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 491; @position = 18; @symbol_constdef = [dithering,491,18,27]; @symbol_type<0> = [String,491,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 494; @symbol_moduledef = [system_icon_positive__hint_button_left_middle,494,15,60]; ]
+        module system_icon_positive__hint_button_left_middle {
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 494; ]
+            <init> {
+            }
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 495; @position = 18; @symbol_constdef = [filename,495,18,26]; @symbol_type<0> = [String,495,30,36]; ]
+            const filename as String = "C:\\Users\\flavi\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix7pro\\system_icon_positive__hint_button_left_middle.svg";
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 496; @position = 18; @symbol_constdef = [dithering,496,18,27]; @symbol_type<0> = [String,496,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 499; @symbol_moduledef = [system_size__menu_icon,499,15,37]; ]
+        module system_size__menu_icon {
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 499; ]
+            <init> {
+            }
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 500; @position = 18; @symbol_constdef = [scaleX,500,18,24]; @symbol_type<0> = [Number,500,28,34]; ]
+            const scaleX as Number = 40;
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 501; @position = 18; @symbol_constdef = [scaleY,501,18,24]; @symbol_type<0> = [Number,501,28,34]; ]
+            const scaleY as Number = 40;
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 502; @position = 18; @symbol_constdef = [scaleRelativeTo,502,18,33]; @symbol_type<0> = [String,502,37,43]; ]
+            const scaleRelativeTo as String = "screen";
+        }
+        [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 505; @symbol_moduledef = [system_icon_destructive__warning,505,15,47]; ]
+        module system_icon_destructive__warning {
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 505; ]
+            <init> {
+            }
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 506; @position = 18; @symbol_constdef = [filename,506,18,26]; @symbol_type<0> = [String,506,30,36]; ]
+            const filename as String = "C:\\Users\\flavi\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix7pro\\system_icon_destructive__warning.svg";
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 507; @position = 18; @symbol_constdef = [dithering,507,18,27]; @symbol_type<0> = [String,507,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 510; @symbol_moduledef = [system_loc__hint_button_right_middle,510,15,51]; ]
+        module system_loc__hint_button_right_middle {
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 510; ]
+            <init> {
+            }
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 511; @position = 18; @symbol_constdef = [exclude,511,18,25]; @symbol_type<0> = [Boolean,511,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 514; @symbol_moduledef = [system_icon_dark__cancel,514,15,39]; ]
+        module system_icon_dark__cancel {
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 514; ]
+            <init> {
+            }
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 515; @position = 18; @symbol_constdef = [filename,515,18,26]; @symbol_type<0> = [String,515,30,36]; ]
+            const filename as String = "C:\\Users\\flavi\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix7pro\\system_icon_dark__cancel.svg";
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 516; @position = 18; @symbol_constdef = [compress,516,18,26]; @symbol_type<0> = [String,516,30,36]; ]
+            const compress as String = "true";
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 517; @position = 18; @symbol_constdef = [dithering,517,18,27]; @symbol_type<0> = [String,517,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 518; @position = 18; @symbol_constdef = [automaticPalette,518,18,34]; @symbol_type<0> = [String,518,38,44]; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 521; @symbol_moduledef = [prompt_size__body_with_title,521,15,43]; ]
+        module prompt_size__body_with_title {
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 521; ]
+            <init> {
+            }
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 522; @position = 18; @symbol_constdef = [width,522,18,23]; @symbol_type<0> = [Number,522,27,33]; ]
+            const width as Number = 208;
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 523; @position = 18; @symbol_constdef = [height,523,18,24]; @symbol_type<0> = [Number,523,28,34]; ]
+            const height as Number = 156;
+        }
+        [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 526; @symbol_moduledef = [system_loc__hint_button_right_top,526,15,48]; ]
+        module system_loc__hint_button_right_top {
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 526; ]
+            <init> {
+            }
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 527; @position = 18; @symbol_constdef = [x,527,18,19]; @symbol_type<0> = [Number,527,23,29]; ]
+            const x as Number = 225;
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 528; @position = 18; @symbol_constdef = [y,528,18,19]; @symbol_type<0> = [Number,528,23,29]; ]
+            const y as Number = 48;
+        }
+        [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 531; @symbol_moduledef = [system_color_light__text,531,15,39]; ]
+        module system_color_light__text {
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 531; ]
+            <init> {
+[ "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen" 533 18 ]
+                symbol [ Graphics %tmp.133 533 31 39 ];
+                %tmp.133 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.134 533 40 57 ];
+                %tmp.134 = getv %tmp.133 :COLOR_TRANSPARENT;
+                putv self :background %tmp.134;
+            }
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 532; @position = 18; @symbol_constdef = [color,532,18,23]; @symbol_type<0> = [Number,532,27,33]; ]
+            const color as Number = 0x000000;
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 533; @position = 18; @symbol_constdef = [background,533,18,28]; ]
+            const background;
+        }
+        [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 536; @symbol_moduledef = [system_icon_light__check,536,15,39]; ]
+        module system_icon_light__check {
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 536; ]
+            <init> {
+            }
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 537; @position = 18; @symbol_constdef = [filename,537,18,26]; @symbol_type<0> = [String,537,30,36]; ]
+            const filename as String = "C:\\Users\\flavi\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix7pro\\system_icon_light__check.svg";
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 538; @position = 18; @symbol_constdef = [dithering,538,18,27]; @symbol_type<0> = [String,538,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 541; @symbol_moduledef = [confirmation_input__reject,541,15,41]; ]
+        module confirmation_input__reject {
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 541; ]
+            <init> {
+[ "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen" 542 18 ]
+                symbol [ WatchUi %tmp.135 542 27 34 ];
+                %tmp.135 = getm $.Toybox.WatchUi;
+                symbol [ KEY_DOWN %tmp.136 542 35 43 ];
+                %tmp.136 = getv %tmp.135 :KEY_DOWN;
+                putv self :button %tmp.136;
+            }
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 542; @position = 18; @symbol_constdef = [button,542,18,24]; ]
+            const button;
+        }
+        [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 545; @symbol_moduledef = [system_icon_light__revert,545,15,40]; ]
+        module system_icon_light__revert {
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 545; ]
+            <init> {
+            }
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 546; @position = 18; @symbol_constdef = [filename,546,18,26]; @symbol_type<0> = [String,546,30,36]; ]
+            const filename as String = "C:\\Users\\flavi\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix7pro\\system_icon_light__revert.svg";
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 547; @position = 18; @symbol_constdef = [dithering,547,18,27]; @symbol_type<0> = [String,547,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 550; @symbol_moduledef = [system_size__subwindow,550,15,37]; ]
+        module system_size__subwindow {
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 550; ]
+            <init> {
+            }
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 551; @position = 18; @symbol_constdef = [exclude,551,18,25]; @symbol_type<0> = [Boolean,551,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 554; @symbol_moduledef = [system_icon_positive__hint_button_left_bottom,554,15,60]; ]
+        module system_icon_positive__hint_button_left_bottom {
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 554; ]
+            <init> {
+            }
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 555; @position = 18; @symbol_constdef = [filename,555,18,26]; @symbol_type<0> = [String,555,30,36]; ]
+            const filename as String = "C:\\Users\\flavi\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix7pro\\system_icon_positive__hint_button_left_bottom.svg";
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 556; @position = 18; @symbol_constdef = [dithering,556,18,27]; @symbol_type<0> = [String,556,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 559; @symbol_moduledef = [system_icon_dark__check,559,15,38]; ]
+        module system_icon_dark__check {
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 559; ]
+            <init> {
+            }
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 560; @position = 18; @symbol_constdef = [filename,560,18,26]; @symbol_type<0> = [String,560,30,36]; ]
+            const filename as String = "C:\\Users\\flavi\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix7pro\\system_icon_dark__check.svg";
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 561; @position = 18; @symbol_constdef = [compress,561,18,26]; @symbol_type<0> = [String,561,30,36]; ]
+            const compress as String = "true";
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 562; @position = 18; @symbol_constdef = [dithering,562,18,27]; @symbol_type<0> = [String,562,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 563; @position = 18; @symbol_constdef = [automaticPalette,563,18,34]; @symbol_type<0> = [String,563,38,44]; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 566; @symbol_moduledef = [confirmation_loc__hint_keep,566,15,42]; ]
+        module confirmation_loc__hint_keep {
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 566; ]
+            <init> {
+            }
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 567; @position = 18; @symbol_constdef = [x,567,18,19]; @symbol_type<0> = [Number,567,23,29]; ]
+            const x as Number = 10;
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 568; @position = 18; @symbol_constdef = [y,568,18,19]; @symbol_type<0> = [Number,568,23,29]; ]
+            const y as Number = 172;
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 569; @position = 18; @symbol_constdef = [horizontalJustification,569,18,41]; @symbol_type<0> = [String,569,45,51]; ]
+            const horizontalJustification as String = "left";
+        }
+        [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 572; @symbol_moduledef = [confirmation_loc__hint_delete,572,15,44]; ]
+        module confirmation_loc__hint_delete {
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 572; ]
+            <init> {
+            }
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 573; @position = 18; @symbol_constdef = [x,573,18,19]; @symbol_type<0> = [Number,573,23,29]; ]
+            const x as Number = 210;
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 574; @position = 18; @symbol_constdef = [y,574,18,19]; @symbol_type<0> = [Number,574,23,29]; ]
+            const y as Number = 48;
+        }
+        [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 577; @symbol_moduledef = [system_icon_positive__hint_action_menu,577,15,53]; ]
+        module system_icon_positive__hint_action_menu {
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 577; ]
+            <init> {
+            }
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 578; @position = 18; @symbol_constdef = [filename,578,18,26]; @symbol_type<0> = [String,578,30,36]; ]
+            const filename as String = "C:\\Users\\flavi\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix7pro\\system_icon_positive__hint_button_right_top.svg";
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 579; @position = 18; @symbol_constdef = [dithering,579,18,27]; @symbol_type<0> = [String,579,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 582; @symbol_moduledef = [system_icon_positive__hint_button_right_middle,582,15,61]; ]
+        module system_icon_positive__hint_button_right_middle {
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 582; ]
+            <init> {
+            }
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 583; @position = 18; @symbol_constdef = [exclude,583,18,25]; @symbol_type<0> = [Boolean,583,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 586; @symbol_moduledef = [system_icon_light__hint_button_left_middle,586,15,57]; ]
+        module system_icon_light__hint_button_left_middle {
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 586; ]
+            <init> {
+            }
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 587; @position = 18; @symbol_constdef = [filename,587,18,26]; @symbol_type<0> = [String,587,30,36]; ]
+            const filename as String = "C:\\Users\\flavi\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix7pro\\system_icon_light__hint_button_left_middle.svg";
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 588; @position = 18; @symbol_constdef = [dithering,588,18,27]; @symbol_type<0> = [String,588,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 591; @symbol_moduledef = [system_icon_dark__hint_button_right_bottom,591,15,57]; ]
+        module system_icon_dark__hint_button_right_bottom {
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 591; ]
+            <init> {
+            }
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 592; @position = 18; @symbol_constdef = [filename,592,18,26]; @symbol_type<0> = [String,592,30,36]; ]
+            const filename as String = "C:\\Users\\flavi\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix7pro\\system_icon_dark__hint_button_right_bottom.svg";
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 593; @position = 18; @symbol_constdef = [dithering,593,18,27]; @symbol_type<0> = [String,593,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 596; @symbol_moduledef = [system_icon_positive__hint_button_right_bottom,596,15,61]; ]
+        module system_icon_positive__hint_button_right_bottom {
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 596; ]
+            <init> {
+            }
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 597; @position = 18; @symbol_constdef = [filename,597,18,26]; @symbol_type<0> = [String,597,30,36]; ]
+            const filename as String = "C:\\Users\\flavi\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix7pro\\system_icon_positive__hint_button_right_bottom.svg";
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 598; @position = 18; @symbol_constdef = [dithering,598,18,27]; @symbol_type<0> = [String,598,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 601; @symbol_moduledef = [system_icon_dark__revert,601,15,39]; ]
+        module system_icon_dark__revert {
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 601; ]
+            <init> {
+            }
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 602; @position = 18; @symbol_constdef = [filename,602,18,26]; @symbol_type<0> = [String,602,30,36]; ]
+            const filename as String = "C:\\Users\\flavi\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix7pro\\system_icon_dark__revert.svg";
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 603; @position = 18; @symbol_constdef = [compress,603,18,26]; @symbol_type<0> = [String,603,30,36]; ]
+            const compress as String = "true";
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 604; @position = 18; @symbol_constdef = [dithering,604,18,27]; @symbol_type<0> = [String,604,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 605; @position = 18; @symbol_constdef = [automaticPalette,605,18,34]; @symbol_type<0> = [String,605,38,44]; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 608; @symbol_moduledef = [confirmation_icon_light__hint_delete,608,15,51]; ]
+        module confirmation_icon_light__hint_delete {
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 608; ]
+            <init> {
+            }
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 609; @position = 18; @symbol_constdef = [filename,609,18,26]; @symbol_type<0> = [String,609,30,36]; ]
+            const filename as String = "C:\\Users\\flavi\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix7pro\\confirmation_icon__hint_delete.svg";
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 610; @position = 18; @symbol_constdef = [dithering,610,18,27]; @symbol_type<0> = [String,610,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 613; @symbol_moduledef = [system_icon_dark__question,613,15,41]; ]
+        module system_icon_dark__question {
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 613; ]
+            <init> {
+            }
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 614; @position = 18; @symbol_constdef = [filename,614,18,26]; @symbol_type<0> = [String,614,30,36]; ]
+            const filename as String = "C:\\Users\\flavi\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix7pro\\system_icon_dark__question.svg";
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 615; @position = 18; @symbol_constdef = [compress,615,18,26]; @symbol_type<0> = [String,615,30,36]; ]
+            const compress as String = "true";
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 616; @position = 18; @symbol_constdef = [dithering,616,18,27]; @symbol_type<0> = [String,616,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 617; @position = 18; @symbol_constdef = [automaticPalette,617,18,34]; @symbol_type<0> = [String,617,38,44]; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 620; @symbol_moduledef = [system_icon_light__discard,620,15,41]; ]
+        module system_icon_light__discard {
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 620; ]
+            <init> {
+            }
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 621; @position = 18; @symbol_constdef = [filename,621,18,26]; @symbol_type<0> = [String,621,30,36]; ]
+            const filename as String = "C:\\Users\\flavi\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix7pro\\system_icon_light__discard.svg";
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 622; @position = 18; @symbol_constdef = [dithering,622,18,27]; @symbol_type<0> = [String,622,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 625; @symbol_moduledef = [device_info,625,15,26]; ]
+        module device_info {
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 625; ]
+            <init> {
+[ "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen" 627 18 ]
+                symbol [ Toybox %tmp.138 627 32 38 ];
+                %tmp.138 = getv ? :Toybox;
+                symbol [ System %tmp.139 627 39 45 ];
+                %tmp.139 = getv %tmp.138 :System;
+                symbol [ SCREEN_SHAPE_ROUND %tmp.140 627 46 64 ];
+                %tmp.140 = getv %tmp.139 :SCREEN_SHAPE_ROUND;
+                putv self :screenShape %tmp.140;
+            }
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 626; @position = 18; @symbol_constdef = [screenWidth,626,18,29]; @symbol_type<0> = [Number,626,33,39]; ]
+            const screenWidth as Number = 260;
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 627; @position = 18; @symbol_constdef = [screenShape,627,18,29]; ]
+            const screenShape;
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 628; @position = 18; @symbol_constdef = [hasNightMode,628,18,30]; @symbol_type<0> = [Boolean,628,34,41]; ]
+            const hasNightMode as Boolean = false;
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 629; @position = 18; @symbol_constdef = [hasGpu,629,18,24]; @symbol_type<0> = [Boolean,629,28,35]; ]
+            const hasGpu as Boolean = true;
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 630; @position = 18; @symbol_constdef = [screenHeight,630,18,30]; @symbol_type<0> = [Number,630,34,40]; ]
+            const screenHeight as Number = 260;
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 631; @position = 18; @symbol_constdef = [hasTouchScreen,631,18,32]; @symbol_type<0> = [Boolean,631,36,43]; ]
+            const hasTouchScreen as Boolean = true;
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 632; @position = 18; @symbol_constdef = [hasEnhancedReadabilityMode,632,18,44]; @symbol_type<0> = [Boolean,632,48,55]; ]
+            const hasEnhancedReadabilityMode as Boolean = false;
+        }
+        [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 635; @symbol_moduledef = [confirmation_icon_dark__hint_confirm,635,15,51]; ]
+        module confirmation_icon_dark__hint_confirm {
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 635; ]
+            <init> {
+            }
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 636; @position = 18; @symbol_constdef = [filename,636,18,26]; @symbol_type<0> = [String,636,30,36]; ]
+            const filename as String = "C:\\Users\\flavi\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix7pro\\confirmation_icon__hint_completion.svg";
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 637; @position = 18; @symbol_constdef = [dithering,637,18,27]; @symbol_type<0> = [String,637,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 640; @symbol_moduledef = [prompt_font__body_no_title,640,15,41]; ]
+        module prompt_font__body_no_title {
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 640; ]
+            <init> {
+[ "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen" 641 18 ]
+                symbol [ Graphics %tmp.141 641 34 42 ];
+                %tmp.141 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_CENTER %tmp.142 641 43 62 ];
+                %tmp.142 = getv %tmp.141 :TEXT_JUSTIFY_CENTER;
+                symbol [ Graphics %tmp.143 641 63 71 ];
+                %tmp.143 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_VCENTER %tmp.144 641 72 92 ];
+                %tmp.144 = getv %tmp.143 :TEXT_JUSTIFY_VCENTER;
+                %tmp.145 = bitor %tmp.142 %tmp.144;
+                putv self :justification %tmp.145;
+[ "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen" 642 18 ]
+                symbol [ Graphics %tmp.146 642 25 33 ];
+                %tmp.146 = getm $.Toybox.Graphics;
+                symbol [ FONT_TINY %tmp.147 642 34 43 ];
+                %tmp.147 = getv %tmp.146 :FONT_TINY;
+                putv self :font %tmp.147;
+            }
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 641; @position = 18; @symbol_constdef = [justification,641,18,31]; ]
+            const justification;
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 642; @position = 18; @symbol_constdef = [font,642,18,22]; ]
+            const font;
+        }
+        [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 645; @symbol_moduledef = [prompt_size__title_icon,645,15,38]; ]
+        module prompt_size__title_icon {
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 645; ]
+            <init> {
+            }
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 646; @position = 18; @symbol_constdef = [scaleX,646,18,24]; @symbol_type<0> = [Float,646,28,33]; ]
+            const scaleX as Float = 0.15;
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 647; @position = 18; @symbol_constdef = [scaleRelativeTo,647,18,33]; @symbol_type<0> = [String,647,37,43]; ]
+            const scaleRelativeTo as String = "screen";
+        }
+        [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 650; @symbol_moduledef = [system_icon_dark__warning,650,15,40]; ]
+        module system_icon_dark__warning {
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 650; ]
+            <init> {
+            }
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 651; @position = 18; @symbol_constdef = [filename,651,18,26]; @symbol_type<0> = [String,651,30,36]; ]
+            const filename as String = "C:\\Users\\flavi\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix7pro\\system_icon_dark__warning.svg";
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 652; @position = 18; @symbol_constdef = [compress,652,18,26]; @symbol_type<0> = [String,652,30,36]; ]
+            const compress as String = "true";
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 653; @position = 18; @symbol_constdef = [dithering,653,18,27]; @symbol_type<0> = [String,653,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 654; @position = 18; @symbol_constdef = [automaticPalette,654,18,34]; @symbol_type<0> = [String,654,38,44]; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 657; @symbol_moduledef = [prompt_loc__title_icon,657,15,37]; ]
+        module prompt_loc__title_icon {
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 657; ]
+            <init> {
+            }
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 658; @position = 18; @symbol_constdef = [x,658,18,19]; @symbol_type<0> = [Number,658,23,29]; ]
+            const x as Number = 130;
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 659; @position = 18; @symbol_constdef = [y,659,18,19]; @symbol_type<0> = [Number,659,23,29]; ]
+            const y as Number = 39;
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 660; @position = 18; @symbol_constdef = [horizontalJustification,660,18,41]; @symbol_type<0> = [String,660,45,51]; ]
+            const horizontalJustification as String = "center";
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 661; @position = 18; @symbol_constdef = [verticalJustification,661,18,39]; @symbol_type<0> = [String,661,43,49]; ]
+            const verticalJustification as String = "center";
+        }
+        [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 664; @symbol_moduledef = [prompt_font_enhanced_readability__title,664,15,54]; ]
+        module prompt_font_enhanced_readability__title {
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 664; ]
+            <init> {
+            }
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 665; @position = 18; @symbol_constdef = [exclude,665,18,25]; @symbol_type<0> = [Boolean,665,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 668; @symbol_moduledef = [prompt_color_dark__body,668,15,38]; ]
+        module prompt_color_dark__body {
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 668; ]
+            <init> {
+[ "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen" 670 18 ]
+                symbol [ Graphics %tmp.148 670 31 39 ];
+                %tmp.148 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.149 670 40 57 ];
+                %tmp.149 = getv %tmp.148 :COLOR_TRANSPARENT;
+                putv self :background %tmp.149;
+            }
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 669; @position = 18; @symbol_constdef = [color,669,18,23]; @symbol_type<0> = [Number,669,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 670; @position = 18; @symbol_constdef = [background,670,18,28]; ]
+            const background;
+        }
+        [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 673; @symbol_moduledef = [confirmation_icon__hint_delete,673,15,45]; ]
+        module confirmation_icon__hint_delete {
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 673; ]
+            <init> {
+            }
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 674; @position = 18; @symbol_constdef = [filename,674,18,26]; @symbol_type<0> = [String,674,30,36]; ]
+            const filename as String = "C:\\Users\\flavi\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix7pro\\confirmation_icon__hint_delete.svg";
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 675; @position = 18; @symbol_constdef = [dithering,675,18,27]; @symbol_type<0> = [String,675,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 678; @symbol_moduledef = [system_icon_light__hint_button_right_top,678,15,55]; ]
+        module system_icon_light__hint_button_right_top {
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 678; ]
+            <init> {
+            }
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 679; @position = 18; @symbol_constdef = [filename,679,18,26]; @symbol_type<0> = [String,679,30,36]; ]
+            const filename as String = "C:\\Users\\flavi\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix7pro\\system_icon_light__hint_button_right_top.svg";
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 680; @position = 18; @symbol_constdef = [dithering,680,18,27]; @symbol_type<0> = [String,680,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 683; @symbol_moduledef = [confirmation_size__body,683,15,38]; ]
+        module confirmation_size__body {
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 683; ]
+            <init> {
+            }
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 684; @position = 18; @symbol_constdef = [width,684,18,23]; @symbol_type<0> = [Number,684,27,33]; ]
+            const width as Number = 156;
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 685; @position = 18; @symbol_constdef = [height,685,18,24]; @symbol_type<0> = [Number,685,28,34]; ]
+            const height as Number = 156;
+        }
+        [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 688; @symbol_moduledef = [system_icon_positive__check,688,15,42]; ]
+        module system_icon_positive__check {
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 688; ]
+            <init> {
+            }
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 689; @position = 18; @symbol_constdef = [filename,689,18,26]; @symbol_type<0> = [String,689,30,36]; ]
+            const filename as String = "C:\\Users\\flavi\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix7pro\\system_icon_positive__check.svg";
+            [ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 690; @position = 18; @symbol_constdef = [dithering,690,18,27]; @symbol_type<0> = [String,690,31,37]; ]
+            const dithering as String = "none";
+        }
+    }
+}
+[ @file = "c:\Documentos\runeasy_garmim\runeasy_garmim\bin\gen\006-B4375-00\source\Rez.mcgen"; @line = 1; ]
+<init> {
+}
