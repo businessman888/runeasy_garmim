@@ -1,348 +1,561 @@
 [ @file = "C:\Documentos\runeasy_garmim\runeasy_garmim\source\RuneasyApp.mc"; @line = 1; @symbol_importdef<0> = [Toybox,1,7,13]; @symbol_importdef<1> = [Application,1,14,25]; ]
 import Toybox.Application;
-[ @file = "C:\Documentos\runeasy_garmim\runeasy_garmim\source\RuneasyApp.mc"; @line = 2; @symbol_importdef<0> = [Toybox,2,7,13]; @symbol_importdef<1> = [Lang,2,14,18]; ]
+[ @file = "C:\Documentos\runeasy_garmim\runeasy_garmim\source\RuneasyApp.mc"; @line = 2; @symbol_importdef<0> = [Toybox,2,7,13]; @symbol_importdef<1> = [Application,2,14,25]; @symbol_importdef<2> = [Storage,2,26,33]; ]
+import Toybox.Application.Storage;
+[ @file = "C:\Documentos\runeasy_garmim\runeasy_garmim\source\RuneasyApp.mc"; @line = 3; @symbol_importdef<0> = [Toybox,3,7,13]; @symbol_importdef<1> = [Communications,3,14,28]; ]
+import Toybox.Communications;
+[ @file = "C:\Documentos\runeasy_garmim\runeasy_garmim\source\RuneasyApp.mc"; @line = 4; @symbol_importdef<0> = [Toybox,4,7,13]; @symbol_importdef<1> = [Lang,4,14,18]; ]
 import Toybox.Lang;
-[ @file = "C:\Documentos\runeasy_garmim\runeasy_garmim\source\RuneasyApp.mc"; @line = 3; @symbol_importdef<0> = [Toybox,3,7,13]; @symbol_importdef<1> = [WatchUi,3,14,21]; ]
+[ @file = "C:\Documentos\runeasy_garmim\runeasy_garmim\source\RuneasyApp.mc"; @line = 5; @symbol_importdef<0> = [Toybox,5,7,13]; @symbol_importdef<1> = [WatchUi,5,14,21]; ]
 import Toybox.WatchUi;
-[ @file = "C:\Documentos\runeasy_garmim\runeasy_garmim\source\RuneasyApp.mc"; @line = 4; @symbol_importdef<0> = [Toybox,4,7,13]; @symbol_importdef<1> = [ActivityRecording,4,14,31]; ]
+[ @file = "C:\Documentos\runeasy_garmim\runeasy_garmim\source\RuneasyApp.mc"; @line = 6; @symbol_importdef<0> = [Toybox,6,7,13]; @symbol_importdef<1> = [ActivityRecording,6,14,31]; ]
 import Toybox.ActivityRecording;
-[ @file = "C:\Documentos\runeasy_garmim\runeasy_garmim\source\RuneasyApp.mc"; @line = 5; @symbol_importdef<0> = [Toybox,5,7,13]; @symbol_importdef<1> = [Position,5,14,22]; ]
+[ @file = "C:\Documentos\runeasy_garmim\runeasy_garmim\source\RuneasyApp.mc"; @line = 7; @symbol_importdef<0> = [Toybox,7,7,13]; @symbol_importdef<1> = [Activity,7,14,22]; ]
+import Toybox.Activity;
+[ @file = "C:\Documentos\runeasy_garmim\runeasy_garmim\source\RuneasyApp.mc"; @line = 8; @symbol_importdef<0> = [Toybox,8,7,13]; @symbol_importdef<1> = [System,8,14,20]; ]
+import Toybox.System;
+[ @file = "C:\Documentos\runeasy_garmim\runeasy_garmim\source\RuneasyApp.mc"; @line = 9; @symbol_importdef<0> = [Toybox,9,7,13]; @symbol_importdef<1> = [Position,9,14,22]; ]
 import Toybox.Position;
-[ @file = "C:\Documentos\runeasy_garmim\runeasy_garmim\source\RuneasyApp.mc"; @line = 6; @symbol_importdef<0> = [Toybox,6,7,13]; @symbol_importdef<1> = [Sensor,6,14,20]; ]
+[ @file = "C:\Documentos\runeasy_garmim\runeasy_garmim\source\RuneasyApp.mc"; @line = 10; @symbol_importdef<0> = [Toybox,10,7,13]; @symbol_importdef<1> = [Sensor,10,14,20]; ]
 import Toybox.Sensor;
-[ @file = "C:\Documentos\runeasy_garmim\runeasy_garmim\source\RuneasyApp.mc"; @line = 8; @position = 4; @symbol_vardef = [gSession,8,4,12]; ]
+[ @file = "C:\Documentos\runeasy_garmim\runeasy_garmim\source\RuneasyApp.mc"; @line = 12; @position = 4; @symbol_vardef = [gSession,12,4,12]; ]
 var gSession = null;
-[ @file = "C:\Documentos\runeasy_garmim\runeasy_garmim\source\RuneasyApp.mc"; @line = 10; @symbol_classdef = [RuneasyApp,10,6,16]; @symbol_extends<0> = [Application,10,25,36]; @symbol_extends<1> = [AppBase,10,37,44]; ]
+[ @file = "C:\Documentos\runeasy_garmim\runeasy_garmim\source\RuneasyApp.mc"; @line = 14; @symbol_classdef = [RuneasyApp,14,6,16]; @symbol_extends<0> = [Application,14,25,36]; @symbol_extends<1> = [AppBase,14,37,44]; ]
 class RuneasyApp extends Application.AppBase {
-    [ @file = "C:\Documentos\runeasy_garmim\runeasy_garmim\source\RuneasyApp.mc"; @line = 10; ]
+    [ @file = "C:\Documentos\runeasy_garmim\runeasy_garmim\source\RuneasyApp.mc"; @line = 14; ]
     <init> {
     }
-    [ @file = "C:\Documentos\runeasy_garmim\runeasy_garmim\source\RuneasyApp.mc"; @line = 10; ]
+    [ @file = "C:\Documentos\runeasy_garmim\runeasy_garmim\source\RuneasyApp.mc"; @line = 14; ]
     static
     <init> {
     }
-    [ @file = "C:\Documentos\runeasy_garmim\runeasy_garmim\source\RuneasyApp.mc"; @line = 12; @symbol_functiondef = [initialize,12,13,23]; ]
+    [ @file = "C:\Documentos\runeasy_garmim\runeasy_garmim\source\RuneasyApp.mc"; @line = 16; @symbol_functiondef = [initialize,16,13,23]; ]
     function initialize() as Void {
-C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_12_26_14_4_start:
-[ "C:\Documentos\runeasy_garmim\runeasy_garmim\source\RuneasyApp.mc" 13 8 ]
-        symbol [ AppBase %tmp.2 13 8 15 ];
+C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_16_26_18_4_start:
+[ "C:\Documentos\runeasy_garmim\runeasy_garmim\source\RuneasyApp.mc" 17 8 ]
+        symbol [ AppBase %tmp.2 17 8 15 ];
         %tmp.2 = getv ? :AppBase;
-        symbol [ initialize %tmp.3 13 16 26 ];
+        symbol [ initialize %tmp.3 17 16 26 ];
         %tmp.3 = getv function %tmp.2 :initialize;
         invoke %tmp.2 %tmp.3();
-C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_12_26_14_4_stop:
+C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_16_26_18_4_stop:
     }
-    [ @file = "C:\Documentos\runeasy_garmim\runeasy_garmim\source\RuneasyApp.mc"; @line = 17; @symbol_functiondef = [onStart,17,13,20]; @symbol_param<0> = [state,17,21,26]; @symbol_param<0>_type<0> = [Dictionary,17,30,40]; ]
+    [ @file = "C:\Documentos\runeasy_garmim\runeasy_garmim\source\RuneasyApp.mc"; @line = 20; @symbol_functiondef = [onStart,20,13,20]; @symbol_param<0> = [state,20,21,26]; @symbol_param<0>_type<0> = [Dictionary,20,30,40]; ]
     function onStart(state as Dictionary or Null) as Void {
-C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_17_51_21_4_start:
-[ "C:\Documentos\runeasy_garmim\runeasy_garmim\source\RuneasyApp.mc" 18 8 ]
-        symbol [ Position %tmp.1 18 8 16 ];
+C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_20_51_31_4_start:
+[ "C:\Documentos\runeasy_garmim\runeasy_garmim\source\RuneasyApp.mc" 21 8 ]
+        symbol [ Position %tmp.1 21 8 16 ];
         %tmp.1 = getm $.Toybox.Position;
-        symbol [ enableLocationEvents %tmp.2 18 17 37 ];
+        symbol [ enableLocationEvents %tmp.2 21 17 37 ];
         %tmp.2 = getv function %tmp.1 :enableLocationEvents;
-        symbol [ Position %tmp.3 18 38 46 ];
+        symbol [ Position %tmp.3 21 38 46 ];
         %tmp.3 = getm $.Toybox.Position;
-        symbol [ LOCATION_CONTINUOUS %tmp.4 18 47 66 ];
+        symbol [ LOCATION_CONTINUOUS %tmp.4 21 47 66 ];
         %tmp.4 = getv %tmp.3 :LOCATION_CONTINUOUS;
         %tmp.5 = self;
-        symbol [ method %tmp.6 18 68 74 ];
+        symbol [ method %tmp.6 21 68 74 ];
         %tmp.6 = getv function %tmp.5 :method;
         %tmp.8 = const :onPosition;
-        symbol [ onPosition %tmp.8 18 76 86 const ];
+        symbol [ onPosition %tmp.8 21 76 86 const ];
         %tmp.9 = invoke %tmp.5 %tmp.6(%tmp.8);
         invoke %tmp.1 %tmp.2(%tmp.4, %tmp.9);
-[ "C:\Documentos\runeasy_garmim\runeasy_garmim\source\RuneasyApp.mc" 19 8 ]
-        symbol [ Sensor %tmp.10 19 8 14 ];
+[ "C:\Documentos\runeasy_garmim\runeasy_garmim\source\RuneasyApp.mc" 22 8 ]
+        symbol [ Sensor %tmp.10 22 8 14 ];
         %tmp.10 = getm $.Toybox.Sensor;
-        symbol [ setEnabledSensors %tmp.11 19 15 32 ];
+        symbol [ setEnabledSensors %tmp.11 22 15 32 ];
         %tmp.11 = getv function %tmp.10 :setEnabledSensors;
         %tmp.12 = newa 1;
-        symbol [ Sensor %tmp.13 19 34 40 ];
+        symbol [ Sensor %tmp.13 22 34 40 ];
         %tmp.13 = getm $.Toybox.Sensor;
-        symbol [ SENSOR_HEARTRATE %tmp.14 19 41 57 ];
+        symbol [ SENSOR_HEARTRATE %tmp.14 22 41 57 ];
         %tmp.14 = getv %tmp.13 :SENSOR_HEARTRATE;
         %tmp.15 = dup %tmp.12;
         %tmp.16 = aputv %tmp.15 0 %tmp.14;
         invoke %tmp.10 %tmp.11(%tmp.16);
-[ "C:\Documentos\runeasy_garmim\runeasy_garmim\source\RuneasyApp.mc" 20 8 ]
-        symbol [ Sensor %tmp.17 20 8 14 ];
+[ "C:\Documentos\runeasy_garmim\runeasy_garmim\source\RuneasyApp.mc" 23 8 ]
+        symbol [ Sensor %tmp.17 23 8 14 ];
         %tmp.17 = getm $.Toybox.Sensor;
-        symbol [ enableSensorEvents %tmp.18 20 15 33 ];
+        symbol [ enableSensorEvents %tmp.18 23 15 33 ];
         %tmp.18 = getv function %tmp.17 :enableSensorEvents;
         %tmp.19 = self;
-        symbol [ method %tmp.20 20 34 40 ];
+        symbol [ method %tmp.20 23 34 40 ];
         %tmp.20 = getv function %tmp.19 :method;
         %tmp.22 = const :onSensor;
-        symbol [ onSensor %tmp.22 20 42 50 const ];
+        symbol [ onSensor %tmp.22 23 42 50 const ];
         %tmp.23 = invoke %tmp.19 %tmp.20(%tmp.22);
         invoke %tmp.17 %tmp.18(%tmp.23);
-C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_17_51_21_4_stop:
+[ "C:\Documentos\runeasy_garmim\runeasy_garmim\source\RuneasyApp.mc" 25 8 ]
+C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_25_8_28_8_if_stmt:
+        symbol [ Toybox %tmp.25 25 12 18 ];
+        %tmp.25 = getv ? :Toybox;
+        %tmp.27 = const :Communications;
+        symbol [ Communications %tmp.27 25 24 38 const ];
+        %tmp.28 = canhazplz %tmp.25 %tmp.27;
+        bf %tmp.28 @C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_25_8_28_8_if_end;
+C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_25_8_28_8_if_true:
+C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_25_40_28_8_start:
+[ "C:\Documentos\runeasy_garmim\runeasy_garmim\source\RuneasyApp.mc" 26 12 ]
+        [ "C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_25_40_28_8_start" "C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_25_40_28_8_stop" ]
+        %phoneMethod.1 = local;
+        symbol [ phoneMethod %phoneMethod.1 26 16 27 ];
+        %tmp.29 = self;
+        symbol [ method %tmp.30 26 30 36 ];
+        %tmp.30 = getv function %tmp.29 :method;
+        %tmp.32 = const :onPhoneMessage;
+        symbol [ onPhoneMessage %tmp.32 26 38 52 const ];
+        %tmp.33 = invoke %tmp.29 %tmp.30(%tmp.32);
+        %tmp.34 = as %tmp.33 (callback(msg as Communications.PhoneAppMessage) as Void);
+        symbol [ msg %tmp.34 26 64 67 ];
+        symbol [ Communications %tmp.34 26 71 85 ];
+        symbol [ PhoneAppMessage %tmp.34 26 86 101 ];
+        lputv %phoneMethod.1 %tmp.34;
+        symbol [ phoneMethod %phoneMethod.1 26 16 27 ];
+[ "C:\Documentos\runeasy_garmim\runeasy_garmim\source\RuneasyApp.mc" 27 12 ]
+        symbol [ Communications %tmp.35 27 12 26 ];
+        %tmp.35 = getm $.Toybox.Communications;
+        symbol [ registerForPhoneAppMessages %tmp.36 27 27 54 ];
+        %tmp.36 = getv function %tmp.35 :registerForPhoneAppMessages;
+        %tmp.37 = lgetv %phoneMethod.1;
+        symbol [ phoneMethod %tmp.37 27 55 66 ];
+        invoke %tmp.35 %tmp.36(%tmp.37);
+C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_25_40_28_8_stop:
+        goto @C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_25_8_28_8_if_end;
+C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_25_8_28_8_if_end:
+[ "C:\Documentos\runeasy_garmim\runeasy_garmim\source\RuneasyApp.mc" 30 8 ]
+        %tmp.38 = self;
+        symbol [ checkPendingSync %tmp.39 30 8 24 ];
+        %tmp.39 = getv function %tmp.38 :checkPendingSync;
+        invoke %tmp.38 %tmp.39();
+C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_20_51_31_4_stop:
     }
-    [ @file = "C:\Documentos\runeasy_garmim\runeasy_garmim\source\RuneasyApp.mc"; @line = 23; @symbol_functiondef = [onPosition,23,13,23]; @symbol_param<0> = [info,23,24,28]; @symbol_param<0>_type<0> = [Position,23,32,40]; @symbol_param<0>_type<1> = [Info,23,41,45]; ]
+    [ @file = "C:\Documentos\runeasy_garmim\runeasy_garmim\source\RuneasyApp.mc"; @line = 33; @symbol_functiondef = [onPhoneMessage,33,13,27]; @symbol_param<0> = [msg,33,28,31]; @symbol_param<0>_type<0> = [Communications,33,35,49]; @symbol_param<0>_type<1> = [PhoneAppMessage,33,50,65]; ]
+    function onPhoneMessage(msg as Communications.PhoneAppMessage) as Void {
+C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_33_75_39_4_start:
+[ "C:\Documentos\runeasy_garmim\runeasy_garmim\source\RuneasyApp.mc" 35 8 ]
+        [ "C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_33_75_39_4_start" "C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_33_75_39_4_stop" ]
+        %data.1 = local;
+        symbol [ data %data.1 35 12 16 ];
+        %tmp.1 = lgetv %msg;
+        symbol [ msg %tmp.1 35 19 22 ];
+        symbol [ data %tmp.2 35 23 27 ];
+        %tmp.2 = getv %tmp.1 :data;
+        lputv %data.1 %tmp.2;
+        symbol [ data %data.1 35 12 16 ];
+[ "C:\Documentos\runeasy_garmim\runeasy_garmim\source\RuneasyApp.mc" 36 8 ]
+C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_36_8_38_8_if_stmt:
+        %tmp.3 = lgetv %data.1;
+        symbol [ data %tmp.3 36 12 16 ];
+        %tmp.4 = null;
+        %tmp.5 = ne %tmp.3 %tmp.4;
+        bf %tmp.5 @C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_36_8_38_8_if_end;
+C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_36_8_38_8_if_true:
+        goto @C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_36_8_38_8_if_end;
+C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_36_8_38_8_if_end:
+C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_33_75_39_4_stop:
+    }
+    [ @file = "C:\Documentos\runeasy_garmim\runeasy_garmim\source\RuneasyApp.mc"; @line = 41; @symbol_functiondef = [sendWorkoutToPhone,41,13,31]; @symbol_param<0> = [workoutData,41,32,43]; @symbol_param<0>_type<0> = [Dictionary,41,47,57]; ]
+    function sendWorkoutToPhone(workoutData as Dictionary) as Void {
+C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_41_67_50_4_start:
+[ "C:\Documentos\runeasy_garmim\runeasy_garmim\source\RuneasyApp.mc" 42 8 ]
+        [ "C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_41_67_50_4_start" "C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_41_67_50_4_stop" ]
+        %deviceSettings.1 = local;
+        symbol [ deviceSettings %deviceSettings.1 42 12 26 ];
+        symbol [ System %tmp.1 42 29 35 ];
+        %tmp.1 = getm $.Toybox.System;
+        symbol [ getDeviceSettings %tmp.2 42 36 53 ];
+        %tmp.2 = getv function %tmp.1 :getDeviceSettings;
+        %tmp.3 = invoke %tmp.1 %tmp.2();
+        lputv %deviceSettings.1 %tmp.3;
+        symbol [ deviceSettings %deviceSettings.1 42 12 26 ];
+[ "C:\Documentos\runeasy_garmim\runeasy_garmim\source\RuneasyApp.mc" 43 8 ]
+C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_43_8_49_8_if_stmt:
+        %tmp.4 = lgetv %deviceSettings.1;
+        symbol [ deviceSettings %tmp.4 43 12 26 ];
+        symbol [ phoneConnected %tmp.5 43 27 41 ];
+        %tmp.5 = getv %tmp.4 :phoneConnected;
+        bf %tmp.5 @C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_43_8_49_8_if_else_false;
+C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_43_8_49_8_if_true:
+C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_43_43_46_8_start:
+[ "C:\Documentos\runeasy_garmim\runeasy_garmim\source\RuneasyApp.mc" 44 12 ]
+        symbol [ Storage %tmp.6 44 12 19 ];
+        %tmp.6 = getm $.Toybox.Application.Storage;
+        symbol [ setValue %tmp.7 44 20 28 ];
+        %tmp.7 = getv function %tmp.6 :setValue;
+        %tmp.8 = "sync_status";
+        %tmp.9 = "SYNCING";
+        invoke %tmp.6 %tmp.7(%tmp.8, %tmp.9);
+[ "C:\Documentos\runeasy_garmim\runeasy_garmim\source\RuneasyApp.mc" 45 12 ]
+        symbol [ Communications %tmp.10 45 12 26 ];
+        %tmp.10 = getm $.Toybox.Communications;
+        symbol [ transmit %tmp.11 45 27 35 ];
+        %tmp.11 = getv function %tmp.10 :transmit;
+        %tmp.12 = lgetv %workoutData;
+        symbol [ workoutData %tmp.12 45 36 47 ];
+        %tmp.13 = null;
+        symbol [ SyncListener %tmp.17 45 59 71 ];
+        %tmp.17 = getv ? :SyncListener;
+        %tmp.14 = newc %tmp.17 ();
+        invoke %tmp.10 %tmp.11(%tmp.12, %tmp.13, %tmp.14);
+C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_43_43_46_8_stop:
+        goto @C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_43_8_49_8_if_end;
+C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_43_8_49_8_if_else_false:
+C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_46_15_49_8_start:
+[ "C:\Documentos\runeasy_garmim\runeasy_garmim\source\RuneasyApp.mc" 47 12 ]
+        symbol [ Storage %tmp.18 47 12 19 ];
+        %tmp.18 = getm $.Toybox.Application.Storage;
+        symbol [ setValue %tmp.19 47 20 28 ];
+        %tmp.19 = getv function %tmp.18 :setValue;
+        %tmp.20 = "offline_workout";
+        %tmp.21 = lgetv %workoutData;
+        symbol [ workoutData %tmp.21 47 48 59 ];
+        invoke %tmp.18 %tmp.19(%tmp.20, %tmp.21);
+[ "C:\Documentos\runeasy_garmim\runeasy_garmim\source\RuneasyApp.mc" 48 12 ]
+        symbol [ Storage %tmp.22 48 12 19 ];
+        %tmp.22 = getm $.Toybox.Application.Storage;
+        symbol [ setValue %tmp.23 48 20 28 ];
+        %tmp.23 = getv function %tmp.22 :setValue;
+        %tmp.24 = "sync_status";
+        %tmp.25 = "PENDING";
+        invoke %tmp.22 %tmp.23(%tmp.24, %tmp.25);
+C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_46_15_49_8_stop:
+C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_43_8_49_8_if_end:
+C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_41_67_50_4_stop:
+    }
+    [ @file = "C:\Documentos\runeasy_garmim\runeasy_garmim\source\RuneasyApp.mc"; @line = 52; @symbol_functiondef = [checkPendingSync,52,13,29]; ]
+    function checkPendingSync() as Void {
+C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_52_40_60_4_start:
+[ "C:\Documentos\runeasy_garmim\runeasy_garmim\source\RuneasyApp.mc" 53 8 ]
+        [ "C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_52_40_60_4_start" "C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_52_40_60_4_stop" ]
+        %pendingData.1 = local;
+        symbol [ pendingData %pendingData.1 53 12 23 ];
+        symbol [ Storage %tmp.1 53 26 33 ];
+        %tmp.1 = getm $.Toybox.Application.Storage;
+        symbol [ getValue %tmp.2 53 34 42 ];
+        %tmp.2 = getv function %tmp.1 :getValue;
+        %tmp.3 = "offline_workout";
+        %tmp.4 = invoke %tmp.1 %tmp.2(%tmp.3);
+        lputv %pendingData.1 %tmp.4;
+        symbol [ pendingData %pendingData.1 53 12 23 ];
+[ "C:\Documentos\runeasy_garmim\runeasy_garmim\source\RuneasyApp.mc" 54 8 ]
+        [ "C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_52_40_60_4_start" "C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_52_40_60_4_stop" ]
+        %deviceSettings.2 = local;
+        symbol [ deviceSettings %deviceSettings.2 54 12 26 ];
+        symbol [ System %tmp.5 54 29 35 ];
+        %tmp.5 = getm $.Toybox.System;
+        symbol [ getDeviceSettings %tmp.6 54 36 53 ];
+        %tmp.6 = getv function %tmp.5 :getDeviceSettings;
+        %tmp.7 = invoke %tmp.5 %tmp.6();
+        lputv %deviceSettings.2 %tmp.7;
+        symbol [ deviceSettings %deviceSettings.2 54 12 26 ];
+[ "C:\Documentos\runeasy_garmim\runeasy_garmim\source\RuneasyApp.mc" 56 8 ]
+C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_56_8_59_8_if_stmt:
+C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_56_12_56_50_begin:
+        %tmp.8 = lgetv %pendingData.1;
+        symbol [ pendingData %tmp.8 56 12 23 ];
+        %tmp.9 = null;
+        %tmp.10 = ne %tmp.8 %tmp.9;
+        bf %tmp.10 @C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_56_8_59_8_if_end;
+C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_56_35_56_50_true:
+        %tmp.11 = lgetv %deviceSettings.2;
+        symbol [ deviceSettings %tmp.11 56 35 49 ];
+        symbol [ phoneConnected %tmp.12 56 50 64 ];
+        %tmp.12 = getv %tmp.11 :phoneConnected;
+        push %tmp.12;
+C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_56_35_56_50_end:
+        %tmp.13 = phi [%tmp.10 @C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_56_12_56_50_begin] [%tmp.12 @C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_56_35_56_50_true] [%tmp.13 @C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_56_35_56_50_end];
+        bf %tmp.13 @C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_56_8_59_8_if_end;
+C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_56_8_59_8_if_true:
+C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_56_66_59_8_start:
+[ "C:\Documentos\runeasy_garmim\runeasy_garmim\source\RuneasyApp.mc" 57 12 ]
+        symbol [ Storage %tmp.14 57 12 19 ];
+        %tmp.14 = getm $.Toybox.Application.Storage;
+        symbol [ setValue %tmp.15 57 20 28 ];
+        %tmp.15 = getv function %tmp.14 :setValue;
+        %tmp.16 = "sync_status";
+        %tmp.17 = "SYNCING";
+        invoke %tmp.14 %tmp.15(%tmp.16, %tmp.17);
+[ "C:\Documentos\runeasy_garmim\runeasy_garmim\source\RuneasyApp.mc" 58 12 ]
+        symbol [ Communications %tmp.18 58 12 26 ];
+        %tmp.18 = getm $.Toybox.Communications;
+        symbol [ transmit %tmp.19 58 27 35 ];
+        %tmp.19 = getv function %tmp.18 :transmit;
+        %tmp.20 = lgetv %pendingData.1;
+        symbol [ pendingData %tmp.20 58 36 47 ];
+        %tmp.21 = as %tmp.20 { (!Null) };
+        %tmp.22 = null;
+        symbol [ SyncListener %tmp.26 58 59 71 ];
+        %tmp.26 = getv ? :SyncListener;
+        %tmp.23 = newc %tmp.26 ();
+        invoke %tmp.18 %tmp.19(%tmp.21, %tmp.22, %tmp.23);
+C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_56_66_59_8_stop:
+        goto @C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_56_8_59_8_if_end;
+C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_56_8_59_8_if_end:
+C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_52_40_60_4_stop:
+    }
+    [ @file = "C:\Documentos\runeasy_garmim\runeasy_garmim\source\RuneasyApp.mc"; @line = 62; @symbol_functiondef = [onPosition,62,13,23]; @symbol_param<0> = [info,62,24,28]; @symbol_param<0>_type<0> = [Position,62,32,40]; @symbol_param<0>_type<1> = [Info,62,41,45]; ]
     function onPosition(info as Position.Info) as Void {
     }
-    [ @file = "C:\Documentos\runeasy_garmim\runeasy_garmim\source\RuneasyApp.mc"; @line = 26; @symbol_functiondef = [onSensor,26,13,21]; @symbol_param<0> = [sensorInfo,26,22,32]; @symbol_param<0>_type<0> = [Sensor,26,36,42]; @symbol_param<0>_type<1> = [Info,26,43,47]; ]
+    [ @file = "C:\Documentos\runeasy_garmim\runeasy_garmim\source\RuneasyApp.mc"; @line = 65; @symbol_functiondef = [onSensor,65,13,21]; @symbol_param<0> = [sensorInfo,65,22,32]; @symbol_param<0>_type<0> = [Sensor,65,36,42]; @symbol_param<0>_type<1> = [Info,65,43,47]; ]
     function onSensor(sensorInfo as Sensor.Info) as Void {
     }
-    [ @file = "C:\Documentos\runeasy_garmim\runeasy_garmim\source\RuneasyApp.mc"; @line = 29; @symbol_functiondef = [toggleRecording,29,13,28]; ]
+    [ @file = "C:\Documentos\runeasy_garmim\runeasy_garmim\source\RuneasyApp.mc"; @line = 68; @symbol_functiondef = [toggleRecording,68,13,28]; ]
     function toggleRecording() as Void {
-C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_29_39_43_4_start:
-[ "C:\Documentos\runeasy_garmim\runeasy_garmim\source\RuneasyApp.mc" 30 8 ]
-C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_30_8_42_8_if_stmt:
-        symbol [ Toybox %tmp.2 30 12 18 ];
+C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_68_39_82_4_start:
+[ "C:\Documentos\runeasy_garmim\runeasy_garmim\source\RuneasyApp.mc" 69 8 ]
+C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_69_8_81_8_if_stmt:
+        symbol [ Toybox %tmp.2 69 12 18 ];
         %tmp.2 = getv ? :Toybox;
         %tmp.4 = const :ActivityRecording;
-        symbol [ ActivityRecording %tmp.4 30 24 41 const ];
+        symbol [ ActivityRecording %tmp.4 69 24 41 const ];
         %tmp.5 = canhazplz %tmp.2 %tmp.4;
-        bf %tmp.5 @C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_30_8_42_8_if_end;
-C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_30_8_42_8_if_true:
-C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_30_43_42_8_start:
-[ "C:\Documentos\runeasy_garmim\runeasy_garmim\source\RuneasyApp.mc" 31 12 ]
-C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_31_12_36_12_if_stmt:
-        symbol [ gSession %tmp.7 31 16 24 ];
+        bf %tmp.5 @C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_69_8_81_8_if_end;
+C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_69_8_81_8_if_true:
+C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_69_43_81_8_start:
+[ "C:\Documentos\runeasy_garmim\runeasy_garmim\source\RuneasyApp.mc" 70 12 ]
+C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_70_12_75_12_if_stmt:
+        symbol [ gSession %tmp.7 70 16 24 ];
         %tmp.7 = getv ? :gSession;
         %tmp.8 = null;
         %tmp.9 = eq %tmp.7 %tmp.8;
-        bf %tmp.9 @C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_31_12_36_12_if_end;
-C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_31_12_36_12_if_true:
-C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_31_34_36_12_start:
-[ "C:\Documentos\runeasy_garmim\runeasy_garmim\source\RuneasyApp.mc" 32 16 ]
-        symbol [ ActivityRecording %tmp.10 32 27 44 ];
+        bf %tmp.9 @C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_70_12_75_12_if_end;
+C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_70_12_75_12_if_true:
+C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_70_34_75_12_start:
+[ "C:\Documentos\runeasy_garmim\runeasy_garmim\source\RuneasyApp.mc" 71 16 ]
+        symbol [ ActivityRecording %tmp.10 71 27 44 ];
         %tmp.10 = getm $.Toybox.ActivityRecording;
-        symbol [ createSession %tmp.11 32 45 58 ];
+        symbol [ createSession %tmp.11 71 45 58 ];
         %tmp.11 = getv function %tmp.10 :createSession;
         %tmp.12 = newd 2;
         %tmp.14 = const :name;
-        symbol [ name %tmp.14 33 21 25 const ];
+        symbol [ name %tmp.14 72 21 25 const ];
         %tmp.15 = "Run";
         %tmp.16 = dup %tmp.12;
         %tmp.17 = aputv %tmp.16 %tmp.14 %tmp.15;
         %tmp.19 = const :sport;
-        symbol [ sport %tmp.19 34 21 26 const ];
-        symbol [ ActivityRecording %tmp.20 34 28 45 ];
-        %tmp.20 = getm $.Toybox.ActivityRecording;
-        symbol [ SPORT_RUNNING %tmp.21 34 46 59 ];
-        %tmp.21 = getv %tmp.20 :SPORT_RUNNING;
+        symbol [ sport %tmp.19 73 21 26 const ];
+        symbol [ Activity %tmp.20 73 28 36 ];
+        %tmp.20 = getm $.Toybox.Activity;
+        symbol [ SPORT_GENERIC %tmp.21 73 37 50 ];
+        %tmp.21 = getv %tmp.20 :SPORT_GENERIC;
         %tmp.22 = dup %tmp.17;
         %tmp.23 = aputv %tmp.22 %tmp.19 %tmp.21;
         %tmp.24 = invoke %tmp.10 %tmp.11(%tmp.23);
-        symbol [ gSession ? 32 16 24 ];
+        symbol [ gSession ? 71 16 24 ];
         putv self :gSession %tmp.24;
-C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_31_34_36_12_stop:
-        goto @C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_31_12_36_12_if_end;
-C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_31_12_36_12_if_end:
-[ "C:\Documentos\runeasy_garmim\runeasy_garmim\source\RuneasyApp.mc" 37 12 ]
-C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_37_12_41_12_if_stmt:
-        symbol [ gSession %tmp.26 37 16 24 ];
+C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_70_34_75_12_stop:
+        goto @C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_70_12_75_12_if_end;
+C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_70_12_75_12_if_end:
+[ "C:\Documentos\runeasy_garmim\runeasy_garmim\source\RuneasyApp.mc" 76 12 ]
+C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_76_12_80_12_if_stmt:
+        symbol [ gSession %tmp.26 76 16 24 ];
         %tmp.26 = getv ? :gSession;
-        symbol [ isRecording %tmp.27 37 25 36 ];
+        symbol [ isRecording %tmp.27 76 25 36 ];
         %tmp.27 = getv function %tmp.26 :isRecording;
         %tmp.28 = invoke %tmp.26 %tmp.27();
-        bf %tmp.28 @C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_37_12_41_12_if_else_false;
-C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_37_12_41_12_if_true:
-C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_37_40_39_12_start:
-[ "C:\Documentos\runeasy_garmim\runeasy_garmim\source\RuneasyApp.mc" 38 16 ]
-        symbol [ gSession %tmp.30 38 16 24 ];
+        bf %tmp.28 @C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_76_12_80_12_if_else_false;
+C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_76_12_80_12_if_true:
+C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_76_40_78_12_start:
+[ "C:\Documentos\runeasy_garmim\runeasy_garmim\source\RuneasyApp.mc" 77 16 ]
+        symbol [ gSession %tmp.30 77 16 24 ];
         %tmp.30 = getv ? :gSession;
-        symbol [ stop %tmp.31 38 25 29 ];
+        symbol [ stop %tmp.31 77 25 29 ];
         %tmp.31 = getv function %tmp.30 :stop;
         invoke %tmp.30 %tmp.31();
-C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_37_40_39_12_stop:
-        goto @C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_37_12_41_12_if_end;
-C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_37_12_41_12_if_else_false:
-C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_39_19_41_12_start:
-[ "C:\Documentos\runeasy_garmim\runeasy_garmim\source\RuneasyApp.mc" 40 16 ]
-        symbol [ gSession %tmp.33 40 16 24 ];
+C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_76_40_78_12_stop:
+        goto @C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_76_12_80_12_if_end;
+C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_76_12_80_12_if_else_false:
+C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_78_19_80_12_start:
+[ "C:\Documentos\runeasy_garmim\runeasy_garmim\source\RuneasyApp.mc" 79 16 ]
+        symbol [ gSession %tmp.33 79 16 24 ];
         %tmp.33 = getv ? :gSession;
-        symbol [ start %tmp.34 40 25 30 ];
+        symbol [ start %tmp.34 79 25 30 ];
         %tmp.34 = getv function %tmp.33 :start;
         invoke %tmp.33 %tmp.34();
-C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_39_19_41_12_stop:
-C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_37_12_41_12_if_end:
-C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_30_43_42_8_stop:
-        goto @C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_30_8_42_8_if_end;
-C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_30_8_42_8_if_end:
-C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_29_39_43_4_stop:
+C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_78_19_80_12_stop:
+C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_76_12_80_12_if_end:
+C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_69_43_81_8_stop:
+        goto @C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_69_8_81_8_if_end;
+C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_69_8_81_8_if_end:
+C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_68_39_82_4_stop:
     }
-    [ @file = "C:\Documentos\runeasy_garmim\runeasy_garmim\source\RuneasyApp.mc"; @line = 45; @symbol_functiondef = [saveSession,45,13,24]; ]
+    [ @file = "C:\Documentos\runeasy_garmim\runeasy_garmim\source\RuneasyApp.mc"; @line = 84; @symbol_functiondef = [saveSession,84,13,24]; ]
     function saveSession() as Void {
-C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_45_35_50_4_start:
-[ "C:\Documentos\runeasy_garmim\runeasy_garmim\source\RuneasyApp.mc" 46 8 ]
-C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_46_8_49_8_if_stmt:
-C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_46_12_46_58_begin:
-        symbol [ gSession %tmp.2 46 12 20 ];
+C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_84_35_89_4_start:
+[ "C:\Documentos\runeasy_garmim\runeasy_garmim\source\RuneasyApp.mc" 85 8 ]
+C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_85_8_88_8_if_stmt:
+C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_85_12_85_58_begin:
+        symbol [ gSession %tmp.2 85 12 20 ];
         %tmp.2 = getv ? :gSession;
         %tmp.3 = null;
         %tmp.4 = ne %tmp.2 %tmp.3;
-        bf %tmp.4 @C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_46_8_49_8_if_end;
-C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_46_32_46_58_true:
-        symbol [ gSession %tmp.6 46 32 40 ];
+        bf %tmp.4 @C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_85_8_88_8_if_end;
+C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_85_32_85_58_true:
+        symbol [ gSession %tmp.6 85 32 40 ];
         %tmp.6 = getv ? :gSession;
         %tmp.7 = as %tmp.6 { (!Null) };
-        symbol [ isRecording %tmp.8 46 41 52 ];
+        symbol [ isRecording %tmp.8 85 41 52 ];
         %tmp.8 = getv function %tmp.7 :isRecording;
         %tmp.9 = invoke %tmp.7 %tmp.8();
         %tmp.10 = false;
         %tmp.11 = eq %tmp.9 %tmp.10;
         push %tmp.11;
-C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_46_32_46_58_end:
-        %tmp.12 = phi [%tmp.4 @C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_46_12_46_58_begin] [%tmp.11 @C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_46_32_46_58_true] [%tmp.12 @C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_46_32_46_58_end];
-        bf %tmp.12 @C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_46_8_49_8_if_end;
-C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_46_8_49_8_if_true:
-C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_46_65_49_8_start:
-[ "C:\Documentos\runeasy_garmim\runeasy_garmim\source\RuneasyApp.mc" 47 12 ]
-        symbol [ gSession %tmp.14 47 12 20 ];
+C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_85_32_85_58_end:
+        %tmp.12 = phi [%tmp.4 @C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_85_12_85_58_begin] [%tmp.11 @C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_85_32_85_58_true] [%tmp.12 @C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_85_32_85_58_end];
+        bf %tmp.12 @C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_85_8_88_8_if_end;
+C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_85_8_88_8_if_true:
+C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_85_65_88_8_start:
+[ "C:\Documentos\runeasy_garmim\runeasy_garmim\source\RuneasyApp.mc" 86 12 ]
+        symbol [ gSession %tmp.14 86 12 20 ];
         %tmp.14 = getv ? :gSession;
-        symbol [ save %tmp.15 47 21 25 ];
+        symbol [ save %tmp.15 86 21 25 ];
         %tmp.15 = getv function %tmp.14 :save;
         invoke %tmp.14 %tmp.15();
-[ "C:\Documentos\runeasy_garmim\runeasy_garmim\source\RuneasyApp.mc" 48 12 ]
+[ "C:\Documentos\runeasy_garmim\runeasy_garmim\source\RuneasyApp.mc" 87 12 ]
         %tmp.16 = null;
-        symbol [ gSession ? 48 12 20 ];
+        symbol [ gSession ? 87 12 20 ];
         putv self :gSession %tmp.16;
-C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_46_65_49_8_stop:
-        goto @C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_46_8_49_8_if_end;
-C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_46_8_49_8_if_end:
-C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_45_35_50_4_stop:
+C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_85_65_88_8_stop:
+        goto @C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_85_8_88_8_if_end;
+C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_85_8_88_8_if_end:
+C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_84_35_89_4_stop:
     }
-    [ @file = "C:\Documentos\runeasy_garmim\runeasy_garmim\source\RuneasyApp.mc"; @line = 52; @symbol_functiondef = [discardSession,52,13,27]; ]
+    [ @file = "C:\Documentos\runeasy_garmim\runeasy_garmim\source\RuneasyApp.mc"; @line = 91; @symbol_functiondef = [discardSession,91,13,27]; ]
     function discardSession() as Void {
-C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_52_38_57_4_start:
-[ "C:\Documentos\runeasy_garmim\runeasy_garmim\source\RuneasyApp.mc" 53 8 ]
-C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_53_8_56_8_if_stmt:
-C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_53_12_53_58_begin:
-        symbol [ gSession %tmp.2 53 12 20 ];
+C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_91_38_96_4_start:
+[ "C:\Documentos\runeasy_garmim\runeasy_garmim\source\RuneasyApp.mc" 92 8 ]
+C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_92_8_95_8_if_stmt:
+C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_92_12_92_58_begin:
+        symbol [ gSession %tmp.2 92 12 20 ];
         %tmp.2 = getv ? :gSession;
         %tmp.3 = null;
         %tmp.4 = ne %tmp.2 %tmp.3;
-        bf %tmp.4 @C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_53_8_56_8_if_end;
-C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_53_32_53_58_true:
-        symbol [ gSession %tmp.6 53 32 40 ];
+        bf %tmp.4 @C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_92_8_95_8_if_end;
+C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_92_32_92_58_true:
+        symbol [ gSession %tmp.6 92 32 40 ];
         %tmp.6 = getv ? :gSession;
         %tmp.7 = as %tmp.6 { (!Null) };
-        symbol [ isRecording %tmp.8 53 41 52 ];
+        symbol [ isRecording %tmp.8 92 41 52 ];
         %tmp.8 = getv function %tmp.7 :isRecording;
         %tmp.9 = invoke %tmp.7 %tmp.8();
         %tmp.10 = false;
         %tmp.11 = eq %tmp.9 %tmp.10;
         push %tmp.11;
-C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_53_32_53_58_end:
-        %tmp.12 = phi [%tmp.4 @C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_53_12_53_58_begin] [%tmp.11 @C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_53_32_53_58_true] [%tmp.12 @C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_53_32_53_58_end];
-        bf %tmp.12 @C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_53_8_56_8_if_end;
-C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_53_8_56_8_if_true:
-C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_53_65_56_8_start:
-[ "C:\Documentos\runeasy_garmim\runeasy_garmim\source\RuneasyApp.mc" 54 12 ]
-        symbol [ gSession %tmp.14 54 12 20 ];
+C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_92_32_92_58_end:
+        %tmp.12 = phi [%tmp.4 @C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_92_12_92_58_begin] [%tmp.11 @C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_92_32_92_58_true] [%tmp.12 @C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_92_32_92_58_end];
+        bf %tmp.12 @C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_92_8_95_8_if_end;
+C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_92_8_95_8_if_true:
+C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_92_65_95_8_start:
+[ "C:\Documentos\runeasy_garmim\runeasy_garmim\source\RuneasyApp.mc" 93 12 ]
+        symbol [ gSession %tmp.14 93 12 20 ];
         %tmp.14 = getv ? :gSession;
-        symbol [ discard %tmp.15 54 21 28 ];
+        symbol [ discard %tmp.15 93 21 28 ];
         %tmp.15 = getv function %tmp.14 :discard;
         invoke %tmp.14 %tmp.15();
-[ "C:\Documentos\runeasy_garmim\runeasy_garmim\source\RuneasyApp.mc" 55 12 ]
+[ "C:\Documentos\runeasy_garmim\runeasy_garmim\source\RuneasyApp.mc" 94 12 ]
         %tmp.16 = null;
-        symbol [ gSession ? 55 12 20 ];
+        symbol [ gSession ? 94 12 20 ];
         putv self :gSession %tmp.16;
-C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_53_65_56_8_stop:
-        goto @C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_53_8_56_8_if_end;
-C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_53_8_56_8_if_end:
-C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_52_38_57_4_stop:
+C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_92_65_95_8_stop:
+        goto @C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_92_8_95_8_if_end;
+C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_92_8_95_8_if_end:
+C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_91_38_96_4_stop:
     }
-    [ @file = "C:\Documentos\runeasy_garmim\runeasy_garmim\source\RuneasyApp.mc"; @line = 60; @symbol_functiondef = [onStop,60,13,19]; @symbol_param<0> = [state,60,20,25]; @symbol_param<0>_type<0> = [Dictionary,60,29,39]; ]
+    [ @file = "C:\Documentos\runeasy_garmim\runeasy_garmim\source\RuneasyApp.mc"; @line = 98; @symbol_functiondef = [onStop,98,13,19]; @symbol_param<0> = [state,98,20,25]; @symbol_param<0>_type<0> = [Dictionary,98,29,39]; ]
     function onStop(state as Dictionary or Null) as Void {
-C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_60_50_67_4_start:
-[ "C:\Documentos\runeasy_garmim\runeasy_garmim\source\RuneasyApp.mc" 61 8 ]
-C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_61_8_64_8_if_stmt:
-C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_61_12_61_53_begin:
-        symbol [ gSession %tmp.2 61 12 20 ];
+C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_98_50_105_4_start:
+[ "C:\Documentos\runeasy_garmim\runeasy_garmim\source\RuneasyApp.mc" 99 8 ]
+C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_99_8_102_8_if_stmt:
+C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_99_12_99_53_begin:
+        symbol [ gSession %tmp.2 99 12 20 ];
         %tmp.2 = getv ? :gSession;
         %tmp.3 = null;
         %tmp.4 = ne %tmp.2 %tmp.3;
-        bf %tmp.4 @C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_61_8_64_8_if_end;
-C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_61_32_61_53_true:
-        symbol [ gSession %tmp.6 61 32 40 ];
+        bf %tmp.4 @C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_99_8_102_8_if_end;
+C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_99_32_99_53_true:
+        symbol [ gSession %tmp.6 99 32 40 ];
         %tmp.6 = getv ? :gSession;
         %tmp.7 = as %tmp.6 { (!Null) };
-        symbol [ isRecording %tmp.8 61 41 52 ];
+        symbol [ isRecording %tmp.8 99 41 52 ];
         %tmp.8 = getv function %tmp.7 :isRecording;
         %tmp.9 = invoke %tmp.7 %tmp.8();
         push %tmp.9;
-C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_61_32_61_53_end:
-        %tmp.10 = phi [%tmp.4 @C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_61_12_61_53_begin] [%tmp.9 @C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_61_32_61_53_true] [%tmp.10 @C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_61_32_61_53_end];
-        bf %tmp.10 @C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_61_8_64_8_if_end;
-C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_61_8_64_8_if_true:
-C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_61_56_64_8_start:
-[ "C:\Documentos\runeasy_garmim\runeasy_garmim\source\RuneasyApp.mc" 62 12 ]
-        symbol [ gSession %tmp.12 62 12 20 ];
+C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_99_32_99_53_end:
+        %tmp.10 = phi [%tmp.4 @C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_99_12_99_53_begin] [%tmp.9 @C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_99_32_99_53_true] [%tmp.10 @C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_99_32_99_53_end];
+        bf %tmp.10 @C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_99_8_102_8_if_end;
+C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_99_8_102_8_if_true:
+C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_99_56_102_8_start:
+[ "C:\Documentos\runeasy_garmim\runeasy_garmim\source\RuneasyApp.mc" 100 12 ]
+        symbol [ gSession %tmp.12 100 12 20 ];
         %tmp.12 = getv ? :gSession;
-        symbol [ stop %tmp.13 62 21 25 ];
+        symbol [ stop %tmp.13 100 21 25 ];
         %tmp.13 = getv function %tmp.12 :stop;
         invoke %tmp.12 %tmp.13();
-[ "C:\Documentos\runeasy_garmim\runeasy_garmim\source\RuneasyApp.mc" 63 12 ]
-        symbol [ gSession %tmp.15 63 12 20 ];
+[ "C:\Documentos\runeasy_garmim\runeasy_garmim\source\RuneasyApp.mc" 101 12 ]
+        symbol [ gSession %tmp.15 101 12 20 ];
         %tmp.15 = getv ? :gSession;
-        symbol [ save %tmp.16 63 21 25 ];
+        symbol [ save %tmp.16 101 21 25 ];
         %tmp.16 = getv function %tmp.15 :save;
         invoke %tmp.15 %tmp.16();
-C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_61_56_64_8_stop:
-        goto @C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_61_8_64_8_if_end;
-C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_61_8_64_8_if_end:
-[ "C:\Documentos\runeasy_garmim\runeasy_garmim\source\RuneasyApp.mc" 65 8 ]
-        symbol [ Position %tmp.17 65 8 16 ];
+C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_99_56_102_8_stop:
+        goto @C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_99_8_102_8_if_end;
+C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_99_8_102_8_if_end:
+[ "C:\Documentos\runeasy_garmim\runeasy_garmim\source\RuneasyApp.mc" 103 8 ]
+        symbol [ Position %tmp.17 103 8 16 ];
         %tmp.17 = getm $.Toybox.Position;
-        symbol [ enableLocationEvents %tmp.18 65 17 37 ];
+        symbol [ enableLocationEvents %tmp.18 103 17 37 ];
         %tmp.18 = getv function %tmp.17 :enableLocationEvents;
-        symbol [ Position %tmp.19 65 38 46 ];
+        symbol [ Position %tmp.19 103 38 46 ];
         %tmp.19 = getm $.Toybox.Position;
-        symbol [ LOCATION_DISABLE %tmp.20 65 47 63 ];
+        symbol [ LOCATION_DISABLE %tmp.20 103 47 63 ];
         %tmp.20 = getv %tmp.19 :LOCATION_DISABLE;
         %tmp.21 = self;
-        symbol [ method %tmp.22 65 65 71 ];
+        symbol [ method %tmp.22 103 65 71 ];
         %tmp.22 = getv function %tmp.21 :method;
         %tmp.24 = const :onPosition;
-        symbol [ onPosition %tmp.24 65 73 83 const ];
+        symbol [ onPosition %tmp.24 103 73 83 const ];
         %tmp.25 = invoke %tmp.21 %tmp.22(%tmp.24);
         invoke %tmp.17 %tmp.18(%tmp.20, %tmp.25);
-[ "C:\Documentos\runeasy_garmim\runeasy_garmim\source\RuneasyApp.mc" 66 8 ]
-        symbol [ Sensor %tmp.26 66 8 14 ];
+[ "C:\Documentos\runeasy_garmim\runeasy_garmim\source\RuneasyApp.mc" 104 8 ]
+        symbol [ Sensor %tmp.26 104 8 14 ];
         %tmp.26 = getm $.Toybox.Sensor;
-        symbol [ setEnabledSensors %tmp.27 66 15 32 ];
+        symbol [ setEnabledSensors %tmp.27 104 15 32 ];
         %tmp.27 = getv function %tmp.26 :setEnabledSensors;
         %tmp.28 = newa 0;
         invoke %tmp.26 %tmp.27(%tmp.28);
-C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_60_50_67_4_stop:
+C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_98_50_105_4_stop:
     }
-    //! Return the initial view of your application here
-    [ @file = "C:\Documentos\runeasy_garmim\runeasy_garmim\source\RuneasyApp.mc"; @line = 70; @symbol_functiondef = [getInitialView,70,13,27]; @symbol_return<0> = [Views,70,34,39]; @symbol_return<1> = [Views,70,45,50]; @symbol_return<2> = [InputDelegates,70,52,66]; ]
+    [ @file = "C:\Documentos\runeasy_garmim\runeasy_garmim\source\RuneasyApp.mc"; @line = 107; @symbol_functiondef = [getInitialView,107,13,27]; @symbol_return<0> = [Views,107,34,39]; @symbol_return<1> = [Views,107,45,50]; @symbol_return<2> = [InputDelegates,107,52,66]; ]
     function getInitialView() as [Views] or [Views, InputDelegates] {
-C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_70_68_72_4_start:
-[ "C:\Documentos\runeasy_garmim\runeasy_garmim\source\RuneasyApp.mc" 71 8 ]
+C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_107_68_109_4_start:
+[ "C:\Documentos\runeasy_garmim\runeasy_garmim\source\RuneasyApp.mc" 108 8 ]
         %tmp.1 = newa 2;
-        symbol [ HomeView %tmp.5 71 21 29 ];
+        symbol [ HomeView %tmp.5 108 21 29 ];
         %tmp.5 = getv ? :HomeView;
         %tmp.2 = newc %tmp.5 ();
         %tmp.6 = dup %tmp.1;
         %tmp.7 = aputv %tmp.6 0 %tmp.2;
-        symbol [ HomeDelegate %tmp.11 71 37 49 ];
+        symbol [ HomeDelegate %tmp.11 108 37 49 ];
         %tmp.11 = getv ? :HomeDelegate;
         %tmp.8 = newc %tmp.11 ();
         %tmp.12 = dup %tmp.7;
         %tmp.13 = aputv %tmp.12 1 %tmp.8;
         ret %tmp.13;
-C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_70_68_72_4_stop:
+C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_107_68_109_4_stop:
     }
 }
-[ @file = "C:\Documentos\runeasy_garmim\runeasy_garmim\source\RuneasyApp.mc"; @line = 75; @symbol_functiondef = [getApp,75,9,15]; @symbol_return<0> = [RuneasyApp,75,21,31]; ]
+[ @file = "C:\Documentos\runeasy_garmim\runeasy_garmim\source\RuneasyApp.mc"; @line = 112; @symbol_functiondef = [getApp,112,9,15]; @symbol_return<0> = [RuneasyApp,112,21,31]; ]
 function getApp() as RuneasyApp {
-C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_75_32_77_0_start:
-[ "C:\Documentos\runeasy_garmim\runeasy_garmim\source\RuneasyApp.mc" 76 4 ]
-    symbol [ Application %tmp.1 76 11 22 ];
+C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_112_32_114_0_start:
+[ "C:\Documentos\runeasy_garmim\runeasy_garmim\source\RuneasyApp.mc" 113 4 ]
+    symbol [ Application %tmp.1 113 11 22 ];
     %tmp.1 = getm $.Toybox.Application;
-    symbol [ getApp %tmp.2 76 23 29 ];
+    symbol [ getApp %tmp.2 113 23 29 ];
     %tmp.2 = getv function %tmp.1 :getApp;
     %tmp.3 = invoke %tmp.1 %tmp.2();
     %tmp.4 = as %tmp.3 RuneasyApp;
-    symbol [ RuneasyApp %tmp.4 76 35 45 ];
+    symbol [ RuneasyApp %tmp.4 113 35 45 ];
     ret %tmp.4;
-C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_75_32_77_0_stop:
+C__Documentos_runeasy_garmim_runeasy_garmim_source_RuneasyApp_mc_112_32_114_0_stop:
 }
 [ @file = "C:\Documentos\runeasy_garmim\runeasy_garmim\source\RuneasyApp.mc"; @line = 1; ]
 <init> {

@@ -32,7 +32,39 @@ class PauseMenuDelegate extends WatchUi.BehaviorDelegate {
                 WatchUi.popView(WatchUi.SLIDE_RIGHT);
             } else if (mView.selectedIndex == 1) {
                 // Salvar Treino
+                var info = Toybox.Activity.getActivityInfo();
+                var workoutData = {};
+                
+                if (info != null) {
+                    var avgSpeed = info.averageSpeed;
+                    var avgPace = 0;
+                    if (avgSpeed != null && avgSpeed > 0) {
+                        avgPace = 1000.0 / (avgSpeed * 60.0); // pace em minutos por km
+                    }
+                    
+                    workoutData = {
+                        "workoutId" => Toybox.Time.now().value(),
+                        "averagePace" => avgPace,
+                        "totalDistance" => (info.elapsedDistance != null) ? info.elapsedDistance : 0,
+                        "averageHR" => (info.averageHeartRate != null) ? info.averageHeartRate : 0,
+                        "totalTime" => (info.timerTime != null) ? info.timerTime : 0
+                    };
+                } else {
+                    workoutData = {
+                        "workoutId" => Toybox.Time.now().value(),
+                        "averagePace" => 0,
+                        "totalDistance" => 0,
+                        "averageHR" => 0,
+                        "totalTime" => 0
+                    };
+                }
+
+                // 1. Salvar no arquivo FIT fisicamente (Segurança)
                 app.saveSession();
+                
+                // 2. Tentar Enviar ou Adicionar à Fila (Deferred Sync)
+                app.sendWorkoutToPhone(workoutData);
+
                 Storage.setValue("last_workout_insight", "+2% EFICIENCIA");
                 WatchUi.switchToView(new FeedbackView(), new FeedbackDelegate(), WatchUi.SLIDE_LEFT);
             } else if (mView.selectedIndex == 2) {

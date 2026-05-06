@@ -6,6 +6,13 @@ class HomeView extends WatchUi.View {
         View.initialize();
     }
 
+    function onShow() {
+        var app = Application.getApp();
+        if (app has :checkPendingSync) {
+            app.checkPendingSync();
+        }
+    }
+
     function onLayout(dc) {
     }
 
@@ -46,5 +53,15 @@ class HomeView extends WatchUi.View {
         // Botão de Ação / Dica
         dc.setColor(0xFFFFFF as Graphics.ColorValue, Graphics.COLOR_TRANSPARENT);
         dc.drawText(centerX, h * 0.8, Graphics.FONT_XTINY, "ENTER: Ver Detalhes", Graphics.TEXT_JUSTIFY_CENTER);
+
+        // Feedback de Status: Ícone de Nuvem / Pendente (Deferred Sync)
+        var syncStatus = Toybox.Application.Storage.getValue("sync_status");
+        if (syncStatus != null && syncStatus.equals("PENDING")) {
+            // Desenha um ponto laranja discreto como alerta no topo direito
+            dc.setColor(0xFF8C00 as Graphics.ColorValue, Graphics.COLOR_TRANSPARENT); 
+            dc.fillCircle(w - 30, h * 0.15, 6);
+            dc.setColor(0xFFFFFF as Graphics.ColorValue, Graphics.COLOR_TRANSPARENT);
+            dc.drawText(w - 30, h * 0.15, Graphics.FONT_XTINY, "!", Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER);
+        }
     }
 }
