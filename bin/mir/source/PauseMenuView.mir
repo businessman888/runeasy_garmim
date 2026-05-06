@@ -1,0 +1,409 @@
+[ @file = "C:\Documentos\runeasy_garmim\runeasy_garmim\source\PauseMenuView.mc"; @line = 1; @symbol_importdef<0> = [Toybox,1,7,13]; @symbol_importdef<1> = [Graphics,1,14,22]; ]
+import Toybox.Graphics;
+[ @file = "C:\Documentos\runeasy_garmim\runeasy_garmim\source\PauseMenuView.mc"; @line = 2; @symbol_importdef<0> = [Toybox,2,7,13]; @symbol_importdef<1> = [WatchUi,2,14,21]; ]
+import Toybox.WatchUi;
+[ @file = "C:\Documentos\runeasy_garmim\runeasy_garmim\source\PauseMenuView.mc"; @line = 4; @symbol_classdef = [PauseMenuView,4,6,19]; @symbol_extends<0> = [WatchUi,4,28,35]; @symbol_extends<1> = [View,4,36,40]; ]
+class PauseMenuView extends WatchUi.View {
+    [ @file = "C:\Documentos\runeasy_garmim\runeasy_garmim\source\PauseMenuView.mc"; @line = 4; ]
+    <init> {
+    }
+    [ @file = "C:\Documentos\runeasy_garmim\runeasy_garmim\source\PauseMenuView.mc"; @line = 4; ]
+    static
+    <init> {
+    }
+    [ @file = "C:\Documentos\runeasy_garmim\runeasy_garmim\source\PauseMenuView.mc"; @line = 5; @position = 15; @symbol_vardef = [selectedIndex,5,15,28]; ]
+    public
+    var selectedIndex = 0;
+    [ @file = "C:\Documentos\runeasy_garmim\runeasy_garmim\source\PauseMenuView.mc"; @line = 7; @symbol_functiondef = [initialize,7,13,23]; ]
+    function initialize() as Void {
+C__Documentos_runeasy_garmim_runeasy_garmim_source_PauseMenuView_mc_7_26_9_4_start:
+[ "C:\Documentos\runeasy_garmim\runeasy_garmim\source\PauseMenuView.mc" 8 8 ]
+        symbol [ View %tmp.2 8 8 12 ];
+        %tmp.2 = getv ? :View;
+        symbol [ initialize %tmp.3 8 13 23 ];
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+C__Documentos_runeasy_garmim_runeasy_garmim_source_PauseMenuView_mc_7_26_9_4_stop:
+    }
+    [ @file = "C:\Documentos\runeasy_garmim\runeasy_garmim\source\PauseMenuView.mc"; @line = 11; @symbol_functiondef = [onUpdate,11,13,21]; @symbol_param<0> = [dc,11,22,24]; ]
+    function onUpdate(dc) {
+C__Documentos_runeasy_garmim_runeasy_garmim_source_PauseMenuView_mc_11_26_47_4_start:
+[ "C:\Documentos\runeasy_garmim\runeasy_garmim\source\PauseMenuView.mc" 12 8 ]
+        [ "C__Documentos_runeasy_garmim_runeasy_garmim_source_PauseMenuView_mc_11_26_47_4_start" "C__Documentos_runeasy_garmim_runeasy_garmim_source_PauseMenuView_mc_11_26_47_4_stop" ]
+        %w.1 = local;
+        symbol [ w %w.1 12 12 13 ];
+        %tmp.1 = lgetv %dc;
+        symbol [ dc %tmp.1 12 16 18 ];
+        symbol [ getWidth %tmp.2 12 19 27 ];
+        %tmp.2 = getv function %tmp.1 :getWidth;
+        %tmp.3 = invoke %tmp.1 %tmp.2();
+        lputv %w.1 %tmp.3;
+        symbol [ w %w.1 12 12 13 ];
+[ "C:\Documentos\runeasy_garmim\runeasy_garmim\source\PauseMenuView.mc" 13 8 ]
+        [ "C__Documentos_runeasy_garmim_runeasy_garmim_source_PauseMenuView_mc_11_26_47_4_start" "C__Documentos_runeasy_garmim_runeasy_garmim_source_PauseMenuView_mc_11_26_47_4_stop" ]
+        %h.2 = local;
+        symbol [ h %h.2 13 12 13 ];
+        %tmp.4 = lgetv %dc;
+        symbol [ dc %tmp.4 13 16 18 ];
+        symbol [ getHeight %tmp.5 13 19 28 ];
+        %tmp.5 = getv function %tmp.4 :getHeight;
+        %tmp.6 = invoke %tmp.4 %tmp.5();
+        lputv %h.2 %tmp.6;
+        symbol [ h %h.2 13 12 13 ];
+[ "C:\Documentos\runeasy_garmim\runeasy_garmim\source\PauseMenuView.mc" 14 8 ]
+        [ "C__Documentos_runeasy_garmim_runeasy_garmim_source_PauseMenuView_mc_11_26_47_4_start" "C__Documentos_runeasy_garmim_runeasy_garmim_source_PauseMenuView_mc_11_26_47_4_stop" ]
+        %centerX.3 = local;
+        symbol [ centerX %centerX.3 14 12 19 ];
+        %tmp.7 = lgetv %w.1;
+        symbol [ w %tmp.7 14 22 23 ];
+        %tmp.8 = 2;
+        %tmp.9 = div %tmp.7 %tmp.8;
+        lputv %centerX.3 %tmp.9;
+        symbol [ centerX %centerX.3 14 12 19 ];
+[ "C:\Documentos\runeasy_garmim\runeasy_garmim\source\PauseMenuView.mc" 16 8 ]
+        %tmp.10 = lgetv %dc;
+        symbol [ dc %tmp.10 16 8 10 ];
+        symbol [ setColor %tmp.11 16 11 19 ];
+        %tmp.11 = getv function %tmp.10 :setColor;
+        symbol [ Graphics %tmp.12 16 20 28 ];
+        %tmp.12 = getm $.Toybox.Graphics;
+        symbol [ COLOR_TRANSPARENT %tmp.13 16 29 46 ];
+        %tmp.13 = getv %tmp.12 :COLOR_TRANSPARENT;
+        %tmp.14 = 0x131F54;
+        %tmp.15 = as %tmp.14 Graphics.ColorValue;
+        symbol [ Graphics %tmp.15 16 60 68 ];
+        symbol [ ColorValue %tmp.15 16 69 79 ];
+        invoke %tmp.10 %tmp.11(%tmp.13, %tmp.15);
+[ "C:\Documentos\runeasy_garmim\runeasy_garmim\source\PauseMenuView.mc" 17 8 ]
+        %tmp.16 = lgetv %dc;
+        symbol [ dc %tmp.16 17 8 10 ];
+        symbol [ clear %tmp.17 17 11 16 ];
+        %tmp.17 = getv function %tmp.16 :clear;
+        invoke %tmp.16 %tmp.17();
+[ "C:\Documentos\runeasy_garmim\runeasy_garmim\source\PauseMenuView.mc" 19 8 ]
+        %tmp.18 = lgetv %dc;
+        symbol [ dc %tmp.18 19 8 10 ];
+        symbol [ setColor %tmp.19 19 11 19 ];
+        %tmp.19 = getv function %tmp.18 :setColor;
+        %tmp.20 = 0x00D4FF;
+        %tmp.21 = as %tmp.20 Graphics.ColorValue;
+        symbol [ Graphics %tmp.21 19 32 40 ];
+        symbol [ ColorValue %tmp.21 19 41 51 ];
+        symbol [ Graphics %tmp.22 19 53 61 ];
+        %tmp.22 = getm $.Toybox.Graphics;
+        symbol [ COLOR_TRANSPARENT %tmp.23 19 62 79 ];
+        %tmp.23 = getv %tmp.22 :COLOR_TRANSPARENT;
+        invoke %tmp.18 %tmp.19(%tmp.21, %tmp.23);
+[ "C:\Documentos\runeasy_garmim\runeasy_garmim\source\PauseMenuView.mc" 20 8 ]
+        %tmp.24 = lgetv %dc;
+        symbol [ dc %tmp.24 20 8 10 ];
+        symbol [ drawText %tmp.25 20 11 19 ];
+        %tmp.25 = getv function %tmp.24 :drawText;
+        %tmp.26 = lgetv %centerX.3;
+        symbol [ centerX %tmp.26 20 20 27 ];
+        %tmp.27 = lgetv %h.2;
+        symbol [ h %tmp.27 20 29 30 ];
+        %tmp.28 = 0.15;
+        %tmp.29 = mul %tmp.27 %tmp.28;
+        symbol [ Graphics %tmp.30 20 39 47 ];
+        %tmp.30 = getm $.Toybox.Graphics;
+        symbol [ FONT_SMALL %tmp.31 20 48 58 ];
+        %tmp.31 = getv %tmp.30 :FONT_SMALL;
+        %tmp.32 = "Treino Pausado";
+        symbol [ Graphics %tmp.33 20 78 86 ];
+        %tmp.33 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_CENTER %tmp.34 20 87 106 ];
+        %tmp.34 = getv %tmp.33 :TEXT_JUSTIFY_CENTER;
+        invoke %tmp.24 %tmp.25(%tmp.26, %tmp.29, %tmp.31, %tmp.32, %tmp.34);
+[ "C:\Documentos\runeasy_garmim\runeasy_garmim\source\PauseMenuView.mc" 22 8 ]
+        [ "C__Documentos_runeasy_garmim_runeasy_garmim_source_PauseMenuView_mc_11_26_47_4_start" "C__Documentos_runeasy_garmim_runeasy_garmim_source_PauseMenuView_mc_11_26_47_4_stop" ]
+        %options.4 = local;
+        symbol [ options %options.4 22 12 19 ];
+        %tmp.35 = newa 3;
+        %tmp.36 = "Retomar";
+        %tmp.37 = dup %tmp.35;
+        %tmp.38 = aputv %tmp.37 0 %tmp.36;
+        %tmp.39 = "Salvar Treino";
+        %tmp.40 = dup %tmp.38;
+        %tmp.41 = aputv %tmp.40 1 %tmp.39;
+        %tmp.42 = "Descartar";
+        %tmp.43 = dup %tmp.41;
+        %tmp.44 = aputv %tmp.43 2 %tmp.42;
+        lputv %options.4 %tmp.44;
+        symbol [ options %options.4 22 12 19 ];
+[ "C:\Documentos\runeasy_garmim\runeasy_garmim\source\PauseMenuView.mc" 23 8 ]
+        [ "C__Documentos_runeasy_garmim_runeasy_garmim_source_PauseMenuView_mc_11_26_47_4_start" "C__Documentos_runeasy_garmim_runeasy_garmim_source_PauseMenuView_mc_11_26_47_4_stop" ]
+        %btnW.5 = local;
+        symbol [ btnW %btnW.5 23 12 16 ];
+        %tmp.45 = 160;
+        lputv %btnW.5 %tmp.45;
+        symbol [ btnW %btnW.5 23 12 16 ];
+[ "C:\Documentos\runeasy_garmim\runeasy_garmim\source\PauseMenuView.mc" 24 8 ]
+        [ "C__Documentos_runeasy_garmim_runeasy_garmim_source_PauseMenuView_mc_11_26_47_4_start" "C__Documentos_runeasy_garmim_runeasy_garmim_source_PauseMenuView_mc_11_26_47_4_stop" ]
+        %btnH.6 = local;
+        symbol [ btnH %btnH.6 24 12 16 ];
+        %tmp.46 = 40;
+        lputv %btnH.6 %tmp.46;
+        symbol [ btnH %btnH.6 24 12 16 ];
+[ "C:\Documentos\runeasy_garmim\runeasy_garmim\source\PauseMenuView.mc" 25 8 ]
+        [ "C__Documentos_runeasy_garmim_runeasy_garmim_source_PauseMenuView_mc_11_26_47_4_start" "C__Documentos_runeasy_garmim_runeasy_garmim_source_PauseMenuView_mc_11_26_47_4_stop" ]
+        %startY.7 = local;
+        symbol [ startY %startY.7 25 12 18 ];
+        %tmp.47 = lgetv %h.2;
+        symbol [ h %tmp.47 25 21 22 ];
+        %tmp.48 = 0.35;
+        %tmp.49 = mul %tmp.47 %tmp.48;
+        lputv %startY.7 %tmp.49;
+        symbol [ startY %startY.7 25 12 18 ];
+[ "C:\Documentos\runeasy_garmim\runeasy_garmim\source\PauseMenuView.mc" 26 8 ]
+        [ "C__Documentos_runeasy_garmim_runeasy_garmim_source_PauseMenuView_mc_11_26_47_4_start" "C__Documentos_runeasy_garmim_runeasy_garmim_source_PauseMenuView_mc_11_26_47_4_stop" ]
+        %spacing.8 = local;
+        symbol [ spacing %spacing.8 26 12 19 ];
+        %tmp.50 = 50;
+        lputv %spacing.8 %tmp.50;
+        symbol [ spacing %spacing.8 26 12 19 ];
+[ "C:\Documentos\runeasy_garmim\runeasy_garmim\source\PauseMenuView.mc" 28 8 ]
+        for @C__Documentos_runeasy_garmim_runeasy_garmim_source_PauseMenuView_mc_28_8_46_8_for_test @C__Documentos_runeasy_garmim_runeasy_garmim_source_PauseMenuView_mc_28_8_46_8_for_incr @C__Documentos_runeasy_garmim_runeasy_garmim_source_PauseMenuView_mc_28_8_46_8_for_end;
+C__Documentos_runeasy_garmim_runeasy_garmim_source_PauseMenuView_mc_28_8_46_8_for_init:
+        [ "C__Documentos_runeasy_garmim_runeasy_garmim_source_PauseMenuView_mc_28_8_46_8_for_begin" "C__Documentos_runeasy_garmim_runeasy_garmim_source_PauseMenuView_mc_28_8_46_8_for_end" ]
+        %i.9 = local;
+        symbol [ i %i.9 28 17 18 ];
+        %tmp.51 = 0;
+        lputv %i.9 %tmp.51;
+        symbol [ i %i.9 28 17 18 ];
+C__Documentos_runeasy_garmim_runeasy_garmim_source_PauseMenuView_mc_28_8_46_8_for_test:
+        %tmp.52 = lgetv %i.9;
+        symbol [ i %tmp.52 28 24 25 ];
+        %tmp.53 = lgetv %options.4;
+        symbol [ options %tmp.53 28 28 35 ];
+        symbol [ size %tmp.54 28 36 40 ];
+        %tmp.54 = getv function %tmp.53 :size;
+        %tmp.55 = invoke %tmp.53 %tmp.54();
+        %tmp.56 = lt %tmp.52 %tmp.55;
+        bf %tmp.56 @C__Documentos_runeasy_garmim_runeasy_garmim_source_PauseMenuView_mc_28_8_46_8_for_end;
+C__Documentos_runeasy_garmim_runeasy_garmim_source_PauseMenuView_mc_28_8_46_8_for_begin:
+C__Documentos_runeasy_garmim_runeasy_garmim_source_PauseMenuView_mc_28_49_46_8_start:
+[ "C:\Documentos\runeasy_garmim\runeasy_garmim\source\PauseMenuView.mc" 29 12 ]
+        [ "C__Documentos_runeasy_garmim_runeasy_garmim_source_PauseMenuView_mc_28_49_46_8_start" "C__Documentos_runeasy_garmim_runeasy_garmim_source_PauseMenuView_mc_28_49_46_8_stop" ]
+        %y.10 = local;
+        symbol [ y %y.10 29 16 17 ];
+        %tmp.57 = lgetv %startY.7;
+        symbol [ startY %tmp.57 29 20 26 ];
+        %tmp.58 = lgetv %i.9;
+        symbol [ i %tmp.58 29 30 31 ];
+        %tmp.59 = lgetv %spacing.8;
+        symbol [ spacing %tmp.59 29 34 41 ];
+        %tmp.60 = mul %tmp.58 %tmp.59;
+        %tmp.61 = add %tmp.57 %tmp.60;
+        lputv %y.10 %tmp.61;
+        symbol [ y %y.10 29 16 17 ];
+[ "C:\Documentos\runeasy_garmim\runeasy_garmim\source\PauseMenuView.mc" 30 12 ]
+        [ "C__Documentos_runeasy_garmim_runeasy_garmim_source_PauseMenuView_mc_28_49_46_8_start" "C__Documentos_runeasy_garmim_runeasy_garmim_source_PauseMenuView_mc_28_49_46_8_stop" ]
+        %isSelected.11 = local;
+        symbol [ isSelected %isSelected.11 30 16 26 ];
+        %tmp.62 = lgetv %i.9;
+        symbol [ i %tmp.62 30 30 31 ];
+        symbol [ selectedIndex %tmp.64 30 35 48 ];
+        %tmp.64 = getv ? :selectedIndex;
+        %tmp.65 = eq %tmp.62 %tmp.64;
+        lputv %isSelected.11 %tmp.65;
+        symbol [ isSelected %isSelected.11 30 16 26 ];
+[ "C:\Documentos\runeasy_garmim\runeasy_garmim\source\PauseMenuView.mc" 32 12 ]
+C__Documentos_runeasy_garmim_runeasy_garmim_source_PauseMenuView_mc_32_12_43_12_if_stmt:
+        %tmp.66 = lgetv %isSelected.11;
+        symbol [ isSelected %tmp.66 32 16 26 ];
+        bf %tmp.66 @C__Documentos_runeasy_garmim_runeasy_garmim_source_PauseMenuView_mc_32_12_43_12_if_else_false;
+C__Documentos_runeasy_garmim_runeasy_garmim_source_PauseMenuView_mc_32_12_43_12_if_true:
+C__Documentos_runeasy_garmim_runeasy_garmim_source_PauseMenuView_mc_32_28_36_12_start:
+[ "C:\Documentos\runeasy_garmim\runeasy_garmim\source\PauseMenuView.mc" 33 16 ]
+        %tmp.67 = lgetv %dc;
+        symbol [ dc %tmp.67 33 16 18 ];
+        symbol [ setColor %tmp.68 33 19 27 ];
+        %tmp.68 = getv function %tmp.67 :setColor;
+        %tmp.69 = 0x00D4FF;
+        %tmp.70 = as %tmp.69 Graphics.ColorValue;
+        symbol [ Graphics %tmp.70 33 40 48 ];
+        symbol [ ColorValue %tmp.70 33 49 59 ];
+        symbol [ Graphics %tmp.71 33 61 69 ];
+        %tmp.71 = getm $.Toybox.Graphics;
+        symbol [ COLOR_TRANSPARENT %tmp.72 33 70 87 ];
+        %tmp.72 = getv %tmp.71 :COLOR_TRANSPARENT;
+        invoke %tmp.67 %tmp.68(%tmp.70, %tmp.72);
+[ "C:\Documentos\runeasy_garmim\runeasy_garmim\source\PauseMenuView.mc" 34 16 ]
+        %tmp.73 = lgetv %dc;
+        symbol [ dc %tmp.73 34 16 18 ];
+        symbol [ fillRoundedRectangle %tmp.74 34 19 39 ];
+        %tmp.74 = getv function %tmp.73 :fillRoundedRectangle;
+        %tmp.75 = lgetv %centerX.3;
+        symbol [ centerX %tmp.75 34 40 47 ];
+        %tmp.76 = lgetv %btnW.5;
+        symbol [ btnW %tmp.76 34 51 55 ];
+        %tmp.77 = 2;
+        %tmp.78 = div %tmp.76 %tmp.77;
+        %tmp.79 = sub %tmp.75 %tmp.78;
+        %tmp.80 = lgetv %y.10;
+        symbol [ y %tmp.80 34 60 61 ];
+        %tmp.81 = lgetv %btnW.5;
+        symbol [ btnW %tmp.81 34 63 67 ];
+        %tmp.82 = lgetv %btnH.6;
+        symbol [ btnH %tmp.82 34 69 73 ];
+        %tmp.83 = 12;
+        invoke %tmp.73 %tmp.74(%tmp.79, %tmp.80, %tmp.81, %tmp.82, %tmp.83);
+[ "C:\Documentos\runeasy_garmim\runeasy_garmim\source\PauseMenuView.mc" 35 16 ]
+        %tmp.84 = lgetv %dc;
+        symbol [ dc %tmp.84 35 16 18 ];
+        symbol [ setColor %tmp.85 35 19 27 ];
+        %tmp.85 = getv function %tmp.84 :setColor;
+        %tmp.86 = 0x131F54;
+        %tmp.87 = as %tmp.86 Graphics.ColorValue;
+        symbol [ Graphics %tmp.87 35 40 48 ];
+        symbol [ ColorValue %tmp.87 35 49 59 ];
+        symbol [ Graphics %tmp.88 35 61 69 ];
+        %tmp.88 = getm $.Toybox.Graphics;
+        symbol [ COLOR_TRANSPARENT %tmp.89 35 70 87 ];
+        %tmp.89 = getv %tmp.88 :COLOR_TRANSPARENT;
+        invoke %tmp.84 %tmp.85(%tmp.87, %tmp.89);
+C__Documentos_runeasy_garmim_runeasy_garmim_source_PauseMenuView_mc_32_28_36_12_stop:
+        goto @C__Documentos_runeasy_garmim_runeasy_garmim_source_PauseMenuView_mc_32_12_43_12_if_end;
+C__Documentos_runeasy_garmim_runeasy_garmim_source_PauseMenuView_mc_32_12_43_12_if_else_false:
+C__Documentos_runeasy_garmim_runeasy_garmim_source_PauseMenuView_mc_36_19_43_12_start:
+[ "C:\Documentos\runeasy_garmim\runeasy_garmim\source\PauseMenuView.mc" 37 16 ]
+        %tmp.90 = lgetv %dc;
+        symbol [ dc %tmp.90 37 16 18 ];
+        symbol [ setColor %tmp.91 37 19 27 ];
+        %tmp.91 = getv function %tmp.90 :setColor;
+        %tmp.92 = 0x1A2859;
+        %tmp.93 = as %tmp.92 Graphics.ColorValue;
+        symbol [ Graphics %tmp.93 37 40 48 ];
+        symbol [ ColorValue %tmp.93 37 49 59 ];
+        symbol [ Graphics %tmp.94 37 61 69 ];
+        %tmp.94 = getm $.Toybox.Graphics;
+        symbol [ COLOR_TRANSPARENT %tmp.95 37 70 87 ];
+        %tmp.95 = getv %tmp.94 :COLOR_TRANSPARENT;
+        invoke %tmp.90 %tmp.91(%tmp.93, %tmp.95);
+[ "C:\Documentos\runeasy_garmim\runeasy_garmim\source\PauseMenuView.mc" 38 16 ]
+        %tmp.96 = lgetv %dc;
+        symbol [ dc %tmp.96 38 16 18 ];
+        symbol [ fillRoundedRectangle %tmp.97 38 19 39 ];
+        %tmp.97 = getv function %tmp.96 :fillRoundedRectangle;
+        %tmp.98 = lgetv %centerX.3;
+        symbol [ centerX %tmp.98 38 40 47 ];
+        %tmp.99 = lgetv %btnW.5;
+        symbol [ btnW %tmp.99 38 51 55 ];
+        %tmp.100 = 2;
+        %tmp.101 = div %tmp.99 %tmp.100;
+        %tmp.102 = sub %tmp.98 %tmp.101;
+        %tmp.103 = lgetv %y.10;
+        symbol [ y %tmp.103 38 60 61 ];
+        %tmp.104 = lgetv %btnW.5;
+        symbol [ btnW %tmp.104 38 63 67 ];
+        %tmp.105 = lgetv %btnH.6;
+        symbol [ btnH %tmp.105 38 69 73 ];
+        %tmp.106 = 12;
+        invoke %tmp.96 %tmp.97(%tmp.102, %tmp.103, %tmp.104, %tmp.105, %tmp.106);
+[ "C:\Documentos\runeasy_garmim\runeasy_garmim\source\PauseMenuView.mc" 39 16 ]
+        %tmp.107 = lgetv %dc;
+        symbol [ dc %tmp.107 39 16 18 ];
+        symbol [ setPenWidth %tmp.108 39 19 30 ];
+        %tmp.108 = getv function %tmp.107 :setPenWidth;
+        %tmp.109 = 1;
+        invoke %tmp.107 %tmp.108(%tmp.109);
+[ "C:\Documentos\runeasy_garmim\runeasy_garmim\source\PauseMenuView.mc" 40 16 ]
+        %tmp.110 = lgetv %dc;
+        symbol [ dc %tmp.110 40 16 18 ];
+        symbol [ setColor %tmp.111 40 19 27 ];
+        %tmp.111 = getv function %tmp.110 :setColor;
+        %tmp.112 = 0x3A508C;
+        %tmp.113 = as %tmp.112 Graphics.ColorValue;
+        symbol [ Graphics %tmp.113 40 40 48 ];
+        symbol [ ColorValue %tmp.113 40 49 59 ];
+        symbol [ Graphics %tmp.114 40 61 69 ];
+        %tmp.114 = getm $.Toybox.Graphics;
+        symbol [ COLOR_TRANSPARENT %tmp.115 40 70 87 ];
+        %tmp.115 = getv %tmp.114 :COLOR_TRANSPARENT;
+        invoke %tmp.110 %tmp.111(%tmp.113, %tmp.115);
+[ "C:\Documentos\runeasy_garmim\runeasy_garmim\source\PauseMenuView.mc" 41 16 ]
+        %tmp.116 = lgetv %dc;
+        symbol [ dc %tmp.116 41 16 18 ];
+        symbol [ drawRoundedRectangle %tmp.117 41 19 39 ];
+        %tmp.117 = getv function %tmp.116 :drawRoundedRectangle;
+        %tmp.118 = lgetv %centerX.3;
+        symbol [ centerX %tmp.118 41 40 47 ];
+        %tmp.119 = lgetv %btnW.5;
+        symbol [ btnW %tmp.119 41 51 55 ];
+        %tmp.120 = 2;
+        %tmp.121 = div %tmp.119 %tmp.120;
+        %tmp.122 = sub %tmp.118 %tmp.121;
+        %tmp.123 = lgetv %y.10;
+        symbol [ y %tmp.123 41 60 61 ];
+        %tmp.124 = lgetv %btnW.5;
+        symbol [ btnW %tmp.124 41 63 67 ];
+        %tmp.125 = lgetv %btnH.6;
+        symbol [ btnH %tmp.125 41 69 73 ];
+        %tmp.126 = 12;
+        invoke %tmp.116 %tmp.117(%tmp.122, %tmp.123, %tmp.124, %tmp.125, %tmp.126);
+[ "C:\Documentos\runeasy_garmim\runeasy_garmim\source\PauseMenuView.mc" 42 16 ]
+        %tmp.127 = lgetv %dc;
+        symbol [ dc %tmp.127 42 16 18 ];
+        symbol [ setColor %tmp.128 42 19 27 ];
+        %tmp.128 = getv function %tmp.127 :setColor;
+        %tmp.129 = 0xFFFFFF;
+        %tmp.130 = as %tmp.129 Graphics.ColorValue;
+        symbol [ Graphics %tmp.130 42 40 48 ];
+        symbol [ ColorValue %tmp.130 42 49 59 ];
+        symbol [ Graphics %tmp.131 42 61 69 ];
+        %tmp.131 = getm $.Toybox.Graphics;
+        symbol [ COLOR_TRANSPARENT %tmp.132 42 70 87 ];
+        %tmp.132 = getv %tmp.131 :COLOR_TRANSPARENT;
+        invoke %tmp.127 %tmp.128(%tmp.130, %tmp.132);
+C__Documentos_runeasy_garmim_runeasy_garmim_source_PauseMenuView_mc_36_19_43_12_stop:
+C__Documentos_runeasy_garmim_runeasy_garmim_source_PauseMenuView_mc_32_12_43_12_if_end:
+[ "C:\Documentos\runeasy_garmim\runeasy_garmim\source\PauseMenuView.mc" 45 12 ]
+        %tmp.133 = lgetv %dc;
+        symbol [ dc %tmp.133 45 12 14 ];
+        symbol [ drawText %tmp.134 45 15 23 ];
+        %tmp.134 = getv function %tmp.133 :drawText;
+        %tmp.135 = lgetv %centerX.3;
+        symbol [ centerX %tmp.135 45 24 31 ];
+        %tmp.136 = lgetv %y.10;
+        symbol [ y %tmp.136 45 33 34 ];
+        %tmp.137 = lgetv %btnH.6;
+        symbol [ btnH %tmp.137 45 38 42 ];
+        %tmp.138 = 2;
+        %tmp.139 = div %tmp.137 %tmp.138;
+        %tmp.140 = add %tmp.136 %tmp.139;
+        symbol [ Graphics %tmp.141 45 47 55 ];
+        %tmp.141 = getm $.Toybox.Graphics;
+        symbol [ FONT_TINY %tmp.142 45 56 65 ];
+        %tmp.142 = getv %tmp.141 :FONT_TINY;
+        %tmp.143 = lgetv %options.4;
+        symbol [ options %tmp.143 45 67 74 ];
+        %tmp.144 = lgetv %i.9;
+        symbol [ i %tmp.144 45 75 76 ];
+        %tmp.145 = agetv %tmp.143 %tmp.144;
+        symbol [ Graphics %tmp.146 45 79 87 ];
+        %tmp.146 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_CENTER %tmp.147 45 88 107 ];
+        %tmp.147 = getv %tmp.146 :TEXT_JUSTIFY_CENTER;
+        symbol [ Graphics %tmp.148 45 110 118 ];
+        %tmp.148 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_VCENTER %tmp.149 45 119 139 ];
+        %tmp.149 = getv %tmp.148 :TEXT_JUSTIFY_VCENTER;
+        %tmp.150 = bitor %tmp.147 %tmp.149;
+        invoke %tmp.133 %tmp.134(%tmp.135, %tmp.140, %tmp.142, %tmp.145, %tmp.150);
+C__Documentos_runeasy_garmim_runeasy_garmim_source_PauseMenuView_mc_28_49_46_8_stop:
+C__Documentos_runeasy_garmim_runeasy_garmim_source_PauseMenuView_mc_28_8_46_8_for_incr:
+[ "C:\Documentos\runeasy_garmim\runeasy_garmim\source\PauseMenuView.mc" 28 ]
+        %tmp.153 = lgetv %i.9;
+        symbol [ i %tmp.153 28 44 45 ];
+        %tmp.154 = add %tmp.153 1;
+        lputv %i.9 %tmp.154;
+        symbol [ i %i.9 28 44 45 ];
+        goto @C__Documentos_runeasy_garmim_runeasy_garmim_source_PauseMenuView_mc_28_8_46_8_for_test;
+C__Documentos_runeasy_garmim_runeasy_garmim_source_PauseMenuView_mc_28_8_46_8_for_end:
+C__Documentos_runeasy_garmim_runeasy_garmim_source_PauseMenuView_mc_11_26_47_4_stop:
+    }
+}
+[ @file = "C:\Documentos\runeasy_garmim\runeasy_garmim\source\PauseMenuView.mc"; @line = 1; ]
+<init> {
+}

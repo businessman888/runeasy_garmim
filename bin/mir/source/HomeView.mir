@@ -1,0 +1,357 @@
+[ @file = "C:\Documentos\runeasy_garmim\runeasy_garmim\source\HomeView.mc"; @line = 1; @symbol_importdef<0> = [Toybox,1,7,13]; @symbol_importdef<1> = [Graphics,1,14,22]; ]
+import Toybox.Graphics;
+[ @file = "C:\Documentos\runeasy_garmim\runeasy_garmim\source\HomeView.mc"; @line = 2; @symbol_importdef<0> = [Toybox,2,7,13]; @symbol_importdef<1> = [WatchUi,2,14,21]; ]
+import Toybox.WatchUi;
+[ @file = "C:\Documentos\runeasy_garmim\runeasy_garmim\source\HomeView.mc"; @line = 4; @symbol_classdef = [HomeView,4,6,14]; @symbol_extends<0> = [WatchUi,4,23,30]; @symbol_extends<1> = [View,4,31,35]; ]
+class HomeView extends WatchUi.View {
+    [ @file = "C:\Documentos\runeasy_garmim\runeasy_garmim\source\HomeView.mc"; @line = 4; ]
+    <init> {
+    }
+    [ @file = "C:\Documentos\runeasy_garmim\runeasy_garmim\source\HomeView.mc"; @line = 4; ]
+    static
+    <init> {
+    }
+    [ @file = "C:\Documentos\runeasy_garmim\runeasy_garmim\source\HomeView.mc"; @line = 5; @symbol_functiondef = [initialize,5,13,23]; ]
+    function initialize() as Void {
+C__Documentos_runeasy_garmim_runeasy_garmim_source_HomeView_mc_5_26_7_4_start:
+[ "C:\Documentos\runeasy_garmim\runeasy_garmim\source\HomeView.mc" 6 8 ]
+        symbol [ View %tmp.2 6 8 12 ];
+        %tmp.2 = getv ? :View;
+        symbol [ initialize %tmp.3 6 13 23 ];
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+C__Documentos_runeasy_garmim_runeasy_garmim_source_HomeView_mc_5_26_7_4_stop:
+    }
+    [ @file = "C:\Documentos\runeasy_garmim\runeasy_garmim\source\HomeView.mc"; @line = 9; @symbol_functiondef = [onLayout,9,13,21]; @symbol_param<0> = [dc,9,22,24]; ]
+    function onLayout(dc) {
+    }
+    [ @file = "C:\Documentos\runeasy_garmim\runeasy_garmim\source\HomeView.mc"; @line = 12; @symbol_functiondef = [onUpdate,12,13,21]; @symbol_param<0> = [dc,12,22,24]; ]
+    function onUpdate(dc) {
+C__Documentos_runeasy_garmim_runeasy_garmim_source_HomeView_mc_12_26_49_4_start:
+[ "C:\Documentos\runeasy_garmim\runeasy_garmim\source\HomeView.mc" 13 8 ]
+        [ "C__Documentos_runeasy_garmim_runeasy_garmim_source_HomeView_mc_12_26_49_4_start" "C__Documentos_runeasy_garmim_runeasy_garmim_source_HomeView_mc_12_26_49_4_stop" ]
+        %w.1 = local;
+        symbol [ w %w.1 13 12 13 ];
+        %tmp.1 = lgetv %dc;
+        symbol [ dc %tmp.1 13 16 18 ];
+        symbol [ getWidth %tmp.2 13 19 27 ];
+        %tmp.2 = getv function %tmp.1 :getWidth;
+        %tmp.3 = invoke %tmp.1 %tmp.2();
+        lputv %w.1 %tmp.3;
+        symbol [ w %w.1 13 12 13 ];
+[ "C:\Documentos\runeasy_garmim\runeasy_garmim\source\HomeView.mc" 14 8 ]
+        [ "C__Documentos_runeasy_garmim_runeasy_garmim_source_HomeView_mc_12_26_49_4_start" "C__Documentos_runeasy_garmim_runeasy_garmim_source_HomeView_mc_12_26_49_4_stop" ]
+        %h.2 = local;
+        symbol [ h %h.2 14 12 13 ];
+        %tmp.4 = lgetv %dc;
+        symbol [ dc %tmp.4 14 16 18 ];
+        symbol [ getHeight %tmp.5 14 19 28 ];
+        %tmp.5 = getv function %tmp.4 :getHeight;
+        %tmp.6 = invoke %tmp.4 %tmp.5();
+        lputv %h.2 %tmp.6;
+        symbol [ h %h.2 14 12 13 ];
+[ "C:\Documentos\runeasy_garmim\runeasy_garmim\source\HomeView.mc" 15 8 ]
+        [ "C__Documentos_runeasy_garmim_runeasy_garmim_source_HomeView_mc_12_26_49_4_start" "C__Documentos_runeasy_garmim_runeasy_garmim_source_HomeView_mc_12_26_49_4_stop" ]
+        %centerX.3 = local;
+        symbol [ centerX %centerX.3 15 12 19 ];
+        %tmp.7 = lgetv %w.1;
+        symbol [ w %tmp.7 15 22 23 ];
+        %tmp.8 = 2;
+        %tmp.9 = div %tmp.7 %tmp.8;
+        lputv %centerX.3 %tmp.9;
+        symbol [ centerX %centerX.3 15 12 19 ];
+[ "C:\Documentos\runeasy_garmim\runeasy_garmim\source\HomeView.mc" 18 8 ]
+        %tmp.10 = lgetv %dc;
+        symbol [ dc %tmp.10 18 8 10 ];
+        symbol [ setColor %tmp.11 18 11 19 ];
+        %tmp.11 = getv function %tmp.10 :setColor;
+        symbol [ Graphics %tmp.12 18 20 28 ];
+        %tmp.12 = getm $.Toybox.Graphics;
+        symbol [ COLOR_TRANSPARENT %tmp.13 18 29 46 ];
+        %tmp.13 = getv %tmp.12 :COLOR_TRANSPARENT;
+        %tmp.14 = 0x131F54;
+        %tmp.15 = as %tmp.14 Graphics.ColorValue;
+        symbol [ Graphics %tmp.15 18 60 68 ];
+        symbol [ ColorValue %tmp.15 18 69 79 ];
+        invoke %tmp.10 %tmp.11(%tmp.13, %tmp.15);
+[ "C:\Documentos\runeasy_garmim\runeasy_garmim\source\HomeView.mc" 19 8 ]
+        %tmp.16 = lgetv %dc;
+        symbol [ dc %tmp.16 19 8 10 ];
+        symbol [ clear %tmp.17 19 11 16 ];
+        %tmp.17 = getv function %tmp.16 :clear;
+        invoke %tmp.16 %tmp.17();
+[ "C:\Documentos\runeasy_garmim\runeasy_garmim\source\HomeView.mc" 22 8 ]
+        %tmp.18 = lgetv %dc;
+        symbol [ dc %tmp.18 22 8 10 ];
+        symbol [ setColor %tmp.19 22 11 19 ];
+        %tmp.19 = getv function %tmp.18 :setColor;
+        %tmp.20 = 0xFFFFFF;
+        %tmp.21 = as %tmp.20 Graphics.ColorValue;
+        symbol [ Graphics %tmp.21 22 32 40 ];
+        symbol [ ColorValue %tmp.21 22 41 51 ];
+        symbol [ Graphics %tmp.22 22 53 61 ];
+        %tmp.22 = getm $.Toybox.Graphics;
+        symbol [ COLOR_TRANSPARENT %tmp.23 22 62 79 ];
+        %tmp.23 = getv %tmp.22 :COLOR_TRANSPARENT;
+        invoke %tmp.18 %tmp.19(%tmp.21, %tmp.23);
+[ "C:\Documentos\runeasy_garmim\runeasy_garmim\source\HomeView.mc" 23 8 ]
+        %tmp.24 = lgetv %dc;
+        symbol [ dc %tmp.24 23 8 10 ];
+        symbol [ drawText %tmp.25 23 11 19 ];
+        %tmp.25 = getv function %tmp.24 :drawText;
+        %tmp.26 = lgetv %centerX.3;
+        symbol [ centerX %tmp.26 23 20 27 ];
+        %tmp.27 = lgetv %h.2;
+        symbol [ h %tmp.27 23 29 30 ];
+        %tmp.28 = 0.12;
+        %tmp.29 = mul %tmp.27 %tmp.28;
+        symbol [ Graphics %tmp.30 23 39 47 ];
+        %tmp.30 = getm $.Toybox.Graphics;
+        symbol [ FONT_XTINY %tmp.31 23 48 58 ];
+        %tmp.31 = getv %tmp.30 :FONT_XTINY;
+        %tmp.32 = "Treinos do dia";
+        symbol [ Graphics %tmp.33 23 78 86 ];
+        %tmp.33 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_CENTER %tmp.34 23 87 106 ];
+        %tmp.34 = getv %tmp.33 :TEXT_JUSTIFY_CENTER;
+        invoke %tmp.24 %tmp.25(%tmp.26, %tmp.29, %tmp.31, %tmp.32, %tmp.34);
+[ "C:\Documentos\runeasy_garmim\runeasy_garmim\source\HomeView.mc" 26 8 ]
+        [ "C__Documentos_runeasy_garmim_runeasy_garmim_source_HomeView_mc_12_26_49_4_start" "C__Documentos_runeasy_garmim_runeasy_garmim_source_HomeView_mc_12_26_49_4_stop" ]
+        %cardW.4 = local;
+        symbol [ cardW %cardW.4 26 12 17 ];
+        %tmp.35 = lgetv %w.1;
+        symbol [ w %tmp.35 26 20 21 ];
+        %tmp.36 = 0.8;
+        %tmp.37 = mul %tmp.35 %tmp.36;
+        lputv %cardW.4 %tmp.37;
+        symbol [ cardW %cardW.4 26 12 17 ];
+[ "C:\Documentos\runeasy_garmim\runeasy_garmim\source\HomeView.mc" 27 8 ]
+        [ "C__Documentos_runeasy_garmim_runeasy_garmim_source_HomeView_mc_12_26_49_4_start" "C__Documentos_runeasy_garmim_runeasy_garmim_source_HomeView_mc_12_26_49_4_stop" ]
+        %cardH.5 = local;
+        symbol [ cardH %cardH.5 27 12 17 ];
+        %tmp.38 = lgetv %h.2;
+        symbol [ h %tmp.38 27 20 21 ];
+        %tmp.39 = 0.45;
+        %tmp.40 = mul %tmp.38 %tmp.39;
+        lputv %cardH.5 %tmp.40;
+        symbol [ cardH %cardH.5 27 12 17 ];
+[ "C:\Documentos\runeasy_garmim\runeasy_garmim\source\HomeView.mc" 28 8 ]
+        [ "C__Documentos_runeasy_garmim_runeasy_garmim_source_HomeView_mc_12_26_49_4_start" "C__Documentos_runeasy_garmim_runeasy_garmim_source_HomeView_mc_12_26_49_4_stop" ]
+        %cardX.6 = local;
+        symbol [ cardX %cardX.6 28 12 17 ];
+        %tmp.41 = lgetv %w.1;
+        symbol [ w %tmp.41 28 21 22 ];
+        %tmp.42 = lgetv %cardW.4;
+        symbol [ cardW %tmp.42 28 25 30 ];
+        %tmp.43 = sub %tmp.41 %tmp.42;
+        %tmp.44 = 2;
+        %tmp.45 = div %tmp.43 %tmp.44;
+        lputv %cardX.6 %tmp.45;
+        symbol [ cardX %cardX.6 28 12 17 ];
+[ "C:\Documentos\runeasy_garmim\runeasy_garmim\source\HomeView.mc" 29 8 ]
+        [ "C__Documentos_runeasy_garmim_runeasy_garmim_source_HomeView_mc_12_26_49_4_start" "C__Documentos_runeasy_garmim_runeasy_garmim_source_HomeView_mc_12_26_49_4_stop" ]
+        %cardY.7 = local;
+        symbol [ cardY %cardY.7 29 12 17 ];
+        %tmp.46 = lgetv %h.2;
+        symbol [ h %tmp.46 29 20 21 ];
+        %tmp.47 = 0.25;
+        %tmp.48 = mul %tmp.46 %tmp.47;
+        lputv %cardY.7 %tmp.48;
+        symbol [ cardY %cardY.7 29 12 17 ];
+[ "C:\Documentos\runeasy_garmim\runeasy_garmim\source\HomeView.mc" 32 8 ]
+        %tmp.49 = lgetv %dc;
+        symbol [ dc %tmp.49 32 8 10 ];
+        symbol [ setColor %tmp.50 32 11 19 ];
+        %tmp.50 = getv function %tmp.49 :setColor;
+        %tmp.51 = 0x1A2859;
+        %tmp.52 = as %tmp.51 Graphics.ColorValue;
+        symbol [ Graphics %tmp.52 32 32 40 ];
+        symbol [ ColorValue %tmp.52 32 41 51 ];
+        symbol [ Graphics %tmp.53 32 53 61 ];
+        %tmp.53 = getm $.Toybox.Graphics;
+        symbol [ COLOR_TRANSPARENT %tmp.54 32 62 79 ];
+        %tmp.54 = getv %tmp.53 :COLOR_TRANSPARENT;
+        invoke %tmp.49 %tmp.50(%tmp.52, %tmp.54);
+[ "C:\Documentos\runeasy_garmim\runeasy_garmim\source\HomeView.mc" 33 8 ]
+        %tmp.55 = lgetv %dc;
+        symbol [ dc %tmp.55 33 8 10 ];
+        symbol [ fillRoundedRectangle %tmp.56 33 11 31 ];
+        %tmp.56 = getv function %tmp.55 :fillRoundedRectangle;
+        %tmp.57 = lgetv %cardX.6;
+        symbol [ cardX %tmp.57 33 32 37 ];
+        %tmp.58 = lgetv %cardY.7;
+        symbol [ cardY %tmp.58 33 39 44 ];
+        %tmp.59 = lgetv %cardW.4;
+        symbol [ cardW %tmp.59 33 46 51 ];
+        %tmp.60 = lgetv %cardH.5;
+        symbol [ cardH %tmp.60 33 53 58 ];
+        %tmp.61 = 16;
+        invoke %tmp.55 %tmp.56(%tmp.57, %tmp.58, %tmp.59, %tmp.60, %tmp.61);
+[ "C:\Documentos\runeasy_garmim\runeasy_garmim\source\HomeView.mc" 34 8 ]
+        %tmp.62 = lgetv %dc;
+        symbol [ dc %tmp.62 34 8 10 ];
+        symbol [ setPenWidth %tmp.63 34 11 22 ];
+        %tmp.63 = getv function %tmp.62 :setPenWidth;
+        %tmp.64 = 2;
+        invoke %tmp.62 %tmp.63(%tmp.64);
+[ "C:\Documentos\runeasy_garmim\runeasy_garmim\source\HomeView.mc" 35 8 ]
+        %tmp.65 = lgetv %dc;
+        symbol [ dc %tmp.65 35 8 10 ];
+        symbol [ setColor %tmp.66 35 11 19 ];
+        %tmp.66 = getv function %tmp.65 :setColor;
+        %tmp.67 = 0x00D4FF;
+        %tmp.68 = as %tmp.67 Graphics.ColorValue;
+        symbol [ Graphics %tmp.68 35 32 40 ];
+        symbol [ ColorValue %tmp.68 35 41 51 ];
+        symbol [ Graphics %tmp.69 35 53 61 ];
+        %tmp.69 = getm $.Toybox.Graphics;
+        symbol [ COLOR_TRANSPARENT %tmp.70 35 62 79 ];
+        %tmp.70 = getv %tmp.69 :COLOR_TRANSPARENT;
+        invoke %tmp.65 %tmp.66(%tmp.68, %tmp.70);
+[ "C:\Documentos\runeasy_garmim\runeasy_garmim\source\HomeView.mc" 36 8 ]
+        %tmp.71 = lgetv %dc;
+        symbol [ dc %tmp.71 36 8 10 ];
+        symbol [ drawRoundedRectangle %tmp.72 36 11 31 ];
+        %tmp.72 = getv function %tmp.71 :drawRoundedRectangle;
+        %tmp.73 = lgetv %cardX.6;
+        symbol [ cardX %tmp.73 36 32 37 ];
+        %tmp.74 = lgetv %cardY.7;
+        symbol [ cardY %tmp.74 36 39 44 ];
+        %tmp.75 = lgetv %cardW.4;
+        symbol [ cardW %tmp.75 36 46 51 ];
+        %tmp.76 = lgetv %cardH.5;
+        symbol [ cardH %tmp.76 36 53 58 ];
+        %tmp.77 = 16;
+        invoke %tmp.71 %tmp.72(%tmp.73, %tmp.74, %tmp.75, %tmp.76, %tmp.77);
+[ "C:\Documentos\runeasy_garmim\runeasy_garmim\source\HomeView.mc" 39 8 ]
+        %tmp.78 = lgetv %dc;
+        symbol [ dc %tmp.78 39 8 10 ];
+        symbol [ setColor %tmp.79 39 11 19 ];
+        %tmp.79 = getv function %tmp.78 :setColor;
+        %tmp.80 = 0x00D4FF;
+        %tmp.81 = as %tmp.80 Graphics.ColorValue;
+        symbol [ Graphics %tmp.81 39 32 40 ];
+        symbol [ ColorValue %tmp.81 39 41 51 ];
+        symbol [ Graphics %tmp.82 39 53 61 ];
+        %tmp.82 = getm $.Toybox.Graphics;
+        symbol [ COLOR_TRANSPARENT %tmp.83 39 62 79 ];
+        %tmp.83 = getv %tmp.82 :COLOR_TRANSPARENT;
+        invoke %tmp.78 %tmp.79(%tmp.81, %tmp.83);
+[ "C:\Documentos\runeasy_garmim\runeasy_garmim\source\HomeView.mc" 40 8 ]
+        %tmp.84 = lgetv %dc;
+        symbol [ dc %tmp.84 40 8 10 ];
+        symbol [ drawText %tmp.85 40 11 19 ];
+        %tmp.85 = getv function %tmp.84 :drawText;
+        %tmp.86 = lgetv %centerX.3;
+        symbol [ centerX %tmp.86 40 20 27 ];
+        %tmp.87 = lgetv %cardY.7;
+        symbol [ cardY %tmp.87 40 29 34 ];
+        %tmp.88 = 10;
+        %tmp.89 = add %tmp.87 %tmp.88;
+        symbol [ Graphics %tmp.90 40 41 49 ];
+        %tmp.90 = getm $.Toybox.Graphics;
+        symbol [ FONT_XTINY %tmp.91 40 50 60 ];
+        %tmp.91 = getv %tmp.90 :FONT_XTINY;
+        %tmp.92 = "ALTA INTENSIDADE";
+        symbol [ Graphics %tmp.93 40 82 90 ];
+        %tmp.93 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_CENTER %tmp.94 40 91 110 ];
+        %tmp.94 = getv %tmp.93 :TEXT_JUSTIFY_CENTER;
+        invoke %tmp.84 %tmp.85(%tmp.86, %tmp.89, %tmp.91, %tmp.92, %tmp.94);
+[ "C:\Documentos\runeasy_garmim\runeasy_garmim\source\HomeView.mc" 42 8 ]
+        %tmp.95 = lgetv %dc;
+        symbol [ dc %tmp.95 42 8 10 ];
+        symbol [ setColor %tmp.96 42 11 19 ];
+        %tmp.96 = getv function %tmp.95 :setColor;
+        %tmp.97 = 0xFFFFFF;
+        %tmp.98 = as %tmp.97 Graphics.ColorValue;
+        symbol [ Graphics %tmp.98 42 32 40 ];
+        symbol [ ColorValue %tmp.98 42 41 51 ];
+        symbol [ Graphics %tmp.99 42 53 61 ];
+        %tmp.99 = getm $.Toybox.Graphics;
+        symbol [ COLOR_TRANSPARENT %tmp.100 42 62 79 ];
+        %tmp.100 = getv %tmp.99 :COLOR_TRANSPARENT;
+        invoke %tmp.95 %tmp.96(%tmp.98, %tmp.100);
+[ "C:\Documentos\runeasy_garmim\runeasy_garmim\source\HomeView.mc" 43 8 ]
+        %tmp.101 = lgetv %dc;
+        symbol [ dc %tmp.101 43 8 10 ];
+        symbol [ drawText %tmp.102 43 11 19 ];
+        %tmp.102 = getv function %tmp.101 :drawText;
+        %tmp.103 = lgetv %centerX.3;
+        symbol [ centerX %tmp.103 43 20 27 ];
+        %tmp.104 = lgetv %cardY.7;
+        symbol [ cardY %tmp.104 43 29 34 ];
+        %tmp.105 = 40;
+        %tmp.106 = add %tmp.104 %tmp.105;
+        symbol [ Graphics %tmp.107 43 41 49 ];
+        %tmp.107 = getm $.Toybox.Graphics;
+        symbol [ FONT_TINY %tmp.108 43 50 59 ];
+        %tmp.108 = getv %tmp.107 :FONT_TINY;
+        %tmp.109 = "Intervalados";
+        symbol [ Graphics %tmp.110 43 77 85 ];
+        %tmp.110 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_CENTER %tmp.111 43 86 105 ];
+        %tmp.111 = getv %tmp.110 :TEXT_JUSTIFY_CENTER;
+        invoke %tmp.101 %tmp.102(%tmp.103, %tmp.106, %tmp.108, %tmp.109, %tmp.111);
+[ "C:\Documentos\runeasy_garmim\runeasy_garmim\source\HomeView.mc" 44 8 ]
+        %tmp.112 = lgetv %dc;
+        symbol [ dc %tmp.112 44 8 10 ];
+        symbol [ drawText %tmp.113 44 11 19 ];
+        %tmp.113 = getv function %tmp.112 :drawText;
+        %tmp.114 = lgetv %centerX.3;
+        symbol [ centerX %tmp.114 44 20 27 ];
+        %tmp.115 = lgetv %cardY.7;
+        symbol [ cardY %tmp.115 44 29 34 ];
+        %tmp.116 = 65;
+        %tmp.117 = add %tmp.115 %tmp.116;
+        symbol [ Graphics %tmp.118 44 41 49 ];
+        %tmp.118 = getm $.Toybox.Graphics;
+        symbol [ FONT_SMALL %tmp.119 44 50 60 ];
+        %tmp.119 = getv %tmp.118 :FONT_SMALL;
+        %tmp.120 = "8x400m";
+        symbol [ Graphics %tmp.121 44 72 80 ];
+        %tmp.121 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_CENTER %tmp.122 44 81 100 ];
+        %tmp.122 = getv %tmp.121 :TEXT_JUSTIFY_CENTER;
+        invoke %tmp.112 %tmp.113(%tmp.114, %tmp.117, %tmp.119, %tmp.120, %tmp.122);
+[ "C:\Documentos\runeasy_garmim\runeasy_garmim\source\HomeView.mc" 47 8 ]
+        %tmp.123 = lgetv %dc;
+        symbol [ dc %tmp.123 47 8 10 ];
+        symbol [ setColor %tmp.124 47 11 19 ];
+        %tmp.124 = getv function %tmp.123 :setColor;
+        %tmp.125 = 0xFFFFFF;
+        %tmp.126 = as %tmp.125 Graphics.ColorValue;
+        symbol [ Graphics %tmp.126 47 32 40 ];
+        symbol [ ColorValue %tmp.126 47 41 51 ];
+        symbol [ Graphics %tmp.127 47 53 61 ];
+        %tmp.127 = getm $.Toybox.Graphics;
+        symbol [ COLOR_TRANSPARENT %tmp.128 47 62 79 ];
+        %tmp.128 = getv %tmp.127 :COLOR_TRANSPARENT;
+        invoke %tmp.123 %tmp.124(%tmp.126, %tmp.128);
+[ "C:\Documentos\runeasy_garmim\runeasy_garmim\source\HomeView.mc" 48 8 ]
+        %tmp.129 = lgetv %dc;
+        symbol [ dc %tmp.129 48 8 10 ];
+        symbol [ drawText %tmp.130 48 11 19 ];
+        %tmp.130 = getv function %tmp.129 :drawText;
+        %tmp.131 = lgetv %centerX.3;
+        symbol [ centerX %tmp.131 48 20 27 ];
+        %tmp.132 = lgetv %h.2;
+        symbol [ h %tmp.132 48 29 30 ];
+        %tmp.133 = 0.8;
+        %tmp.134 = mul %tmp.132 %tmp.133;
+        symbol [ Graphics %tmp.135 48 38 46 ];
+        %tmp.135 = getm $.Toybox.Graphics;
+        symbol [ FONT_XTINY %tmp.136 48 47 57 ];
+        %tmp.136 = getv %tmp.135 :FONT_XTINY;
+        %tmp.137 = "ENTER: Ver Detalhes";
+        symbol [ Graphics %tmp.138 48 82 90 ];
+        %tmp.138 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_CENTER %tmp.139 48 91 110 ];
+        %tmp.139 = getv %tmp.138 :TEXT_JUSTIFY_CENTER;
+        invoke %tmp.129 %tmp.130(%tmp.131, %tmp.134, %tmp.136, %tmp.137, %tmp.139);
+C__Documentos_runeasy_garmim_runeasy_garmim_source_HomeView_mc_12_26_49_4_stop:
+    }
+}
+[ @file = "C:\Documentos\runeasy_garmim\runeasy_garmim\source\HomeView.mc"; @line = 1; ]
+<init> {
+}

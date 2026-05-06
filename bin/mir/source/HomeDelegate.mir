@@ -1,0 +1,71 @@
+[ @file = "C:\Documentos\runeasy_garmim\runeasy_garmim\source\HomeDelegate.mc"; @line = 1; @symbol_importdef<0> = [Toybox,1,7,13]; @symbol_importdef<1> = [WatchUi,1,14,21]; ]
+import Toybox.WatchUi;
+[ @file = "C:\Documentos\runeasy_garmim\runeasy_garmim\source\HomeDelegate.mc"; @line = 3; @symbol_classdef = [HomeDelegate,3,6,18]; @symbol_extends<0> = [WatchUi,3,27,34]; @symbol_extends<1> = [BehaviorDelegate,3,35,51]; ]
+class HomeDelegate extends WatchUi.BehaviorDelegate {
+    [ @file = "C:\Documentos\runeasy_garmim\runeasy_garmim\source\HomeDelegate.mc"; @line = 3; ]
+    <init> {
+    }
+    [ @file = "C:\Documentos\runeasy_garmim\runeasy_garmim\source\HomeDelegate.mc"; @line = 3; ]
+    static
+    <init> {
+    }
+    [ @file = "C:\Documentos\runeasy_garmim\runeasy_garmim\source\HomeDelegate.mc"; @line = 4; @symbol_functiondef = [initialize,4,13,23]; ]
+    function initialize() as Void {
+C__Documentos_runeasy_garmim_runeasy_garmim_source_HomeDelegate_mc_4_26_6_4_start:
+[ "C:\Documentos\runeasy_garmim\runeasy_garmim\source\HomeDelegate.mc" 5 8 ]
+        symbol [ BehaviorDelegate %tmp.2 5 8 24 ];
+        %tmp.2 = getv ? :BehaviorDelegate;
+        symbol [ initialize %tmp.3 5 25 35 ];
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+C__Documentos_runeasy_garmim_runeasy_garmim_source_HomeDelegate_mc_4_26_6_4_stop:
+    }
+    [ @file = "C:\Documentos\runeasy_garmim\runeasy_garmim\source\HomeDelegate.mc"; @line = 8; @symbol_functiondef = [onKey,8,13,18]; @symbol_param<0> = [keyEvent,8,19,27]; ]
+    function onKey(keyEvent) {
+C__Documentos_runeasy_garmim_runeasy_garmim_source_HomeDelegate_mc_8_29_14_4_start:
+[ "C:\Documentos\runeasy_garmim\runeasy_garmim\source\HomeDelegate.mc" 9 8 ]
+C__Documentos_runeasy_garmim_runeasy_garmim_source_HomeDelegate_mc_9_8_12_8_if_stmt:
+        %tmp.1 = lgetv %keyEvent;
+        symbol [ keyEvent %tmp.1 9 12 20 ];
+        symbol [ getKey %tmp.2 9 21 27 ];
+        %tmp.2 = getv function %tmp.1 :getKey;
+        %tmp.3 = invoke %tmp.1 %tmp.2();
+        symbol [ WatchUi %tmp.4 9 33 40 ];
+        %tmp.4 = getm $.Toybox.WatchUi;
+        symbol [ KEY_ENTER %tmp.5 9 41 50 ];
+        %tmp.5 = getv %tmp.4 :KEY_ENTER;
+        %tmp.6 = eq %tmp.3 %tmp.5;
+        bf %tmp.6 @C__Documentos_runeasy_garmim_runeasy_garmim_source_HomeDelegate_mc_9_8_12_8_if_end;
+C__Documentos_runeasy_garmim_runeasy_garmim_source_HomeDelegate_mc_9_8_12_8_if_true:
+C__Documentos_runeasy_garmim_runeasy_garmim_source_HomeDelegate_mc_9_52_12_8_start:
+[ "C:\Documentos\runeasy_garmim\runeasy_garmim\source\HomeDelegate.mc" 10 12 ]
+        symbol [ WatchUi %tmp.7 10 12 19 ];
+        %tmp.7 = getm $.Toybox.WatchUi;
+        symbol [ pushView %tmp.8 10 20 28 ];
+        %tmp.8 = getv function %tmp.7 :pushView;
+        symbol [ WorkoutDetailsView %tmp.12 10 33 51 ];
+        %tmp.12 = getv ? :WorkoutDetailsView;
+        %tmp.9 = newc %tmp.12 ();
+        symbol [ WorkoutDetailsDelegate %tmp.16 10 59 81 ];
+        %tmp.16 = getv ? :WorkoutDetailsDelegate;
+        %tmp.13 = newc %tmp.16 ();
+        symbol [ WatchUi %tmp.17 10 85 92 ];
+        %tmp.17 = getm $.Toybox.WatchUi;
+        symbol [ SLIDE_LEFT %tmp.18 10 93 103 ];
+        %tmp.18 = getv %tmp.17 :SLIDE_LEFT;
+        invoke %tmp.7 %tmp.8(%tmp.9, %tmp.13, %tmp.18);
+[ "C:\Documentos\runeasy_garmim\runeasy_garmim\source\HomeDelegate.mc" 11 12 ]
+        %tmp.19 = true;
+        ret %tmp.19;
+C__Documentos_runeasy_garmim_runeasy_garmim_source_HomeDelegate_mc_9_52_12_8_stop:
+        goto @C__Documentos_runeasy_garmim_runeasy_garmim_source_HomeDelegate_mc_9_8_12_8_if_end;
+C__Documentos_runeasy_garmim_runeasy_garmim_source_HomeDelegate_mc_9_8_12_8_if_end:
+[ "C:\Documentos\runeasy_garmim\runeasy_garmim\source\HomeDelegate.mc" 13 8 ]
+        %tmp.20 = false;
+        ret %tmp.20;
+C__Documentos_runeasy_garmim_runeasy_garmim_source_HomeDelegate_mc_8_29_14_4_stop:
+    }
+}
+[ @file = "C:\Documentos\runeasy_garmim\runeasy_garmim\source\HomeDelegate.mc"; @line = 1; ]
+<init> {
+}

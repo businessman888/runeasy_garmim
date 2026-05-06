@@ -2,191 +2,412 @@
 <debugInfo>
     <manifest filename="C:\Documentos\runeasy_garmim\runeasy_garmim\manifest.xml"/>
     <pcToLineNum>
-        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyApp.mc" id="1" lineNum="5" parent="globals/RuneasyApp" pc="268435460" symbol="&lt;init&gt;"/>
-        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyApp.mc" id="2" lineNum="26" parent="globals" pc="268435472" symbol="getApp"/>
-        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyApp.mc" id="2" lineNum="27" parent="globals" pc="268435482" symbol="getApp"/>
-        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyBackground.mc" id="3" lineNum="5" parent="globals/Background" pc="268435493" symbol="&lt;init&gt;"/>
-        <entry filename="c:\\Documentos\\runeasy_garmim\\runeasy_garmim\\bin\\gen\\006-B4315-00\\source\\Rez.mcgen" id="4" lineNum="7" parent="globals/Rez" pc="268435505" symbol="&lt;init&gt;"/>
-        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="5" lineNum="6" parent="globals/RuneasyView" pc="268435525" symbol="&lt;init&gt;"/>
-        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyApp.mc" id="6" lineNum="12" parent="globals/RuneasyApp" pc="268435537" symbol="onStart"/>
-        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyApp.mc" id="7" lineNum="20" parent="globals/RuneasyApp" pc="268435540" symbol="getInitialView"/>
-        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyApp.mc" id="7" lineNum="21" parent="globals/RuneasyApp" pc="268435542" symbol="getInitialView"/>
-        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyApp.mc" id="8" lineNum="7" parent="globals/RuneasyApp" pc="268435568" symbol="initialize"/>
-        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyApp.mc" id="8" lineNum="8" parent="globals/RuneasyApp" pc="268435570" symbol="initialize"/>
-        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyApp.mc" id="9" lineNum="16" parent="globals/RuneasyApp" pc="268435583" symbol="onStop"/>
-        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyBackground.mc" id="10" lineNum="19" parent="globals/Background" pc="268435586" symbol="setColor"/>
-        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyBackground.mc" id="10" lineNum="20" parent="globals/Background" pc="268435588" symbol="setColor"/>
-        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyBackground.mc" id="11" lineNum="9" parent="globals/Background" pc="268435598" symbol="initialize"/>
-        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyBackground.mc" id="11" lineNum="10" parent="globals/Background" pc="268435601" symbol="initialize"/>
-        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyBackground.mc" id="11" lineNum="14" parent="globals/Background" pc="268435619" symbol="initialize"/>
-        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyBackground.mc" id="11" lineNum="16" parent="globals/Background" pc="268435635" symbol="initialize"/>
-        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyBackground.mc" id="12" lineNum="23" parent="globals/Background" pc="268435648" symbol="draw"/>
-        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyBackground.mc" id="12" lineNum="24" parent="globals/Background" pc="268435650" symbol="draw"/>
-        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyBackground.mc" id="12" lineNum="25" parent="globals/Background" pc="268435667" symbol="draw"/>
-        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="13" lineNum="29" parent="globals/RuneasyView" pc="268435676" symbol="onLayout"/>
-        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="13" lineNum="30" parent="globals/RuneasyView" pc="268435679" symbol="onLayout"/>
-        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="13" lineNum="32" parent="globals/RuneasyView" pc="268435692" symbol="onLayout"/>
-        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="13" lineNum="33" parent="globals/RuneasyView" pc="268435730" symbol="onLayout"/>
-        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="13" lineNum="35" parent="globals/RuneasyView" pc="268435748" symbol="onLayout"/>
-        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="13" lineNum="36" parent="globals/RuneasyView" pc="268435786" symbol="onLayout"/>
-        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="13" lineNum="38" parent="globals/RuneasyView" pc="268435804" symbol="onLayout"/>
-        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="13" lineNum="39" parent="globals/RuneasyView" pc="268435842" symbol="onLayout"/>
-        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="13" lineNum="41" parent="globals/RuneasyView" pc="268435860" symbol="onLayout"/>
-        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="13" lineNum="42" parent="globals/RuneasyView" pc="268435868" symbol="onLayout"/>
-        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="13" lineNum="43" parent="globals/RuneasyView" pc="268435913" symbol="onLayout"/>
-        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="13" lineNum="44" parent="globals/RuneasyView" pc="268435921" symbol="onLayout"/>
-        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="13" lineNum="45" parent="globals/RuneasyView" pc="268435966" symbol="onLayout"/>
-        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="13" lineNum="46" parent="globals/RuneasyView" pc="268435974" symbol="onLayout"/>
-        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="13" lineNum="47" parent="globals/RuneasyView" pc="268436019" symbol="onLayout"/>
-        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="13" lineNum="48" parent="globals/RuneasyView" pc="268436027" symbol="onLayout"/>
-        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="13" lineNum="50" parent="globals/RuneasyView" pc="268436072" symbol="onLayout"/>
-        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="14" lineNum="54" parent="globals/RuneasyView" pc="268436115" symbol="compute"/>
-        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="14" lineNum="55" parent="globals/RuneasyView" pc="268436118" symbol="compute"/>
-        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="14" lineNum="56" parent="globals/RuneasyView" pc="268436140" symbol="compute"/>
-        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="14" lineNum="57" parent="globals/RuneasyView" pc="268436149" symbol="compute"/>
-        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="14" lineNum="58" parent="globals/RuneasyView" pc="268436160" symbol="compute"/>
-        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="14" lineNum="60" parent="globals/RuneasyView" pc="268436175" symbol="compute"/>
-        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="14" lineNum="61" parent="globals/RuneasyView" pc="268436191" symbol="compute"/>
-        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="14" lineNum="62" parent="globals/RuneasyView" pc="268436200" symbol="compute"/>
-        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="14" lineNum="63" parent="globals/RuneasyView" pc="268436219" symbol="compute"/>
-        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="14" lineNum="66" parent="globals/RuneasyView" pc="268436257" symbol="compute"/>
-        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="14" lineNum="69" parent="globals/RuneasyView" pc="268436269" symbol="compute"/>
-        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="14" lineNum="70" parent="globals/RuneasyView" pc="268436272" symbol="compute"/>
-        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="14" lineNum="71" parent="globals/RuneasyView" pc="268436294" symbol="compute"/>
-        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="14" lineNum="73" parent="globals/RuneasyView" pc="268436312" symbol="compute"/>
-        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="14" lineNum="75" parent="globals/RuneasyView" pc="268436333" symbol="compute"/>
-        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="14" lineNum="76" parent="globals/RuneasyView" pc="268436355" symbol="compute"/>
-        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="14" lineNum="78" parent="globals/RuneasyView" pc="268436378" symbol="compute"/>
-        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="15" lineNum="20" parent="globals/RuneasyView" pc="268436391" symbol="initialize"/>
-        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="15" lineNum="21" parent="globals/RuneasyView" pc="268436393" symbol="initialize"/>
-        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="15" lineNum="22" parent="globals/RuneasyView" pc="268436405" symbol="initialize"/>
-        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="15" lineNum="23" parent="globals/RuneasyView" pc="268436417" symbol="initialize"/>
-        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="15" lineNum="24" parent="globals/RuneasyView" pc="268436429" symbol="initialize"/>
-        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="15" lineNum="25" parent="globals/RuneasyView" pc="268436441" symbol="initialize"/>
-        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="15" lineNum="26" parent="globals/RuneasyView" pc="268436452" symbol="initialize"/>
-        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="16" lineNum="82" parent="globals/RuneasyView" pc="268436464" symbol="onUpdate"/>
-        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="16" lineNum="83" parent="globals/RuneasyView" pc="268436467" symbol="onUpdate"/>
-        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="16" lineNum="84" parent="globals/RuneasyView" pc="268436476" symbol="onUpdate"/>
-        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="16" lineNum="85" parent="globals/RuneasyView" pc="268436485" symbol="onUpdate"/>
-        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="16" lineNum="86" parent="globals/RuneasyView" pc="268436492" symbol="onUpdate"/>
-        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="16" lineNum="89" parent="globals/RuneasyView" pc="268436499" symbol="onUpdate"/>
-        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="16" lineNum="90" parent="globals/RuneasyView" pc="268436515" symbol="onUpdate"/>
-        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="16" lineNum="93" parent="globals/RuneasyView" pc="268436523" symbol="onUpdate"/>
-        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="16" lineNum="94" parent="globals/RuneasyView" pc="268436561" symbol="onUpdate"/>
-        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="16" lineNum="94" parent="globals/RuneasyView" pc="268436570" symbol="onUpdate"/>
-        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="16" lineNum="95" parent="globals/RuneasyView" pc="268436578" symbol="onUpdate"/>
-        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="16" lineNum="97" parent="globals/RuneasyView" pc="268436590" symbol="onUpdate"/>
-        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="16" lineNum="98" parent="globals/RuneasyView" pc="268436597" symbol="onUpdate"/>
-        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="16" lineNum="99" parent="globals/RuneasyView" pc="268436609" symbol="onUpdate"/>
-        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="16" lineNum="100" parent="globals/RuneasyView" pc="268436625" symbol="onUpdate"/>
-        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="16" lineNum="101" parent="globals/RuneasyView" pc="268436629" symbol="onUpdate"/>
-        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="16" lineNum="102" parent="globals/RuneasyView" pc="268436636" symbol="onUpdate"/>
-        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="16" lineNum="103" parent="globals/RuneasyView" pc="268436643" symbol="onUpdate"/>
-        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="16" lineNum="105" parent="globals/RuneasyView" pc="268436654" symbol="onUpdate"/>
-        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="16" lineNum="108" parent="globals/RuneasyView" pc="268436685" symbol="onUpdate"/>
-        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="16" lineNum="109" parent="globals/RuneasyView" pc="268436698" symbol="onUpdate"/>
-        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="16" lineNum="114" parent="globals/RuneasyView" pc="268436738" symbol="onUpdate"/>
-        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="16" lineNum="117" parent="globals/RuneasyView" pc="268436744" symbol="onUpdate"/>
-        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="16" lineNum="118" parent="globals/RuneasyView" pc="268436762" symbol="onUpdate"/>
-        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="16" lineNum="119" parent="globals/RuneasyView" pc="268436772" symbol="onUpdate"/>
-        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="16" lineNum="123" parent="globals/RuneasyView" pc="268436803" symbol="onUpdate"/>
-        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="16" lineNum="124" parent="globals/RuneasyView" pc="268436809" symbol="onUpdate"/>
-        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="16" lineNum="125" parent="globals/RuneasyView" pc="268436815" symbol="onUpdate"/>
-        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="16" lineNum="128" parent="globals/RuneasyView" pc="268436819" symbol="onUpdate"/>
-        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="16" lineNum="129" parent="globals/RuneasyView" pc="268436837" symbol="onUpdate"/>
-        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="16" lineNum="130" parent="globals/RuneasyView" pc="268436841" symbol="onUpdate"/>
-        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="16" lineNum="131" parent="globals/RuneasyView" pc="268436859" symbol="onUpdate"/>
-        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="16" lineNum="132" parent="globals/RuneasyView" pc="268436863" symbol="onUpdate"/>
-        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="16" lineNum="133" parent="globals/RuneasyView" pc="268436876" symbol="onUpdate"/>
-        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="16" lineNum="134" parent="globals/RuneasyView" pc="268436886" symbol="onUpdate"/>
-        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="16" lineNum="135" parent="globals/RuneasyView" pc="268436890" symbol="onUpdate"/>
-        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="16" lineNum="136" parent="globals/RuneasyView" pc="268436900" symbol="onUpdate"/>
-        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="16" lineNum="139" parent="globals/RuneasyView" pc="268436910" symbol="onUpdate"/>
-        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="16" lineNum="140" parent="globals/RuneasyView" pc="268436924" symbol="onUpdate"/>
-        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="16" lineNum="141" parent="globals/RuneasyView" pc="268436944" symbol="onUpdate"/>
-        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="16" lineNum="142" parent="globals/RuneasyView" pc="268436956" symbol="onUpdate"/>
-        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="16" lineNum="143" parent="globals/RuneasyView" pc="268436970" symbol="onUpdate"/>
-        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="16" lineNum="146" parent="globals/RuneasyView" pc="268436990" symbol="onUpdate"/>
-        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="16" lineNum="147" parent="globals/RuneasyView" pc="268437000" symbol="onUpdate"/>
-        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="16" lineNum="148" parent="globals/RuneasyView" pc="268437022" symbol="onUpdate"/>
-        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="16" lineNum="149" parent="globals/RuneasyView" pc="268437038" symbol="onUpdate"/>
-        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="16" lineNum="153" parent="globals/RuneasyView" pc="268437079" symbol="onUpdate"/>
-        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="16" lineNum="154" parent="globals/RuneasyView" pc="268437103" symbol="onUpdate"/>
-        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="16" lineNum="155" parent="globals/RuneasyView" pc="268437109" symbol="onUpdate"/>
-        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="16" lineNum="156" parent="globals/RuneasyView" pc="268437124" symbol="onUpdate"/>
-        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="16" lineNum="158" parent="globals/RuneasyView" pc="268437140" symbol="onUpdate"/>
-        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="16" lineNum="159" parent="globals/RuneasyView" pc="268437158" symbol="onUpdate"/>
-        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="16" lineNum="163" parent="globals/RuneasyView" pc="268437174" symbol="onUpdate"/>
-        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="16" lineNum="164" parent="globals/RuneasyView" pc="268437192" symbol="onUpdate"/>
-        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="16" lineNum="165" parent="globals/RuneasyView" pc="268437196" symbol="onUpdate"/>
-        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="16" lineNum="166" parent="globals/RuneasyView" pc="268437214" symbol="onUpdate"/>
-        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="16" lineNum="167" parent="globals/RuneasyView" pc="268437218" symbol="onUpdate"/>
-        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="16" lineNum="168" parent="globals/RuneasyView" pc="268437231" symbol="onUpdate"/>
-        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="16" lineNum="169" parent="globals/RuneasyView" pc="268437241" symbol="onUpdate"/>
-        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="16" lineNum="170" parent="globals/RuneasyView" pc="268437245" symbol="onUpdate"/>
-        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="16" lineNum="171" parent="globals/RuneasyView" pc="268437255" symbol="onUpdate"/>
-        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="16" lineNum="174" parent="globals/RuneasyView" pc="268437265" symbol="onUpdate"/>
-        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="16" lineNum="175" parent="globals/RuneasyView" pc="268437279" symbol="onUpdate"/>
-        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="16" lineNum="176" parent="globals/RuneasyView" pc="268437299" symbol="onUpdate"/>
-        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="16" lineNum="177" parent="globals/RuneasyView" pc="268437311" symbol="onUpdate"/>
-        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="16" lineNum="178" parent="globals/RuneasyView" pc="268437325" symbol="onUpdate"/>
-        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="16" lineNum="181" parent="globals/RuneasyView" pc="268437345" symbol="onUpdate"/>
-        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="16" lineNum="182" parent="globals/RuneasyView" pc="268437355" symbol="onUpdate"/>
-        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="16" lineNum="183" parent="globals/RuneasyView" pc="268437377" symbol="onUpdate"/>
-        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="16" lineNum="184" parent="globals/RuneasyView" pc="268437393" symbol="onUpdate"/>
-        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="16" lineNum="189" parent="globals/RuneasyView" pc="268437437" symbol="onUpdate"/>
-        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="16" lineNum="190" parent="globals/RuneasyView" pc="268437461" symbol="onUpdate"/>
-        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="16" lineNum="191" parent="globals/RuneasyView" pc="268437467" symbol="onUpdate"/>
-        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="16" lineNum="192" parent="globals/RuneasyView" pc="268437482" symbol="onUpdate"/>
-        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="16" lineNum="193" parent="globals/RuneasyView" pc="268437498" symbol="onUpdate"/>
-        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="16" lineNum="196" parent="globals/RuneasyView" pc="268437514" symbol="onUpdate"/>
-        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="16" lineNum="197" parent="globals/RuneasyView" pc="268437538" symbol="onUpdate"/>
-        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="16" lineNum="198" parent="globals/RuneasyView" pc="268437544" symbol="onUpdate"/>
-        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="16" lineNum="199" parent="globals/RuneasyView" pc="268437559" symbol="onUpdate"/>
-        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="16" lineNum="200" parent="globals/RuneasyView" pc="268437575" symbol="onUpdate"/>
-        <entry filename="c:\\Documentos\\runeasy_garmim\\runeasy_garmim\\bin\\gen\\006-B4315-00\\source\\Rez.mcgen" id="17" lineNum="52" parent="globals/Rez/Layouts" pc="268437592" symbol="BottomRightLayout"/>
-        <entry filename="c:\\Documentos\\runeasy_garmim\\runeasy_garmim\\bin\\gen\\006-B4315-00\\source\\Rez.mcgen" id="17" lineNum="53" parent="globals/Rez/Layouts" pc="268437603" symbol="BottomRightLayout"/>
-        <entry filename="c:\\Documentos\\runeasy_garmim\\runeasy_garmim\\bin\\gen\\006-B4315-00\\source\\Rez.mcgen" id="17" lineNum="55" parent="globals/Rez/Layouts" pc="268437685" symbol="BottomRightLayout"/>
-        <entry filename="c:\\Documentos\\runeasy_garmim\\runeasy_garmim\\bin\\gen\\006-B4315-00\\source\\Rez.mcgen" id="17" lineNum="57" parent="globals/Rez/Layouts" pc="268437767" symbol="BottomRightLayout"/>
-        <entry filename="c:\\Documentos\\runeasy_garmim\\runeasy_garmim\\bin\\gen\\006-B4315-00\\source\\Rez.mcgen" id="18" lineNum="36" parent="globals/Rez/Layouts" pc="268437782" symbol="TopRightLayout"/>
-        <entry filename="c:\\Documentos\\runeasy_garmim\\runeasy_garmim\\bin\\gen\\006-B4315-00\\source\\Rez.mcgen" id="18" lineNum="37" parent="globals/Rez/Layouts" pc="268437793" symbol="TopRightLayout"/>
-        <entry filename="c:\\Documentos\\runeasy_garmim\\runeasy_garmim\\bin\\gen\\006-B4315-00\\source\\Rez.mcgen" id="18" lineNum="39" parent="globals/Rez/Layouts" pc="268437875" symbol="TopRightLayout"/>
-        <entry filename="c:\\Documentos\\runeasy_garmim\\runeasy_garmim\\bin\\gen\\006-B4315-00\\source\\Rez.mcgen" id="18" lineNum="41" parent="globals/Rez/Layouts" pc="268437957" symbol="TopRightLayout"/>
-        <entry filename="c:\\Documentos\\runeasy_garmim\\runeasy_garmim\\bin\\gen\\006-B4315-00\\source\\Rez.mcgen" id="19" lineNum="44" parent="globals/Rez/Layouts" pc="268437972" symbol="BottomLeftLayout"/>
-        <entry filename="c:\\Documentos\\runeasy_garmim\\runeasy_garmim\\bin\\gen\\006-B4315-00\\source\\Rez.mcgen" id="19" lineNum="45" parent="globals/Rez/Layouts" pc="268437983" symbol="BottomLeftLayout"/>
-        <entry filename="c:\\Documentos\\runeasy_garmim\\runeasy_garmim\\bin\\gen\\006-B4315-00\\source\\Rez.mcgen" id="19" lineNum="47" parent="globals/Rez/Layouts" pc="268438064" symbol="BottomLeftLayout"/>
-        <entry filename="c:\\Documentos\\runeasy_garmim\\runeasy_garmim\\bin\\gen\\006-B4315-00\\source\\Rez.mcgen" id="19" lineNum="49" parent="globals/Rez/Layouts" pc="268438145" symbol="BottomLeftLayout"/>
-        <entry filename="c:\\Documentos\\runeasy_garmim\\runeasy_garmim\\bin\\gen\\006-B4315-00\\source\\Rez.mcgen" id="20" lineNum="28" parent="globals/Rez/Layouts" pc="268438160" symbol="TopLeftLayout"/>
-        <entry filename="c:\\Documentos\\runeasy_garmim\\runeasy_garmim\\bin\\gen\\006-B4315-00\\source\\Rez.mcgen" id="20" lineNum="29" parent="globals/Rez/Layouts" pc="268438171" symbol="TopLeftLayout"/>
-        <entry filename="c:\\Documentos\\runeasy_garmim\\runeasy_garmim\\bin\\gen\\006-B4315-00\\source\\Rez.mcgen" id="20" lineNum="31" parent="globals/Rez/Layouts" pc="268438252" symbol="TopLeftLayout"/>
-        <entry filename="c:\\Documentos\\runeasy_garmim\\runeasy_garmim\\bin\\gen\\006-B4315-00\\source\\Rez.mcgen" id="20" lineNum="33" parent="globals/Rez/Layouts" pc="268438333" symbol="TopLeftLayout"/>
-        <entry filename="c:\\Documentos\\runeasy_garmim\\runeasy_garmim\\bin\\gen\\006-B4315-00\\source\\Rez.mcgen" id="21" lineNum="16" parent="globals/Rez/Layouts" pc="268438348" symbol="MainLayout"/>
-        <entry filename="c:\\Documentos\\runeasy_garmim\\runeasy_garmim\\bin\\gen\\006-B4315-00\\source\\Rez.mcgen" id="21" lineNum="17" parent="globals/Rez/Layouts" pc="268438359" symbol="MainLayout"/>
-        <entry filename="c:\\Documentos\\runeasy_garmim\\runeasy_garmim\\bin\\gen\\006-B4315-00\\source\\Rez.mcgen" id="21" lineNum="19" parent="globals/Rez/Layouts" pc="268438368" symbol="MainLayout"/>
-        <entry filename="c:\\Documentos\\runeasy_garmim\\runeasy_garmim\\bin\\gen\\006-B4315-00\\source\\Rez.mcgen" id="21" lineNum="21" parent="globals/Rez/Layouts" pc="268438377" symbol="MainLayout"/>
-        <entry filename="c:\\Documentos\\runeasy_garmim\\runeasy_garmim\\bin\\gen\\006-B4315-00\\source\\Rez.mcgen" id="21" lineNum="23" parent="globals/Rez/Layouts" pc="268438483" symbol="MainLayout"/>
-        <entry filename="c:\\Documentos\\runeasy_garmim\\runeasy_garmim\\bin\\gen\\006-B4315-00\\source\\Rez.mcgen" id="21" lineNum="25" parent="globals/Rez/Layouts" pc="268438577" symbol="MainLayout"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyApp.mc" id="1" lineNum="10" parent="globals/RuneasyApp" pc="268435460" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyApp.mc" id="2" lineNum="75" parent="globals" pc="268435472" symbol="getApp"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyApp.mc" id="2" lineNum="76" parent="globals" pc="268435482" symbol="getApp"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\FeedbackView.mc" id="3" lineNum="4" parent="globals/FeedbackView" pc="268435493" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\HomeView.mc" id="4" lineNum="4" parent="globals/HomeView" pc="268435505" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyBackground.mc" id="5" lineNum="5" parent="globals/Background" pc="268435517" symbol="&lt;init&gt;"/>
+        <entry filename="c:\\Documentos\\runeasy_garmim\\runeasy_garmim\\bin\\gen\\006-B4375-00\\source\\Rez.mcgen" id="6" lineNum="7" parent="globals/Rez" pc="268435529" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="7" lineNum="7" parent="globals/RuneasyView" pc="268435549" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\HomeDelegate.mc" id="8" lineNum="3" parent="globals/HomeDelegate" pc="268435561" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RunEasyDelegate.mc" id="9" lineNum="4" parent="globals/RunEasyDelegate" pc="268435573" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\FeedbackDelegate.mc" id="10" lineNum="3" parent="globals/FeedbackDelegate" pc="268435585" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\PauseMenuView.mc" id="11" lineNum="4" parent="globals/PauseMenuView" pc="268435597" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\WorkoutDetailsDelegate.mc" id="12" lineNum="3" parent="globals/WorkoutDetailsDelegate" pc="268435609" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\PauseMenuDelegate.mc" id="13" lineNum="4" parent="globals/PauseMenuDelegate" pc="268435621" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\WorkoutDetailsView.mc" id="14" lineNum="4" parent="globals/WorkoutDetailsView" pc="268435633" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyApp.mc" id="15" lineNum="45" parent="globals/RuneasyApp" pc="268435645" symbol="saveSession"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyApp.mc" id="15" lineNum="46" parent="globals/RuneasyApp" pc="268435647" symbol="saveSession"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyApp.mc" id="15" lineNum="47" parent="globals/RuneasyApp" pc="268435672" symbol="saveSession"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyApp.mc" id="15" lineNum="48" parent="globals/RuneasyApp" pc="268435684" symbol="saveSession"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyApp.mc" id="16" lineNum="52" parent="globals/RuneasyApp" pc="268435696" symbol="discardSession"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyApp.mc" id="16" lineNum="53" parent="globals/RuneasyApp" pc="268435698" symbol="discardSession"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyApp.mc" id="16" lineNum="54" parent="globals/RuneasyApp" pc="268435723" symbol="discardSession"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyApp.mc" id="16" lineNum="55" parent="globals/RuneasyApp" pc="268435735" symbol="discardSession"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyApp.mc" id="17" lineNum="17" parent="globals/RuneasyApp" pc="268435747" symbol="onStart"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyApp.mc" id="17" lineNum="18" parent="globals/RuneasyApp" pc="268435749" symbol="onStart"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyApp.mc" id="17" lineNum="19" parent="globals/RuneasyApp" pc="268435777" symbol="onStart"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyApp.mc" id="17" lineNum="20" parent="globals/RuneasyApp" pc="268435795" symbol="onStart"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyApp.mc" id="18" lineNum="23" parent="globals/RuneasyApp" pc="268435822" symbol="onPosition"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyApp.mc" id="19" lineNum="70" parent="globals/RuneasyApp" pc="268435825" symbol="getInitialView"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyApp.mc" id="19" lineNum="71" parent="globals/RuneasyApp" pc="268435827" symbol="getInitialView"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyApp.mc" id="20" lineNum="29" parent="globals/RuneasyApp" pc="268435874" symbol="toggleRecording"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyApp.mc" id="20" lineNum="30" parent="globals/RuneasyApp" pc="268435876" symbol="toggleRecording"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyApp.mc" id="20" lineNum="31" parent="globals/RuneasyApp" pc="268435891" symbol="toggleRecording"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyApp.mc" id="20" lineNum="32" parent="globals/RuneasyApp" pc="268435900" symbol="toggleRecording"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyApp.mc" id="20" lineNum="37" parent="globals/RuneasyApp" pc="268435946" symbol="toggleRecording"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyApp.mc" id="20" lineNum="38" parent="globals/RuneasyApp" pc="268435960" symbol="toggleRecording"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyApp.mc" id="20" lineNum="40" parent="globals/RuneasyApp" pc="268435975" symbol="toggleRecording"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyApp.mc" id="21" lineNum="12" parent="globals/RuneasyApp" pc="268435991" symbol="initialize"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyApp.mc" id="21" lineNum="13" parent="globals/RuneasyApp" pc="268435993" symbol="initialize"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyApp.mc" id="22" lineNum="26" parent="globals/RuneasyApp" pc="268436006" symbol="onSensor"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyApp.mc" id="23" lineNum="60" parent="globals/RuneasyApp" pc="268436009" symbol="onStop"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyApp.mc" id="23" lineNum="61" parent="globals/RuneasyApp" pc="268436011" symbol="onStop"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyApp.mc" id="23" lineNum="62" parent="globals/RuneasyApp" pc="268436034" symbol="onStop"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyApp.mc" id="23" lineNum="63" parent="globals/RuneasyApp" pc="268436046" symbol="onStop"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyApp.mc" id="23" lineNum="65" parent="globals/RuneasyApp" pc="268436061" symbol="onStop"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyApp.mc" id="23" lineNum="66" parent="globals/RuneasyApp" pc="268436089" symbol="onStop"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\FeedbackView.mc" id="24" lineNum="12" parent="globals/FeedbackView" pc="268436105" symbol="&lt;globals/FeedbackView/&lt;&gt;drawGlassCard&gt;"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\FeedbackView.mc" id="24" lineNum="13" parent="globals/FeedbackView" pc="268436108" symbol="&lt;globals/FeedbackView/&lt;&gt;drawGlassCard&gt;"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\FeedbackView.mc" id="24" lineNum="14" parent="globals/FeedbackView" pc="268436114" symbol="&lt;globals/FeedbackView/&lt;&gt;drawGlassCard&gt;"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\FeedbackView.mc" id="24" lineNum="16" parent="globals/FeedbackView" pc="268436120" symbol="&lt;globals/FeedbackView/&lt;&gt;drawGlassCard&gt;"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\FeedbackView.mc" id="24" lineNum="17" parent="globals/FeedbackView" pc="268436134" symbol="&lt;globals/FeedbackView/&lt;&gt;drawGlassCard&gt;"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\FeedbackView.mc" id="24" lineNum="18" parent="globals/FeedbackView" pc="268436154" symbol="&lt;globals/FeedbackView/&lt;&gt;drawGlassCard&gt;"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\FeedbackView.mc" id="24" lineNum="19" parent="globals/FeedbackView" pc="268436166" symbol="&lt;globals/FeedbackView/&lt;&gt;drawGlassCard&gt;"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\FeedbackView.mc" id="24" lineNum="20" parent="globals/FeedbackView" pc="268436180" symbol="&lt;globals/FeedbackView/&lt;&gt;drawGlassCard&gt;"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\FeedbackView.mc" id="24" lineNum="22" parent="globals/FeedbackView" pc="268436200" symbol="&lt;globals/FeedbackView/&lt;&gt;drawGlassCard&gt;"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\FeedbackView.mc" id="24" lineNum="23" parent="globals/FeedbackView" pc="268436204" symbol="&lt;globals/FeedbackView/&lt;&gt;drawGlassCard&gt;"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\FeedbackView.mc" id="24" lineNum="24" parent="globals/FeedbackView" pc="268436219" symbol="&lt;globals/FeedbackView/&lt;&gt;drawGlassCard&gt;"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\FeedbackView.mc" id="24" lineNum="25" parent="globals/FeedbackView" pc="268436223" symbol="&lt;globals/FeedbackView/&lt;&gt;drawGlassCard&gt;"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\FeedbackView.mc" id="24" lineNum="27" parent="globals/FeedbackView" pc="268436238" symbol="&lt;globals/FeedbackView/&lt;&gt;drawGlassCard&gt;"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\FeedbackView.mc" id="24" lineNum="28" parent="globals/FeedbackView" pc="268436242" symbol="&lt;globals/FeedbackView/&lt;&gt;drawGlassCard&gt;"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\FeedbackView.mc" id="24" lineNum="29" parent="globals/FeedbackView" pc="268436252" symbol="&lt;globals/FeedbackView/&lt;&gt;drawGlassCard&gt;"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\FeedbackView.mc" id="24" lineNum="31" parent="globals/FeedbackView" pc="268436265" symbol="&lt;globals/FeedbackView/&lt;&gt;drawGlassCard&gt;"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\FeedbackView.mc" id="24" lineNum="32" parent="globals/FeedbackView" pc="268436282" symbol="&lt;globals/FeedbackView/&lt;&gt;drawGlassCard&gt;"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\FeedbackView.mc" id="24" lineNum="34" parent="globals/FeedbackView" pc="268436308" symbol="&lt;globals/FeedbackView/&lt;&gt;drawGlassCard&gt;"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\FeedbackView.mc" id="24" lineNum="35" parent="globals/FeedbackView" pc="268436324" symbol="&lt;globals/FeedbackView/&lt;&gt;drawGlassCard&gt;"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\FeedbackView.mc" id="25" lineNum="9" parent="globals/FeedbackView" pc="268436357" symbol="onLayout"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\FeedbackView.mc" id="26" lineNum="5" parent="globals/FeedbackView" pc="268436360" symbol="initialize"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\FeedbackView.mc" id="26" lineNum="6" parent="globals/FeedbackView" pc="268436362" symbol="initialize"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\FeedbackView.mc" id="27" lineNum="38" parent="globals/FeedbackView" pc="268436375" symbol="onUpdate"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\FeedbackView.mc" id="27" lineNum="39" parent="globals/FeedbackView" pc="268436378" symbol="onUpdate"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\FeedbackView.mc" id="27" lineNum="40" parent="globals/FeedbackView" pc="268436387" symbol="onUpdate"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\FeedbackView.mc" id="27" lineNum="41" parent="globals/FeedbackView" pc="268436396" symbol="onUpdate"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\FeedbackView.mc" id="27" lineNum="43" parent="globals/FeedbackView" pc="268436403" symbol="onUpdate"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\FeedbackView.mc" id="27" lineNum="44" parent="globals/FeedbackView" pc="268436419" symbol="onUpdate"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\FeedbackView.mc" id="27" lineNum="46" parent="globals/FeedbackView" pc="268436427" symbol="onUpdate"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\FeedbackView.mc" id="27" lineNum="47" parent="globals/FeedbackView" pc="268436444" symbol="onUpdate"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\FeedbackView.mc" id="27" lineNum="49" parent="globals/FeedbackView" pc="268436473" symbol="onUpdate"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\FeedbackView.mc" id="27" lineNum="50" parent="globals/FeedbackView" pc="268436489" symbol="onUpdate"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\FeedbackView.mc" id="27" lineNum="53" parent="globals/FeedbackView" pc="268436518" symbol="onUpdate"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\FeedbackView.mc" id="27" lineNum="54" parent="globals/FeedbackView" pc="268436523" symbol="onUpdate"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\FeedbackView.mc" id="27" lineNum="55" parent="globals/FeedbackView" pc="268436527" symbol="onUpdate"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\FeedbackView.mc" id="27" lineNum="56" parent="globals/FeedbackView" pc="268436537" symbol="onUpdate"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\FeedbackView.mc" id="27" lineNum="58" parent="globals/FeedbackView" pc="268436547" symbol="onUpdate"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\FeedbackView.mc" id="27" lineNum="60" parent="globals/FeedbackView" pc="268436576" symbol="onUpdate"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\FeedbackView.mc" id="27" lineNum="61" parent="globals/FeedbackView" pc="268436593" symbol="onUpdate"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\HomeView.mc" id="28" lineNum="9" parent="globals/HomeView" pc="268436622" symbol="onLayout"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\HomeView.mc" id="29" lineNum="5" parent="globals/HomeView" pc="268436625" symbol="initialize"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\HomeView.mc" id="29" lineNum="6" parent="globals/HomeView" pc="268436627" symbol="initialize"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\HomeView.mc" id="30" lineNum="12" parent="globals/HomeView" pc="268436640" symbol="onUpdate"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\HomeView.mc" id="30" lineNum="13" parent="globals/HomeView" pc="268436643" symbol="onUpdate"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\HomeView.mc" id="30" lineNum="14" parent="globals/HomeView" pc="268436652" symbol="onUpdate"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\HomeView.mc" id="30" lineNum="15" parent="globals/HomeView" pc="268436661" symbol="onUpdate"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\HomeView.mc" id="30" lineNum="18" parent="globals/HomeView" pc="268436668" symbol="onUpdate"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\HomeView.mc" id="30" lineNum="19" parent="globals/HomeView" pc="268436684" symbol="onUpdate"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\HomeView.mc" id="30" lineNum="22" parent="globals/HomeView" pc="268436692" symbol="onUpdate"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\HomeView.mc" id="30" lineNum="23" parent="globals/HomeView" pc="268436709" symbol="onUpdate"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\HomeView.mc" id="30" lineNum="26" parent="globals/HomeView" pc="268436737" symbol="onUpdate"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\HomeView.mc" id="30" lineNum="27" parent="globals/HomeView" pc="268436747" symbol="onUpdate"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\HomeView.mc" id="30" lineNum="28" parent="globals/HomeView" pc="268436757" symbol="onUpdate"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\HomeView.mc" id="30" lineNum="29" parent="globals/HomeView" pc="268436767" symbol="onUpdate"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\HomeView.mc" id="30" lineNum="32" parent="globals/HomeView" pc="268436777" symbol="onUpdate"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\HomeView.mc" id="30" lineNum="33" parent="globals/HomeView" pc="268436793" symbol="onUpdate"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\HomeView.mc" id="30" lineNum="34" parent="globals/HomeView" pc="268436813" symbol="onUpdate"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\HomeView.mc" id="30" lineNum="35" parent="globals/HomeView" pc="268436825" symbol="onUpdate"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\HomeView.mc" id="30" lineNum="36" parent="globals/HomeView" pc="268436841" symbol="onUpdate"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\HomeView.mc" id="30" lineNum="39" parent="globals/HomeView" pc="268436861" symbol="onUpdate"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\HomeView.mc" id="30" lineNum="40" parent="globals/HomeView" pc="268436877" symbol="onUpdate"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\HomeView.mc" id="30" lineNum="42" parent="globals/HomeView" pc="268436902" symbol="onUpdate"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\HomeView.mc" id="30" lineNum="43" parent="globals/HomeView" pc="268436919" symbol="onUpdate"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\HomeView.mc" id="30" lineNum="44" parent="globals/HomeView" pc="268436945" symbol="onUpdate"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\HomeView.mc" id="30" lineNum="47" parent="globals/HomeView" pc="268436971" symbol="onUpdate"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\HomeView.mc" id="30" lineNum="48" parent="globals/HomeView" pc="268436988" symbol="onUpdate"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyBackground.mc" id="31" lineNum="19" parent="globals/Background" pc="268437017" symbol="setColor"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyBackground.mc" id="31" lineNum="20" parent="globals/Background" pc="268437019" symbol="setColor"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyBackground.mc" id="32" lineNum="9" parent="globals/Background" pc="268437029" symbol="initialize"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyBackground.mc" id="32" lineNum="10" parent="globals/Background" pc="268437032" symbol="initialize"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyBackground.mc" id="32" lineNum="14" parent="globals/Background" pc="268437050" symbol="initialize"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyBackground.mc" id="32" lineNum="16" parent="globals/Background" pc="268437066" symbol="initialize"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyBackground.mc" id="33" lineNum="23" parent="globals/Background" pc="268437079" symbol="draw"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyBackground.mc" id="33" lineNum="24" parent="globals/Background" pc="268437081" symbol="draw"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyBackground.mc" id="33" lineNum="25" parent="globals/Background" pc="268437098" symbol="draw"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="34" lineNum="49" parent="globals/RuneasyView" pc="268437107" symbol="onShow"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="34" lineNum="50" parent="globals/RuneasyView" pc="268437109" symbol="onShow"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="34" lineNum="51" parent="globals/RuneasyView" pc="268437138" symbol="onShow"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="35" lineNum="36" parent="globals/RuneasyView" pc="268437170" symbol="onLayout"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="35" lineNum="37" parent="globals/RuneasyView" pc="268437172" symbol="onLayout"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="35" lineNum="38" parent="globals/RuneasyView" pc="268437210" symbol="onLayout"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="35" lineNum="40" parent="globals/RuneasyView" pc="268437228" symbol="onLayout"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="35" lineNum="41" parent="globals/RuneasyView" pc="268437266" symbol="onLayout"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="35" lineNum="43" parent="globals/RuneasyView" pc="268437284" symbol="onLayout"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="35" lineNum="44" parent="globals/RuneasyView" pc="268437322" symbol="onLayout"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="35" lineNum="46" parent="globals/RuneasyView" pc="268437340" symbol="onLayout"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="36" lineNum="164" parent="globals/RuneasyView" pc="268437379" symbol="&lt;globals/RuneasyView/&lt;&gt;drawGlassCard&gt;"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="36" lineNum="165" parent="globals/RuneasyView" pc="268437382" symbol="&lt;globals/RuneasyView/&lt;&gt;drawGlassCard&gt;"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="36" lineNum="166" parent="globals/RuneasyView" pc="268437388" symbol="&lt;globals/RuneasyView/&lt;&gt;drawGlassCard&gt;"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="36" lineNum="168" parent="globals/RuneasyView" pc="268437394" symbol="&lt;globals/RuneasyView/&lt;&gt;drawGlassCard&gt;"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="36" lineNum="169" parent="globals/RuneasyView" pc="268437408" symbol="&lt;globals/RuneasyView/&lt;&gt;drawGlassCard&gt;"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="36" lineNum="170" parent="globals/RuneasyView" pc="268437428" symbol="&lt;globals/RuneasyView/&lt;&gt;drawGlassCard&gt;"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="36" lineNum="171" parent="globals/RuneasyView" pc="268437440" symbol="&lt;globals/RuneasyView/&lt;&gt;drawGlassCard&gt;"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="36" lineNum="172" parent="globals/RuneasyView" pc="268437454" symbol="&lt;globals/RuneasyView/&lt;&gt;drawGlassCard&gt;"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="36" lineNum="174" parent="globals/RuneasyView" pc="268437474" symbol="&lt;globals/RuneasyView/&lt;&gt;drawGlassCard&gt;"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="36" lineNum="175" parent="globals/RuneasyView" pc="268437478" symbol="&lt;globals/RuneasyView/&lt;&gt;drawGlassCard&gt;"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="36" lineNum="176" parent="globals/RuneasyView" pc="268437493" symbol="&lt;globals/RuneasyView/&lt;&gt;drawGlassCard&gt;"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="36" lineNum="177" parent="globals/RuneasyView" pc="268437497" symbol="&lt;globals/RuneasyView/&lt;&gt;drawGlassCard&gt;"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="36" lineNum="179" parent="globals/RuneasyView" pc="268437512" symbol="&lt;globals/RuneasyView/&lt;&gt;drawGlassCard&gt;"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="36" lineNum="180" parent="globals/RuneasyView" pc="268437516" symbol="&lt;globals/RuneasyView/&lt;&gt;drawGlassCard&gt;"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="36" lineNum="181" parent="globals/RuneasyView" pc="268437520" symbol="&lt;globals/RuneasyView/&lt;&gt;drawGlassCard&gt;"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="36" lineNum="182" parent="globals/RuneasyView" pc="268437536" symbol="&lt;globals/RuneasyView/&lt;&gt;drawGlassCard&gt;"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="36" lineNum="184" parent="globals/RuneasyView" pc="268437549" symbol="&lt;globals/RuneasyView/&lt;&gt;drawGlassCard&gt;"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="36" lineNum="186" parent="globals/RuneasyView" pc="268437574" symbol="&lt;globals/RuneasyView/&lt;&gt;drawGlassCard&gt;"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="36" lineNum="187" parent="globals/RuneasyView" pc="268437591" symbol="&lt;globals/RuneasyView/&lt;&gt;drawGlassCard&gt;"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="36" lineNum="189" parent="globals/RuneasyView" pc="268437623" symbol="&lt;globals/RuneasyView/&lt;&gt;drawGlassCard&gt;"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="36" lineNum="190" parent="globals/RuneasyView" pc="268437639" symbol="&lt;globals/RuneasyView/&lt;&gt;drawGlassCard&gt;"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="37" lineNum="25" parent="globals/RuneasyView" pc="268437678" symbol="initialize"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="37" lineNum="26" parent="globals/RuneasyView" pc="268437680" symbol="initialize"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="37" lineNum="27" parent="globals/RuneasyView" pc="268437692" symbol="initialize"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="37" lineNum="28" parent="globals/RuneasyView" pc="268437704" symbol="initialize"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="37" lineNum="29" parent="globals/RuneasyView" pc="268437716" symbol="initialize"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="37" lineNum="30" parent="globals/RuneasyView" pc="268437728" symbol="initialize"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="37" lineNum="31" parent="globals/RuneasyView" pc="268437739" symbol="initialize"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="37" lineNum="32" parent="globals/RuneasyView" pc="268437750" symbol="initialize"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="37" lineNum="33" parent="globals/RuneasyView" pc="268437759" symbol="initialize"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="38" lineNum="54" parent="globals/RuneasyView" pc="268437769" symbol="onHide"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="38" lineNum="55" parent="globals/RuneasyView" pc="268437771" symbol="onHide"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="38" lineNum="56" parent="globals/RuneasyView" pc="268437780" symbol="onHide"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="38" lineNum="57" parent="globals/RuneasyView" pc="268437792" symbol="onHide"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="39" lineNum="65" parent="globals/RuneasyView" pc="268437804" symbol="onUpdate"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="39" lineNum="66" parent="globals/RuneasyView" pc="268437807" symbol="onUpdate"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="39" lineNum="67" parent="globals/RuneasyView" pc="268437819" symbol="onUpdate"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="39" lineNum="68" parent="globals/RuneasyView" pc="268437825" symbol="onUpdate"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="39" lineNum="69" parent="globals/RuneasyView" pc="268437847" symbol="onUpdate"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="39" lineNum="70" parent="globals/RuneasyView" pc="268437856" symbol="onUpdate"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="39" lineNum="71" parent="globals/RuneasyView" pc="268437867" symbol="onUpdate"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="39" lineNum="73" parent="globals/RuneasyView" pc="268437882" symbol="onUpdate"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="39" lineNum="74" parent="globals/RuneasyView" pc="268437898" symbol="onUpdate"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="39" lineNum="75" parent="globals/RuneasyView" pc="268437907" symbol="onUpdate"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="39" lineNum="76" parent="globals/RuneasyView" pc="268437926" symbol="onUpdate"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="39" lineNum="79" parent="globals/RuneasyView" pc="268437964" symbol="onUpdate"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="39" lineNum="82" parent="globals/RuneasyView" pc="268437976" symbol="onUpdate"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="39" lineNum="83" parent="globals/RuneasyView" pc="268437979" symbol="onUpdate"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="39" lineNum="84" parent="globals/RuneasyView" pc="268438001" symbol="onUpdate"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="39" lineNum="86" parent="globals/RuneasyView" pc="268438019" symbol="onUpdate"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="39" lineNum="88" parent="globals/RuneasyView" pc="268438040" symbol="onUpdate"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="39" lineNum="89" parent="globals/RuneasyView" pc="268438062" symbol="onUpdate"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="39" lineNum="91" parent="globals/RuneasyView" pc="268438085" symbol="onUpdate"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="39" lineNum="95" parent="globals/RuneasyView" pc="268438100" symbol="onUpdate"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="39" lineNum="96" parent="globals/RuneasyView" pc="268438109" symbol="onUpdate"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="39" lineNum="97" parent="globals/RuneasyView" pc="268438118" symbol="onUpdate"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="39" lineNum="98" parent="globals/RuneasyView" pc="268438125" symbol="onUpdate"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="39" lineNum="101" parent="globals/RuneasyView" pc="268438132" symbol="onUpdate"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="39" lineNum="102" parent="globals/RuneasyView" pc="268438148" symbol="onUpdate"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="39" lineNum="105" parent="globals/RuneasyView" pc="268438156" symbol="onUpdate"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="39" lineNum="106" parent="globals/RuneasyView" pc="268438194" symbol="onUpdate"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="39" lineNum="106" parent="globals/RuneasyView" pc="268438203" symbol="onUpdate"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="39" lineNum="107" parent="globals/RuneasyView" pc="268438211" symbol="onUpdate"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="39" lineNum="109" parent="globals/RuneasyView" pc="268438223" symbol="onUpdate"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="39" lineNum="110" parent="globals/RuneasyView" pc="268438229" symbol="onUpdate"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="39" lineNum="111" parent="globals/RuneasyView" pc="268438238" symbol="onUpdate"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="39" lineNum="114" parent="globals/RuneasyView" pc="268438247" symbol="onUpdate"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="39" lineNum="115" parent="globals/RuneasyView" pc="268438254" symbol="onUpdate"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="39" lineNum="116" parent="globals/RuneasyView" pc="268438266" symbol="onUpdate"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="39" lineNum="117" parent="globals/RuneasyView" pc="268438280" symbol="onUpdate"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="39" lineNum="118" parent="globals/RuneasyView" pc="268438284" symbol="onUpdate"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="39" lineNum="119" parent="globals/RuneasyView" pc="268438291" symbol="onUpdate"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="39" lineNum="120" parent="globals/RuneasyView" pc="268438298" symbol="onUpdate"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="39" lineNum="122" parent="globals/RuneasyView" pc="268438309" symbol="onUpdate"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="39" lineNum="126" parent="globals/RuneasyView" pc="268438340" symbol="onUpdate"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="39" lineNum="127" parent="globals/RuneasyView" pc="268438358" symbol="onUpdate"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="39" lineNum="128" parent="globals/RuneasyView" pc="268438368" symbol="onUpdate"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="39" lineNum="131" parent="globals/RuneasyView" pc="268438399" symbol="onUpdate"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="39" lineNum="132" parent="globals/RuneasyView" pc="268438408" symbol="onUpdate"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="39" lineNum="133" parent="globals/RuneasyView" pc="268438425" symbol="onUpdate"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="39" lineNum="137" parent="globals/RuneasyView" pc="268438456" symbol="onUpdate"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="39" lineNum="138" parent="globals/RuneasyView" pc="268438465" symbol="onUpdate"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="39" lineNum="139" parent="globals/RuneasyView" pc="268438495" symbol="onUpdate"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="39" lineNum="140" parent="globals/RuneasyView" pc="268438500" symbol="onUpdate"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="39" lineNum="141" parent="globals/RuneasyView" pc="268438504" symbol="onUpdate"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="39" lineNum="142" parent="globals/RuneasyView" pc="268438514" symbol="onUpdate"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="39" lineNum="146" parent="globals/RuneasyView" pc="268438551" symbol="onUpdate"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="39" lineNum="147" parent="globals/RuneasyView" pc="268438571" symbol="onUpdate"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="39" lineNum="148" parent="globals/RuneasyView" pc="268438577" symbol="onUpdate"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="39" lineNum="149" parent="globals/RuneasyView" pc="268438592" symbol="onUpdate"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="39" lineNum="151" parent="globals/RuneasyView" pc="268438608" symbol="onUpdate"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="39" lineNum="152" parent="globals/RuneasyView" pc="268438626" symbol="onUpdate"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="39" lineNum="156" parent="globals/RuneasyView" pc="268438642" symbol="onUpdate"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="39" lineNum="157" parent="globals/RuneasyView" pc="268438651" symbol="onUpdate"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="39" lineNum="158" parent="globals/RuneasyView" pc="268438656" symbol="onUpdate"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="39" lineNum="159" parent="globals/RuneasyView" pc="268438660" symbol="onUpdate"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="39" lineNum="160" parent="globals/RuneasyView" pc="268438670" symbol="onUpdate"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="40" lineNum="61" parent="globals/RuneasyView" pc="268438714" symbol="onTimer"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RuneasyView.mc" id="40" lineNum="62" parent="globals/RuneasyView" pc="268438716" symbol="onTimer"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\HomeDelegate.mc" id="41" lineNum="4" parent="globals/HomeDelegate" pc="268438728" symbol="initialize"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\HomeDelegate.mc" id="41" lineNum="5" parent="globals/HomeDelegate" pc="268438730" symbol="initialize"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\HomeDelegate.mc" id="42" lineNum="8" parent="globals/HomeDelegate" pc="268438743" symbol="onKey"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\HomeDelegate.mc" id="42" lineNum="9" parent="globals/HomeDelegate" pc="268438745" symbol="onKey"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\HomeDelegate.mc" id="42" lineNum="10" parent="globals/HomeDelegate" pc="268438758" symbol="onKey"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\HomeDelegate.mc" id="42" lineNum="11" parent="globals/HomeDelegate" pc="268438809" symbol="onKey"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\HomeDelegate.mc" id="42" lineNum="13" parent="globals/HomeDelegate" pc="268438814" symbol="onKey"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RunEasyDelegate.mc" id="43" lineNum="6" parent="globals/RunEasyDelegate" pc="268438816" symbol="initialize"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RunEasyDelegate.mc" id="43" lineNum="7" parent="globals/RunEasyDelegate" pc="268438818" symbol="initialize"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RunEasyDelegate.mc" id="44" lineNum="10" parent="globals/RunEasyDelegate" pc="268438831" symbol="onKey"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RunEasyDelegate.mc" id="44" lineNum="11" parent="globals/RunEasyDelegate" pc="268438834" symbol="onKey"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RunEasyDelegate.mc" id="44" lineNum="12" parent="globals/RunEasyDelegate" pc="268438847" symbol="onKey"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RunEasyDelegate.mc" id="44" lineNum="13" parent="globals/RunEasyDelegate" pc="268438855" symbol="onKey"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RunEasyDelegate.mc" id="44" lineNum="15" parent="globals/RunEasyDelegate" pc="268438863" symbol="onKey"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RunEasyDelegate.mc" id="44" lineNum="16" parent="globals/RunEasyDelegate" pc="268438883" symbol="onKey"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RunEasyDelegate.mc" id="44" lineNum="17" parent="globals/RunEasyDelegate" pc="268438920" symbol="onKey"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\RunEasyDelegate.mc" id="44" lineNum="19" parent="globals/RunEasyDelegate" pc="268438925" symbol="onKey"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\FeedbackDelegate.mc" id="45" lineNum="4" parent="globals/FeedbackDelegate" pc="268438927" symbol="initialize"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\FeedbackDelegate.mc" id="45" lineNum="5" parent="globals/FeedbackDelegate" pc="268438929" symbol="initialize"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\FeedbackDelegate.mc" id="46" lineNum="8" parent="globals/FeedbackDelegate" pc="268438942" symbol="onKey"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\FeedbackDelegate.mc" id="46" lineNum="9" parent="globals/FeedbackDelegate" pc="268438944" symbol="onKey"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\FeedbackDelegate.mc" id="46" lineNum="11" parent="globals/FeedbackDelegate" pc="268438957" symbol="onKey"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\FeedbackDelegate.mc" id="46" lineNum="12" parent="globals/FeedbackDelegate" pc="268438971" symbol="onKey"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\FeedbackDelegate.mc" id="46" lineNum="13" parent="globals/FeedbackDelegate" pc="268438985" symbol="onKey"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\FeedbackDelegate.mc" id="46" lineNum="14" parent="globals/FeedbackDelegate" pc="268439000" symbol="onKey"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\FeedbackDelegate.mc" id="46" lineNum="16" parent="globals/FeedbackDelegate" pc="268439005" symbol="onKey"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\PauseMenuView.mc" id="47" lineNum="7" parent="globals/PauseMenuView" pc="268439007" symbol="initialize"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\PauseMenuView.mc" id="47" lineNum="8" parent="globals/PauseMenuView" pc="268439009" symbol="initialize"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\PauseMenuView.mc" id="48" lineNum="11" parent="globals/PauseMenuView" pc="268439022" symbol="onUpdate"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\PauseMenuView.mc" id="48" lineNum="12" parent="globals/PauseMenuView" pc="268439025" symbol="onUpdate"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\PauseMenuView.mc" id="48" lineNum="13" parent="globals/PauseMenuView" pc="268439034" symbol="onUpdate"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\PauseMenuView.mc" id="48" lineNum="14" parent="globals/PauseMenuView" pc="268439043" symbol="onUpdate"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\PauseMenuView.mc" id="48" lineNum="16" parent="globals/PauseMenuView" pc="268439050" symbol="onUpdate"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\PauseMenuView.mc" id="48" lineNum="17" parent="globals/PauseMenuView" pc="268439066" symbol="onUpdate"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\PauseMenuView.mc" id="48" lineNum="19" parent="globals/PauseMenuView" pc="268439074" symbol="onUpdate"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\PauseMenuView.mc" id="48" lineNum="20" parent="globals/PauseMenuView" pc="268439090" symbol="onUpdate"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\PauseMenuView.mc" id="48" lineNum="22" parent="globals/PauseMenuView" pc="268439119" symbol="onUpdate"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\PauseMenuView.mc" id="48" lineNum="23" parent="globals/PauseMenuView" pc="268439126" symbol="onUpdate"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\PauseMenuView.mc" id="48" lineNum="24" parent="globals/PauseMenuView" pc="268439131" symbol="onUpdate"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\PauseMenuView.mc" id="48" lineNum="25" parent="globals/PauseMenuView" pc="268439135" symbol="onUpdate"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\PauseMenuView.mc" id="48" lineNum="26" parent="globals/PauseMenuView" pc="268439145" symbol="onUpdate"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\PauseMenuView.mc" id="48" lineNum="28" parent="globals/PauseMenuView" pc="268439149" symbol="onUpdate"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\PauseMenuView.mc" id="48" lineNum="29" parent="globals/PauseMenuView" pc="268439165" symbol="onUpdate"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\PauseMenuView.mc" id="48" lineNum="30" parent="globals/PauseMenuView" pc="268439175" symbol="onUpdate"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\PauseMenuView.mc" id="48" lineNum="32" parent="globals/PauseMenuView" pc="268439185" symbol="onUpdate"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\PauseMenuView.mc" id="48" lineNum="33" parent="globals/PauseMenuView" pc="268439190" symbol="onUpdate"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\PauseMenuView.mc" id="48" lineNum="34" parent="globals/PauseMenuView" pc="268439206" symbol="onUpdate"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\PauseMenuView.mc" id="48" lineNum="35" parent="globals/PauseMenuView" pc="268439232" symbol="onUpdate"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\PauseMenuView.mc" id="48" lineNum="37" parent="globals/PauseMenuView" pc="268439251" symbol="onUpdate"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\PauseMenuView.mc" id="48" lineNum="38" parent="globals/PauseMenuView" pc="268439267" symbol="onUpdate"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\PauseMenuView.mc" id="48" lineNum="39" parent="globals/PauseMenuView" pc="268439293" symbol="onUpdate"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\PauseMenuView.mc" id="48" lineNum="40" parent="globals/PauseMenuView" pc="268439305" symbol="onUpdate"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\PauseMenuView.mc" id="48" lineNum="41" parent="globals/PauseMenuView" pc="268439321" symbol="onUpdate"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\PauseMenuView.mc" id="48" lineNum="42" parent="globals/PauseMenuView" pc="268439347" symbol="onUpdate"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\PauseMenuView.mc" id="48" lineNum="45" parent="globals/PauseMenuView" pc="268439364" symbol="onUpdate"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\WorkoutDetailsDelegate.mc" id="49" lineNum="4" parent="globals/WorkoutDetailsDelegate" pc="268439404" symbol="initialize"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\WorkoutDetailsDelegate.mc" id="49" lineNum="5" parent="globals/WorkoutDetailsDelegate" pc="268439406" symbol="initialize"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\WorkoutDetailsDelegate.mc" id="50" lineNum="8" parent="globals/WorkoutDetailsDelegate" pc="268439419" symbol="onKey"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\WorkoutDetailsDelegate.mc" id="50" lineNum="9" parent="globals/WorkoutDetailsDelegate" pc="268439422" symbol="onKey"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\WorkoutDetailsDelegate.mc" id="50" lineNum="10" parent="globals/WorkoutDetailsDelegate" pc="268439435" symbol="onKey"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\WorkoutDetailsDelegate.mc" id="50" lineNum="11" parent="globals/WorkoutDetailsDelegate" pc="268439443" symbol="onKey"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\WorkoutDetailsDelegate.mc" id="50" lineNum="12" parent="globals/WorkoutDetailsDelegate" pc="268439451" symbol="onKey"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\WorkoutDetailsDelegate.mc" id="50" lineNum="13" parent="globals/WorkoutDetailsDelegate" pc="268439512" symbol="onKey"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\WorkoutDetailsDelegate.mc" id="50" lineNum="15" parent="globals/WorkoutDetailsDelegate" pc="268439517" symbol="onKey"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\PauseMenuDelegate.mc" id="51" lineNum="12" parent="globals/PauseMenuDelegate" pc="268439519" symbol="onPreviousPage"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\PauseMenuDelegate.mc" id="51" lineNum="13" parent="globals/PauseMenuDelegate" pc="268439521" symbol="onPreviousPage"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\PauseMenuDelegate.mc" id="51" lineNum="14" parent="globals/PauseMenuDelegate" pc="268439545" symbol="onPreviousPage"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\PauseMenuDelegate.mc" id="51" lineNum="14" parent="globals/PauseMenuDelegate" pc="268439560" symbol="onPreviousPage"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\PauseMenuDelegate.mc" id="51" lineNum="15" parent="globals/PauseMenuDelegate" pc="268439576" symbol="onPreviousPage"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\PauseMenuDelegate.mc" id="51" lineNum="16" parent="globals/PauseMenuDelegate" pc="268439587" symbol="onPreviousPage"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\PauseMenuDelegate.mc" id="52" lineNum="7" parent="globals/PauseMenuDelegate" pc="268439589" symbol="initialize"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\PauseMenuDelegate.mc" id="52" lineNum="8" parent="globals/PauseMenuDelegate" pc="268439591" symbol="initialize"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\PauseMenuDelegate.mc" id="52" lineNum="9" parent="globals/PauseMenuDelegate" pc="268439603" symbol="initialize"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\PauseMenuDelegate.mc" id="53" lineNum="19" parent="globals/PauseMenuDelegate" pc="268439613" symbol="onNextPage"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\PauseMenuDelegate.mc" id="53" lineNum="20" parent="globals/PauseMenuDelegate" pc="268439615" symbol="onNextPage"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\PauseMenuDelegate.mc" id="53" lineNum="21" parent="globals/PauseMenuDelegate" pc="268439642" symbol="onNextPage"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\PauseMenuDelegate.mc" id="53" lineNum="22" parent="globals/PauseMenuDelegate" pc="268439653" symbol="onNextPage"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\PauseMenuDelegate.mc" id="54" lineNum="25" parent="globals/PauseMenuDelegate" pc="268439655" symbol="onKey"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\PauseMenuDelegate.mc" id="54" lineNum="26" parent="globals/PauseMenuDelegate" pc="268439658" symbol="onKey"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\PauseMenuDelegate.mc" id="54" lineNum="27" parent="globals/PauseMenuDelegate" pc="268439671" symbol="onKey"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\PauseMenuDelegate.mc" id="54" lineNum="29" parent="globals/PauseMenuDelegate" pc="268439679" symbol="onKey"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\PauseMenuDelegate.mc" id="54" lineNum="31" parent="globals/PauseMenuDelegate" pc="268439694" symbol="onKey"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\PauseMenuDelegate.mc" id="54" lineNum="32" parent="globals/PauseMenuDelegate" pc="268439702" symbol="onKey"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\PauseMenuDelegate.mc" id="54" lineNum="33" parent="globals/PauseMenuDelegate" pc="268439720" symbol="onKey"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\PauseMenuDelegate.mc" id="54" lineNum="35" parent="globals/PauseMenuDelegate" pc="268439736" symbol="onKey"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\PauseMenuDelegate.mc" id="54" lineNum="36" parent="globals/PauseMenuDelegate" pc="268439744" symbol="onKey"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\PauseMenuDelegate.mc" id="54" lineNum="37" parent="globals/PauseMenuDelegate" pc="268439767" symbol="onKey"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\PauseMenuDelegate.mc" id="54" lineNum="38" parent="globals/PauseMenuDelegate" pc="268439821" symbol="onKey"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\PauseMenuDelegate.mc" id="54" lineNum="40" parent="globals/PauseMenuDelegate" pc="268439837" symbol="onKey"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\PauseMenuDelegate.mc" id="54" lineNum="41" parent="globals/PauseMenuDelegate" pc="268439845" symbol="onKey"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\PauseMenuDelegate.mc" id="54" lineNum="42" parent="globals/PauseMenuDelegate" pc="268439859" symbol="onKey"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\PauseMenuDelegate.mc" id="54" lineNum="43" parent="globals/PauseMenuDelegate" pc="268439873" symbol="onKey"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\PauseMenuDelegate.mc" id="54" lineNum="45" parent="globals/PauseMenuDelegate" pc="268439891" symbol="onKey"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\PauseMenuDelegate.mc" id="54" lineNum="47" parent="globals/PauseMenuDelegate" pc="268439896" symbol="onKey"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\WorkoutDetailsView.mc" id="55" lineNum="9" parent="globals/WorkoutDetailsView" pc="268439898" symbol="onLayout"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\WorkoutDetailsView.mc" id="56" lineNum="5" parent="globals/WorkoutDetailsView" pc="268439901" symbol="initialize"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\WorkoutDetailsView.mc" id="56" lineNum="6" parent="globals/WorkoutDetailsView" pc="268439903" symbol="initialize"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\WorkoutDetailsView.mc" id="57" lineNum="12" parent="globals/WorkoutDetailsView" pc="268439916" symbol="onUpdate"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\WorkoutDetailsView.mc" id="57" lineNum="13" parent="globals/WorkoutDetailsView" pc="268439919" symbol="onUpdate"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\WorkoutDetailsView.mc" id="57" lineNum="14" parent="globals/WorkoutDetailsView" pc="268439928" symbol="onUpdate"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\WorkoutDetailsView.mc" id="57" lineNum="15" parent="globals/WorkoutDetailsView" pc="268439937" symbol="onUpdate"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\WorkoutDetailsView.mc" id="57" lineNum="17" parent="globals/WorkoutDetailsView" pc="268439944" symbol="onUpdate"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\WorkoutDetailsView.mc" id="57" lineNum="18" parent="globals/WorkoutDetailsView" pc="268439960" symbol="onUpdate"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\WorkoutDetailsView.mc" id="57" lineNum="21" parent="globals/WorkoutDetailsView" pc="268439968" symbol="onUpdate"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\WorkoutDetailsView.mc" id="57" lineNum="22" parent="globals/WorkoutDetailsView" pc="268439985" symbol="onUpdate"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\WorkoutDetailsView.mc" id="57" lineNum="24" parent="globals/WorkoutDetailsView" pc="268440013" symbol="onUpdate"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\WorkoutDetailsView.mc" id="57" lineNum="26" parent="globals/WorkoutDetailsView" pc="268440042" symbol="onUpdate"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\WorkoutDetailsView.mc" id="57" lineNum="27" parent="globals/WorkoutDetailsView" pc="268440058" symbol="onUpdate"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\WorkoutDetailsView.mc" id="57" lineNum="28" parent="globals/WorkoutDetailsView" pc="268440087" symbol="onUpdate"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\WorkoutDetailsView.mc" id="57" lineNum="29" parent="globals/WorkoutDetailsView" pc="268440116" symbol="onUpdate"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\WorkoutDetailsView.mc" id="57" lineNum="32" parent="globals/WorkoutDetailsView" pc="268440145" symbol="onUpdate"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\WorkoutDetailsView.mc" id="57" lineNum="33" parent="globals/WorkoutDetailsView" pc="268440155" symbol="onUpdate"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\WorkoutDetailsView.mc" id="57" lineNum="34" parent="globals/WorkoutDetailsView" pc="268440159" symbol="onUpdate"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\WorkoutDetailsView.mc" id="57" lineNum="35" parent="globals/WorkoutDetailsView" pc="268440169" symbol="onUpdate"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\WorkoutDetailsView.mc" id="57" lineNum="37" parent="globals/WorkoutDetailsView" pc="268440179" symbol="onUpdate"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\WorkoutDetailsView.mc" id="57" lineNum="38" parent="globals/WorkoutDetailsView" pc="268440195" symbol="onUpdate"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\WorkoutDetailsView.mc" id="57" lineNum="40" parent="globals/WorkoutDetailsView" pc="268440215" symbol="onUpdate"/>
+        <entry filename="C:\\Documentos\\runeasy_garmim\\runeasy_garmim\\source\\WorkoutDetailsView.mc" id="57" lineNum="41" parent="globals/WorkoutDetailsView" pc="268440231" symbol="onUpdate"/>
+        <entry filename="c:\\Documentos\\runeasy_garmim\\runeasy_garmim\\bin\\gen\\006-B4375-00\\source\\Rez.mcgen" id="58" lineNum="52" parent="globals/Rez/Layouts" pc="268440260" symbol="BottomRightLayout"/>
+        <entry filename="c:\\Documentos\\runeasy_garmim\\runeasy_garmim\\bin\\gen\\006-B4375-00\\source\\Rez.mcgen" id="58" lineNum="53" parent="globals/Rez/Layouts" pc="268440271" symbol="BottomRightLayout"/>
+        <entry filename="c:\\Documentos\\runeasy_garmim\\runeasy_garmim\\bin\\gen\\006-B4375-00\\source\\Rez.mcgen" id="58" lineNum="55" parent="globals/Rez/Layouts" pc="268440353" symbol="BottomRightLayout"/>
+        <entry filename="c:\\Documentos\\runeasy_garmim\\runeasy_garmim\\bin\\gen\\006-B4375-00\\source\\Rez.mcgen" id="58" lineNum="57" parent="globals/Rez/Layouts" pc="268440435" symbol="BottomRightLayout"/>
+        <entry filename="c:\\Documentos\\runeasy_garmim\\runeasy_garmim\\bin\\gen\\006-B4375-00\\source\\Rez.mcgen" id="59" lineNum="36" parent="globals/Rez/Layouts" pc="268440450" symbol="TopRightLayout"/>
+        <entry filename="c:\\Documentos\\runeasy_garmim\\runeasy_garmim\\bin\\gen\\006-B4375-00\\source\\Rez.mcgen" id="59" lineNum="37" parent="globals/Rez/Layouts" pc="268440461" symbol="TopRightLayout"/>
+        <entry filename="c:\\Documentos\\runeasy_garmim\\runeasy_garmim\\bin\\gen\\006-B4375-00\\source\\Rez.mcgen" id="59" lineNum="39" parent="globals/Rez/Layouts" pc="268440543" symbol="TopRightLayout"/>
+        <entry filename="c:\\Documentos\\runeasy_garmim\\runeasy_garmim\\bin\\gen\\006-B4375-00\\source\\Rez.mcgen" id="59" lineNum="41" parent="globals/Rez/Layouts" pc="268440625" symbol="TopRightLayout"/>
+        <entry filename="c:\\Documentos\\runeasy_garmim\\runeasy_garmim\\bin\\gen\\006-B4375-00\\source\\Rez.mcgen" id="60" lineNum="44" parent="globals/Rez/Layouts" pc="268440640" symbol="BottomLeftLayout"/>
+        <entry filename="c:\\Documentos\\runeasy_garmim\\runeasy_garmim\\bin\\gen\\006-B4375-00\\source\\Rez.mcgen" id="60" lineNum="45" parent="globals/Rez/Layouts" pc="268440651" symbol="BottomLeftLayout"/>
+        <entry filename="c:\\Documentos\\runeasy_garmim\\runeasy_garmim\\bin\\gen\\006-B4375-00\\source\\Rez.mcgen" id="60" lineNum="47" parent="globals/Rez/Layouts" pc="268440732" symbol="BottomLeftLayout"/>
+        <entry filename="c:\\Documentos\\runeasy_garmim\\runeasy_garmim\\bin\\gen\\006-B4375-00\\source\\Rez.mcgen" id="60" lineNum="49" parent="globals/Rez/Layouts" pc="268440813" symbol="BottomLeftLayout"/>
+        <entry filename="c:\\Documentos\\runeasy_garmim\\runeasy_garmim\\bin\\gen\\006-B4375-00\\source\\Rez.mcgen" id="61" lineNum="28" parent="globals/Rez/Layouts" pc="268440828" symbol="TopLeftLayout"/>
+        <entry filename="c:\\Documentos\\runeasy_garmim\\runeasy_garmim\\bin\\gen\\006-B4375-00\\source\\Rez.mcgen" id="61" lineNum="29" parent="globals/Rez/Layouts" pc="268440839" symbol="TopLeftLayout"/>
+        <entry filename="c:\\Documentos\\runeasy_garmim\\runeasy_garmim\\bin\\gen\\006-B4375-00\\source\\Rez.mcgen" id="61" lineNum="31" parent="globals/Rez/Layouts" pc="268440920" symbol="TopLeftLayout"/>
+        <entry filename="c:\\Documentos\\runeasy_garmim\\runeasy_garmim\\bin\\gen\\006-B4375-00\\source\\Rez.mcgen" id="61" lineNum="33" parent="globals/Rez/Layouts" pc="268441001" symbol="TopLeftLayout"/>
+        <entry filename="c:\\Documentos\\runeasy_garmim\\runeasy_garmim\\bin\\gen\\006-B4375-00\\source\\Rez.mcgen" id="62" lineNum="16" parent="globals/Rez/Layouts" pc="268441016" symbol="MainLayout"/>
+        <entry filename="c:\\Documentos\\runeasy_garmim\\runeasy_garmim\\bin\\gen\\006-B4375-00\\source\\Rez.mcgen" id="62" lineNum="17" parent="globals/Rez/Layouts" pc="268441027" symbol="MainLayout"/>
+        <entry filename="c:\\Documentos\\runeasy_garmim\\runeasy_garmim\\bin\\gen\\006-B4375-00\\source\\Rez.mcgen" id="62" lineNum="19" parent="globals/Rez/Layouts" pc="268441036" symbol="MainLayout"/>
+        <entry filename="c:\\Documentos\\runeasy_garmim\\runeasy_garmim\\bin\\gen\\006-B4375-00\\source\\Rez.mcgen" id="62" lineNum="21" parent="globals/Rez/Layouts" pc="268441045" symbol="MainLayout"/>
+        <entry filename="c:\\Documentos\\runeasy_garmim\\runeasy_garmim\\bin\\gen\\006-B4375-00\\source\\Rez.mcgen" id="62" lineNum="23" parent="globals/Rez/Layouts" pc="268441151" symbol="MainLayout"/>
+        <entry filename="c:\\Documentos\\runeasy_garmim\\runeasy_garmim\\bin\\gen\\006-B4375-00\\source\\Rez.mcgen" id="62" lineNum="25" parent="globals/Rez/Layouts" pc="268441245" symbol="MainLayout"/>
     </pcToLineNum>
     <symbolTable>
-        <entry id="7" object="true" symbol="RuneasyView"/>
+        <entry id="14" object="true" symbol="RuneasyView"/>
         <entry id="8388639" module="true" symbol="Graphics"/>
+        <entry id="11" object="true" symbol="PauseMenuView"/>
+        <entry id="8" object="true" symbol="HomeDelegate"/>
         <entry id="8388632" method="true" symbol="&lt;init&gt;"/>
-        <entry field="true" id="15" symbol="mColorDark"/>
-        <entry id="22" method="true" symbol="MainLayout"/>
-        <entry field="true" id="14" symbol="logoWidth"/>
+        <entry field="true" id="32" symbol="mColorDark"/>
+        <entry id="23" method="true" symbol="&lt;globals/FeedbackView/&lt;&gt;drawGlassCard&gt;"/>
+        <entry id="8388638" module="true" symbol="ActivityRecording"/>
+        <entry id="45" method="true" symbol="MainLayout"/>
+        <entry field="true" id="8388890" symbol="sport"/>
+        <entry field="true" id="38" symbol="mWorkoutName"/>
+        <entry id="29" method="true" symbol="&lt;globals/RuneasyView/&lt;&gt;drawGlassCard&gt;"/>
+        <entry id="8390424" module="true" symbol="Storage"/>
+        <entry id="19" method="true" symbol="onPosition"/>
+        <entry field="true" id="31" symbol="logoWidth"/>
         <entry field="true" id="8388611" module="true" symbol="Toybox"/>
-        <entry field="true" id="25" symbol="AppName"/>
+        <entry field="true" id="48" symbol="AppName"/>
         <entry id="5" module="true" symbol="globals/Rez/Strings"/>
         <entry id="8388631" module="true" symbol="Activity"/>
         <entry id="8388648" module="true" symbol="WatchUi"/>
+        <entry id="7" object="true" symbol="FeedbackView"/>
         <entry field="true" id="8389138" symbol="label"/>
         <entry id="2" module="true" symbol="globals/Rez"/>
-        <entry field="true" id="10" symbol="DistIcon"/>
+        <entry id="15" object="true" symbol="WorkoutDetailsDelegate"/>
+        <entry id="10" object="true" symbol="PauseMenuDelegate"/>
+        <entry field="true" id="26" symbol="DistIcon"/>
         <entry id="8389124" method="true" symbol="onUpdate"/>
         <entry field="true" id="8389065" symbol="locY"/>
         <entry field="true" id="8389064" symbol="locX"/>
+        <entry id="6" object="true" symbol="FeedbackDelegate"/>
         <entry id="8388771" module="true" object="true" symbol="Drawables"/>
         <entry id="8389348" symbol="font"/>
+        <entry id="8389079" method="true" symbol="onPreviousPage"/>
         <entry id="8389275" method="true" symbol="getApp"/>
         <entry id="4" module="true" symbol="globals/Rez/Layouts"/>
         <entry field="true" id="8391824" symbol="mDistance"/>
@@ -194,107 +415,194 @@
         <entry field="true" id="8388738" symbol="currentSpeed"/>
         <entry field="true" id="8389063" symbol="identifier"/>
         <entry id="8389349" symbol="justification"/>
-        <entry id="8389137" method="true" symbol="compute"/>
+        <entry field="true" id="17" symbol="gSession"/>
         <entry id="8389131" method="true" symbol="setColor"/>
         <entry id="3" module="true" symbol="globals/Rez/Drawables"/>
-        <entry field="true" id="17" symbol="mHR"/>
-        <entry field="true" id="11" symbol="HeartIcon"/>
-        <entry field="true" id="18" symbol="mPace"/>
-        <entry id="23" method="true" symbol="TopLeftLayout"/>
-        <entry field="true" id="12" symbol="distIconWidth"/>
+        <entry field="true" id="34" symbol="mHR"/>
+        <entry id="16" object="true" symbol="WorkoutDetailsView"/>
+        <entry id="9" object="true" symbol="HomeView"/>
+        <entry field="true" id="27" symbol="HeartIcon"/>
+        <entry field="true" id="35" symbol="mPace"/>
+        <entry id="46" method="true" symbol="TopLeftLayout"/>
+        <entry id="8388644" module="true" symbol="System"/>
+        <entry field="true" id="28" symbol="distIconWidth"/>
         <entry id="8388769" module="true" object="true" symbol="Rez"/>
-        <entry id="20" method="true" symbol="BottomLeftLayout"/>
-        <entry id="21" method="true" symbol="BottomRightLayout"/>
+        <entry field="true" id="40" symbol="selectedIndex"/>
+        <entry id="43" method="true" symbol="BottomLeftLayout"/>
+        <entry id="44" method="true" symbol="BottomRightLayout"/>
         <entry id="8388640" module="true" symbol="Lang"/>
+        <entry id="20" method="true" symbol="onSensor"/>
         <entry field="true" id="8389130" symbol="mColor"/>
         <entry id="8389068" method="true" symbol="draw"/>
-        <entry field="true" id="19" symbol="LauncherIcon"/>
+        <entry field="true" id="42" symbol="LauncherIcon"/>
         <entry id="8388610" symbol="statics"/>
-        <entry field="true" id="13" symbol="heartIconWidth"/>
+        <entry field="true" id="30" symbol="heartIconWidth"/>
+        <entry id="8389123" method="true" symbol="onShow"/>
+        <entry id="8388643" module="true" symbol="Sensor"/>
+        <entry field="true" id="36" symbol="mTargetValue"/>
         <entry id="8389350" module="true" symbol="globals"/>
         <entry id="8388770" module="true" object="true" symbol="Strings"/>
         <entry id="8390146" module="true" object="true" symbol="Background"/>
         <entry id="8388702" method="true" symbol="initialize"/>
+        <entry id="22" method="true" symbol="toggleRecording"/>
         <entry id="8389279" method="true" symbol="onStart"/>
-        <entry field="true" id="9" symbol="AppLogo"/>
+        <entry field="true" id="25" symbol="AppLogo"/>
+        <entry field="true" id="8388892" symbol="name"/>
+        <entry id="12" object="true" symbol="RunEasyDelegate"/>
         <entry field="true" id="8388747" symbol="currentHeartRate"/>
+        <entry field="true" id="41" symbol="&lt;globals/PauseMenuDelegate/&lt;&gt;mView&gt;"/>
         <entry id="8389280" method="true" symbol="getInitialView"/>
-        <entry field="true" id="16" symbol="mColorElectricBlue"/>
+        <entry field="true" id="33" symbol="mColorElectricBlue"/>
         <entry id="8389281" method="true" symbol="onStop"/>
         <entry field="true" id="8389347" symbol="color"/>
-        <entry id="6" object="true" symbol="RuneasyApp"/>
+        <entry id="8389097" method="true" symbol="onKey"/>
+        <entry id="13" object="true" symbol="RuneasyApp"/>
         <entry field="true" id="8388734" symbol="elapsedDistance"/>
-        <entry id="8" module="true" symbol="Layouts"/>
+        <entry id="8388646" module="true" object="true" symbol="Timer"/>
+        <entry id="24" module="true" symbol="Layouts"/>
+        <entry id="21" method="true" symbol="saveSession"/>
+        <entry id="8388642" module="true" symbol="Position"/>
+        <entry field="true" id="37" symbol="mTimer"/>
+        <entry id="8389125" method="true" symbol="onHide"/>
+        <entry id="8389078" method="true" symbol="onNextPage"/>
+        <entry id="18" method="true" symbol="discardSession"/>
         <entry id="8388635" module="true" symbol="Application"/>
-        <entry id="24" method="true" symbol="TopRightLayout"/>
+        <entry id="39" method="true" symbol="onTimer"/>
+        <entry id="47" method="true" symbol="TopRightLayout"/>
     </symbolTable>
     <localVars>
-        <entry arg="true" endPc="268435597" name="color" stackId="1" startPc="268435586"/>
-        <entry endPc="268435646" name="dictionary" stackId="1" startPc="268435601"/>
-        <entry arg="true" endPc="268435675" name="dc" stackId="1" startPc="268435648"/>
-        <entry arg="true" endPc="268436114" name="dc" stackId="1" startPc="268435676"/>
-        <entry endPc="268436113" name="obscurityFlags" stackId="2" startPc="268435679"/>
-        <entry arg="true" endPc="268436390" name="info" stackId="1" startPc="268436115"/>
-        <entry endPc="268436253" name="speed" stackId="2" startPc="268436140"/>
-        <entry endPc="268436253" name="paceDecimal" stackId="3" startPc="268436175"/>
-        <entry endPc="268436253" name="mins" stackId="4" startPc="268436175"/>
-        <entry endPc="268436253" name="secs" stackId="5" startPc="268436175"/>
-        <entry endPc="268436389" name="distance" stackId="6" startPc="268436118"/>
-        <entry arg="true" endPc="268437591" name="dc" stackId="1" startPc="268436464"/>
-        <entry endPc="268437590" name="w" stackId="2" startPc="268436467"/>
-        <entry endPc="268437590" name="h" stackId="3" startPc="268436467"/>
-        <entry endPc="268437590" name="centerX" stackId="4" startPc="268436467"/>
-        <entry endPc="268437590" name="centerY" stackId="5" startPc="268436467"/>
-        <entry endPc="268437590" name="hrValue" stackId="6" startPc="268436467"/>
-        <entry endPc="268437590" name="hrDegree" stackId="7" startPc="268436467"/>
-        <entry endPc="268436681" name="startDegree" stackId="8" startPc="268436597"/>
-        <entry endPc="268436681" name="endDegree" stackId="9" startPc="268436597"/>
-        <entry endPc="268437590" name="obscurityFlags" stackId="10" startPc="268436467"/>
-        <entry endPc="268437590" name="isQuadrant" stackId="11" startPc="268436467"/>
-        <entry endPc="268436799" name="logoY" stackId="12" startPc="268436762"/>
-        <entry endPc="268437433" name="glassFillColor" stackId="13" startPc="268436744"/>
-        <entry endPc="268437433" name="glassBorderColor" stackId="14" startPc="268436744"/>
-        <entry endPc="268437433" name="boxPaddingX" stackId="15" startPc="268436744"/>
-        <entry endPc="268437075" name="hrFont" stackId="16" startPc="268436837"/>
-        <entry endPc="268437075" name="hrTextWidth" stackId="17" startPc="268436837"/>
-        <entry endPc="268437075" name="innerPadding" stackId="18" startPc="268436837"/>
-        <entry endPc="268437075" name="contentW" stackId="19" startPc="268436837"/>
-        <entry endPc="268437075" name="boxW" stackId="20" startPc="268436837"/>
-        <entry endPc="268437075" name="boxH" stackId="21" startPc="268436837"/>
-        <entry endPc="268437075" name="boxX" stackId="22" startPc="268436837"/>
-        <entry endPc="268437075" name="boxY" stackId="23" startPc="268436837"/>
-        <entry endPc="268437075" name="contentStartX" stackId="24" startPc="268436837"/>
-        <entry endPc="268437433" name="valueView" stackId="25" startPc="268436744"/>
-        <entry endPc="268437430" name="distFont" stackId="26" startPc="268437192"/>
-        <entry endPc="268437430" name="distTextWidth" stackId="27" startPc="268437192"/>
-        <entry endPc="268437430" name="innerPadding" stackId="28" startPc="268437192"/>
-        <entry endPc="268437430" name="contentW" stackId="29" startPc="268437192"/>
-        <entry endPc="268437430" name="boxW" stackId="30" startPc="268437192"/>
-        <entry endPc="268437430" name="boxH" stackId="31" startPc="268437192"/>
-        <entry endPc="268437430" name="boxX" stackId="32" startPc="268437192"/>
-        <entry endPc="268437430" name="boxY" stackId="33" startPc="268437192"/>
-        <entry endPc="268437430" name="contentStartX" stackId="34" startPc="268437192"/>
-        <entry endPc="268437590" name="valueView" stackId="35" startPc="268437437"/>
-        <entry endPc="268437590" name="labelView" stackId="36" startPc="268437437"/>
-        <entry arg="true" endPc="268437781" name="dc" stackId="1" startPc="268437592"/>
-        <entry endPc="268437781" name="rez_cmp_local_text_value" stackId="2" startPc="268437603"/>
-        <entry endPc="268437781" name="rez_cmp_local_text_label" stackId="3" startPc="268437603"/>
-        <entry arg="true" endPc="268437971" name="dc" stackId="1" startPc="268437782"/>
-        <entry endPc="268437971" name="rez_cmp_local_text_value" stackId="2" startPc="268437793"/>
-        <entry endPc="268437971" name="rez_cmp_local_text_label" stackId="3" startPc="268437793"/>
-        <entry arg="true" endPc="268438159" name="dc" stackId="1" startPc="268437972"/>
-        <entry endPc="268438159" name="rez_cmp_local_text_value" stackId="2" startPc="268437983"/>
-        <entry endPc="268438159" name="rez_cmp_local_text_label" stackId="3" startPc="268437983"/>
-        <entry arg="true" endPc="268438347" name="dc" stackId="1" startPc="268438160"/>
-        <entry endPc="268438347" name="rez_cmp_local_text_value" stackId="2" startPc="268438171"/>
-        <entry endPc="268438347" name="rez_cmp_local_text_label" stackId="3" startPc="268438171"/>
-        <entry arg="true" endPc="268438591" name="dc" stackId="1" startPc="268438348"/>
-        <entry endPc="268438591" name="rez_cmp_local_var_dc_getHeight" stackId="2" startPc="268438359"/>
-        <entry endPc="268438591" name="rez_cmp_local_var_dc_getWidth" stackId="3" startPc="268438359"/>
-        <entry endPc="268438591" name="rez_cmp_local_text_value" stackId="4" startPc="268438359"/>
-        <entry endPc="268438591" name="rez_cmp_local_text_label" stackId="5" startPc="268438359"/>
+        <entry arg="true" endPc="268435821" name="state" stackId="1" startPc="268435747"/>
+        <entry arg="true" endPc="268436104" name="state" stackId="1" startPc="268436009"/>
+        <entry arg="true" endPc="268436356" name="dc" stackId="1" startPc="268436105"/>
+        <entry arg="true" endPc="268436356" name="x" stackId="2" startPc="268436105"/>
+        <entry arg="true" endPc="268436356" name="y" stackId="3" startPc="268436105"/>
+        <entry arg="true" endPc="268436356" name="width" stackId="4" startPc="268436105"/>
+        <entry arg="true" endPc="268436356" name="height" stackId="5" startPc="268436105"/>
+        <entry arg="true" endPc="268436356" name="value" stackId="6" startPc="268436105"/>
+        <entry arg="true" endPc="268436356" name="unit" stackId="7" startPc="268436105"/>
+        <entry endPc="268436355" name="glassFillColor" stackId="8" startPc="268436108"/>
+        <entry endPc="268436355" name="glassBorderColor" stackId="9" startPc="268436108"/>
+        <entry endPc="268436355" name="font" stackId="10" startPc="268436108"/>
+        <entry endPc="268436355" name="textWidth" stackId="11" startPc="268436108"/>
+        <entry endPc="268436355" name="unitFont" stackId="12" startPc="268436108"/>
+        <entry endPc="268436355" name="unitWidth" stackId="13" startPc="268436108"/>
+        <entry endPc="268436355" name="innerPadding" stackId="14" startPc="268436108"/>
+        <entry endPc="268436355" name="contentW" stackId="15" startPc="268436108"/>
+        <entry endPc="268436355" name="contentStartX" stackId="16" startPc="268436108"/>
+        <entry arg="true" endPc="268436621" name="dc" stackId="1" startPc="268436375"/>
+        <entry endPc="268436620" name="w" stackId="2" startPc="268436378"/>
+        <entry endPc="268436620" name="h" stackId="3" startPc="268436378"/>
+        <entry endPc="268436620" name="centerX" stackId="4" startPc="268436378"/>
+        <entry endPc="268436620" name="cardW" stackId="5" startPc="268436378"/>
+        <entry endPc="268436620" name="cardH" stackId="6" startPc="268436378"/>
+        <entry endPc="268436620" name="cardX" stackId="7" startPc="268436378"/>
+        <entry endPc="268436620" name="cardY" stackId="8" startPc="268436378"/>
+        <entry arg="true" endPc="268437016" name="dc" stackId="1" startPc="268436640"/>
+        <entry endPc="268437015" name="w" stackId="2" startPc="268436643"/>
+        <entry endPc="268437015" name="h" stackId="3" startPc="268436643"/>
+        <entry endPc="268437015" name="centerX" stackId="4" startPc="268436643"/>
+        <entry endPc="268437015" name="cardW" stackId="5" startPc="268436643"/>
+        <entry endPc="268437015" name="cardH" stackId="6" startPc="268436643"/>
+        <entry endPc="268437015" name="cardX" stackId="7" startPc="268436643"/>
+        <entry endPc="268437015" name="cardY" stackId="8" startPc="268436643"/>
+        <entry arg="true" endPc="268437028" name="color" stackId="1" startPc="268437017"/>
+        <entry endPc="268437077" name="dictionary" stackId="1" startPc="268437032"/>
+        <entry arg="true" endPc="268437106" name="dc" stackId="1" startPc="268437079"/>
+        <entry arg="true" endPc="268437378" name="dc" stackId="1" startPc="268437170"/>
+        <entry arg="true" endPc="268437677" name="dc" stackId="1" startPc="268437379"/>
+        <entry arg="true" endPc="268437677" name="x" stackId="2" startPc="268437379"/>
+        <entry arg="true" endPc="268437677" name="y" stackId="3" startPc="268437379"/>
+        <entry arg="true" endPc="268437677" name="width" stackId="4" startPc="268437379"/>
+        <entry arg="true" endPc="268437677" name="height" stackId="5" startPc="268437379"/>
+        <entry arg="true" endPc="268437677" name="value" stackId="6" startPc="268437379"/>
+        <entry arg="true" endPc="268437677" name="icon" stackId="7" startPc="268437379"/>
+        <entry arg="true" endPc="268437677" name="unit" stackId="8" startPc="268437379"/>
+        <entry endPc="268437676" name="glassFillColor" stackId="9" startPc="268437382"/>
+        <entry endPc="268437676" name="glassBorderColor" stackId="10" startPc="268437382"/>
+        <entry endPc="268437676" name="font" stackId="11" startPc="268437382"/>
+        <entry endPc="268437676" name="textWidth" stackId="12" startPc="268437382"/>
+        <entry endPc="268437676" name="unitFont" stackId="13" startPc="268437382"/>
+        <entry endPc="268437676" name="unitWidth" stackId="14" startPc="268437382"/>
+        <entry endPc="268437676" name="iconW" stackId="15" startPc="268437382"/>
+        <entry endPc="268437676" name="innerPadding" stackId="16" startPc="268437382"/>
+        <entry endPc="268437676" name="contentW" stackId="17" startPc="268437382"/>
+        <entry endPc="268437676" name="contentStartX" stackId="18" startPc="268437382"/>
+        <entry arg="true" endPc="268437768" name="workoutName" stackId="1" startPc="268437678"/>
+        <entry arg="true" endPc="268437768" name="targetValue" stackId="2" startPc="268437678"/>
+        <entry arg="true" endPc="268438713" name="dc" stackId="1" startPc="268437804"/>
+        <entry endPc="268438712" name="info" stackId="2" startPc="268437807"/>
+        <entry endPc="268437960" name="speed" stackId="3" startPc="268437847"/>
+        <entry endPc="268437960" name="paceDecimal" stackId="4" startPc="268437882"/>
+        <entry endPc="268437960" name="mins" stackId="5" startPc="268437882"/>
+        <entry endPc="268437960" name="secs" stackId="6" startPc="268437882"/>
+        <entry endPc="268438096" name="distance" stackId="7" startPc="268437825"/>
+        <entry endPc="268438712" name="w" stackId="8" startPc="268437807"/>
+        <entry endPc="268438712" name="h" stackId="9" startPc="268437807"/>
+        <entry endPc="268438712" name="centerX" stackId="10" startPc="268437807"/>
+        <entry endPc="268438712" name="centerY" stackId="11" startPc="268437807"/>
+        <entry endPc="268438712" name="hrValue" stackId="12" startPc="268437807"/>
+        <entry endPc="268438712" name="hrDegree" stackId="13" startPc="268437807"/>
+        <entry endPc="268438712" name="targetColor" stackId="14" startPc="268437807"/>
+        <entry endPc="268438336" name="startDegree" stackId="15" startPc="268438254"/>
+        <entry endPc="268438336" name="endDegree" stackId="16" startPc="268438254"/>
+        <entry endPc="268438395" name="logoY" stackId="17" startPc="268438358"/>
+        <entry endPc="268438547" name="hrY" stackId="18" startPc="268438465"/>
+        <entry endPc="268438547" name="boxW" stackId="19" startPc="268438465"/>
+        <entry endPc="268438547" name="boxH" stackId="20" startPc="268438465"/>
+        <entry endPc="268438547" name="boxX" stackId="21" startPc="268438465"/>
+        <entry endPc="268438712" name="valueView" stackId="22" startPc="268437807"/>
+        <entry endPc="268438709" name="boxW" stackId="23" startPc="268438651"/>
+        <entry endPc="268438709" name="boxH" stackId="24" startPc="268438651"/>
+        <entry endPc="268438709" name="boxX" stackId="25" startPc="268438651"/>
+        <entry arg="true" endPc="268438815" name="keyEvent" stackId="1" startPc="268438743"/>
+        <entry arg="true" endPc="268438926" name="keyEvent" stackId="1" startPc="268438831"/>
+        <entry endPc="268438921" name="app" stackId="2" startPc="268438847"/>
+        <entry endPc="268438921" name="pauseView" stackId="3" startPc="268438847"/>
+        <entry arg="true" endPc="268439006" name="keyEvent" stackId="1" startPc="268438942"/>
+        <entry arg="true" endPc="268439403" name="dc" stackId="1" startPc="268439022"/>
+        <entry endPc="268439402" name="w" stackId="2" startPc="268439025"/>
+        <entry endPc="268439402" name="h" stackId="3" startPc="268439025"/>
+        <entry endPc="268439402" name="centerX" stackId="4" startPc="268439025"/>
+        <entry endPc="268439402" name="options" stackId="5" startPc="268439025"/>
+        <entry endPc="268439402" name="btnW" stackId="6" startPc="268439025"/>
+        <entry endPc="268439402" name="btnH" stackId="7" startPc="268439025"/>
+        <entry endPc="268439402" name="startY" stackId="8" startPc="268439025"/>
+        <entry endPc="268439402" name="spacing" stackId="9" startPc="268439025"/>
+        <entry endPc="268439402" name="i" stackId="10" startPc="268439165"/>
+        <entry endPc="268439392" name="y" stackId="11" startPc="268439165"/>
+        <entry endPc="268439392" name="isSelected" stackId="12" startPc="268439165"/>
+        <entry arg="true" endPc="268439518" name="keyEvent" stackId="1" startPc="268439419"/>
+        <entry endPc="268439513" name="app" stackId="2" startPc="268439435"/>
+        <entry arg="true" endPc="268439612" name="view" stackId="1" startPc="268439589"/>
+        <entry arg="true" endPc="268439897" name="keyEvent" stackId="1" startPc="268439655"/>
+        <entry endPc="268439892" name="app" stackId="2" startPc="268439671"/>
+        <entry arg="true" endPc="268440259" name="dc" stackId="1" startPc="268439916"/>
+        <entry endPc="268440258" name="w" stackId="2" startPc="268439919"/>
+        <entry endPc="268440258" name="h" stackId="3" startPc="268439919"/>
+        <entry endPc="268440258" name="centerX" stackId="4" startPc="268439919"/>
+        <entry endPc="268440258" name="btnW" stackId="5" startPc="268439919"/>
+        <entry endPc="268440258" name="btnH" stackId="6" startPc="268439919"/>
+        <entry endPc="268440258" name="btnX" stackId="7" startPc="268439919"/>
+        <entry endPc="268440258" name="btnY" stackId="8" startPc="268439919"/>
+        <entry arg="true" endPc="268440449" name="dc" stackId="1" startPc="268440260"/>
+        <entry endPc="268440449" name="rez_cmp_local_text_value" stackId="2" startPc="268440271"/>
+        <entry endPc="268440449" name="rez_cmp_local_text_label" stackId="3" startPc="268440271"/>
+        <entry arg="true" endPc="268440639" name="dc" stackId="1" startPc="268440450"/>
+        <entry endPc="268440639" name="rez_cmp_local_text_value" stackId="2" startPc="268440461"/>
+        <entry endPc="268440639" name="rez_cmp_local_text_label" stackId="3" startPc="268440461"/>
+        <entry arg="true" endPc="268440827" name="dc" stackId="1" startPc="268440640"/>
+        <entry endPc="268440827" name="rez_cmp_local_text_value" stackId="2" startPc="268440651"/>
+        <entry endPc="268440827" name="rez_cmp_local_text_label" stackId="3" startPc="268440651"/>
+        <entry arg="true" endPc="268441015" name="dc" stackId="1" startPc="268440828"/>
+        <entry endPc="268441015" name="rez_cmp_local_text_value" stackId="2" startPc="268440839"/>
+        <entry endPc="268441015" name="rez_cmp_local_text_label" stackId="3" startPc="268440839"/>
+        <entry arg="true" endPc="268441259" name="dc" stackId="1" startPc="268441016"/>
+        <entry endPc="268441259" name="rez_cmp_local_var_dc_getHeight" stackId="2" startPc="268441027"/>
+        <entry endPc="268441259" name="rez_cmp_local_var_dc_getWidth" stackId="3" startPc="268441027"/>
+        <entry endPc="268441259" name="rez_cmp_local_text_value" stackId="4" startPc="268441027"/>
+        <entry endPc="268441259" name="rez_cmp_local_text_label" stackId="5" startPc="268441027"/>
     </localVars>
-    <deviceInfo deviceVersion="45fe3cbb0de8ea0a70e12628d2697915f1272301" partNumber="006-B4315-00"/>
+    <deviceInfo deviceVersion="45fe3cbb0de8ea0a70e12628d2697915f1272301" partNumber="006-B4375-00"/>
     <annotations>
         <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
         <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="AppLogo"/>
@@ -305,13 +613,22 @@
     </annotations>
     <dataEntryOffsetMappings>
         <dataEntry label="globals" offset="58" parentId="" symbolId="globals" type="module"/>
-        <dataEntry label="globals/RuneasyApp" offset="134" parentId="globals" symbolId="RuneasyApp" type="class"/>
-        <dataEntry label="globals/Background" offset="205" parentId="globals" symbolId="Background" type="class"/>
-        <dataEntry label="globals/Rez" offset="276" parentId="globals" symbolId="Rez" type="module"/>
-        <dataEntry label="globals/RuneasyView" offset="329" parentId="globals" symbolId="RuneasyView" type="class"/>
-        <dataEntry label="globals/Rez/Drawables" offset="499" parentId="Rez" symbolId="Drawables" type="module"/>
-        <dataEntry label="globals/Rez/Layouts" offset="561" parentId="Rez" symbolId="Layouts" type="module"/>
-        <dataEntry label="globals/Rez/Strings" offset="632" parentId="Rez" symbolId="Strings" type="module"/>
+        <dataEntry label="globals/RuneasyApp" offset="224" parentId="globals" symbolId="RuneasyApp" type="class"/>
+        <dataEntry label="globals/FeedbackView" offset="340" parentId="globals" symbolId="FeedbackView" type="class"/>
+        <dataEntry label="globals/HomeView" offset="411" parentId="globals" symbolId="HomeView" type="class"/>
+        <dataEntry label="globals/Background" offset="473" parentId="globals" symbolId="Background" type="class"/>
+        <dataEntry label="globals/Rez" offset="544" parentId="globals" symbolId="Rez" type="module"/>
+        <dataEntry label="globals/RuneasyView" offset="597" parentId="globals" symbolId="RuneasyView" type="class"/>
+        <dataEntry label="globals/HomeDelegate" offset="821" parentId="globals" symbolId="HomeDelegate" type="class"/>
+        <dataEntry label="globals/RunEasyDelegate" offset="874" parentId="globals" symbolId="RunEasyDelegate" type="class"/>
+        <dataEntry label="globals/FeedbackDelegate" offset="927" parentId="globals" symbolId="FeedbackDelegate" type="class"/>
+        <dataEntry label="globals/PauseMenuView" offset="980" parentId="globals" symbolId="PauseMenuView" type="class"/>
+        <dataEntry label="globals/WorkoutDetailsDelegate" offset="1042" parentId="globals" symbolId="WorkoutDetailsDelegate" type="class"/>
+        <dataEntry label="globals/PauseMenuDelegate" offset="1095" parentId="globals" symbolId="PauseMenuDelegate" type="class"/>
+        <dataEntry label="globals/WorkoutDetailsView" offset="1175" parentId="globals" symbolId="WorkoutDetailsView" type="class"/>
+        <dataEntry label="globals/Rez/Drawables" offset="1237" parentId="Rez" symbolId="Drawables" type="module"/>
+        <dataEntry label="globals/Rez/Layouts" offset="1299" parentId="Rez" symbolId="Layouts" type="module"/>
+        <dataEntry label="globals/Rez/Strings" offset="1370" parentId="Rez" symbolId="Strings" type="module"/>
     </dataEntryOffsetMappings>
     <functions>
         <functionEntry accessMode="public" endPc="268435471" name="&lt;init&gt;" parent="RuneasyApp" startPc="268435460">
@@ -320,37 +637,113 @@
         <functionEntry accessMode="public" endPc="268435492" name="getApp" startPc="268435472">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435504" name="&lt;init&gt;" parent="Background" startPc="268435493">
+        <functionEntry accessMode="public" endPc="268435504" name="&lt;init&gt;" parent="FeedbackView" startPc="268435493">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435524" name="&lt;init&gt;" parent="Rez" startPc="268435505">
+        <functionEntry accessMode="public" endPc="268435516" name="&lt;init&gt;" parent="HomeView" startPc="268435505">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435536" name="&lt;init&gt;" parent="RuneasyView" startPc="268435525">
+        <functionEntry accessMode="public" endPc="268435528" name="&lt;init&gt;" parent="Background" startPc="268435517">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435539" name="onStart" parent="RuneasyApp" startPc="268435537">
+        <functionEntry accessMode="public" endPc="268435548" name="&lt;init&gt;" parent="Rez" startPc="268435529">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435560" name="&lt;init&gt;" parent="RuneasyView" startPc="268435549">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435572" name="&lt;init&gt;" parent="HomeDelegate" startPc="268435561">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435584" name="&lt;init&gt;" parent="RunEasyDelegate" startPc="268435573">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435596" name="&lt;init&gt;" parent="FeedbackDelegate" startPc="268435585">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435608" name="&lt;init&gt;" parent="PauseMenuView" startPc="268435597">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435620" name="&lt;init&gt;" parent="WorkoutDetailsDelegate" startPc="268435609">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435632" name="&lt;init&gt;" parent="PauseMenuDelegate" startPc="268435621">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435644" name="&lt;init&gt;" parent="WorkoutDetailsView" startPc="268435633">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435695" name="saveSession" parent="RuneasyApp" startPc="268435645">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435746" name="discardSession" parent="RuneasyApp" startPc="268435696">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435821" name="onStart" parent="RuneasyApp" startPc="268435747">
             <param id="state"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435567" name="getInitialView" parent="RuneasyApp" startPc="268435540">
+        <functionEntry accessMode="public" endPc="268435824" name="onPosition" parent="RuneasyApp" startPc="268435822">
+            <param id="info"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435873" name="getInitialView" parent="RuneasyApp" startPc="268435825">
             <documentation><![CDATA[<div class="description"> Return the initial view of your application here<br/></div>]]></documentation>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435582" name="initialize" parent="RuneasyApp" startPc="268435568">
+        <functionEntry accessMode="public" endPc="268435990" name="toggleRecording" parent="RuneasyApp" startPc="268435874">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435585" name="onStop" parent="RuneasyApp" startPc="268435583">
+        <functionEntry accessMode="public" endPc="268436005" name="initialize" parent="RuneasyApp" startPc="268435991">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436008" name="onSensor" parent="RuneasyApp" startPc="268436006">
+            <param id="sensorInfo"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436104" name="onStop" parent="RuneasyApp" startPc="268436009">
             <param id="state"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435597" name="setColor" parent="Background" startPc="268435586">
+        <functionEntry accessMode="private" endPc="268436356" name="&lt;globals/FeedbackView/&lt;&gt;drawGlassCard&gt;" parent="FeedbackView" startPc="268436105">
+            <param id="dc"/>
+            <param id="x"/>
+            <param id="y"/>
+            <param id="width"/>
+            <param id="height"/>
+            <param id="value"/>
+            <param id="unit"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436359" name="onLayout" parent="FeedbackView" startPc="268436357">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436374" name="initialize" parent="FeedbackView" startPc="268436360">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436621" name="onUpdate" parent="FeedbackView" startPc="268436375">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436624" name="onLayout" parent="HomeView" startPc="268436622">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436639" name="initialize" parent="HomeView" startPc="268436625">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437016" name="onUpdate" parent="HomeView" startPc="268436640">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437028" name="setColor" parent="Background" startPc="268437017">
             <param id="color"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435647" name="initialize" parent="Background" startPc="268435598">
+        <functionEntry accessMode="public" endPc="268437078" name="initialize" parent="Background" startPc="268437029">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435675" name="draw" parent="Background" startPc="268435648">
+        <functionEntry accessMode="public" endPc="268437106" name="draw" parent="Background" startPc="268437079">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
@@ -363,38 +756,116 @@
         <functionEntry accessMode="public" name="&lt;init&gt;" parent="Strings">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436114" name="onLayout" parent="RuneasyView" startPc="268435676">
+        <functionEntry accessMode="public" endPc="268437169" name="onShow" parent="RuneasyView" startPc="268437107">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437378" name="onLayout" parent="RuneasyView" startPc="268437170">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436390" name="compute" parent="RuneasyView" startPc="268436115">
-            <param id="info"/>
+        <functionEntry accessMode="private" endPc="268437677" name="&lt;globals/RuneasyView/&lt;&gt;drawGlassCard&gt;" parent="RuneasyView" startPc="268437379">
+            <param id="dc"/>
+            <param id="x"/>
+            <param id="y"/>
+            <param id="width"/>
+            <param id="height"/>
+            <param id="value"/>
+            <param id="icon"/>
+            <param id="unit"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436463" name="initialize" parent="RuneasyView" startPc="268436391">
+        <functionEntry accessMode="public" endPc="268437768" name="initialize" parent="RuneasyView" startPc="268437678">
+            <param id="workoutName"/>
+            <param id="targetValue"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437591" name="onUpdate" parent="RuneasyView" startPc="268436464">
+        <functionEntry accessMode="public" endPc="268437803" name="onHide" parent="RuneasyView" startPc="268437769">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438713" name="onUpdate" parent="RuneasyView" startPc="268437804">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437781" name="BottomRightLayout" parent="Layouts" startPc="268437592">
+        <functionEntry accessMode="public" endPc="268438727" name="onTimer" parent="RuneasyView" startPc="268438714">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438742" name="initialize" parent="HomeDelegate" startPc="268438728">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438815" name="onKey" parent="HomeDelegate" startPc="268438743">
+            <param id="keyEvent"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438830" name="initialize" parent="RunEasyDelegate" startPc="268438816">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438926" name="onKey" parent="RunEasyDelegate" startPc="268438831">
+            <param id="keyEvent"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438941" name="initialize" parent="FeedbackDelegate" startPc="268438927">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268439006" name="onKey" parent="FeedbackDelegate" startPc="268438942">
+            <param id="keyEvent"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268439021" name="initialize" parent="PauseMenuView" startPc="268439007">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268439403" name="onUpdate" parent="PauseMenuView" startPc="268439022">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437971" name="TopRightLayout" parent="Layouts" startPc="268437782">
+        <functionEntry accessMode="public" endPc="268439418" name="initialize" parent="WorkoutDetailsDelegate" startPc="268439404">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268439518" name="onKey" parent="WorkoutDetailsDelegate" startPc="268439419">
+            <param id="keyEvent"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268439588" name="onPreviousPage" parent="PauseMenuDelegate" startPc="268439519">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268439612" name="initialize" parent="PauseMenuDelegate" startPc="268439589">
+            <param id="view"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268439654" name="onNextPage" parent="PauseMenuDelegate" startPc="268439613">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268439897" name="onKey" parent="PauseMenuDelegate" startPc="268439655">
+            <param id="keyEvent"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268439900" name="onLayout" parent="WorkoutDetailsView" startPc="268439898">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438159" name="BottomLeftLayout" parent="Layouts" startPc="268437972">
+        <functionEntry accessMode="public" endPc="268439915" name="initialize" parent="WorkoutDetailsView" startPc="268439901">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268440259" name="onUpdate" parent="WorkoutDetailsView" startPc="268439916">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438347" name="TopLeftLayout" parent="Layouts" startPc="268438160">
+        <functionEntry accessMode="public" endPc="268440449" name="BottomRightLayout" parent="Layouts" startPc="268440260">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438591" name="MainLayout" parent="Layouts" startPc="268438348">
+        <functionEntry accessMode="public" endPc="268440639" name="TopRightLayout" parent="Layouts" startPc="268440450">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268440827" name="BottomLeftLayout" parent="Layouts" startPc="268440640">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268441015" name="TopLeftLayout" parent="Layouts" startPc="268440828">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268441259" name="MainLayout" parent="Layouts" startPc="268441016">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
