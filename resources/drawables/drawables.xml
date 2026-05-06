@@ -1,4 +1,6 @@
 <drawables xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://developer.garmin.com/downloads/connect-iq/resources.xsd">
-    <bitmap id="LauncherIcon" filename="launcher_icon.svg" dithering="none" />
-    <bitmap id="AppLogo" filename="novolgruneasy.svg" dithering="none" />
+    <bitmap id="LauncherIcon" filename="novoologoruneasy.png" dithering="none" />
+    <bitmap id="AppLogo" filename="novoologoruneasy.png" dithering="none" />
+    <bitmap id="HeartIcon" filename="heart_icon.png" dithering="none" />
+    <bitmap id="DistIcon" filename="distIcon.png" dithering="none" />
 </drawables>

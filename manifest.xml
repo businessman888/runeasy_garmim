@@ -5,7 +5,7 @@
         Use "Monkey C: Edit Application" from the Visual Studio Code command palette
         to update the application attributes.
     -->
-    <iq:application id="9b750312-d187-44bd-9aac-777878a35c7e" type="datafield" name="@Strings.AppName" entry="RuneasyApp" launcherIcon="@Drawables.LauncherIcon" minApiLevel="4.2.0">
+    <iq:application id="9b750312-d187-44bd-9aac-777878a35c7e" type="datafield" name="@Strings.AppName" entry="RuneasyApp" launcherIcon="@Drawables.AppLogo" minApiLevel="4.2.0">
         <!--
             Use the following from the Visual Studio Code comand palette to edit
             the build targets:
@@ -51,7 +51,10 @@
             Use "Monkey C: Edit Languages" from the Visual Studio Code command
             palette to edit your compatible language list.
         -->
-        <iq:languages/>
+        <iq:languages>
+            <iq:language>eng</iq:language>
+            <iq:language>por</iq:language>
+        </iq:languages>
         <!--
             Use "Monkey C: Configure Monkey Barrel" from the Visual Studio Code
             command palette to edit the included barrels.
