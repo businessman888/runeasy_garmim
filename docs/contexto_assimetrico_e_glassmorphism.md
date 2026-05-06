@@ -32,5 +32,16 @@ Para entregar um padrão verdadeiramente "Premium" e moderno, a estrutura foi pi
 ## 5. Resiliência do Ecossistema
 A lógica estruturante condicional de `obscurityFlags` (identificação de layouts cortados/quadrantes) foi inteiramente mantida na arquitetura `if/else`, garantindo que toda essa customização exótica do canvas só ocorra em dispositivos plenamente redondos, acionando formatações nativas tradicionais em relógios com cantos obsoletos.
 
+## 6. Evolução Final: Centralização e "True Glass"
+Após testes em simulador, a assimetria mostrou-se dispersa. Optamos por pivotar a arquitetura visual para uma **Centralização Bold e Harmônica**:
+
+- **Simetria Vertical (Eixo Y):** Todos os componentes (Logo, HR, Pace, Distância) regressaram ao eixo central absoluto (`centerX`).
+- **Blocos "True Glass" Largos:** As caixas curtas deram lugar a dois blocos robustos (topo para HR, base para Distância). O preenchimento translúcido (`0x20326A`) ganhou uma delicada **borda sólida** de 1px (`0x3A508C`), consolidando a percepção premium de camadas vítreas sobrepostas.
+- **Espaçamento e Alinhamento Preciso:**
+  - O conteúdo de ícones e textos agora usa `Graphics.TEXT_JUSTIFY_VCENTER` para flutuar exatamente no meio das caixas Glass de 40px.
+  - A Logo respira a `6%` do topo, o bloco HR repousa confortavelmente a `24%`, e o bloco de Distância apoia na base a `82%`.
+  - O **Pace** impera absoluto no centro geométrico, com seu Y delicadamente compensado (`centerY - 25`) para anular o padding fantasma da fonte e se firmar sem colisões, compondo as 4 estantes visuais do layout de maneira *clean* e legível.
+- **Moldura Radial:** A espessura do arco de performance cresceu para **4 pixels**, operando agora não só como um infográfico de BPM, mas como um contorno robusto para o *WatchFace*.
+
 ---
-*Documento gerado em Maio de 2026 para sumarizar a transição para a UI Glassmorphism.*
+*Documento atualizado em Maio de 2026 para sumarizar a transição final para a UI Centralizada True Glass.*

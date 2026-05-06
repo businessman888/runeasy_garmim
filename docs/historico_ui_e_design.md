@@ -29,5 +29,13 @@ A interface foi modernizada adotando técnicas visuais arrojadas, simetria de ei
    * **Distância:** Posicionada estrategicamente na base (`y=195`), implementada fora do Layout XML genérico e desenhada também como um bloco simétrico junto a um novo ícone customizado (`DistIcon`). A métrica tem formatação fixa com duas casas decimais, tratando também casos de distância não iniciada.
    * **Linhas Divisórias ("Premium Detail"):** Inclusão de duas linhas discretas (espessura 1px, cor `0x25356e`) em `y=110` e `y=180` para isolar graciosamente os blocos de HR e Distância do destaque central de Pace.
 
+## 4. Evolução para Centralização Premium ("True Glass")
+A UI passou por refinamentos arquitetônicos para maximizar o luxo visual e a leitura rápida:
+
+- **Efeito True Glass:** As divisórias sólidas antigas foram deletadas. O HR (topo) e a Distância (base) agora habitam "blocos de vidro": grandes retângulos desenhados com fundo translúcido `0x20326A` e uma moldura de borda sutil de 1px `0x3A508C`, criando uma profunda percepção de camadas.
+- **Isolamento do Pace:** O número principal (Pace) teve seu Y deslocado levemente acima para burlar o grande espaçamento interno (padding invisível) da megaphonte da Garmin (`centerY - 25`), tornando-se o pilar central flutuante absoluto, sem elementos brigando por sua horizontal.
+- **Espaçamento ("Respiro") e Alinhamento:** Os blocos de HR e Distância foram ancorados respeitando amplos respiros em proporção à altura da tela (`h * 0.24` e `h * 0.82`), impedindo qualquer colisão vertical. Os ícones e numerais dentro das caixas glass agora são alinhados perfeitamente pelo eixo vertical através do `TEXT_JUSTIFY_VCENTER`.
+- **Anel Interativo (Borda Robusta):** O arco radial dinâmico, que colore os 360º de acordo com o esforço cardíaco, teve sua espessura duplicada para **4 pixels**, funcionando como um infográfico imponente que circunda as métricas.
+
 ---
-*Gerado automaticamente no log do chat.*
+*Atualizado em Maio de 2026.*
