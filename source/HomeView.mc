@@ -35,24 +35,59 @@ class HomeView extends WatchUi.View {
         var cardX = (w - cardW) / 2;
         var cardY = h * 0.25;
 
-        // Fundo do Card
-        dc.setColor(0x1A2859 as Graphics.ColorValue, Graphics.COLOR_TRANSPARENT);
-        dc.fillRoundedRectangle(cardX, cardY, cardW, cardH, 16);
-        dc.setPenWidth(2);
-        dc.setColor(0x00D4FF as Graphics.ColorValue, Graphics.COLOR_TRANSPARENT);
-        dc.drawRoundedRectangle(cardX, cardY, cardW, cardH, 16);
+        var workoutCompleted = Toybox.Application.Storage.getValue("workout_completed");
 
-        // Conteúdo do Card
-        dc.setColor(0x00D4FF as Graphics.ColorValue, Graphics.COLOR_TRANSPARENT);
-        dc.drawText(centerX, cardY + 10, Graphics.FONT_XTINY, "ALTA INTENSIDADE", Graphics.TEXT_JUSTIFY_CENTER);
-        
-        dc.setColor(0xFFFFFF as Graphics.ColorValue, Graphics.COLOR_TRANSPARENT);
-        dc.drawText(centerX, cardY + 40, Graphics.FONT_TINY, "Intervalados", Graphics.TEXT_JUSTIFY_CENTER);
-        dc.drawText(centerX, cardY + 65, Graphics.FONT_SMALL, "8x400m", Graphics.TEXT_JUSTIFY_CENTER);
+        if (workoutCompleted != null && workoutCompleted) {
+            // Fundo do Card - Verde/Neon indicando Concluído
+            dc.setColor(0x1A2859 as Graphics.ColorValue, Graphics.COLOR_TRANSPARENT);
+            dc.fillRoundedRectangle(cardX, cardY, cardW, cardH, 16);
+            dc.setPenWidth(2);
+            dc.setColor(0x00FF88 as Graphics.ColorValue, Graphics.COLOR_TRANSPARENT);
+            dc.drawRoundedRectangle(cardX, cardY, cardW, cardH, 16);
 
-        // Botão de Ação / Dica
-        dc.setColor(0xFFFFFF as Graphics.ColorValue, Graphics.COLOR_TRANSPARENT);
-        dc.drawText(centerX, h * 0.8, Graphics.FONT_XTINY, "ENTER: Ver Detalhes", Graphics.TEXT_JUSTIFY_CENTER);
+            // Conteúdo do Card Concluído
+            dc.setColor(0x00FF88 as Graphics.ColorValue, Graphics.COLOR_TRANSPARENT);
+            dc.drawText(centerX, cardY + 10, Graphics.FONT_XTINY, "TREINO CONCLUÍDO", Graphics.TEXT_JUSTIFY_CENTER);
+            
+            dc.setColor(0xFFFFFF as Graphics.ColorValue, Graphics.COLOR_TRANSPARENT);
+            dc.drawText(centerX, cardY + 40, Graphics.FONT_TINY, "Bom trabalho!", Graphics.TEXT_JUSTIFY_CENTER);
+
+            // Status de Sincronização no card
+            var syncStatus = Toybox.Application.Storage.getValue("sync_status");
+            var statusText = "Enviando dados...";
+            if (syncStatus != null) {
+                if (syncStatus.equals("SYNCED")) {
+                    statusText = "Dados Enviados";
+                } else if (syncStatus.equals("PENDING")) {
+                    statusText = "Envio Pendente";
+                }
+            }
+            dc.setColor(0x00D4FF as Graphics.ColorValue, Graphics.COLOR_TRANSPARENT);
+            dc.drawText(centerX, cardY + 65, Graphics.FONT_XTINY, statusText, Graphics.TEXT_JUSTIFY_CENTER);
+
+            // Botão de Ação / Dica
+            dc.setColor(0xFFFFFF as Graphics.ColorValue, Graphics.COLOR_TRANSPARENT);
+            dc.drawText(centerX, h * 0.8, Graphics.FONT_XTINY, "ENTER: Fechar App", Graphics.TEXT_JUSTIFY_CENTER);
+        } else {
+            // Fundo do Card padrão
+            dc.setColor(0x1A2859 as Graphics.ColorValue, Graphics.COLOR_TRANSPARENT);
+            dc.fillRoundedRectangle(cardX, cardY, cardW, cardH, 16);
+            dc.setPenWidth(2);
+            dc.setColor(0x00D4FF as Graphics.ColorValue, Graphics.COLOR_TRANSPARENT);
+            dc.drawRoundedRectangle(cardX, cardY, cardW, cardH, 16);
+
+            // Conteúdo do Card padrão
+            dc.setColor(0x00D4FF as Graphics.ColorValue, Graphics.COLOR_TRANSPARENT);
+            dc.drawText(centerX, cardY + 10, Graphics.FONT_XTINY, "ALTA INTENSIDADE", Graphics.TEXT_JUSTIFY_CENTER);
+            
+            dc.setColor(0xFFFFFF as Graphics.ColorValue, Graphics.COLOR_TRANSPARENT);
+            dc.drawText(centerX, cardY + 40, Graphics.FONT_TINY, "Intervalados", Graphics.TEXT_JUSTIFY_CENTER);
+            dc.drawText(centerX, cardY + 65, Graphics.FONT_SMALL, "8x400m", Graphics.TEXT_JUSTIFY_CENTER);
+
+            // Botão de Ação / Dica padrão
+            dc.setColor(0xFFFFFF as Graphics.ColorValue, Graphics.COLOR_TRANSPARENT);
+            dc.drawText(centerX, h * 0.8, Graphics.FONT_XTINY, "ENTER: Ver Detalhes", Graphics.TEXT_JUSTIFY_CENTER);
+        }
 
         // Feedback de Status: Ícone de Nuvem / Pendente (Deferred Sync)
         var syncStatus = Toybox.Application.Storage.getValue("sync_status");

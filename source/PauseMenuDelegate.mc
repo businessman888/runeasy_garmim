@@ -65,8 +65,10 @@ class PauseMenuDelegate extends WatchUi.BehaviorDelegate {
                 // 2. Tentar Enviar ou Adicionar à Fila (Deferred Sync)
                 app.sendWorkoutToPhone(workoutData);
 
-                Storage.setValue("last_workout_insight", "+2% EFICIENCIA");
-                WatchUi.switchToView(new FeedbackView(), new FeedbackDelegate(), WatchUi.SLIDE_LEFT);
+                Storage.setValue("workout_completed", true);
+                WatchUi.popView(WatchUi.SLIDE_IMMEDIATE); // Remove PauseMenu
+                WatchUi.popView(WatchUi.SLIDE_IMMEDIATE); // Remove RuneasyView
+                WatchUi.popView(WatchUi.SLIDE_RIGHT); // Volta para Home
             } else if (mView.selectedIndex == 2) {
                 // Descartar
                 app.discardSession();

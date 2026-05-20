@@ -21,21 +21,9 @@ class RuneasyApp extends Application.AppBase {
         Position.enableLocationEvents(Position.LOCATION_CONTINUOUS, method(:onPosition));
         Sensor.setEnabledSensors([Sensor.SENSOR_HEARTRATE]);
         Sensor.enableSensorEvents(method(:onSensor));
-        
-        if (Toybox has :Communications) {
-            var phoneMethod = method(:onPhoneMessage) as Method(msg as Communications.PhoneAppMessage) as Void;
-            Communications.registerForPhoneAppMessages(phoneMethod);
-        }
 
+        Storage.deleteValue("workout_completed");
         checkPendingSync();
-    }
-
-    function onPhoneMessage(msg as Communications.PhoneAppMessage) as Void {
-        // Manipulador para confirmações vindas do celular
-        var data = msg.data;
-        if (data != null) {
-            // Lógica futura para processar dados vindos da IA
-        }
     }
 
     function sendWorkoutToPhone(workoutData as Dictionary) as Void {
