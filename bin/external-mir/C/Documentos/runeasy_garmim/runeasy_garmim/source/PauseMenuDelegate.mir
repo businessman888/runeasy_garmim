@@ -1,0 +1,511 @@
+[ @file = "C:\Documentos\runeasy_garmim\runeasy_garmim\source\PauseMenuDelegate.mc"; @line = 1; @symbol_importdef<0> = [Toybox,1,7,13]; @symbol_importdef<1> = [WatchUi,1,14,21]; ]
+import Toybox.WatchUi;
+[ @file = "C:\Documentos\runeasy_garmim\runeasy_garmim\source\PauseMenuDelegate.mc"; @line = 2; @symbol_importdef<0> = [Toybox,2,7,13]; @symbol_importdef<1> = [Application,2,14,25]; @symbol_importdef<2> = [Storage,2,26,33]; ]
+import Toybox.Application.Storage;
+[ @file = "C:\Documentos\runeasy_garmim\runeasy_garmim\source\PauseMenuDelegate.mc"; @line = 4; @symbol_classdef = [PauseMenuDelegate,4,6,23]; @symbol_extends<0> = [WatchUi,4,32,39]; @symbol_extends<1> = [BehaviorDelegate,4,40,56]; ]
+class PauseMenuDelegate extends WatchUi.BehaviorDelegate {
+    [ @file = "C:\Documentos\runeasy_garmim\runeasy_garmim\source\PauseMenuDelegate.mc"; @line = 4; ]
+    <init> {
+    }
+    [ @file = "C:\Documentos\runeasy_garmim\runeasy_garmim\source\PauseMenuDelegate.mc"; @line = 4; ]
+    static
+    <init> {
+    }
+    [ @file = "C:\Documentos\runeasy_garmim\runeasy_garmim\source\PauseMenuDelegate.mc"; @line = 5; @position = 16; @symbol_vardef = [mView,5,16,21]; ]
+    private
+    var mView;
+    [ @file = "C:\Documentos\runeasy_garmim\runeasy_garmim\source\PauseMenuDelegate.mc"; @line = 7; @symbol_functiondef = [initialize,7,13,23]; @symbol_param<0> = [view,7,24,28]; ]
+    function initialize(view) as Void {
+C__Documentos_runeasy_garmim_runeasy_garmim_source_PauseMenuDelegate_mc_7_30_10_4_start:
+[ "C:\Documentos\runeasy_garmim\runeasy_garmim\source\PauseMenuDelegate.mc" 8 8 ]
+        symbol [ BehaviorDelegate %tmp.2 8 8 24 ];
+        %tmp.2 = getv ? :BehaviorDelegate;
+        symbol [ initialize %tmp.3 8 25 35 ];
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+[ "C:\Documentos\runeasy_garmim\runeasy_garmim\source\PauseMenuDelegate.mc" 9 8 ]
+        %tmp.4 = lgetv %view;
+        symbol [ view %tmp.4 9 16 20 ];
+        symbol [ mView ? 9 8 13 ];
+        putv self :mView %tmp.4;
+C__Documentos_runeasy_garmim_runeasy_garmim_source_PauseMenuDelegate_mc_7_30_10_4_stop:
+    }
+    [ @file = "C:\Documentos\runeasy_garmim\runeasy_garmim\source\PauseMenuDelegate.mc"; @line = 12; @symbol_functiondef = [onPreviousPage,12,13,27]; ]
+    function onPreviousPage() {
+C__Documentos_runeasy_garmim_runeasy_garmim_source_PauseMenuDelegate_mc_12_30_17_4_start:
+[ "C:\Documentos\runeasy_garmim\runeasy_garmim\source\PauseMenuDelegate.mc" 13 8 ]
+        symbol [ mView %tmp.1 13 8 13 ];
+        %tmp.1 = getv self :mView;
+        symbol [ mView %tmp.3 13 31 36 ];
+        %tmp.3 = getv ? :mView;
+        symbol [ selectedIndex %tmp.4 13 37 50 ];
+        %tmp.4 = getv %tmp.3 :selectedIndex;
+        %tmp.5 = 1;
+        %tmp.6 = sub %tmp.4 %tmp.5;
+        symbol [ selectedIndex ? 13 14 27 ];
+        putv %tmp.1 :selectedIndex %tmp.6;
+[ "C:\Documentos\runeasy_garmim\runeasy_garmim\source\PauseMenuDelegate.mc" 14 8 ]
+C__Documentos_runeasy_garmim_runeasy_garmim_source_PauseMenuDelegate_mc_14_8_14_64_if_stmt:
+        symbol [ mView %tmp.8 14 12 17 ];
+        %tmp.8 = getv ? :mView;
+        symbol [ selectedIndex %tmp.9 14 18 31 ];
+        %tmp.9 = getv %tmp.8 :selectedIndex;
+        %tmp.10 = 0;
+        %tmp.11 = lt %tmp.9 %tmp.10;
+        bf %tmp.11 @C__Documentos_runeasy_garmim_runeasy_garmim_source_PauseMenuDelegate_mc_14_8_14_64_if_end;
+C__Documentos_runeasy_garmim_runeasy_garmim_source_PauseMenuDelegate_mc_14_8_14_64_if_true:
+C__Documentos_runeasy_garmim_runeasy_garmim_source_PauseMenuDelegate_mc_14_37_14_64_start:
+[ "C:\Documentos\runeasy_garmim\runeasy_garmim\source\PauseMenuDelegate.mc" 14 39 ]
+        symbol [ mView %tmp.12 14 39 44 ];
+        %tmp.12 = getv self :mView;
+        %tmp.13 = 2;
+        symbol [ selectedIndex ? 14 45 58 ];
+        putv %tmp.12 :selectedIndex %tmp.13;
+C__Documentos_runeasy_garmim_runeasy_garmim_source_PauseMenuDelegate_mc_14_37_14_64_stop:
+        goto @C__Documentos_runeasy_garmim_runeasy_garmim_source_PauseMenuDelegate_mc_14_8_14_64_if_end;
+C__Documentos_runeasy_garmim_runeasy_garmim_source_PauseMenuDelegate_mc_14_8_14_64_if_end:
+[ "C:\Documentos\runeasy_garmim\runeasy_garmim\source\PauseMenuDelegate.mc" 15 8 ]
+        symbol [ WatchUi %tmp.14 15 8 15 ];
+        %tmp.14 = getm $.Toybox.WatchUi;
+        symbol [ requestUpdate %tmp.15 15 16 29 ];
+        %tmp.15 = getv function %tmp.14 :requestUpdate;
+        invoke %tmp.14 %tmp.15();
+[ "C:\Documentos\runeasy_garmim\runeasy_garmim\source\PauseMenuDelegate.mc" 16 8 ]
+        %tmp.16 = true;
+        ret %tmp.16;
+C__Documentos_runeasy_garmim_runeasy_garmim_source_PauseMenuDelegate_mc_12_30_17_4_stop:
+    }
+    [ @file = "C:\Documentos\runeasy_garmim\runeasy_garmim\source\PauseMenuDelegate.mc"; @line = 19; @symbol_functiondef = [onNextPage,19,13,23]; ]
+    function onNextPage() {
+C__Documentos_runeasy_garmim_runeasy_garmim_source_PauseMenuDelegate_mc_19_26_23_4_start:
+[ "C:\Documentos\runeasy_garmim\runeasy_garmim\source\PauseMenuDelegate.mc" 20 8 ]
+        symbol [ mView %tmp.1 20 8 13 ];
+        %tmp.1 = getv self :mView;
+        symbol [ mView %tmp.3 20 31 36 ];
+        %tmp.3 = getv ? :mView;
+        symbol [ selectedIndex %tmp.4 20 37 50 ];
+        %tmp.4 = getv %tmp.3 :selectedIndex;
+        %tmp.5 = 1;
+        %tmp.6 = add %tmp.4 %tmp.5;
+        %tmp.7 = 3;
+        %tmp.8 = mod %tmp.6 %tmp.7;
+        symbol [ selectedIndex ? 20 14 27 ];
+        putv %tmp.1 :selectedIndex %tmp.8;
+[ "C:\Documentos\runeasy_garmim\runeasy_garmim\source\PauseMenuDelegate.mc" 21 8 ]
+        symbol [ WatchUi %tmp.9 21 8 15 ];
+        %tmp.9 = getm $.Toybox.WatchUi;
+        symbol [ requestUpdate %tmp.10 21 16 29 ];
+        %tmp.10 = getv function %tmp.9 :requestUpdate;
+        invoke %tmp.9 %tmp.10();
+[ "C:\Documentos\runeasy_garmim\runeasy_garmim\source\PauseMenuDelegate.mc" 22 8 ]
+        %tmp.11 = true;
+        ret %tmp.11;
+C__Documentos_runeasy_garmim_runeasy_garmim_source_PauseMenuDelegate_mc_19_26_23_4_stop:
+    }
+    [ @file = "C:\Documentos\runeasy_garmim\runeasy_garmim\source\PauseMenuDelegate.mc"; @line = 25; @symbol_functiondef = [onKey,25,13,18]; @symbol_param<0> = [keyEvent,25,19,27]; ]
+    function onKey(keyEvent) {
+C__Documentos_runeasy_garmim_runeasy_garmim_source_PauseMenuDelegate_mc_25_29_82_4_start:
+[ "C:\Documentos\runeasy_garmim\runeasy_garmim\source\PauseMenuDelegate.mc" 26 8 ]
+C__Documentos_runeasy_garmim_runeasy_garmim_source_PauseMenuDelegate_mc_26_8_80_8_if_stmt:
+        %tmp.1 = lgetv %keyEvent;
+        symbol [ keyEvent %tmp.1 26 12 20 ];
+        symbol [ getKey %tmp.2 26 21 27 ];
+        %tmp.2 = getv function %tmp.1 :getKey;
+        %tmp.3 = invoke %tmp.1 %tmp.2();
+        symbol [ WatchUi %tmp.4 26 33 40 ];
+        %tmp.4 = getm $.Toybox.WatchUi;
+        symbol [ KEY_ENTER %tmp.5 26 41 50 ];
+        %tmp.5 = getv %tmp.4 :KEY_ENTER;
+        %tmp.6 = eq %tmp.3 %tmp.5;
+        bf %tmp.6 @C__Documentos_runeasy_garmim_runeasy_garmim_source_PauseMenuDelegate_mc_26_8_80_8_if_end;
+C__Documentos_runeasy_garmim_runeasy_garmim_source_PauseMenuDelegate_mc_26_8_80_8_if_true:
+C__Documentos_runeasy_garmim_runeasy_garmim_source_PauseMenuDelegate_mc_26_52_80_8_start:
+[ "C:\Documentos\runeasy_garmim\runeasy_garmim\source\PauseMenuDelegate.mc" 27 12 ]
+        [ "C__Documentos_runeasy_garmim_runeasy_garmim_source_PauseMenuDelegate_mc_26_52_80_8_start" "C__Documentos_runeasy_garmim_runeasy_garmim_source_PauseMenuDelegate_mc_26_52_80_8_stop" ]
+        %app.1 = local;
+        symbol [ app %app.1 27 16 19 ];
+        %tmp.7 = self;
+        symbol [ getApp %tmp.8 27 22 28 ];
+        %tmp.8 = getv function %tmp.7 :getApp;
+        %tmp.9 = invoke %tmp.7 %tmp.8();
+        lputv %app.1 %tmp.9;
+        symbol [ app %app.1 27 16 19 ];
+[ "C:\Documentos\runeasy_garmim\runeasy_garmim\source\PauseMenuDelegate.mc" 29 12 ]
+C__Documentos_runeasy_garmim_runeasy_garmim_source_PauseMenuDelegate_mc_29_12_78_12_if_stmt:
+        symbol [ mView %tmp.11 29 16 21 ];
+        %tmp.11 = getv ? :mView;
+        symbol [ selectedIndex %tmp.12 29 22 35 ];
+        %tmp.12 = getv %tmp.11 :selectedIndex;
+        %tmp.13 = 0;
+        %tmp.14 = eq %tmp.12 %tmp.13;
+        bf %tmp.14 @C__Documentos_runeasy_garmim_runeasy_garmim_source_PauseMenuDelegate_mc_29_12_78_12_if_false;
+C__Documentos_runeasy_garmim_runeasy_garmim_source_PauseMenuDelegate_mc_29_12_78_12_if_true:
+C__Documentos_runeasy_garmim_runeasy_garmim_source_PauseMenuDelegate_mc_29_42_33_12_start:
+[ "C:\Documentos\runeasy_garmim\runeasy_garmim\source\PauseMenuDelegate.mc" 31 16 ]
+        %tmp.15 = lgetv %app.1;
+        symbol [ app %tmp.15 31 16 19 ];
+        symbol [ toggleRecording %tmp.16 31 20 35 ];
+        %tmp.16 = getv function %tmp.15 :toggleRecording;
+        invoke %tmp.15 %tmp.16();
+[ "C:\Documentos\runeasy_garmim\runeasy_garmim\source\PauseMenuDelegate.mc" 32 16 ]
+        symbol [ WatchUi %tmp.17 32 16 23 ];
+        %tmp.17 = getm $.Toybox.WatchUi;
+        symbol [ popView %tmp.18 32 24 31 ];
+        %tmp.18 = getv function %tmp.17 :popView;
+        symbol [ WatchUi %tmp.19 32 32 39 ];
+        %tmp.19 = getm $.Toybox.WatchUi;
+        symbol [ SLIDE_RIGHT %tmp.20 32 40 51 ];
+        %tmp.20 = getv %tmp.19 :SLIDE_RIGHT;
+        invoke %tmp.17 %tmp.18(%tmp.20);
+C__Documentos_runeasy_garmim_runeasy_garmim_source_PauseMenuDelegate_mc_29_42_33_12_stop:
+        goto @C__Documentos_runeasy_garmim_runeasy_garmim_source_PauseMenuDelegate_mc_29_12_78_12_if_end;
+C__Documentos_runeasy_garmim_runeasy_garmim_source_PauseMenuDelegate_mc_29_12_78_12_if_false:
+[ "C:\Documentos\runeasy_garmim\runeasy_garmim\source\PauseMenuDelegate.mc" 33 19 ]
+C__Documentos_runeasy_garmim_runeasy_garmim_source_PauseMenuDelegate_mc_33_19_78_12_if_stmt:
+        symbol [ mView %tmp.22 33 23 28 ];
+        %tmp.22 = getv ? :mView;
+        symbol [ selectedIndex %tmp.23 33 29 42 ];
+        %tmp.23 = getv %tmp.22 :selectedIndex;
+        %tmp.24 = 1;
+        %tmp.25 = eq %tmp.23 %tmp.24;
+        bf %tmp.25 @C__Documentos_runeasy_garmim_runeasy_garmim_source_PauseMenuDelegate_mc_33_19_78_12_if_false;
+C__Documentos_runeasy_garmim_runeasy_garmim_source_PauseMenuDelegate_mc_33_19_78_12_if_true:
+C__Documentos_runeasy_garmim_runeasy_garmim_source_PauseMenuDelegate_mc_33_49_72_12_start:
+[ "C:\Documentos\runeasy_garmim\runeasy_garmim\source\PauseMenuDelegate.mc" 35 16 ]
+        [ "C__Documentos_runeasy_garmim_runeasy_garmim_source_PauseMenuDelegate_mc_33_49_72_12_start" "C__Documentos_runeasy_garmim_runeasy_garmim_source_PauseMenuDelegate_mc_33_49_72_12_stop" ]
+        %info.2 = local;
+        symbol [ info %info.2 35 20 24 ];
+        symbol [ Toybox %tmp.27 35 27 33 ];
+        %tmp.27 = getv ? :Toybox;
+        symbol [ Activity %tmp.28 35 34 42 ];
+        %tmp.28 = getv %tmp.27 :Activity;
+        symbol [ getActivityInfo %tmp.29 35 43 58 ];
+        %tmp.29 = getv function %tmp.28 :getActivityInfo;
+        %tmp.30 = invoke %tmp.28 %tmp.29();
+        lputv %info.2 %tmp.30;
+        symbol [ info %info.2 35 20 24 ];
+[ "C:\Documentos\runeasy_garmim\runeasy_garmim\source\PauseMenuDelegate.mc" 36 16 ]
+        [ "C__Documentos_runeasy_garmim_runeasy_garmim_source_PauseMenuDelegate_mc_33_49_72_12_start" "C__Documentos_runeasy_garmim_runeasy_garmim_source_PauseMenuDelegate_mc_33_49_72_12_stop" ]
+        %workoutData.3 = local;
+        symbol [ workoutData %workoutData.3 36 20 31 ];
+        %tmp.31 = newd 0;
+        lputv %workoutData.3 %tmp.31;
+        symbol [ workoutData %workoutData.3 36 20 31 ];
+[ "C:\Documentos\runeasy_garmim\runeasy_garmim\source\PauseMenuDelegate.mc" 38 16 ]
+C__Documentos_runeasy_garmim_runeasy_garmim_source_PauseMenuDelegate_mc_38_16_60_16_if_stmt:
+        %tmp.32 = lgetv %info.2;
+        symbol [ info %tmp.32 38 20 24 ];
+        %tmp.33 = null;
+        %tmp.34 = ne %tmp.32 %tmp.33;
+        bf %tmp.34 @C__Documentos_runeasy_garmim_runeasy_garmim_source_PauseMenuDelegate_mc_38_16_60_16_if_else_false;
+C__Documentos_runeasy_garmim_runeasy_garmim_source_PauseMenuDelegate_mc_38_16_60_16_if_true:
+C__Documentos_runeasy_garmim_runeasy_garmim_source_PauseMenuDelegate_mc_38_34_52_16_start:
+[ "C:\Documentos\runeasy_garmim\runeasy_garmim\source\PauseMenuDelegate.mc" 39 20 ]
+        [ "C__Documentos_runeasy_garmim_runeasy_garmim_source_PauseMenuDelegate_mc_38_34_52_16_start" "C__Documentos_runeasy_garmim_runeasy_garmim_source_PauseMenuDelegate_mc_38_34_52_16_stop" ]
+        %avgSpeed.4 = local;
+        symbol [ avgSpeed %avgSpeed.4 39 24 32 ];
+        %tmp.35 = lgetv %info.2;
+        symbol [ info %tmp.35 39 35 39 ];
+        %tmp.36 = as %tmp.35 { (!Null) };
+        symbol [ averageSpeed %tmp.37 39 40 52 ];
+        %tmp.37 = getv %tmp.36 :averageSpeed;
+        lputv %avgSpeed.4 %tmp.37;
+        symbol [ avgSpeed %avgSpeed.4 39 24 32 ];
+[ "C:\Documentos\runeasy_garmim\runeasy_garmim\source\PauseMenuDelegate.mc" 40 20 ]
+        [ "C__Documentos_runeasy_garmim_runeasy_garmim_source_PauseMenuDelegate_mc_38_34_52_16_start" "C__Documentos_runeasy_garmim_runeasy_garmim_source_PauseMenuDelegate_mc_38_34_52_16_stop" ]
+        %avgPace.5 = local;
+        symbol [ avgPace %avgPace.5 40 24 31 ];
+        %tmp.38 = 0;
+        lputv %avgPace.5 %tmp.38;
+        symbol [ avgPace %avgPace.5 40 24 31 ];
+[ "C:\Documentos\runeasy_garmim\runeasy_garmim\source\PauseMenuDelegate.mc" 41 20 ]
+C__Documentos_runeasy_garmim_runeasy_garmim_source_PauseMenuDelegate_mc_41_20_43_20_if_stmt:
+C__Documentos_runeasy_garmim_runeasy_garmim_source_PauseMenuDelegate_mc_41_24_41_55_begin:
+        %tmp.39 = lgetv %avgSpeed.4;
+        symbol [ avgSpeed %tmp.39 41 24 32 ];
+        %tmp.40 = null;
+        %tmp.41 = ne %tmp.39 %tmp.40;
+        bf %tmp.41 @C__Documentos_runeasy_garmim_runeasy_garmim_source_PauseMenuDelegate_mc_41_20_43_20_if_end;
+C__Documentos_runeasy_garmim_runeasy_garmim_source_PauseMenuDelegate_mc_41_44_41_55_true:
+        %tmp.42 = lgetv %avgSpeed.4;
+        symbol [ avgSpeed %tmp.42 41 44 52 ];
+        %tmp.43 = as %tmp.42 { (!Null) };
+        %tmp.44 = 0;
+        %tmp.45 = gt %tmp.43 %tmp.44;
+        push %tmp.45;
+C__Documentos_runeasy_garmim_runeasy_garmim_source_PauseMenuDelegate_mc_41_44_41_55_end:
+        %tmp.46 = phi [%tmp.41 @C__Documentos_runeasy_garmim_runeasy_garmim_source_PauseMenuDelegate_mc_41_24_41_55_begin] [%tmp.45 @C__Documentos_runeasy_garmim_runeasy_garmim_source_PauseMenuDelegate_mc_41_44_41_55_true] [%tmp.46 @C__Documentos_runeasy_garmim_runeasy_garmim_source_PauseMenuDelegate_mc_41_44_41_55_end];
+        bf %tmp.46 @C__Documentos_runeasy_garmim_runeasy_garmim_source_PauseMenuDelegate_mc_41_20_43_20_if_end;
+C__Documentos_runeasy_garmim_runeasy_garmim_source_PauseMenuDelegate_mc_41_20_43_20_if_true:
+C__Documentos_runeasy_garmim_runeasy_garmim_source_PauseMenuDelegate_mc_41_58_43_20_start:
+[ "C:\Documentos\runeasy_garmim\runeasy_garmim\source\PauseMenuDelegate.mc" 42 24 ]
+        %tmp.47 = 1000.0;
+        %tmp.48 = lgetv %avgSpeed.4;
+        symbol [ avgSpeed %tmp.48 42 44 52 ];
+        %tmp.49 = as %tmp.48 { (!Null) };
+        %tmp.50 = 60.0;
+        %tmp.51 = mul %tmp.49 %tmp.50;
+        %tmp.52 = div %tmp.47 %tmp.51;
+        lputv %avgPace.5 %tmp.52;
+        symbol [ avgPace %avgPace.5 42 24 31 ];
+C__Documentos_runeasy_garmim_runeasy_garmim_source_PauseMenuDelegate_mc_41_58_43_20_stop:
+        goto @C__Documentos_runeasy_garmim_runeasy_garmim_source_PauseMenuDelegate_mc_41_20_43_20_if_end;
+C__Documentos_runeasy_garmim_runeasy_garmim_source_PauseMenuDelegate_mc_41_20_43_20_if_end:
+[ "C:\Documentos\runeasy_garmim\runeasy_garmim\source\PauseMenuDelegate.mc" 45 20 ]
+        %tmp.53 = newd 5;
+        %tmp.54 = "workoutId";
+        symbol [ Toybox %tmp.56 46 39 45 ];
+        %tmp.56 = getv ? :Toybox;
+        symbol [ Time %tmp.57 46 46 50 ];
+        %tmp.57 = getv %tmp.56 :Time;
+        symbol [ now %tmp.58 46 51 54 ];
+        %tmp.58 = getv function %tmp.57 :now;
+        %tmp.59 = invoke %tmp.57 %tmp.58();
+        symbol [ value %tmp.60 46 57 62 ];
+        %tmp.60 = getv function %tmp.59 :value;
+        %tmp.61 = invoke %tmp.59 %tmp.60();
+        %tmp.62 = dup %tmp.53;
+        %tmp.63 = aputv %tmp.62 %tmp.54 %tmp.61;
+        %tmp.64 = "averagePace";
+        %tmp.65 = lgetv %avgPace.5;
+        symbol [ avgPace %tmp.65 47 41 48 ];
+        %tmp.66 = dup %tmp.63;
+        %tmp.67 = aputv %tmp.66 %tmp.64 %tmp.65;
+        %tmp.68 = "totalDistance";
+C__Documentos_runeasy_garmim_runeasy_garmim_source_PauseMenuDelegate_mc_48_43_48_99_begin:
+        %tmp.69 = lgetv %info.2;
+        symbol [ info %tmp.69 48 44 48 ];
+        %tmp.70 = as %tmp.69 { (!Null) };
+        symbol [ elapsedDistance %tmp.71 48 49 64 ];
+        %tmp.71 = getv %tmp.70 :elapsedDistance;
+        %tmp.72 = null;
+        %tmp.73 = ne %tmp.71 %tmp.72;
+        bf %tmp.73 @C__Documentos_runeasy_garmim_runeasy_garmim_source_PauseMenuDelegate_mc_48_43_48_99_else_false;
+C__Documentos_runeasy_garmim_runeasy_garmim_source_PauseMenuDelegate_mc_48_43_48_99_true:
+        %tmp.74 = lgetv %info.2;
+        symbol [ info %tmp.74 48 76 80 ];
+        %tmp.75 = as %tmp.74 { (!Null) };
+        symbol [ elapsedDistance %tmp.76 48 81 96 ];
+        %tmp.76 = getv %tmp.75 :elapsedDistance;
+        push %tmp.76;
+        goto @C__Documentos_runeasy_garmim_runeasy_garmim_source_PauseMenuDelegate_mc_48_43_48_99_end;
+C__Documentos_runeasy_garmim_runeasy_garmim_source_PauseMenuDelegate_mc_48_43_48_99_else_false:
+        %tmp.77 = 0;
+        push %tmp.77;
+C__Documentos_runeasy_garmim_runeasy_garmim_source_PauseMenuDelegate_mc_48_43_48_99_end:
+        %tmp.78 = phi [%tmp.73 @C__Documentos_runeasy_garmim_runeasy_garmim_source_PauseMenuDelegate_mc_48_43_48_99_begin] [%tmp.76 @C__Documentos_runeasy_garmim_runeasy_garmim_source_PauseMenuDelegate_mc_48_43_48_99_true] [%tmp.77 @C__Documentos_runeasy_garmim_runeasy_garmim_source_PauseMenuDelegate_mc_48_43_48_99_else_false] [%tmp.78 @C__Documentos_runeasy_garmim_runeasy_garmim_source_PauseMenuDelegate_mc_48_43_48_99_end];
+        %tmp.79 = dup %tmp.67;
+        %tmp.80 = aputv %tmp.79 %tmp.68 %tmp.78;
+        %tmp.81 = "averageHR";
+C__Documentos_runeasy_garmim_runeasy_garmim_source_PauseMenuDelegate_mc_49_39_49_97_begin:
+        %tmp.82 = lgetv %info.2;
+        symbol [ info %tmp.82 49 40 44 ];
+        %tmp.83 = as %tmp.82 { (!Null) };
+        symbol [ averageHeartRate %tmp.84 49 45 61 ];
+        %tmp.84 = getv %tmp.83 :averageHeartRate;
+        %tmp.85 = null;
+        %tmp.86 = ne %tmp.84 %tmp.85;
+        bf %tmp.86 @C__Documentos_runeasy_garmim_runeasy_garmim_source_PauseMenuDelegate_mc_49_39_49_97_else_false;
+C__Documentos_runeasy_garmim_runeasy_garmim_source_PauseMenuDelegate_mc_49_39_49_97_true:
+        %tmp.87 = lgetv %info.2;
+        symbol [ info %tmp.87 49 73 77 ];
+        %tmp.88 = as %tmp.87 { (!Null) };
+        symbol [ averageHeartRate %tmp.89 49 78 94 ];
+        %tmp.89 = getv %tmp.88 :averageHeartRate;
+        push %tmp.89;
+        goto @C__Documentos_runeasy_garmim_runeasy_garmim_source_PauseMenuDelegate_mc_49_39_49_97_end;
+C__Documentos_runeasy_garmim_runeasy_garmim_source_PauseMenuDelegate_mc_49_39_49_97_else_false:
+        %tmp.90 = 0;
+        push %tmp.90;
+C__Documentos_runeasy_garmim_runeasy_garmim_source_PauseMenuDelegate_mc_49_39_49_97_end:
+        %tmp.91 = phi [%tmp.86 @C__Documentos_runeasy_garmim_runeasy_garmim_source_PauseMenuDelegate_mc_49_39_49_97_begin] [%tmp.89 @C__Documentos_runeasy_garmim_runeasy_garmim_source_PauseMenuDelegate_mc_49_39_49_97_true] [%tmp.90 @C__Documentos_runeasy_garmim_runeasy_garmim_source_PauseMenuDelegate_mc_49_39_49_97_else_false] [%tmp.91 @C__Documentos_runeasy_garmim_runeasy_garmim_source_PauseMenuDelegate_mc_49_39_49_97_end];
+        %tmp.92 = dup %tmp.80;
+        %tmp.93 = aputv %tmp.92 %tmp.81 %tmp.91;
+        %tmp.94 = "totalTime";
+C__Documentos_runeasy_garmim_runeasy_garmim_source_PauseMenuDelegate_mc_50_39_50_83_begin:
+        %tmp.95 = lgetv %info.2;
+        symbol [ info %tmp.95 50 40 44 ];
+        %tmp.96 = as %tmp.95 { (!Null) };
+        symbol [ timerTime %tmp.97 50 45 54 ];
+        %tmp.97 = getv %tmp.96 :timerTime;
+        %tmp.98 = null;
+        %tmp.99 = ne %tmp.97 %tmp.98;
+        bf %tmp.99 @C__Documentos_runeasy_garmim_runeasy_garmim_source_PauseMenuDelegate_mc_50_39_50_83_else_false;
+C__Documentos_runeasy_garmim_runeasy_garmim_source_PauseMenuDelegate_mc_50_39_50_83_true:
+        %tmp.100 = lgetv %info.2;
+        symbol [ info %tmp.100 50 66 70 ];
+        %tmp.101 = as %tmp.100 { (!Null) };
+        symbol [ timerTime %tmp.102 50 71 80 ];
+        %tmp.102 = getv %tmp.101 :timerTime;
+        push %tmp.102;
+        goto @C__Documentos_runeasy_garmim_runeasy_garmim_source_PauseMenuDelegate_mc_50_39_50_83_end;
+C__Documentos_runeasy_garmim_runeasy_garmim_source_PauseMenuDelegate_mc_50_39_50_83_else_false:
+        %tmp.103 = 0;
+        push %tmp.103;
+C__Documentos_runeasy_garmim_runeasy_garmim_source_PauseMenuDelegate_mc_50_39_50_83_end:
+        %tmp.104 = phi [%tmp.99 @C__Documentos_runeasy_garmim_runeasy_garmim_source_PauseMenuDelegate_mc_50_39_50_83_begin] [%tmp.102 @C__Documentos_runeasy_garmim_runeasy_garmim_source_PauseMenuDelegate_mc_50_39_50_83_true] [%tmp.103 @C__Documentos_runeasy_garmim_runeasy_garmim_source_PauseMenuDelegate_mc_50_39_50_83_else_false] [%tmp.104 @C__Documentos_runeasy_garmim_runeasy_garmim_source_PauseMenuDelegate_mc_50_39_50_83_end];
+        %tmp.105 = dup %tmp.93;
+        %tmp.106 = aputv %tmp.105 %tmp.94 %tmp.104;
+        lputv %workoutData.3 %tmp.106;
+        symbol [ workoutData %workoutData.3 45 20 31 ];
+C__Documentos_runeasy_garmim_runeasy_garmim_source_PauseMenuDelegate_mc_38_34_52_16_stop:
+        goto @C__Documentos_runeasy_garmim_runeasy_garmim_source_PauseMenuDelegate_mc_38_16_60_16_if_end;
+C__Documentos_runeasy_garmim_runeasy_garmim_source_PauseMenuDelegate_mc_38_16_60_16_if_else_false:
+C__Documentos_runeasy_garmim_runeasy_garmim_source_PauseMenuDelegate_mc_52_23_60_16_start:
+[ "C:\Documentos\runeasy_garmim\runeasy_garmim\source\PauseMenuDelegate.mc" 53 20 ]
+        %tmp.107 = newd 5;
+        %tmp.108 = "workoutId";
+        symbol [ Toybox %tmp.110 54 39 45 ];
+        %tmp.110 = getv ? :Toybox;
+        symbol [ Time %tmp.111 54 46 50 ];
+        %tmp.111 = getv %tmp.110 :Time;
+        symbol [ now %tmp.112 54 51 54 ];
+        %tmp.112 = getv function %tmp.111 :now;
+        %tmp.113 = invoke %tmp.111 %tmp.112();
+        symbol [ value %tmp.114 54 57 62 ];
+        %tmp.114 = getv function %tmp.113 :value;
+        %tmp.115 = invoke %tmp.113 %tmp.114();
+        %tmp.116 = dup %tmp.107;
+        %tmp.117 = aputv %tmp.116 %tmp.108 %tmp.115;
+        %tmp.118 = "averagePace";
+        %tmp.119 = 0;
+        %tmp.120 = dup %tmp.117;
+        %tmp.121 = aputv %tmp.120 %tmp.118 %tmp.119;
+        %tmp.122 = "totalDistance";
+        %tmp.123 = 0;
+        %tmp.124 = dup %tmp.121;
+        %tmp.125 = aputv %tmp.124 %tmp.122 %tmp.123;
+        %tmp.126 = "averageHR";
+        %tmp.127 = 0;
+        %tmp.128 = dup %tmp.125;
+        %tmp.129 = aputv %tmp.128 %tmp.126 %tmp.127;
+        %tmp.130 = "totalTime";
+        %tmp.131 = 0;
+        %tmp.132 = dup %tmp.129;
+        %tmp.133 = aputv %tmp.132 %tmp.130 %tmp.131;
+        lputv %workoutData.3 %tmp.133;
+        symbol [ workoutData %workoutData.3 53 20 31 ];
+C__Documentos_runeasy_garmim_runeasy_garmim_source_PauseMenuDelegate_mc_52_23_60_16_stop:
+C__Documentos_runeasy_garmim_runeasy_garmim_source_PauseMenuDelegate_mc_38_16_60_16_if_end:
+[ "C:\Documentos\runeasy_garmim\runeasy_garmim\source\PauseMenuDelegate.mc" 63 16 ]
+        %tmp.134 = lgetv %app.1;
+        symbol [ app %tmp.134 63 16 19 ];
+        symbol [ saveSession %tmp.135 63 20 31 ];
+        %tmp.135 = getv function %tmp.134 :saveSession;
+        invoke %tmp.134 %tmp.135();
+[ "C:\Documentos\runeasy_garmim\runeasy_garmim\source\PauseMenuDelegate.mc" 66 16 ]
+        %tmp.136 = lgetv %app.1;
+        symbol [ app %tmp.136 66 16 19 ];
+        symbol [ sendWorkoutToPhone %tmp.137 66 20 38 ];
+        %tmp.137 = getv function %tmp.136 :sendWorkoutToPhone;
+        %tmp.138 = lgetv %workoutData.3;
+        symbol [ workoutData %tmp.138 66 39 50 ];
+        invoke %tmp.136 %tmp.137(%tmp.138);
+[ "C:\Documentos\runeasy_garmim\runeasy_garmim\source\PauseMenuDelegate.mc" 68 16 ]
+        symbol [ Storage %tmp.139 68 16 23 ];
+        %tmp.139 = getm $.Toybox.Application.Storage;
+        symbol [ setValue %tmp.140 68 24 32 ];
+        %tmp.140 = getv function %tmp.139 :setValue;
+        %tmp.141 = "workout_completed";
+        %tmp.142 = true;
+        invoke %tmp.139 %tmp.140(%tmp.141, %tmp.142);
+[ "C:\Documentos\runeasy_garmim\runeasy_garmim\source\PauseMenuDelegate.mc" 69 16 ]
+        symbol [ WatchUi %tmp.143 69 16 23 ];
+        %tmp.143 = getm $.Toybox.WatchUi;
+        symbol [ popView %tmp.144 69 24 31 ];
+        %tmp.144 = getv function %tmp.143 :popView;
+        symbol [ WatchUi %tmp.145 69 32 39 ];
+        %tmp.145 = getm $.Toybox.WatchUi;
+        symbol [ SLIDE_IMMEDIATE %tmp.146 69 40 55 ];
+        %tmp.146 = getv %tmp.145 :SLIDE_IMMEDIATE;
+        invoke %tmp.143 %tmp.144(%tmp.146);
+[ "C:\Documentos\runeasy_garmim\runeasy_garmim\source\PauseMenuDelegate.mc" 70 16 ]
+        symbol [ WatchUi %tmp.147 70 16 23 ];
+        %tmp.147 = getm $.Toybox.WatchUi;
+        symbol [ popView %tmp.148 70 24 31 ];
+        %tmp.148 = getv function %tmp.147 :popView;
+        symbol [ WatchUi %tmp.149 70 32 39 ];
+        %tmp.149 = getm $.Toybox.WatchUi;
+        symbol [ SLIDE_IMMEDIATE %tmp.150 70 40 55 ];
+        %tmp.150 = getv %tmp.149 :SLIDE_IMMEDIATE;
+        invoke %tmp.147 %tmp.148(%tmp.150);
+[ "C:\Documentos\runeasy_garmim\runeasy_garmim\source\PauseMenuDelegate.mc" 71 16 ]
+        symbol [ WatchUi %tmp.151 71 16 23 ];
+        %tmp.151 = getm $.Toybox.WatchUi;
+        symbol [ popView %tmp.152 71 24 31 ];
+        %tmp.152 = getv function %tmp.151 :popView;
+        symbol [ WatchUi %tmp.153 71 32 39 ];
+        %tmp.153 = getm $.Toybox.WatchUi;
+        symbol [ SLIDE_RIGHT %tmp.154 71 40 51 ];
+        %tmp.154 = getv %tmp.153 :SLIDE_RIGHT;
+        invoke %tmp.151 %tmp.152(%tmp.154);
+C__Documentos_runeasy_garmim_runeasy_garmim_source_PauseMenuDelegate_mc_33_49_72_12_stop:
+        goto @C__Documentos_runeasy_garmim_runeasy_garmim_source_PauseMenuDelegate_mc_33_19_78_12_if_end;
+C__Documentos_runeasy_garmim_runeasy_garmim_source_PauseMenuDelegate_mc_33_19_78_12_if_false:
+[ "C:\Documentos\runeasy_garmim\runeasy_garmim\source\PauseMenuDelegate.mc" 72 19 ]
+C__Documentos_runeasy_garmim_runeasy_garmim_source_PauseMenuDelegate_mc_72_19_78_12_if_stmt:
+        symbol [ mView %tmp.156 72 23 28 ];
+        %tmp.156 = getv ? :mView;
+        symbol [ selectedIndex %tmp.157 72 29 42 ];
+        %tmp.157 = getv %tmp.156 :selectedIndex;
+        %tmp.158 = 2;
+        %tmp.159 = eq %tmp.157 %tmp.158;
+        bf %tmp.159 @C__Documentos_runeasy_garmim_runeasy_garmim_source_PauseMenuDelegate_mc_72_19_78_12_if_end;
+C__Documentos_runeasy_garmim_runeasy_garmim_source_PauseMenuDelegate_mc_72_19_78_12_if_true:
+C__Documentos_runeasy_garmim_runeasy_garmim_source_PauseMenuDelegate_mc_72_49_78_12_start:
+[ "C:\Documentos\runeasy_garmim\runeasy_garmim\source\PauseMenuDelegate.mc" 74 16 ]
+        %tmp.160 = lgetv %app.1;
+        symbol [ app %tmp.160 74 16 19 ];
+        symbol [ discardSession %tmp.161 74 20 34 ];
+        %tmp.161 = getv function %tmp.160 :discardSession;
+        invoke %tmp.160 %tmp.161();
+[ "C:\Documentos\runeasy_garmim\runeasy_garmim\source\PauseMenuDelegate.mc" 75 16 ]
+        symbol [ WatchUi %tmp.162 75 16 23 ];
+        %tmp.162 = getm $.Toybox.WatchUi;
+        symbol [ popView %tmp.163 75 24 31 ];
+        %tmp.163 = getv function %tmp.162 :popView;
+        symbol [ WatchUi %tmp.164 75 32 39 ];
+        %tmp.164 = getm $.Toybox.WatchUi;
+        symbol [ SLIDE_IMMEDIATE %tmp.165 75 40 55 ];
+        %tmp.165 = getv %tmp.164 :SLIDE_IMMEDIATE;
+        invoke %tmp.162 %tmp.163(%tmp.165);
+[ "C:\Documentos\runeasy_garmim\runeasy_garmim\source\PauseMenuDelegate.mc" 76 16 ]
+        symbol [ WatchUi %tmp.166 76 16 23 ];
+        %tmp.166 = getm $.Toybox.WatchUi;
+        symbol [ popView %tmp.167 76 24 31 ];
+        %tmp.167 = getv function %tmp.166 :popView;
+        symbol [ WatchUi %tmp.168 76 32 39 ];
+        %tmp.168 = getm $.Toybox.WatchUi;
+        symbol [ SLIDE_IMMEDIATE %tmp.169 76 40 55 ];
+        %tmp.169 = getv %tmp.168 :SLIDE_IMMEDIATE;
+        invoke %tmp.166 %tmp.167(%tmp.169);
+[ "C:\Documentos\runeasy_garmim\runeasy_garmim\source\PauseMenuDelegate.mc" 77 16 ]
+        symbol [ WatchUi %tmp.170 77 16 23 ];
+        %tmp.170 = getm $.Toybox.WatchUi;
+        symbol [ popView %tmp.171 77 24 31 ];
+        %tmp.171 = getv function %tmp.170 :popView;
+        symbol [ WatchUi %tmp.172 77 32 39 ];
+        %tmp.172 = getm $.Toybox.WatchUi;
+        symbol [ SLIDE_RIGHT %tmp.173 77 40 51 ];
+        %tmp.173 = getv %tmp.172 :SLIDE_RIGHT;
+        invoke %tmp.170 %tmp.171(%tmp.173);
+C__Documentos_runeasy_garmim_runeasy_garmim_source_PauseMenuDelegate_mc_72_49_78_12_stop:
+        goto @C__Documentos_runeasy_garmim_runeasy_garmim_source_PauseMenuDelegate_mc_72_19_78_12_if_end;
+C__Documentos_runeasy_garmim_runeasy_garmim_source_PauseMenuDelegate_mc_72_19_78_12_if_end:
+C__Documentos_runeasy_garmim_runeasy_garmim_source_PauseMenuDelegate_mc_33_19_78_12_if_end:
+C__Documentos_runeasy_garmim_runeasy_garmim_source_PauseMenuDelegate_mc_29_12_78_12_if_end:
+[ "C:\Documentos\runeasy_garmim\runeasy_garmim\source\PauseMenuDelegate.mc" 79 12 ]
+        %tmp.174 = true;
+        ret %tmp.174;
+C__Documentos_runeasy_garmim_runeasy_garmim_source_PauseMenuDelegate_mc_26_52_80_8_stop:
+        goto @C__Documentos_runeasy_garmim_runeasy_garmim_source_PauseMenuDelegate_mc_26_8_80_8_if_end;
+C__Documentos_runeasy_garmim_runeasy_garmim_source_PauseMenuDelegate_mc_26_8_80_8_if_end:
+[ "C:\Documentos\runeasy_garmim\runeasy_garmim\source\PauseMenuDelegate.mc" 81 8 ]
+        %tmp.175 = false;
+        ret %tmp.175;
+C__Documentos_runeasy_garmim_runeasy_garmim_source_PauseMenuDelegate_mc_25_29_82_4_stop:
+    }
+}
+[ @file = "C:\Documentos\runeasy_garmim\runeasy_garmim\source\PauseMenuDelegate.mc"; @line = 1; ]
+<init> {
+}

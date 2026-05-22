@@ -13,17 +13,17 @@ class PauseMenuView extends WatchUi.View {
         var h = dc.getHeight();
         var centerX = w / 2;
 
-        dc.setColor(Graphics.COLOR_TRANSPARENT, 0x131F54 as Graphics.ColorValue);
+        dc.setColor(Graphics.COLOR_TRANSPARENT, 0x0E0E1F);
         dc.clear();
 
         dc.setColor(0x00D4FF as Graphics.ColorValue, Graphics.COLOR_TRANSPARENT);
         dc.drawText(centerX, h * 0.15, Graphics.FONT_SMALL, "Treino Pausado", Graphics.TEXT_JUSTIFY_CENTER);
 
         var options = ["Retomar", "Salvar Treino", "Descartar"];
-        var btnW = 160;
-        var btnH = 40;
+        var btnW = (w * 0.65).toNumber();
+        var btnH = 36;
         var startY = h * 0.35;
-        var spacing = 50;
+        var spacing = btnH + 8; // Espaçamento dinâmico baseado na altura do botão + padding
 
         for (var i = 0; i < options.size(); i++) {
             var y = startY + (i * spacing);
@@ -31,14 +31,14 @@ class PauseMenuView extends WatchUi.View {
 
             if (isSelected) {
                 dc.setColor(0x00D4FF as Graphics.ColorValue, Graphics.COLOR_TRANSPARENT);
-                dc.fillRoundedRectangle(centerX - (btnW/2), y, btnW, btnH, 12);
-                dc.setColor(0x131F54 as Graphics.ColorValue, Graphics.COLOR_TRANSPARENT);
+                dc.fillRoundedRectangle(centerX - (btnW/2), y, btnW, btnH, btnH / 2);
+                dc.setColor(0x0E0E1F as Graphics.ColorValue, Graphics.COLOR_TRANSPARENT);
             } else {
-                dc.setColor(0x1A2859 as Graphics.ColorValue, Graphics.COLOR_TRANSPARENT);
-                dc.fillRoundedRectangle(centerX - (btnW/2), y, btnW, btnH, 12);
+                dc.setColor(0x1E1E38 as Graphics.ColorValue, Graphics.COLOR_TRANSPARENT);
+                dc.fillRoundedRectangle(centerX - (btnW/2), y, btnW, btnH, btnH / 2);
                 dc.setPenWidth(1);
-                dc.setColor(0x3A508C as Graphics.ColorValue, Graphics.COLOR_TRANSPARENT);
-                dc.drawRoundedRectangle(centerX - (btnW/2), y, btnW, btnH, 12);
+                dc.setColor(0x2E2E5C as Graphics.ColorValue, Graphics.COLOR_TRANSPARENT);
+                dc.drawRoundedRectangle(centerX - (btnW/2), y, btnW, btnH, btnH / 2);
                 dc.setColor(0xFFFFFF as Graphics.ColorValue, Graphics.COLOR_TRANSPARENT);
             }
 

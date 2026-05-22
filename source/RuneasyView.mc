@@ -97,8 +97,7 @@ class RuneasyView extends WatchUi.View {
         var centerX = w / 2;
         var centerY = h / 2;
 
-        // Passo 1 (Fundo): Defina a cor de fundo Premium Dark
-        dc.setColor(Graphics.COLOR_TRANSPARENT, 0x131F54 as Graphics.ColorValue);
+        dc.setColor(Graphics.COLOR_TRANSPARENT, 0x0E0E1F);
         dc.clear();
 
         // Passo 2 (Anel de Performance Radial - HR)
@@ -122,71 +121,121 @@ class RuneasyView extends WatchUi.View {
             dc.drawArc(centerX, centerY, (w / 2) - 3, Graphics.ARC_CLOCKWISE, startDegree, endDegree);
         }
 
-        // 3.1 - Logo Centralizada no Topo com "respiro"
+        // 3.1 - Logo Centralizada no Topo com "respiro" (Y = 4% da tela para evitar sobreposição)
+        var logoY = (h * 0.04).toNumber();
+        var logoH = 0;
         if (AppLogo != null && logoWidth != null) {
-            var logoY = h * 0.04;
             dc.drawBitmap(centerX - (logoWidth/2), logoY, AppLogo);
+            logoH = AppLogo.getHeight();
         }
+        var logoBottom = logoY + logoH;
 
-        if (mWorkoutName != null) {
-            dc.setColor(0xFFFFFF as Graphics.ColorValue, Graphics.COLOR_TRANSPARENT);
-            dc.drawText(centerX, h * 0.15, Graphics.FONT_XTINY, mWorkoutName, Graphics.TEXT_JUSTIFY_CENTER);
+        // Respiro dinâmico: 5% para telas pequenas (<= 240px) e 6% para telas maiores
+        var spacingGap = (h <= 240) ? (h * 0.05).toNumber() : (h * 0.06).toNumber();
+
+        // 3.2 - Card de BPM (Top): Y = Logo_Bottom + spacingGap
+        var hrY = logoBottom + spacingGap;
+        
+        // 3.3 - Card de KM (Bottom): Posicionado de forma fixa e segura a 68% da altura da tela
+        // Isso evita que ele fique muito abaixo e seja cortado pela borda física circular em relógios menores e maiores
+        var distY = (h * 0.68).toNumber();
+
+        // 3.4 - Contador Central: Centralizado visualmente no espaço livre restante entre o card de BPM e o card de KM
+        var centralFont = (h <= 240) ? Graphics.FONT_NUMBER_MEDIUM : Graphics.FONT_NUMBER_HOT;
+
+        // O card de BPM começa em hrY. Para obter a altura do card de BPM (cardH):
+        var valueFont = Graphics.FONT_LARGE;
+        var unitFont = Graphics.FONT_TINY;
+        var valueFontH = dc.getFontHeight(valueFont);
+        var unitFontH = dc.getFontHeight(unitFont);
+        var iconH = HeartIcon != null ? HeartIcon.getHeight() : 24;
+        
+        var maxContentH = iconH;
+        if (valueFontH > maxContentH) {
+            maxContentH = valueFontH;
         }
+        if (unitFontH > maxContentH) {
+            maxContentH = unitFontH;
+        }
+        var vertPadding = 5;
+        var cardH = maxContentH + (2 * vertPadding);
+        
+        var hrBottom = hrY + cardH;
 
-        // 3.2 - Bloco HR (Topo, centralizado)
+        // O espaço livre vertical fica entre hrBottom e distY.
+        // O centro físico deste espaço livre é:
+        var timerCenterY = (hrBottom + distY) / 2;
+
+        // Desenhar os elementos
         if (HeartIcon != null) {
-            var hrY = (mWorkoutName != null) ? h * 0.28 : h * 0.24;
-            var boxW = 140;
-            var boxH = 40;
-            var boxX = centerX - (boxW / 2);
-            drawGlassCard(dc, boxX, hrY, boxW, boxH, mHR, HeartIcon, "bpm");
+            drawGlassCard(dc, hrY, mHR, HeartIcon, "bpm");
         }
 
-        // 3.3 - PACE Protagonista Absoluto (Centro)
-        var valueView = View.findDrawableById("value") as Text;
-        if (valueView != null) {
-            valueView.setColor(0x00D4FF as Graphics.ColorValue);
-            valueView.setText(mPace);
-            // Subindo um pouco o Y central pois a fonte HOT tem muito padding inferior fantasma
-            valueView.setLocation(centerX, centerY - 25);
-            valueView.draw(dc);
-        }
+        // Desenhamos o cronômetro centralizado perfeitamente (verticalmente e horizontalmente) no meio do espaço livre restante
+        dc.setColor(0x00D4FF as Graphics.ColorValue, Graphics.COLOR_TRANSPARENT);
+        dc.drawText(centerX, timerCenterY, centralFont, mPace, Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER);
 
-        // 3.4 - Bloco de Distância (Base, centralizado)
         if (DistIcon != null) {
-            var boxW = 140;
-            var boxH = 40;
-            var boxX = centerX - (boxW / 2);
-            drawGlassCard(dc, boxX, h * 0.82, boxW, boxH, mDistance, DistIcon, "km");
+            drawGlassCard(dc, distY, mDistance, DistIcon, "km");
         }
     }
 
-    private function drawGlassCard(dc, x, y, width, height, value, icon, unit) {
-        var glassFillColor = 0x20326A as Graphics.ColorValue; 
-        var glassBorderColor = 0x3A508C as Graphics.ColorValue; 
+    private function drawGlassCard(dc, y, value, icon, unit) {
+        var w = dc.getWidth();
+        
+        var valueFont = Graphics.FONT_LARGE;
+        var unitFont = Graphics.FONT_TINY;
+        
+        var valueW = dc.getTextWidthInPixels(value, valueFont);
+        var unitW = dc.getTextWidthInPixels(unit, unitFont);
+        
+        var iconW = icon.getWidth();
+        var iconH = icon.getHeight();
+        
+        var horizPadding = 14;
+        var vertPadding = 5; // Compacted to 5px (safe range 4-6px) to reduce vertical height
+        var spacing = 8;
+        
+        var cardW = horizPadding + iconW + spacing + valueW + spacing + unitW + horizPadding;
+        
+        var valueFontH = dc.getFontHeight(valueFont);
+        var unitFontH = dc.getFontHeight(unitFont);
+        
+        var maxContentH = iconH;
+        if (valueFontH > maxContentH) {
+            maxContentH = valueFontH;
+        }
+        if (unitFontH > maxContentH) {
+            maxContentH = unitFontH;
+        }
+        
+        var cardH = maxContentH + (2 * vertPadding);
+        var cardX = (w - cardW) / 2;
+        
+        var glassFillColor = 0x1E1E38 as Graphics.ColorValue; 
+        var glassBorderColor = 0x2E2E5C as Graphics.ColorValue; 
         
         dc.setColor(glassFillColor, Graphics.COLOR_TRANSPARENT);
-        dc.fillRoundedRectangle(x, y, width, height, 12);
+        dc.fillRoundedRectangle(cardX, y, cardW, cardH, 12);
         dc.setPenWidth(1);
         dc.setColor(glassBorderColor, Graphics.COLOR_TRANSPARENT);
-        dc.drawRoundedRectangle(x, y, width, height, 12);
-
-        var font = Graphics.FONT_LARGE;
-        var textWidth = dc.getTextWidthInPixels(value, font);
-        var unitFont = Graphics.FONT_TINY;
-        var unitWidth = dc.getTextWidthInPixels(unit, unitFont);
+        dc.drawRoundedRectangle(cardX, y, cardW, cardH, 12);
         
-        var iconW = 24; // Estimativa padrão do tamanho do ícone
-        var innerPadding = 6;
-        var contentW = iconW + innerPadding + textWidth + innerPadding + unitWidth;
-        var contentStartX = x + (width - contentW) / 2;
-
-        dc.drawBitmap(contentStartX, y + (height - iconW) / 2, icon);
+        var centerY = y + (cardH / 2);
         
+        // Draw Icon
+        var iconX = cardX + horizPadding;
+        var iconY = centerY - (iconH / 2);
+        dc.drawBitmap(iconX, iconY, icon);
+        
+        // Draw Value
+        var valueX = iconX + iconW + spacing;
         dc.setColor(0xFFFFFF as Graphics.ColorValue, Graphics.COLOR_TRANSPARENT);
-        dc.drawText(contentStartX + iconW + innerPadding, y + (height / 2), font, value, Graphics.TEXT_JUSTIFY_LEFT | Graphics.TEXT_JUSTIFY_VCENTER);
+        dc.drawText(valueX, centerY, valueFont, value, Graphics.TEXT_JUSTIFY_LEFT | Graphics.TEXT_JUSTIFY_VCENTER);
         
+        // Draw Unit
+        var unitX = valueX + valueW + spacing;
         dc.setColor(0x00D4FF as Graphics.ColorValue, Graphics.COLOR_TRANSPARENT);
-        dc.drawText(contentStartX + iconW + innerPadding + textWidth + innerPadding, y + (height / 2), unitFont, unit, Graphics.TEXT_JUSTIFY_LEFT | Graphics.TEXT_JUSTIFY_VCENTER);
+        dc.drawText(unitX, centerY, unitFont, unit, Graphics.TEXT_JUSTIFY_LEFT | Graphics.TEXT_JUSTIFY_VCENTER);
     }
 }

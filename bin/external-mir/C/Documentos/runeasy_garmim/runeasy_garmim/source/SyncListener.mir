@@ -1,0 +1,75 @@
+[ @file = "C:\Documentos\runeasy_garmim\runeasy_garmim\source\SyncListener.mc"; @line = 1; @symbol_importdef<0> = [Toybox,1,7,13]; @symbol_importdef<1> = [Communications,1,14,28]; ]
+import Toybox.Communications;
+[ @file = "C:\Documentos\runeasy_garmim\runeasy_garmim\source\SyncListener.mc"; @line = 2; @symbol_importdef<0> = [Toybox,2,7,13]; @symbol_importdef<1> = [Application,2,14,25]; @symbol_importdef<2> = [Storage,2,26,33]; ]
+import Toybox.Application.Storage;
+[ @file = "C:\Documentos\runeasy_garmim\runeasy_garmim\source\SyncListener.mc"; @line = 3; @symbol_importdef<0> = [Toybox,3,7,13]; @symbol_importdef<1> = [WatchUi,3,14,21]; ]
+import Toybox.WatchUi;
+[ @file = "C:\Documentos\runeasy_garmim\runeasy_garmim\source\SyncListener.mc"; @line = 5; @symbol_classdef = [SyncListener,5,6,18]; @symbol_extends<0> = [Communications,5,27,41]; @symbol_extends<1> = [ConnectionListener,5,42,60]; ]
+class SyncListener extends Communications.ConnectionListener {
+    [ @file = "C:\Documentos\runeasy_garmim\runeasy_garmim\source\SyncListener.mc"; @line = 5; ]
+    <init> {
+    }
+    [ @file = "C:\Documentos\runeasy_garmim\runeasy_garmim\source\SyncListener.mc"; @line = 5; ]
+    static
+    <init> {
+    }
+    [ @file = "C:\Documentos\runeasy_garmim\runeasy_garmim\source\SyncListener.mc"; @line = 6; @symbol_functiondef = [initialize,6,13,23]; ]
+    function initialize() as Void {
+C__Documentos_runeasy_garmim_runeasy_garmim_source_SyncListener_mc_6_26_8_4_start:
+[ "C:\Documentos\runeasy_garmim\runeasy_garmim\source\SyncListener.mc" 7 8 ]
+        symbol [ ConnectionListener %tmp.2 7 8 26 ];
+        %tmp.2 = getv ? :ConnectionListener;
+        symbol [ initialize %tmp.3 7 27 37 ];
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+C__Documentos_runeasy_garmim_runeasy_garmim_source_SyncListener_mc_6_26_8_4_stop:
+    }
+    [ @file = "C:\Documentos\runeasy_garmim\runeasy_garmim\source\SyncListener.mc"; @line = 10; @symbol_functiondef = [onComplete,10,13,23]; ]
+    function onComplete() as Void {
+C__Documentos_runeasy_garmim_runeasy_garmim_source_SyncListener_mc_10_34_14_4_start:
+[ "C:\Documentos\runeasy_garmim\runeasy_garmim\source\SyncListener.mc" 11 8 ]
+        symbol [ Storage %tmp.1 11 8 15 ];
+        %tmp.1 = getm $.Toybox.Application.Storage;
+        symbol [ deleteValue %tmp.2 11 16 27 ];
+        %tmp.2 = getv function %tmp.1 :deleteValue;
+        %tmp.3 = "offline_workout";
+        invoke %tmp.1 %tmp.2(%tmp.3);
+[ "C:\Documentos\runeasy_garmim\runeasy_garmim\source\SyncListener.mc" 12 8 ]
+        symbol [ Storage %tmp.4 12 8 15 ];
+        %tmp.4 = getm $.Toybox.Application.Storage;
+        symbol [ setValue %tmp.5 12 16 24 ];
+        %tmp.5 = getv function %tmp.4 :setValue;
+        %tmp.6 = "sync_status";
+        %tmp.7 = "SYNCED";
+        invoke %tmp.4 %tmp.5(%tmp.6, %tmp.7);
+[ "C:\Documentos\runeasy_garmim\runeasy_garmim\source\SyncListener.mc" 13 8 ]
+        symbol [ WatchUi %tmp.8 13 8 15 ];
+        %tmp.8 = getm $.Toybox.WatchUi;
+        symbol [ requestUpdate %tmp.9 13 16 29 ];
+        %tmp.9 = getv function %tmp.8 :requestUpdate;
+        invoke %tmp.8 %tmp.9();
+C__Documentos_runeasy_garmim_runeasy_garmim_source_SyncListener_mc_10_34_14_4_stop:
+    }
+    [ @file = "C:\Documentos\runeasy_garmim\runeasy_garmim\source\SyncListener.mc"; @line = 16; @symbol_functiondef = [onError,16,13,20]; ]
+    function onError() as Void {
+C__Documentos_runeasy_garmim_runeasy_garmim_source_SyncListener_mc_16_31_19_4_start:
+[ "C:\Documentos\runeasy_garmim\runeasy_garmim\source\SyncListener.mc" 17 8 ]
+        symbol [ Storage %tmp.1 17 8 15 ];
+        %tmp.1 = getm $.Toybox.Application.Storage;
+        symbol [ setValue %tmp.2 17 16 24 ];
+        %tmp.2 = getv function %tmp.1 :setValue;
+        %tmp.3 = "sync_status";
+        %tmp.4 = "PENDING";
+        invoke %tmp.1 %tmp.2(%tmp.3, %tmp.4);
+[ "C:\Documentos\runeasy_garmim\runeasy_garmim\source\SyncListener.mc" 18 8 ]
+        symbol [ WatchUi %tmp.5 18 8 15 ];
+        %tmp.5 = getm $.Toybox.WatchUi;
+        symbol [ requestUpdate %tmp.6 18 16 29 ];
+        %tmp.6 = getv function %tmp.5 :requestUpdate;
+        invoke %tmp.5 %tmp.6();
+C__Documentos_runeasy_garmim_runeasy_garmim_source_SyncListener_mc_16_31_19_4_stop:
+    }
+}
+[ @file = "C:\Documentos\runeasy_garmim\runeasy_garmim\source\SyncListener.mc"; @line = 1; ]
+<init> {
+}
