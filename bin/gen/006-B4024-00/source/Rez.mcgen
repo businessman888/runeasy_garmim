@@ -9,7 +9,6 @@ module Rez {
         (:initialized) var LauncherIcon as ResourceId;
         (:initialized) var HeartIcon as ResourceId;
         (:initialized) var DistIcon as ResourceId;
-        (:initialized) var RunEasyBg as ResourceId;
         (:initialized) var AppLogo as ResourceId;
     } // Drawables
 
